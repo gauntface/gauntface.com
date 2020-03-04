@@ -1,5 +1,11 @@
 {
    "baseURL": "https://www.gauntface.com/",
    "languageCode": "en-us",
-   "title": "Gauntface | Matt Gaunt"
+   "title": "Gauntface | Matt Gaunt",
+   "theme": ["gauntface", "hopin-base-theme"],
+   "params": {
+      "description": "This is the site description",
+      "themecolor": "#C0FFEE",
+      "googleanalytics": "UA-123456789-1"
+    }
 }

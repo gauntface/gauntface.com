@@ -1,0 +1,16 @@
+---
+title: "Change is just around the corner . . ."
+excerpt: "New blog / site design..."
+mainImage: "/uploads/images/blog/2014/06/22/25371714-4e766b4a29-o.jpg"
+primaryColor: "#bedb6c"
+publishedOn: "2010-04-24T22:24:52-07:00"
+updatedOn: "2010-04-24T22:24:52-07:00"
+slug: "change-is-just-around-the-corner"
+---
+![Key art for blog post "Change is just around the corner . . . "](/uploads/images/blog/2014/06/22/25371714-4e766b4a29-o.jpg)
+
+# Change is just around the corner . . . 
+
+![The new page design for Gaunt Face](/uploads/images/blog/2010/04/Page-Design.png "1024")
+
+Orig Photo: [https://flic.kr/p/3f38m](https://flic.kr/p/3f38m)

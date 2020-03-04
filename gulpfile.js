@@ -34,12 +34,12 @@ gulp.task('build', async () => {
 /**
  * The following are tasks are helpful for local dev and testing
  */
-/* let serverInstance;
+let serverInstance;
 
-function startServer() {
+async function startServer() {
   serverInstance = spawn('hugo', ['server', '-D', '--ignoreCache'], {
     stdio: 'inherit',
-    cwd: path.join(__dirname, 'example'),
+    cwd: __dirname,
   });
   serverInstance.on('error', (err) => {
     console.error('Failed to run hugo server: ', err);
@@ -50,9 +50,7 @@ function startServer() {
   });
 }
 
-gulp.task('hugo-server',
-  gulp.series(startServer)
-);
+gulp.task('hugo-server', startServer);
 
 gulp.task('restart-server', async () => {
   if (!serverInstance) {
@@ -62,20 +60,9 @@ gulp.task('restart-server', async () => {
   serverInstance.kill();
 });
 
-gulp.task('watch-theme', () => {
-  const opts = {};
-  return gulp.watch([path.join(themeSrc, '**', '*')], opts, gulp.series('build', 'gauntface-theme', 'restart-server'));
-});
-
 gulp.task('watch',
-  gulp.parallel(
-    'watch-theme',
-    gulp.series(
-      'build',
-      'styleguide',
-      'base-theme',
-      'gauntface-theme',
-      'hugo-server',
-    ),
-  )
-);*/
+  gulp.series(
+    'themes',
+    'hugo-server',
+  ),
+);
