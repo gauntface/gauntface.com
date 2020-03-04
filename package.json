@@ -1,0 +1,14 @@
+{
+  "name": "@gauntface/gauntface.com",
+  "private": true,
+  "scripts": {
+    "build": "gulp build",
+    "test": "echo 'No tests in project'"
+  },
+  "devDependencies": {
+    "@gauntface/hugo-theme": "0.0.1",
+    "@hopin/hugo-base-theme": "0.0.48",
+    "fs-extra": "^8.1.0",
+    "gulp": "4.0.2"
+  }
+}
