@@ -5,7 +5,7 @@
    "theme": ["gauntface", "hopin-base-theme"],
    "params": {
       "description": "This is the site description",
-      "themecolor": "#C0FFEE",
+      "themecolor": "#565797",
       "googleanalytics": "UA-123456789-1"
     }
 }
