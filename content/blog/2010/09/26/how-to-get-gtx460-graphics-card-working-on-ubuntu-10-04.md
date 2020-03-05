@@ -3,7 +3,7 @@ title: "How-To: Get GTX460 Graphics Card Working on Ubuntu (10.04)"
 excerpt: "Graphics cards suck when it comes to getting them running with Ubuntu, so here's some info on setting up a GTX460 card."
 mainImage: "/uploads/images/blog/2014/06/22/6478631303-fb0634d361-o.jpg"
 primaryColor: "#5a504c"
-publishedOn: "2010-09-26T16:36:12-07:00"
+date: "2010-09-26T16:36:12-07:00"
 updatedOn: "2010-09-26T16:36:12-07:00"
 slug: "how-to-get-gtx460-graphics-card-working-on-ubuntu-10-04"
 ---

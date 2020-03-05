@@ -3,7 +3,7 @@ title: "Hacky Quantum Hack"
 excerpt: ""
 mainImage: "/uploads/images/blog/2014/06/22/10499687176-909344e3b1-o.jpg"
 primaryColor: "null"
-publishedOn: "2010-08-30T12:13:24-07:00"
+date: "2010-08-30T12:13:24-07:00"
 updatedOn: "2010-08-30T12:13:24-07:00"
 slug: "hacky-quantum-hack"
 ---

@@ -3,7 +3,7 @@ title: "I Really want a . . . .  Microsoft Product"
 excerpt: "An initial look at the moleskin-esque tablet from Microsoft."
 mainImage: "/uploads/images/blog/2014/06/23/2883322248-39ee413933-o.jpg"
 primaryColor: "#9f9da1"
-publishedOn: "2010-03-30T22:37:43-07:00"
+date: "2010-03-30T22:37:43-07:00"
 updatedOn: "2010-03-30T22:37:43-07:00"
 slug: "i-really-really-really-want-a-microsoft-product"
 ---

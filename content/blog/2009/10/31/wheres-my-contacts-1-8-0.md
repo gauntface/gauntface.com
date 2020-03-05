@@ -3,7 +3,7 @@ title: "Wheres My Contacts 1.8.0"
 excerpt: "Where's My Contacts version 1.8.0 is out of the dev shop and onto the Android Market stability and new features aboard."
 mainImage: "/uploads/images/blog/2014/06/30/8412840664-f4e3f6c642-o.jpg"
 primaryColor: "#2da8a5"
-publishedOn: "2009-10-31T17:04:54-07:00"
+date: "2009-10-31T17:04:54-07:00"
 updatedOn: "2009-10-31T17:04:54-07:00"
 slug: "wheres-my-contacts-1-8-0"
 ---

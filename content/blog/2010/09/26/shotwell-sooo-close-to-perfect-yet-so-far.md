@@ -6,7 +6,7 @@ excerpt: |
   It's damn good with just a few usability issues.
 mainImage: "/uploads/images/blog/2014/06/16/shotwell.jpg"
 primaryColor: "#0489c5"
-publishedOn: "2010-09-26T20:05:20-07:00"
+date: "2010-09-26T20:05:20-07:00"
 updatedOn: "2010-09-26T20:05:20-07:00"
 slug: "shotwell-sooo-close-to-perfect-yet-so-far"
 ---

@@ -3,7 +3,7 @@ title: "Skillset Academi+ - Mobile Apps & Content Creation"
 excerpt: "Matt Gaunt was asked to give a presentation on the current state of affairs in the mobile landscape at the Skillset Academy in Newport, Wales. Here's the slide deck."
 mainImage: "/uploads/images/blog/2014/07/11/4062887277-618c01f4d3-o.jpg"
 primaryColor: "#cad5ef"
-publishedOn: "2012-03-27T11:57:56-07:00"
+date: "2012-03-27T11:57:56-07:00"
 updatedOn: "2012-03-27T11:57:56-07:00"
 slug: "skillset-academi-mobile-apps-content-creation"
 ---

@@ -3,7 +3,7 @@ title: "Your Guide to SSL on Nginx"
 excerpt: "Everyone is moving to add SSL support on their site. If you're using Nginx and looking to do the same then this post is for you, walking you through from start to finish on how to add SSL support."
 mainImage: "/uploads/images/blog/2014/09/09/10248675643-d5ab02a636-o.jpg"
 primaryColor: "#c4ac44"
-publishedOn: "2014-09-09T18:41:00-07:00"
+date: "2014-09-09T18:41:00-07:00"
 updatedOn: "2014-09-09T18:41:00-07:00"
 slug: "your-guide-to-ssl-on-nginx"
 ---

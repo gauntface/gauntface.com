@@ -3,7 +3,7 @@ title: "Raspberry Pi Adventure - Day 2"
 excerpt: "Second evening of mucking around with my Raspberry Pi, VNC and FTP FTW."
 mainImage: "/uploads/images/blog/2014/05/24/img-20140113-232715.jpg"
 primaryColor: "#dfbb5b"
-publishedOn: "2014-01-16T21:09:19-08:00"
+date: "2014-01-16T21:09:19-08:00"
 updatedOn: "2014-01-16T21:09:19-08:00"
 slug: "raspberry-pi-adventure-day-2"
 ---

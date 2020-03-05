@@ -6,7 +6,7 @@ excerpt: |
   This is a look at the most common libraries to see how they scare up on Google TV.
 mainImage: "/uploads/images/blog/2014/06/15/3234862031-b3bec43a41-o.jpg"
 primaryColor: "#929e75"
-publishedOn: "2012-12-14T16:42:33-08:00"
+date: "2012-12-14T16:42:33-08:00"
 updatedOn: "2012-12-14T16:42:33-08:00"
 slug: "drawer-design-pattern-on-gtv"
 ---

@@ -3,7 +3,7 @@ title: "Android Source Code in Eclipse"
 excerpt: "A link to a blog post by Martyn Haigh which gives you easy access to Android source code from Eclipse"
 mainImage: "/uploads/images/blog/2014/06/15/20120804-134511.jpg"
 primaryColor: "#3498d4"
-publishedOn: "2011-10-25T09:23:04-07:00"
+date: "2011-10-25T09:23:04-07:00"
 updatedOn: "2011-10-25T09:23:04-07:00"
 slug: "android-source-code-in-eclipse"
 ---

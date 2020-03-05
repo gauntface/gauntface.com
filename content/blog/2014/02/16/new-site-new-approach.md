@@ -6,7 +6,7 @@ excerpt: |
   I ended up with a style guide and a half way decent build process for image optimisation.
 mainImage: "/uploads/images/blog/2014/05/24/main-headmast.jpg"
 primaryColor: "#482329"
-publishedOn: "2014-02-16T22:35:57-08:00"
+date: "2014-02-16T22:35:57-08:00"
 updatedOn: "2014-02-16T22:35:57-08:00"
 slug: "new-site-new-approach"
 ---

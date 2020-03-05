@@ -3,7 +3,7 @@ title: "Android Aspect Ratio for VideoView"
 excerpt: "If you've ever needed to get the VideoView to size a video with the correct aspect ratio and found that the Android VideoView isn't working for you then give this a try...."
 mainImage: "/uploads/images/blog/2014/05/24/cinema.jpg"
 primaryColor: "#ca4233"
-publishedOn: "2013-03-18T15:44:49-07:00"
+date: "2013-03-18T15:44:49-07:00"
 updatedOn: "2013-03-18T15:44:49-07:00"
 slug: "aspect-ratio-for-videoview"
 ---

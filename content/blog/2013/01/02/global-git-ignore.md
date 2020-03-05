@@ -6,7 +6,7 @@ excerpt: |
   Here's a brain dump of using the global git ignore and the files I ignore by default.
 mainImage: "/uploads/images/blog/2014/06/15/4817906071-ebe598d664-o.jpg"
 primaryColor: "#453338"
-publishedOn: "2013-01-02T14:02:54-08:00"
+date: "2013-01-02T14:02:54-08:00"
 updatedOn: "2013-01-02T14:02:54-08:00"
 slug: "global-git-ignore"
 ---

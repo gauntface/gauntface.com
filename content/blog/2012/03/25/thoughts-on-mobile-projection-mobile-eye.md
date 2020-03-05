@@ -6,7 +6,7 @@ excerpt: |
   The idea of projecting on the world around you manipulating and annotating it with useful information.
 mainImage: "/uploads/images/blog/2014/06/15/386508456-9861e6653b-o.jpg"
 primaryColor: "#6cd7e2"
-publishedOn: "2012-03-25T22:00:21-07:00"
+date: "2012-03-25T22:00:21-07:00"
 updatedOn: "2012-03-25T22:00:21-07:00"
 slug: "thoughts-on-mobile-projection-mobile-eye"
 ---

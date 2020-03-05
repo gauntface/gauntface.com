@@ -3,7 +3,7 @@ title: "Motodev App Summit App"
 excerpt: "I had a go at reworking the MotoDev App Summit App."
 mainImage: "/uploads/images/blog/2014/06/16/11259367736-e5063372f6-o.jpg"
 primaryColor: "#8c8c9c"
-publishedOn: "2011-04-14T07:07:14-07:00"
+date: "2011-04-14T07:07:14-07:00"
 updatedOn: "2011-04-14T07:07:14-07:00"
 slug: "motodev-app-summit-app"
 ---

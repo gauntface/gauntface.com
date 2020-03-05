@@ -3,7 +3,7 @@ title: "Arduino Fun Times"
 excerpt: "Brief notes of playing with Arduino"
 mainImage: "/uploads/images/blog/2014/06/16/6052455554-61b54422d4-o.jpg"
 primaryColor: "#5b8bae"
-publishedOn: "2011-03-12T16:26:53-08:00"
+date: "2011-03-12T16:26:53-08:00"
 updatedOn: "2011-03-12T16:26:53-08:00"
 slug: "arduino-fun-times"
 ---

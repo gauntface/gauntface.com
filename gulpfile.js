@@ -27,9 +27,34 @@ gulp.task('themes', gulp.parallel(
   'base-theme',
 ))
 
-gulp.task('build', async () => {
-  console.log('TODO: Build hugo site');
+/**
+ * Build the whole site
+ */
+gulp.task('hugo-build', () => {
+  return new Promise((resolve, reject) => {
+    const buildCmd = spawn('hugo', [], {
+      stdio: 'inherit',
+      cwd: __dirname,
+    });
+    buildCmd.on('error', (err) => {
+      console.error('Failed to run hugo server: ', err);
+      reject(new Error(`Failed to build site: ${err}`));
+    });
+    buildCmd.addListener('exit', (code) => {
+      if (code == 0) {
+        resolve();
+        return
+      }
+
+      reject(new Error(`Hugo build exited with code '${code}'`));
+    });
+  });
 })
+
+gulp.task('build', gulp.series(
+  'themes',
+  'hugo-build',
+))
 
 /**
  * The following are tasks are helpful for local dev and testing
@@ -50,7 +75,9 @@ async function startServer() {
   });
 }
 
-gulp.task('hugo-server', startServer);
+gulp.task('hugo-server', gulp.series(
+  startServer,
+));
 
 gulp.task('restart-server', async () => {
   if (!serverInstance) {
@@ -60,9 +87,23 @@ gulp.task('restart-server', async () => {
   serverInstance.kill();
 });
 
+gulp.task('watch-gf-theme', () => {
+  const opts = {
+    ignoreInitial: false,
+  };
+  return gulp.watch(
+    [path.join(__dirname, 'node_modules', '@gauntface/hugo-theme', '**', '*')],
+    opts,
+    gulp.series('themes', 'restart-server'),
+  );
+});
+
 gulp.task('watch',
   gulp.series(
     'themes',
-    'hugo-server',
+    gulp.parallel(
+      'watch-gf-theme',
+      'hugo-server',
+    ),
   ),
 );

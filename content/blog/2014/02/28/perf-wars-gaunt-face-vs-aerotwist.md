@@ -3,7 +3,7 @@ title: "Perf Wars: Gaunt Face vs Aerotwist"
 excerpt: "Performant Web Apps...... The harsh world of getting 60fps for a newbie web developer."
 mainImage: "/uploads/images/blog/2014/05/24/lego-war.jpg"
 primaryColor: "#6c9c9c"
-publishedOn: "2014-02-28T17:32:22-08:00"
+date: "2014-02-28T17:32:22-08:00"
 updatedOn: "2014-02-28T17:32:22-08:00"
 slug: "perf-wars-gaunt-face-vs-aerotwist"
 ---

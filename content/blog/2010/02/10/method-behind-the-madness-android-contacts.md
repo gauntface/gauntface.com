@@ -3,7 +3,7 @@ title: "Method behind the madness -  Android Contacts"
 excerpt: "The ContactsContract in Android is an unusual mash up of API's to access the contacts list on a device."
 mainImage: "/uploads/images/blog/2014/06/29/7021093981-ba90d18061-o.jpg"
 primaryColor: "#3679ba"
-publishedOn: "2010-02-10T21:56:00-08:00"
+date: "2010-02-10T21:56:00-08:00"
 updatedOn: "2010-02-10T21:56:00-08:00"
 slug: "method-behind-the-madness-android-contacts"
 ---

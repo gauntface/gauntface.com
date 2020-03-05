@@ -3,7 +3,7 @@ title: "Unit Testing a Service Worker"
 excerpt: "Service workers can lead to some weird behaviours if edge cases are accounted for so how do you test these edge cases?"
 mainImage: "/uploads/images/blog/2015/2015-12-14/sw-unit-test.jpg"
 primaryColor: ""
-publishedOn: "2015-12-14T13:03:03-08:00"
+date: "2015-12-14T13:03:03-08:00"
 updatedOn: "2015-12-14T13:03:03-08:00"
 slug: "unit-testing-service-worker"
 ---

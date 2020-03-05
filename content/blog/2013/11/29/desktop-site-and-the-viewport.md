@@ -3,7 +3,7 @@ title: "Desktop Site and the Viewport"
 excerpt: "Ever wondered what exactly happens when you try to get a mobile device display a desktop site correctly, with the required zoom level?"
 mainImage: "/uploads/images/blog/2014/05/24/2670960042-cddebd5ab2-o.jpg"
 primaryColor: "#547c74"
-publishedOn: "2013-11-29T19:41:26-08:00"
+date: "2013-11-29T19:41:26-08:00"
 updatedOn: "2013-11-29T19:41:26-08:00"
 slug: "desktop-site-and-the-viewport"
 ---

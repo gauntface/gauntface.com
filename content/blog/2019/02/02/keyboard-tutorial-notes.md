@@ -4,7 +4,7 @@ excerpt: "These are running notes as I go through the KBWiki tutorial
 on how to make a custom keyboard."
 mainImage: "/uploads/images/blog/2019/2019-02-02/bw-circuit.jpg"
 primaryColor: ""
-publishedOn: "2019-02-02T10:00:00-07:00"
+date: "2019-02-02T10:00:00-07:00"
 updatedOn: "2019-02-02T10:00:00-07:00"
 slug: "kbwiki-tutorial-notes"
 ---

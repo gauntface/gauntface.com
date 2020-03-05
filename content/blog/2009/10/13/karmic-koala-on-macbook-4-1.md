@@ -3,7 +3,7 @@ title: "Karmic Koala on MacBook 4.1"
 excerpt: "A step by step guide on how to get Ubuntu's Karmic Koala running on a MacBook 4.1"
 mainImage: "/uploads/images/blog/2014/06/30/ubuntu-karmic-koala.jpg"
 primaryColor: "#fbb019"
-publishedOn: "2009-10-13T22:49:16-07:00"
+date: "2009-10-13T22:49:16-07:00"
 updatedOn: "2009-10-13T22:49:16-07:00"
 slug: "karmic-koala-on-macbook-4-1"
 ---

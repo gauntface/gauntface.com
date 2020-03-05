@@ -6,7 +6,7 @@ excerpt: |
   Don't forget kiddlywinks #PerfMatters
 mainImage: "/uploads/images/blog/2014/07/10/3707813723-398457e8e1-o.jpg"
 primaryColor: "#c74214"
-publishedOn: "2014-07-10T21:11:13-07:00"
+date: "2014-07-10T21:11:13-07:00"
 updatedOn: "2014-07-10T21:11:13-07:00"
 slug: "web-performance-monitor"
 ---

@@ -6,7 +6,7 @@ excerpt: |
   Notes on why I like it so much and any concerns I have.
 mainImage: "/uploads/images/blog/2014/06/15/4582201683-4800ac4913-o-copy.jpg"
 primaryColor: "#b73a29"
-publishedOn: "2012-03-01T21:32:33-08:00"
+date: "2012-03-01T21:32:33-08:00"
 updatedOn: "2012-03-01T21:32:33-08:00"
 slug: "a-new-love-for-nodejs"
 ---

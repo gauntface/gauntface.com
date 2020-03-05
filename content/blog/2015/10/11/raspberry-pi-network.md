@@ -3,7 +3,7 @@ title: "Raspberry Pi Network"
 excerpt: "Been having some problems with my Raspberry Pi's Wifi and found two things that seem to have tremendously."
 mainImage: "/uploads/images/blog/2015/2015-10-11/berries-4.jpg"
 primaryColor: ""
-publishedOn: "2015-10-11T20:57:32-07:00"
+date: "2015-10-11T20:57:32-07:00"
 updatedOn: "2015-10-11T20:57:32-07:00"
 slug: "raspberry-pi-network"
 ---

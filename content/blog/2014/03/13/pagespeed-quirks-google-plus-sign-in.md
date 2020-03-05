@@ -3,7 +3,7 @@ title: "PageSpeed Quirks & Google Plus Sign In"
 excerpt: "When trying to use the Google+ Sign In button on my site, I found a few difficulties at making it happy with PageSpeed Insights and put down a few notes."
 mainImage: "/uploads/images/blog/2014/05/24/gplus.jpg"
 primaryColor: "#8ade95"
-publishedOn: "2014-03-13T21:11:29-07:00"
+date: "2014-03-13T21:11:29-07:00"
 updatedOn: "2014-03-13T21:11:29-07:00"
 slug: "pagespeed-quirks-google-plus-sign-in"
 ---

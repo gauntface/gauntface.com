@@ -6,7 +6,7 @@ excerpt: |
   Find out how I did it and use it for any of your own apps.
 mainImage: "/uploads/images/blog/2014/05/24/debian.jpg"
 primaryColor: "#e98989"
-publishedOn: "2013-02-24T20:21:00-08:00"
+date: "2013-02-24T20:21:00-08:00"
 updatedOn: "2013-02-24T20:21:00-08:00"
 slug: "adding-custom-applications-to-the-open-with-tab-on-debian"
 ---

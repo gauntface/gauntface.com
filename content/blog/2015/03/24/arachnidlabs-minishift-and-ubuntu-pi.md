@@ -3,7 +3,7 @@ title: "Arachnidlabs Minishift and Ubuntu / Pi"
 excerpt: "The Minishift by Arachnidlabs is this crazy awesome little pixel screen that you can use to display text or what not."
 mainImage: "/uploads/images/blog/2015/2015-09-17/arachnidlabs-main.png"
 primaryColor: ""
-publishedOn: "2015-03-24T20:22:43-07:00"
+date: "2015-03-24T20:22:43-07:00"
 updatedOn: "2015-03-24T20:22:43-07:00"
 slug: "arachnidlabs-minishift-and-ubuntu-pi"
 ---

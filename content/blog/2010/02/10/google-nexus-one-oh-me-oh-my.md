@@ -3,7 +3,7 @@ title: "Google Nexus One - Oh Me Oh My"
 excerpt: "After attending the Android Developer Lab in London UK I was lucky enough to receive a Nexus One."
 mainImage: "/uploads/images/blog/2014/06/29/4365558047-596b080189-o.jpg"
 primaryColor: "#bcac9b"
-publishedOn: "2010-02-10T22:13:50-08:00"
+date: "2010-02-10T22:13:50-08:00"
 updatedOn: "2010-02-10T22:13:50-08:00"
 slug: "google-nexus-one-oh-me-oh-my"
 ---

@@ -3,7 +3,7 @@ title: "Android ListView with Rounded Corners and Highlighting"
 excerpt: "If you need to add rounded corners to the top and bottom elements of a list view then look no further."
 mainImage: "/uploads/images/blog/2014/06/15/4847848101-b680e3fc2e-o.jpg"
 primaryColor: "#7ca6a8"
-publishedOn: "2012-03-04T22:21:27-08:00"
+date: "2012-03-04T22:21:27-08:00"
 updatedOn: "2012-03-04T22:21:27-08:00"
 slug: "android-listview-with-rounded-corners-and-highlighting"
 ---

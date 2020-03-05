@@ -3,7 +3,7 @@ title: "Trying to do a Good Job"
 excerpt: "Developing sites with backend and front end logic, build processes, preprocessors, what ever else makes it hard to keep things clean and sane. How I've reworked things."
 mainImage: "/uploads/images/blog/2015/2015-09-17/trying.jpg"
 primaryColor: "#6f6463"
-publishedOn: "2015-01-06T18:26:23-08:00"
+date: "2015-01-06T18:26:23-08:00"
 updatedOn: "2015-01-06T18:26:23-08:00"
 slug: "trying-to-do-a-good-job"
 ---

@@ -3,7 +3,7 @@ title: "Where's My Contacts"
 excerpt: "Announcing my new app \"Where's My Contacts\" which allows you to sync up your Facebook friends profile picture with your phonebooks photos."
 mainImage: "/uploads/images/blog/2014/06/30/159273703-dd3410d401-o-bw.jpg"
 primaryColor: "#727272"
-publishedOn: "2009-10-12T21:24:06-07:00"
+date: "2009-10-12T21:24:06-07:00"
 updatedOn: "2009-10-12T21:24:06-07:00"
 slug: "where-s-my-contacts"
 ---

@@ -3,7 +3,7 @@ title: "Android, Chrome OS, It's Just Clicked"
 excerpt: "Two open source platforms from one company, does it make any sense?"
 mainImage: "/uploads/images/blog/2014/06/23/5704610428-7062131607-o.jpg"
 primaryColor: "null"
-publishedOn: "2010-03-20T22:52:58-07:00"
+date: "2010-03-20T22:52:58-07:00"
 updatedOn: "2010-03-20T22:52:58-07:00"
 slug: "android-chrome-os-it-s-just-clicked"
 ---

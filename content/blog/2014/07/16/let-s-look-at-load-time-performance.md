@@ -3,7 +3,7 @@ title: "Let's Look at Load Time Performance"
 excerpt: "After getting my site to a score of 100/100 on PageSpeed Insights, I couldn't help but look into the one little niggle (read issue) I had with the way I achieved the score."
 mainImage: "/uploads/images/blog/2014/07/16/2122071509-4aa065df3c-o.jpg"
 primaryColor: "#7f777c"
-publishedOn: "2014-07-16T18:54:23-07:00"
+date: "2014-07-16T18:54:23-07:00"
 updatedOn: "2014-07-16T18:54:23-07:00"
 slug: "let-s-look-at-load-time-performance"
 ---

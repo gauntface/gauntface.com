@@ -3,7 +3,7 @@ title: "IBM University Team Challenge 2008 Results"
 excerpt: "The results of the IBM 2008 University Team Challenge is in and.....*drum roll*...Bristol came 5th out of 18!"
 mainImage: "/uploads/images/blog/2014/06/30/3334947628-bf76f4b34b-o.jpg"
 primaryColor: "#52607d"
-publishedOn: "2008-10-07T10:50:54-07:00"
+date: "2008-10-07T10:50:54-07:00"
 updatedOn: "2008-10-07T10:50:54-07:00"
 slug: "ibm-university-team-challenge-2008-results"
 ---

@@ -6,7 +6,7 @@ excerpt: |
   Screenshots and changes inside.
 mainImage: "/uploads/images/blog/2014/06/16/452245099-829fa7013d-o.jpg"
 primaryColor: "#ad2528"
-publishedOn: "2010-12-01T21:20:34-08:00"
+date: "2010-12-01T21:20:34-08:00"
 updatedOn: "2010-12-01T21:20:34-08:00"
 slug: "admob-android-app-update"
 ---

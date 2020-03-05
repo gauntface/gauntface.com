@@ -5,7 +5,7 @@ a Raspberry Pi is working on it from a seperate computer.
 USB to Serial cables make it easy."
 mainImage: "/uploads/images/blog/2019/2019-01-17/raspberry-pi-snes.jpg"
 primaryColor: "#5DBCD2"
-publishedOn: "2019-01-17T19:14:00-07:00"
+date: "2019-01-17T19:14:00-07:00"
 updatedOn: "2019-01-17T19:14:00-07:00"
 slug: "raspberry-pi-over-serial-usb"
 ---

@@ -3,7 +3,7 @@ title: "WebView in the Developer Preview of L"
 excerpt: "The WebView has been updated in the preview release of L and brings with it some new web platform features."
 mainImage: "/uploads/images/blog/2014/07/02/pupreandroid-outline.jpg"
 primaryColor: "#ac7cd4"
-publishedOn: "2014-07-02T21:04:32-07:00"
+date: "2014-07-02T21:04:32-07:00"
 updatedOn: "2014-07-02T21:04:32-07:00"
 slug: "webview-in-the-developer-preview-of-l"
 ---

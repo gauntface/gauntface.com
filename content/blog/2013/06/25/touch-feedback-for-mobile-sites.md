@@ -6,7 +6,7 @@ excerpt: |
   This raises the question of how should you respond?
 mainImage: "/uploads/images/blog/2014/05/24/touch.jpg"
 primaryColor: "#746c71"
-publishedOn: "2013-06-25T14:20:17-07:00"
+date: "2013-06-25T14:20:17-07:00"
 updatedOn: "2013-06-25T14:20:17-07:00"
 slug: "touch-feedback-for-mobile-sites"
 ---

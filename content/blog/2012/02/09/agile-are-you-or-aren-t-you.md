@@ -3,7 +3,7 @@ title: "Agile - Are You or Aren't You?"
 excerpt: "After seeing how a few agencies work, you have to ask yourself, if you claim to be Agile, are you actually living up to it?"
 mainImage: "/uploads/images/blog/2014/06/15/4964634757-0de2f661e8-o.jpg"
 primaryColor: "#5a625b"
-publishedOn: "2012-02-09T21:56:45-08:00"
+date: "2012-02-09T21:56:45-08:00"
 updatedOn: "2012-02-09T21:56:45-08:00"
 slug: "agile-are-you-or-aren-t-you"
 ---

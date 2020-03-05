@@ -3,7 +3,7 @@ title: "Android Headset - Full Example"
 excerpt: "I got the Android Headset to work with one of my Android applications and moved it over to Github."
 mainImage: "/uploads/images/blog/2014/06/16/9610022099-e5a890aa85-o.jpg"
 primaryColor: "#3a3a3a"
-publishedOn: "2011-02-13T12:24:53-08:00"
+date: "2011-02-13T12:24:53-08:00"
 updatedOn: "2011-02-13T12:24:53-08:00"
 slug: "android-headset-full-example"
 ---

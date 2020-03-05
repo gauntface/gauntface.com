@@ -6,7 +6,7 @@ excerpt: |
   In this article we'll look at how you can hook up grunt into the Cordova build process, meaning you have one command to build your web project, copy that over into Cordova and build the project onto your device.
 mainImage: "/uploads/images/blog/2014/05/24/yeoman-cordova-copy.jpg"
 primaryColor: "#d9615f"
-publishedOn: "2014-02-05T21:55:42-08:00"
+date: "2014-02-05T21:55:42-08:00"
 updatedOn: "2014-02-05T21:55:42-08:00"
 slug: "cordova-web-best-practices-v2-0"
 ---

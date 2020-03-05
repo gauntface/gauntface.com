@@ -3,7 +3,7 @@ title: "DevTools Ideas"
 excerpt: "Having worked with service worker in Chrome, there are a few areas where I'm at odds with DevTools as to how to get a sane workflow."
 mainImage: "/uploads/images/blog/2014/12/10/bulb-idea.png"
 primaryColor: "#0984dc"
-publishedOn: "2014-12-10T11:51:11-08:00"
+date: "2014-12-10T11:51:11-08:00"
 updatedOn: "2014-12-10T11:51:11-08:00"
 slug: "devtools-ideas"
 ---

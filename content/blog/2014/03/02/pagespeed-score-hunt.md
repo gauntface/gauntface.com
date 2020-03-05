@@ -6,7 +6,7 @@ excerpt: |
   PageSpeed Insights is a tool which highlights any problem areas on your site and this is how I got my score up to 100/100.
 mainImage: "/uploads/images/blog/2014/05/24/internet-stability.jpg"
 primaryColor: "#4187ba"
-publishedOn: "2014-03-02T21:49:40-08:00"
+date: "2014-03-02T21:49:40-08:00"
 updatedOn: "2014-03-02T21:49:40-08:00"
 slug: "pagespeed-score-hunt"
 ---

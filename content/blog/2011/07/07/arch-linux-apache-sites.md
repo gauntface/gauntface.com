@@ -6,7 +6,7 @@ excerpt: |
   Here's the notes from setting up Apache for Arch Linux.
 mainImage: "/uploads/images/blog/2014/06/16/8916518089-2f93c695f7-o-copy.jpg"
 primaryColor: "#0d232d"
-publishedOn: "2011-07-07T20:35:33-07:00"
+date: "2011-07-07T20:35:33-07:00"
 updatedOn: "2011-07-07T20:35:33-07:00"
 slug: "arch-linux-apache-sites"
 ---

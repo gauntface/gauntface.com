@@ -6,7 +6,7 @@ excerpt: |
   I've taken some of the best bits of a sample application written for Google TV and generalised it to hopefully help others add in D-Pad support by including some additional class names and tabindexes to your HTML.
 mainImage: "/uploads/images/blog/2014/07/11/8004856128-1a22b73f3a-o.jpg"
 primaryColor: "#1a3e47"
-publishedOn: "2014-01-14T15:27:34-08:00"
+date: "2014-01-14T15:27:34-08:00"
 updatedOn: "2014-01-14T15:27:34-08:00"
 slug: "d-pad-navigation-in-a-web-app-2-0"
 ---

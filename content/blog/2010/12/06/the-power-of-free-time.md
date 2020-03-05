@@ -6,7 +6,7 @@ excerpt: |
   Thoughts on an interesting TED talk.
 mainImage: "/uploads/images/blog/2014/06/16/4961717384-e96fa7fb72-o.jpg"
 primaryColor: "#86a59a"
-publishedOn: "2010-12-06T23:15:33-08:00"
+date: "2010-12-06T23:15:33-08:00"
 updatedOn: "2010-12-06T23:15:33-08:00"
 slug: "the-power-of-free-time"
 ---

@@ -3,7 +3,7 @@ title: "Royal Parks Half Marathon"
 excerpt: "Half marathon run, legs tired and £1000 raised for Rocking Horse Childrens Charity."
 mainImage: "/uploads/images/blog/2014/05/24/royal-parks-half.jpg"
 primaryColor: "#bc9bc7"
-publishedOn: "2013-11-09T17:12:32-08:00"
+date: "2013-11-09T17:12:32-08:00"
 updatedOn: "2013-11-09T17:12:32-08:00"
 slug: "royal-parks-half-marathon"
 ---

@@ -3,7 +3,7 @@ title: "Google TV + In App Billing"
 excerpt: "Google TV needs a few tweaks to the standard In App Billing example for Android to get it working."
 mainImage: "/uploads/images/blog/2014/06/15/3302646512-caf444ea65-o.jpg"
 primaryColor: "#65767a"
-publishedOn: "2012-08-15T14:54:38-07:00"
+date: "2012-08-15T14:54:38-07:00"
 updatedOn: "2012-08-15T14:54:38-07:00"
 slug: "google-tv-in-app-billing"
 ---

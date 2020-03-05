@@ -6,7 +6,7 @@ excerpt: |
   I quickly found each browser has it's own quirks and has rather different behavior compared to focusing in Android.
 mainImage: "/uploads/images/blog/2014/05/24/627226315-92cea10701-o.jpg"
 primaryColor: "#51515f"
-publishedOn: "2013-12-09T14:50:28-08:00"
+date: "2013-12-09T14:50:28-08:00"
 updatedOn: "2013-12-09T14:50:28-08:00"
 slug: "focusing-on-the-web-today"
 ---

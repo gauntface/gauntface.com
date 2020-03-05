@@ -3,7 +3,7 @@ title: "Android Unusual Behaviour - Nine Patch PNG's"
 excerpt: "I had a scenario where my nine-patches were playing up as they didn't have an area for content."
 mainImage: "/uploads/images/blog/2014/06/30/277281172-9c150e712c-o.jpg"
 primaryColor: "#f2293f"
-publishedOn: "2009-09-01T21:49:49-07:00"
+date: "2009-09-01T21:49:49-07:00"
 updatedOn: "2009-09-01T21:49:49-07:00"
 slug: "android-unusual-behaviour-nine-patch-png-s"
 ---

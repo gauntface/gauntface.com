@@ -6,7 +6,7 @@ excerpt: |
   So how do you do that?
 mainImage: "/uploads/images/blog/2014/06/23/5774597743-c57c6e4f9e-o.jpg"
 primaryColor: "#424d47"
-publishedOn: "2010-03-08T14:53:39-08:00"
+date: "2010-03-08T14:53:39-08:00"
 updatedOn: "2010-03-08T14:53:39-08:00"
 slug: "android-apps-how-to-get-your-problems-fixed"
 ---

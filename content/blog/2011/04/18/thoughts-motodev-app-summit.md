@@ -3,7 +3,7 @@ title: "Thoughts MotoDev App Summit"
 excerpt: ""
 mainImage: "/uploads/images/blog/2014/06/16/11259367736-e5063372f6-o.jpg"
 primaryColor: "#8c8c9c"
-publishedOn: "2011-04-18T21:37:09-07:00"
+date: "2011-04-18T21:37:09-07:00"
 updatedOn: "2011-04-18T21:37:09-07:00"
 slug: "thoughts-motodev-app-summit"
 ---

@@ -6,7 +6,7 @@ excerpt: |
   I promise the article is better than this intro.
 mainImage: "/uploads/images/blog/2015/2015-09-17/push.jpg"
 primaryColor: ""
-publishedOn: "2014-12-15T09:27:42-08:00"
+date: "2014-12-15T09:27:42-08:00"
 updatedOn: "2014-12-15T09:27:42-08:00"
 slug: "push-notifications-service-worker"
 ---

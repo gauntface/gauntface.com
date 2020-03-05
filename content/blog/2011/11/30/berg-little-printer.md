@@ -6,7 +6,7 @@ excerpt: |
   A great looking product with a unique look on digital to physical life.
 mainImage: "/uploads/images/blog/2014/07/11/8647059978-7e0c0339ef-o.jpg"
 primaryColor: "#404651"
-publishedOn: "2011-11-30T22:18:12-08:00"
+date: "2011-11-30T22:18:12-08:00"
 updatedOn: "2011-11-30T22:18:12-08:00"
 slug: "berg-little-printer"
 ---

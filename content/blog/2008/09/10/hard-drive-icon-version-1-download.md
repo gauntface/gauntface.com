@@ -3,7 +3,7 @@ title: "Hard Drive Icon Version 1 - Download"
 excerpt: "My first attempt at some hard drive icons."
 mainImage: "/uploads/images/blog/2014/06/30/4360376218-2e14de0fa6-o.jpg"
 primaryColor: "#9eb52e"
-publishedOn: "2008-09-10T14:13:45-07:00"
+date: "2008-09-10T14:13:45-07:00"
 updatedOn: "2008-09-10T14:13:45-07:00"
 slug: "hard-drive-icon-version-1-download"
 ---

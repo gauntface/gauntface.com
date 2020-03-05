@@ -3,7 +3,7 @@ title: "Node Unit Testing"
 excerpt: "I'm no expert, quite the opposite, when it comes to node unit testing. I spent some time trying to figure out how to unit test a new project and here's my rough findings so far."
 mainImage: "/uploads/images/blog/2015/2015-10-30/testing.jpg"
 primaryColor: ""
-publishedOn: "2015-10-30T16:35:23-07:00"
+date: "2015-10-30T16:35:23-07:00"
 updatedOn: "2015-10-30T16:35:23-07:00"
 slug: "node-unit-testing"
 ---

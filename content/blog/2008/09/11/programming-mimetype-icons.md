@@ -3,7 +3,7 @@ title: "Programming Mimetype Icons"
 excerpt: ""
 mainImage: "/uploads/images/blog/2014/06/30/5079201550-0e57a6c7a2-o.jpg"
 primaryColor: "#9c9c9c"
-publishedOn: "2008-09-11T13:25:53-07:00"
+date: "2008-09-11T13:25:53-07:00"
 updatedOn: "2008-09-11T13:25:53-07:00"
 slug: "programming-mimetype-icons"
 ---

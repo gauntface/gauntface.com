@@ -3,7 +3,7 @@ title: "What the Virtual Viewport?"
 excerpt: "We've heard the term \"virtual viewport\" get kicked around the office over the past few days and no one knew what it was. Rick Byers to the rescue."
 mainImage: "/uploads/images/blog/2015/2015-09-17/whatthevirtual.jpg"
 primaryColor: "#454047"
-publishedOn: "2015-01-16T14:38:40-08:00"
+date: "2015-01-16T14:38:40-08:00"
 updatedOn: "2015-01-16T14:38:40-08:00"
 slug: "what-the-virtual-viewport"
 ---

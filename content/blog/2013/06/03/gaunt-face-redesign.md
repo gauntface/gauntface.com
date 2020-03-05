@@ -3,7 +3,7 @@ title: "Gaunt Face Redesign"
 excerpt: "A new responsive design of gauntface.co.uk"
 mainImage: "/uploads/images/blog/2014/05/24/gauntface-redesign.jpg"
 primaryColor: "#3c3444"
-publishedOn: "2013-06-03T19:44:45-07:00"
+date: "2013-06-03T19:44:45-07:00"
 updatedOn: "2013-06-03T19:44:45-07:00"
 slug: "gaunt-face-redesign"
 ---

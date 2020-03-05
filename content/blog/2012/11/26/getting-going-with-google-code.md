@@ -6,7 +6,7 @@ excerpt: |
   (It's kind of the reverse of how I start a Github repo)
 mainImage: "/uploads/images/blog/2014/06/15/256622412-3279115264-o.jpg"
 primaryColor: "#4231bb"
-publishedOn: "2012-11-26T16:31:07-08:00"
+date: "2012-11-26T16:31:07-08:00"
 updatedOn: "2012-11-26T16:31:07-08:00"
 slug: "getting-going-with-google-code"
 ---

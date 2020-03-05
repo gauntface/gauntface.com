@@ -3,7 +3,7 @@ title: "CodeIgniter - Damn that pesky index.php"
 excerpt: "Quick notes on how to remove the CodeIgniter index.php from the urls when hosted on an Apache server."
 mainImage: "/uploads/images/blog/2014/05/24/codeigniter.jpg"
 primaryColor: "null"
-publishedOn: "2013-03-02T19:35:36-08:00"
+date: "2013-03-02T19:35:36-08:00"
 updatedOn: "2013-03-02T19:35:36-08:00"
 slug: "codeigniter-damn-that-pesky-index-php"
 ---

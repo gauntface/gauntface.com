@@ -3,7 +3,7 @@ title: "Another Look At The Courier"
 excerpt: "A look at the Microsoft Courier and the research behind it."
 mainImage: "/uploads/images/blog/2014/06/23/17wj5q452y89yjpg.jpg"
 primaryColor: "#56524f"
-publishedOn: "2010-04-12T22:18:33-07:00"
+date: "2010-04-12T22:18:33-07:00"
 updatedOn: "2010-04-12T22:18:33-07:00"
 slug: "another-look-at-the-courier"
 ---

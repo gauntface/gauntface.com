@@ -3,7 +3,7 @@ title: "I'm Joining Google"
 excerpt: "Leaving Future Platforms for Google .... aaahhhh yeah."
 mainImage: "/uploads/images/blog/2014/06/15/img-8375.jpg"
 primaryColor: "#d6be62"
-publishedOn: "2012-05-14T21:01:18-07:00"
+date: "2012-05-14T21:01:18-07:00"
 updatedOn: "2012-05-14T21:01:18-07:00"
 slug: "i-m-joining-google"
 ---

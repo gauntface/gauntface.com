@@ -3,7 +3,7 @@ title: "Android is Still a Young'un"
 excerpt: "Android is growing and doing so quickly, but let's not lose sight of the fact that it's still relatively young."
 mainImage: "/uploads/images/blog/2014/06/15/7017272625-b1fd7b8e8b-o.jpg"
 primaryColor: "#6f767b"
-publishedOn: "2012-01-15T19:33:57-08:00"
+date: "2012-01-15T19:33:57-08:00"
 updatedOn: "2012-01-15T19:33:57-08:00"
 slug: "android-is-still-a-youngun"
 ---

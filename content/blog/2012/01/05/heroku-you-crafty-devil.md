@@ -3,7 +3,7 @@ title: "Heroku You Crafty Devil"
 excerpt: "The commands you and I NEED to know to get going with Heroku"
 mainImage: "/uploads/images/blog/2014/06/15/6920998612-58ba32e215-o.jpg"
 primaryColor: "#c0916e"
-publishedOn: "2012-01-05T11:21:36-08:00"
+date: "2012-01-05T11:21:36-08:00"
 updatedOn: "2012-01-05T11:21:36-08:00"
 slug: "heroku-you-crafty-devil"
 ---

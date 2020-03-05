@@ -3,7 +3,7 @@ title: "Pimp Your Terminal"
 excerpt: "A nice a simple way of getting more from your command line using Paul Irish's dotfiles"
 mainImage: "/uploads/images/blog/2014/06/15/188697388-69e96534cb-o.jpg"
 primaryColor: "#2a9034"
-publishedOn: "2012-11-26T16:35:29-08:00"
+date: "2012-11-26T16:35:29-08:00"
 updatedOn: "2012-11-26T16:35:29-08:00"
 slug: "pimp-your-terminal"
 ---

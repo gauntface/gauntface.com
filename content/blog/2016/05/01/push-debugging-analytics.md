@@ -3,7 +3,7 @@ title: "Push Debugging & Analytics"
 excerpt: "How do you add tracking for push messaging and how do you go about debugging push notifications?"
 mainImage: "/uploads/images/blog/2016/2016-05-01/push-analytics-bg-darker.jpg"
 primaryColor: "#800249"
-publishedOn: "2016-05-01T09:59:51-07:00"
+date: "2016-05-01T09:59:51-07:00"
 updatedOn: "2016-05-01T09:59:51-07:00"
 slug: "push-debugging-analytics"
 ---

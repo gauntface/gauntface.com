@@ -3,7 +3,7 @@ title: "Droidcon UK 2011"
 excerpt: "It's coming...."
 mainImage: "/uploads/images/blog/2014/06/16/2012-10-14-droidandbigbenlarge.jpg"
 primaryColor: "#a3c344"
-publishedOn: "2011-08-23T20:32:52-07:00"
+date: "2011-08-23T20:32:52-07:00"
 updatedOn: "2011-08-23T20:32:52-07:00"
 slug: "droidcon-uk-2011"
 ---

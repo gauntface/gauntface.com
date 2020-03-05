@@ -3,7 +3,7 @@ title: "UI on the Big Screen & Android"
 excerpt: "A look at the best practices for UI on TV and comparing them to what we have on Android today."
 mainImage: "/uploads/images/blog/2014/06/15/5232306429-b3ec9418dc-o.jpg"
 primaryColor: "#3fcae3"
-publishedOn: "2012-11-14T16:55:44-08:00"
+date: "2012-11-14T16:55:44-08:00"
 updatedOn: "2012-11-14T16:55:44-08:00"
 slug: "ui-on-the-big-screen-android"
 ---

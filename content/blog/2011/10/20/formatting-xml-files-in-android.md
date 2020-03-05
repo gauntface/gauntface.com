@@ -3,7 +3,7 @@ title: "Formatting XML Files in Android"
 excerpt: "Quick reminder on how to format XML files in Eclipse for Android development"
 mainImage: "/uploads/images/blog/2014/06/16/3749824749-3f11d4b7c3-o.jpg"
 primaryColor: "#9f9180"
-publishedOn: "2011-10-20T10:31:27-07:00"
+date: "2011-10-20T10:31:27-07:00"
 updatedOn: "2011-10-20T10:31:27-07:00"
 slug: "formatting-xml-files-in-android"
 ---

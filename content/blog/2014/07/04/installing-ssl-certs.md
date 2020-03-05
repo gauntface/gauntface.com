@@ -3,7 +3,7 @@ title: "Installing SSL Certs..."
 excerpt: "You get more and more perks in terms of API access when you have SSL on your site and ServiceWorker is enough for me to bite the bullet and go SSL. Here are the notes from my experience with gauntface.com."
 mainImage: "/uploads/images/blog/2014/07/04/nsa-smiley-face-fb.jpg"
 primaryColor: "#807e61"
-publishedOn: "2014-07-04T18:10:36-07:00"
+date: "2014-07-04T18:10:36-07:00"
 updatedOn: "2014-07-04T18:10:36-07:00"
 slug: "installing-ssl-certs"
 ---

@@ -3,7 +3,7 @@ title: "#MobileBrighton - 15th March 2012"
 excerpt: "Challenged with the task of talking to the Mobile group of Brighton about Android Resources, Matt Gaunt put on one hell of a show . . . . . and you know told some people about Android Resources for design and layout."
 mainImage: "/uploads/images/blog/2014/07/11/9675318481-e6105f1461-o.jpg"
 primaryColor: "#8194ce"
-publishedOn: "2012-03-18T01:29:45-07:00"
+date: "2012-03-18T01:29:45-07:00"
 updatedOn: "2012-03-18T01:29:45-07:00"
 slug: "mobilebrighton-15th-march-2012"
 ---

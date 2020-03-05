@@ -6,7 +6,7 @@ excerpt: |
   Hardware, Raspbian and Wifi are all the exciting things covered.
 mainImage: "/uploads/images/blog/2014/05/24/img-20140109-232051.jpg"
 primaryColor: "#1d120f"
-publishedOn: "2014-01-10T00:04:24-08:00"
+date: "2014-01-10T00:04:24-08:00"
 updatedOn: "2014-01-10T00:04:24-08:00"
 slug: "raspberry-pi-adventure-day-1"
 ---

@@ -3,7 +3,7 @@ title: "Update on the Ole' Gaunt Face Front"
 excerpt: "What have I been up to I hear you ask...."
 mainImage: "/uploads/images/blog/2014/06/16/5872625524-b46916d50a-z.jpg"
 primaryColor: "#637b9f"
-publishedOn: "2011-06-29T21:05:29-07:00"
+date: "2011-06-29T21:05:29-07:00"
 updatedOn: "2011-06-29T21:05:29-07:00"
 slug: "update-on-the-ole-gaunt-face-front"
 ---

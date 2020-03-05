@@ -3,7 +3,7 @@ title: "Facebook Sync 2.0"
 excerpt: "Facebook Sync is an Android App I created to sync my phonebook contacts with my friends on Facebook."
 mainImage: "/uploads/images/blog/2014/06/15/8468995025-25e89894f5-o.jpg"
 primaryColor: "#4d69b7"
-publishedOn: "2012-01-31T23:21:32-08:00"
+date: "2012-01-31T23:21:32-08:00"
 updatedOn: "2012-01-31T23:21:32-08:00"
 slug: "facebook-sync-2-0"
 ---

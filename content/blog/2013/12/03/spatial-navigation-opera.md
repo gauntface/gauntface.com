@@ -3,7 +3,7 @@ title: "Spatial Navigation & Opera"
 excerpt: "Just a cheeky post on how to test Spatial Navigation in Opera TV."
 mainImage: "/uploads/images/blog/2014/05/24/opera-logo.jpg"
 primaryColor: "#eaa4ac"
-publishedOn: "2013-12-03T12:45:57-08:00"
+date: "2013-12-03T12:45:57-08:00"
 updatedOn: "2013-12-03T12:45:57-08:00"
 slug: "spatial-navigation-opera"
 ---

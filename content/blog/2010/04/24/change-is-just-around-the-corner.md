@@ -3,7 +3,7 @@ title: "Change is just around the corner . . ."
 excerpt: "New blog / site design..."
 mainImage: "/uploads/images/blog/2014/06/22/25371714-4e766b4a29-o.jpg"
 primaryColor: "#bedb6c"
-publishedOn: "2010-04-24T22:24:52-07:00"
+date: "2010-04-24T22:24:52-07:00"
 updatedOn: "2010-04-24T22:24:52-07:00"
 slug: "change-is-just-around-the-corner"
 ---

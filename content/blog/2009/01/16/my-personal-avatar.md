@@ -3,7 +3,7 @@ title: "My Personal Avatar"
 excerpt: "I made a personal avatar of myself using Maya for the model and GIMP for the texture maps, here's the end result."
 mainImage: "/uploads/images/blog/2014/06/30/3658366566-7ef6084c75-o.jpg"
 primaryColor: "#c0d16a"
-publishedOn: "2009-01-16T23:47:52-08:00"
+date: "2009-01-16T23:47:52-08:00"
 updatedOn: "2009-01-16T23:47:52-08:00"
 slug: "my-personal-avatar"
 ---

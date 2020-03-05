@@ -3,7 +3,7 @@ title: "Notes from playing with Android's Canvas"
 excerpt: "The title says it all."
 mainImage: "/uploads/images/blog/2014/06/16/2100724010-56f520346f-o.jpg"
 primaryColor: "#585458"
-publishedOn: "2010-11-21T19:00:56-08:00"
+date: "2010-11-21T19:00:56-08:00"
 updatedOn: "2010-11-21T19:00:56-08:00"
 slug: "notes-from-playing-with-androids-canvas"
 ---

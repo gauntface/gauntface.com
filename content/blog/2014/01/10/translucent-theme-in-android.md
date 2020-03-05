@@ -6,7 +6,7 @@ excerpt: |
   We'll look at a basic example for doing this.
 mainImage: "/uploads/images/blog/2014/05/24/kitkat.jpg"
 primaryColor: "#c49e51"
-publishedOn: "2014-01-10T14:37:45-08:00"
+date: "2014-01-10T14:37:45-08:00"
 updatedOn: "2014-01-10T14:37:45-08:00"
 slug: "translucent-theme-in-android"
 ---

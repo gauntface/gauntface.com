@@ -3,7 +3,7 @@ title: "Future Bag of Goodies"
 excerpt: "If I could select a few things to carry in my bag, this is what they'd be"
 mainImage: "/uploads/images/blog/2014/06/22/4385319438-798641ed3f-o.jpg"
 primaryColor: "#c38d37"
-publishedOn: "2010-04-17T23:14:49-07:00"
+date: "2010-04-17T23:14:49-07:00"
 updatedOn: "2010-04-17T23:14:49-07:00"
 slug: "what-ill-have-in-a-years-time"
 ---

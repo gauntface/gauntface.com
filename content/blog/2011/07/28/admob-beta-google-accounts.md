@@ -3,7 +3,7 @@ title: "Admob [Beta] + Google Accounts"
 excerpt: "A brief note on how to get Admob [Beta] working if you switch to a Google Account to access Admob."
 mainImage: "null"
 primaryColor: "null"
-publishedOn: "2011-07-28T17:53:48-07:00"
+date: "2011-07-28T17:53:48-07:00"
 updatedOn: "2011-07-28T17:53:48-07:00"
 slug: "admob-beta-google-accounts"
 ---

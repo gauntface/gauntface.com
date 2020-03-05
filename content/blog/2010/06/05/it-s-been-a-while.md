@@ -3,7 +3,7 @@ title: "It's been a while..."
 excerpt: "This is a boring update about me doing my thesis......so much work to be done argh."
 mainImage: "/uploads/images/blog/2014/06/22/3316800986-dde2cf1aeb-o.jpg"
 primaryColor: "#b28059"
-publishedOn: "2010-06-05T17:27:39-07:00"
+date: "2010-06-05T17:27:39-07:00"
 updatedOn: "2010-06-05T17:27:39-07:00"
 slug: "it-s-been-a-while"
 ---
