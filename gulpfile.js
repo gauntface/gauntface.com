@@ -3,6 +3,7 @@ const path = require('path');
 const spawn = require('child_process').spawn;
 
 const fs = require('fs-extra');
+const clean = require('@hopin/wbt-clean');
 
 const basetheme = require('@hopin/hugo-base-theme');
 const gftheme = require('@gauntface/hugo-theme');
@@ -30,6 +31,13 @@ gulp.task('themes', gulp.parallel(
 /**
  * Build the whole site
  */
+gulp.task('clean', gulp.series(
+  clean.gulpClean([
+    path.join(__dirname, 'public'),
+    path.join(__dirname, 'themes'),
+  ]),
+))
+
 gulp.task('hugo-build', () => {
   return new Promise((resolve, reject) => {
     const buildCmd = spawn('hugo', [], {
@@ -52,6 +60,7 @@ gulp.task('hugo-build', () => {
 })
 
 gulp.task('build', gulp.series(
+  'clean',
   'themes',
   'hugo-build',
 ))
