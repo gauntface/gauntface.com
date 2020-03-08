@@ -1,13 +1,13 @@
 ---
 title: "Where-To-Do : Android (Part 2)"
 excerpt: "Second part to the building of Where-To-Do."
-mainImage: "/uploads/images/blog/2014/06/30/183842413-271f9a1a86-o.jpg"
+mainImage: "/images/blog/2014/06/30/183842413-271f9a1a86-o.jpg"
 primaryColor: "#a98e5c"
 date: "2009-08-20T19:16:43-07:00"
 updatedOn: "2009-08-20T19:16:43-07:00"
 slug: "where-to-do-android-part-2"
 ---
-![Key art for blog post "Where-To-Do : Android (Part 2) "](/uploads/images/blog/2014/06/30/183842413-271f9a1a86-o.jpg)
+![Key art for blog post "Where-To-Do : Android (Part 2) "](/images/blog/2014/06/30/183842413-271f9a1a86-o.jpg)
 
 # Where-To-Do : Android (Part 2)
 
@@ -48,7 +48,7 @@ private void setUpUI() {
 
 This means we now have:
 
-![Screenshot-Android Emulator](/uploads/images/blog/2009/08/Screenshot-Android-Emulator.png)
+![Screenshot-Android Emulator](/images/blog/2009/08/Screenshot-Android-Emulator.png)
 
 ## Adding some more touches
 
@@ -60,7 +60,7 @@ Then for the other buttons where I want them to be on the left hand side of the 
 
 This then gives us the layout I had in the first part of this tutorial
 
-![Where-To-Do Screenshot Part 2](/uploads/images/blog/2009/08/Screenshot-Android-Emulator-stdAndroid1.55554.png)
+![Where-To-Do Screenshot Part 2](/images/blog/2009/08/Screenshot-Android-Emulator-stdAndroid1.55554.png)
 
 Now I admit that the button colour is pretty pants, but this is a tiny tweak I can make later on and it won't upset any future code so doesn't need doing at any particular point.
 

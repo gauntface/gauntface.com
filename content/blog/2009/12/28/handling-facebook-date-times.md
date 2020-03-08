@@ -1,17 +1,17 @@
 ---
 title: "Handling Facebook Date/Times"
 excerpt: "Facebook has some weird defaults for date, so here is a short and sweet guide on how to handle them"
-mainImage: "/uploads/images/blog/2014/06/30/1717899661-5e8fb0f10a-o.jpg"
+mainImage: "/images/blog/2014/06/30/1717899661-5e8fb0f10a-o.jpg"
 primaryColor: "#9e9e97"
 date: "2009-12-28T16:19:32-08:00"
 updatedOn: "2009-12-28T16:19:32-08:00"
 slug: "handling-facebook-date-times"
 ---
-![Key art for blog post "Handling Facebook Date/Times "](/uploads/images/blog/2014/06/30/1717899661-5e8fb0f10a-o.jpg)
+![Key art for blog post "Handling Facebook Date/Times "](/images/blog/2014/06/30/1717899661-5e8fb0f10a-o.jpg)
 
 # Handling Facebook Date/Times
 
-![Facebook Logo](/uploads/images/blog/2009/12/logo_facebook.jpg "300")
+![Facebook Logo](/images/blog/2009/12/logo_facebook.jpg "300")
 
 Today I was playing around with the facebook api and needed to extract the date and time for each event. When you look at the value from the api call, you get something along the lines of:
 

@@ -4,13 +4,13 @@ excerpt: |
   Ever wondered what you could do to improve your sites page load time?
 
   PageSpeed Insights is a tool which highlights any problem areas on your site and this is how I got my score up to 100/100.
-mainImage: "/uploads/images/blog/2014/05/24/internet-stability.jpg"
+mainImage: "/images/blog/2014/05/24/internet-stability.jpg"
 primaryColor: "#4187ba"
 date: "2014-03-02T21:49:40-08:00"
 updatedOn: "2014-03-02T21:49:40-08:00"
 slug: "pagespeed-score-hunt"
 ---
-![Key art for blog post "Pagespeed Score Hunt "](/uploads/images/blog/2014/05/24/internet-stability.jpg)
+![Key art for blog post "Pagespeed Score Hunt "](/images/blog/2014/05/24/internet-stability.jpg)
 
 # Pagespeed Score Hunt
 
@@ -43,7 +43,7 @@ To fix this I grabbed a copy of the htaccess file from [HTML5 Boilerplate](http:
 
 This one change, gave me a big huge boost in score.
 
-![PageSpeed Insights Score With Caching](/uploads/images/blog/2014/03/Screenshot-from-2014-03-01-104610.png)
+![PageSpeed Insights Score With Caching](/images/blog/2014/03/Screenshot-from-2014-03-01-104610.png)
 
 So what exactly is in the .htaccess file which is making this magical change?
 
@@ -142,7 +142,7 @@ Will have to revisit.
 
 All my javascript is at the bottom of the page, so this was exclusively an issue with the CSS, so as a quick test, I copied and pasted the css into the html.
 
-![Pagespeed with Inlined CSS](/uploads/images/blog/2014/03/Screenshot-from-2014-03-01-170406.png)
+![Pagespeed with Inlined CSS](/images/blog/2014/03/Screenshot-from-2014-03-01-170406.png)
 
 Boom.
 
@@ -167,18 +167,18 @@ To be honest, I am to lazy to repeatedly go back and forth on the PageSpeed site
 
 The one thing I would recommend is adding your own API key to the extension, just right click on the extension icon and select **Options**. Then click the **API Key** link, go to **APIs & auth** for a suitable project (I ended up just creating a new one for my site), under API’s search for **PageSpeed Insights API** and turn it on.
 
-![Google Developer Console](/uploads/images/blog/2014/03/Screenshot-from-2014-03-01-101134.png)
+![Google Developer Console](/images/blog/2014/03/Screenshot-from-2014-03-01-101134.png)
 
 Now click on **Credentials** and **Create New Key** under the **Public API Access** heading.
 
-![Create new PageSpeed Insights API](/uploads/images/blog/2014/03/Screenshot-from-2014-03-01-101615.png)
+![Create new PageSpeed Insights API](/images/blog/2014/03/Screenshot-from-2014-03-01-101615.png)
 
 Create a **Server Key** and just click **Create** on the following page (i.e. leave the ‘Accept requests from there server IP addresses’ box empty). You’ll now have an API key you can use with the extension which will give you a personal request limit.
 
-![Screenshot of Developer Console with Key](/uploads/images/blog/2014/03/Screenshot-from-2014-03-01-102205.png)
+![Screenshot of Developer Console with Key](/images/blog/2014/03/Screenshot-from-2014-03-01-102205.png)
 
 Just copy and paste the API Key into the extension options and you’ll be well away!
 
-![PageSpeed Insights Chrome Extension Working](/uploads/images/blog/2014/03/Screenshot-from-2014-03-01-102512.png)
+![PageSpeed Insights Chrome Extension Working](/images/blog/2014/03/Screenshot-from-2014-03-01-102512.png)
 
 Orig. Photo: <https://flic.kr/p/6YuriA>

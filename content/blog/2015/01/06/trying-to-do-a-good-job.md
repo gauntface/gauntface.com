@@ -1,13 +1,13 @@
 ---
 title: "Trying to do a Good Job"
 excerpt: "Developing sites with backend and front end logic, build processes, preprocessors, what ever else makes it hard to keep things clean and sane. How I've reworked things."
-mainImage: "/uploads/images/blog/2015/2015-09-17/trying.jpg"
+mainImage: "/images/blog/2015/2015-09-17/trying.jpg"
 primaryColor: "#6f6463"
 date: "2015-01-06T18:26:23-08:00"
 updatedOn: "2015-01-06T18:26:23-08:00"
 slug: "trying-to-do-a-good-job"
 ---
-![Key art for blog post "Trying to do a Good Job "](/uploads/images/blog/2015/2015-09-17/trying.jpg)
+![Key art for blog post "Trying to do a Good Job "](/images/blog/2015/2015-09-17/trying.jpg)
 
 # Trying to do a Good Job
 
@@ -21,13 +21,13 @@ I took some of the stuff we'd learnt and started to just muck about with reworki
 
 Harry has come up with [ITCSS](http://itcss.io/) and it's a formula he's come up with over the past couple of years while developing [InuitCSS](https://github.com/csswizardry/inuit.css/). Essentially things boil down to an upside down triangle.
 
-![ITCSS Diagram](/uploads/images/blog/2015/01/06/itcss-pyramid.png)
+![ITCSS Diagram](/images/blog/2015/01/06/itcss-pyramid.png)
 
 Harry can and will get insanely excited when he talks about this and he WILL draw a triangle on anything that he can while he talks about it.
 
 I ended up renaming some of this stuff, just to fit with my mental model of what I was going to do.
 
-![Matt Gaunt's Tweaked Version of ITCSS](/uploads/images/blog/2015/01/06/itcss-matt-style.png)
+![Matt Gaunt's Tweaked Version of ITCSS](/images/blog/2015/01/06/itcss-matt-style.png)
 
 Settings and tools are just SASS files I pull in (things like colors, sizes and mixins), the resets are a combo of [HTML5Boilerplate and Normalize](https://gauntface.com/styleguide/view/resets/), my base is a combo of [base styles on elements](https://gauntface.com/styleguide/view/base/) and [typography on top of that](https://gauntface.com/styleguide/view/typography/). The base styles I've tried to ensure weird content doesn't break out the bounds of the page and with typography I've tried to ensure everything is sat on a baseline grid.
 

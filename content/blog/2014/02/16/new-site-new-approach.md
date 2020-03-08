@@ -4,17 +4,17 @@ excerpt: |
   In the latest redesign of my site, one of the key area's I wanted to focus on was page performance, both loading and animations.
 
   I ended up with a style guide and a half way decent build process for image optimisation.
-mainImage: "/uploads/images/blog/2014/05/24/main-headmast.jpg"
+mainImage: "/images/blog/2014/05/24/main-headmast.jpg"
 primaryColor: "#482329"
 date: "2014-02-16T22:35:57-08:00"
 updatedOn: "2014-02-16T22:35:57-08:00"
 slug: "new-site-new-approach"
 ---
-![Key art for blog post "New Site, New Approach "](/uploads/images/blog/2014/05/24/main-headmast.jpg)
+![Key art for blog post "New Site, New Approach "](/images/blog/2014/05/24/main-headmast.jpg)
 
 # New Site, New Approach
 
-![Gaunt Face Home Page with Full-screen Image](/uploads/images/blog/2014/02/High-Res-Image.png "605")
+![Gaunt Face Home Page with Full-screen Image](/images/blog/2014/02/High-Res-Image.png "605")
 
 I've started working on a new version of my site and I'm aiming to work on a range of problems / areas where my current site sucks.
 
@@ -34,7 +34,7 @@ This isn't a new way of thinking, but it's the first time I've gone out of my wa
 
 [beta.gauntface.co.uk/components/](http://beta.gauntface.co.uk/components/)
 
-![Image of Component List for Website](/uploads/images/blog/2014/02/Screenshot-from-2014-02-16-220819.png)
+![Image of Component List for Website](/images/blog/2014/02/Screenshot-from-2014-02-16-220819.png)
 
 Each component still needs a lot of testing individually as well as being tested on a whole page, but the big benefit is in code maintainability, quality and separation. Only having a small feature set to implement for each component, really helps focus and tidy as you go (instead of jamming everything into a single js file, which I find all too easy to fall into).
 
@@ -44,7 +44,7 @@ When I had enough component logic to implement my home page, I switched my atten
 
 My home page will hopefully have a full page image, the big challenge there is having a image big enough for all sizes, without requiring a huge download on all devices.
 
-![Gaunt Face Home Page with Full-screen Image](/uploads/images/blog/2014/02/High-Res-Image.png "605")
+![Gaunt Face Home Page with Full-screen Image](/images/blog/2014/02/High-Res-Image.png "605")
 
 The great thing with Codeigniter is that it has a image library already: [http://ellislab.com/codeigniter/user-guide/libraries/image_lib.html](¨http://ellislab.com/codeigniter/user-guide/libraries/image_lib.html¨)
 
@@ -56,7 +56,7 @@ This code served heavily as the basis for my approach, the key differences are:
   2. The file-name is checked with regular expressions and the format is slightly different (Name_100x100). Also dropped any notion of grouping (wide, long, etc). You can make any request, the value will be rounded up to a multiple of 50, cached on the disk and returned.
   3. The images are grouped into sub-directories on the server, with the original image remaining in the root directory. This is largely to help with maintenance, I can see a scenario where I need to wipe out all resizes for a certain image and this is slightly less error prone / more manageable approach (or at least I hope it will be).
 
-![Dynamic Image Creation - Nautilus Screenshot](/uploads/images/blog/2014/02/Screenshot-from-2014-02-16-211756.png)
+![Dynamic Image Creation - Nautilus Screenshot](/images/blog/2014/02/Screenshot-from-2014-02-16-211756.png)
 
 ## Why Multiples of 50?
 
@@ -114,7 +114,7 @@ All in all this is a bit of a mess, I will give you that, but if you happen to b
 
 What this is doing is, iterating over the values from start to end at certain intervals. For the first size, it creates a max-device-width media query, from that point onwards it creates a min-device-width media query, this means we have all the widths covered.
 
-![Responsive Inspector Screenshot](/uploads/images/blog/2014/02/Screenshot-from-2014-02-16-211912.png)
+![Responsive Inspector Screenshot](/images/blog/2014/02/Screenshot-from-2014-02-16-211912.png)
 
 The iterations are always increased for the image size rather than the min-device-width size, since a min-device-width of 400px, will include screen sizes 400+.
 
@@ -124,7 +124,7 @@ All of this means I can serve up images for the rough size of the device taking 
 
 Happy Times.
 
-![Difference in Pixel Density](/uploads/images/blog/2014/02/Image-Res-Article.png "1024")
+![Difference in Pixel Density](/images/blog/2014/02/Image-Res-Article.png "1024")
 
 ## The Concerns
 * This example is currently just a square image, it doesn't account for width and height (or aspect ratio). I can find out the width or height through media queries on the client side, but these can only help so much. Part of me is thinking that if I can get an image which will work for both portrait and landscape, then it should only ever be downloaded once and essentially use this as a way of validating wider or taller images, where a proportion of the image will never be seen. The other aspect of this is that there is no notion of a dominant measure, width or height, as being the value to determine the size of the square image.

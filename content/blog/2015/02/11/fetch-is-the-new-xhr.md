@@ -1,13 +1,13 @@
 ---
 title: "Fetch is the new XHR"
 excerpt: "Fetch is a simpler way of getting resources in Javascript compared to XHR. This post is just a brain dump of how to use fetch to make requests."
-mainImage: "/uploads/images/blog/2015/2015-09-17/fetch.jpg"
+mainImage: "/images/blog/2015/2015-09-17/fetch.jpg"
 primaryColor: "#787986"
 date: "2015-02-11T11:11:07-08:00"
 updatedOn: "2015-02-11T11:11:07-08:00"
 slug: "fetch-is-the-new-xhr"
 ---
-![Key art for blog post "Fetch is the new XHR "](/uploads/images/blog/2015/2015-09-17/fetch.jpg)
+![Key art for blog post "Fetch is the new XHR "](/images/blog/2015/2015-09-17/fetch.jpg)
 
 # Fetch is the new XHR
 
@@ -45,7 +45,7 @@ If you run this from any page that isn't on the origin 'https://gauntface.com', 
 
 This is hands down, one of the **worst** error messages I've ever seen.
 
-![TypeError, Yuck. Shiver.](/uploads/images/blog/2015/02/11/shivers.gif "200")
+![TypeError, Yuck. Shiver.](/images/blog/2015/02/11/shivers.gif "200")
 
 What does "TypeError" mean?
 Why did it fail to fetch?

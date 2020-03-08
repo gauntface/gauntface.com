@@ -1,13 +1,13 @@
 ---
 title: "Installing SSL Certs..."
 excerpt: "You get more and more perks in terms of API access when you have SSL on your site and ServiceWorker is enough for me to bite the bullet and go SSL. Here are the notes from my experience with gauntface.com."
-mainImage: "/uploads/images/blog/2014/07/04/nsa-smiley-face-fb.jpg"
+mainImage: "/images/blog/2014/07/04/nsa-smiley-face-fb.jpg"
 primaryColor: "#807e61"
 date: "2014-07-04T18:10:36-07:00"
 updatedOn: "2014-07-04T18:10:36-07:00"
 slug: "installing-ssl-certs"
 ---
-![Key art for blog post "Installing SSL Certs... "](/uploads/images/blog/2014/07/04/nsa-smiley-face-fb.jpg)
+![Key art for blog post "Installing SSL Certs... "](/images/blog/2014/07/04/nsa-smiley-face-fb.jpg)
 
 # Installing SSL Certs...
 
@@ -35,7 +35,7 @@ Since I'm on Compute Engine I needed to enable HTTPS traffic on the VM instance'
 
 The padlock was visible - Wahey!!
 
-![The SSL Padlock on Gauntface.com](/uploads/images/blog/2014/07/04/ssl-on-gauntface.png "284")
+![The SSL Padlock on Gauntface.com](/images/blog/2014/07/04/ssl-on-gauntface.png "284")
 
 At first I had a rogue Google Font which was loaded over http, a quick CSS change...
 
@@ -77,7 +77,7 @@ This is basically telling a compliant browser to only use HTTPS for a year and i
 
 After setting up the HSTS header, I started to read through the [HTML5Rocks Article on SSL](http://www.html5rocks.com/en/tutorials/security/transport-layer-security/) and in the links it points to [SSLLabs](https://www.ssllabs.com/) for their [SSL Test](https://www.ssllabs.com/ssltest/index.html).
 
-![SSLLabs A- Test Score for Gauntface.com](/uploads/images/blog/2014/07/08/ssl-labs.jpg "800")
+![SSLLabs A- Test Score for Gauntface.com](/images/blog/2014/07/08/ssl-labs.jpg "800")
 
 The main issue was with "Forward Secrecy", after reading into it a little bit I'd describe "Forward Secrecy" in the following way:
 
@@ -97,7 +97,7 @@ ssl_ciphers "EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 EECDH+ECDSA
 
 With this in place, I got my new test score.
 
-![SSLLabs A+ Test Score for Gauntface.com](/uploads/images/blog/2014/07/08/ssl-lab-a-plus.jpg "800")
+![SSLLabs A+ Test Score for Gauntface.com](/images/blog/2014/07/08/ssl-lab-a-plus.jpg "800")
 
 Now this version actually works.
 
@@ -109,7 +109,7 @@ As far as the browser and SSLLabs were concerned, this was fine and I even got 1
 
 Woop Woop.
 
-![SSLLabs Test Score after using some of the Mozilla Wiki Nginx Config Recommendations](/uploads/images/blog/2014/07/15/ssl-labs-mozilla-wiki-config.jpg "800")
+![SSLLabs Test Score after using some of the Mozilla Wiki Nginx Config Recommendations](/images/blog/2014/07/15/ssl-labs-mozilla-wiki-config.jpg "800")
 
 However, Google had issues on WebMaster Tools and PageSpeed Insights when it came to crawling my site and curl failed to get the contents of my site :-S
 
@@ -198,7 +198,7 @@ sudo cat /etc/ssl/sub.class1.server.ca.pem /etc/ssl/ca.pem > /etc/ssl/ssl-truste
 
 You can confirm it's on by running the SSLLabs test again and looking in the "OCSP stapling" check.
 
-![SSLLabs test showing OCSP is working](/uploads/images/blog/2014/07/15/ssllabs-ocsp-test.jpg "800")
+![SSLLabs test showing OCSP is working](/images/blog/2014/07/15/ssllabs-ocsp-test.jpg "800")
 
 # The Final Nginx Config
 
@@ -262,7 +262,7 @@ server {
 
 To check it was working I just used [http://spdycheck.org/](http://spdycheck.org/).
 
-![SPDYCheck.org Results for gauntface.com](/uploads/images/blog/2014/07/16/spdycheck-results-gauntface.jpg "800")
+![SPDYCheck.org Results for gauntface.com](/images/blog/2014/07/16/spdycheck-results-gauntface.jpg "800")
 
 Big thanks to:
 

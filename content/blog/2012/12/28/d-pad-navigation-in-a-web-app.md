@@ -6,17 +6,17 @@ excerpt: |
   Up, Down, Left and Right.
 
   How should you handled this in a web app?
-mainImage: "/uploads/images/blog/2014/06/15/8386216143-d1f90d1204-o.jpg"
+mainImage: "/images/blog/2014/06/15/8386216143-d1f90d1204-o.jpg"
 primaryColor: "#7c8c94"
 date: "2012-12-28T11:31:04-08:00"
 updatedOn: "2012-12-28T11:31:04-08:00"
 slug: "d-pad-navigation-in-a-web-app"
 ---
-![Key art for blog post "D-Pad Navigation in a Web App "](/uploads/images/blog/2014/06/15/8386216143-d1f90d1204-o.jpg)
+![Key art for blog post "D-Pad Navigation in a Web App "](/images/blog/2014/06/15/8386216143-d1f90d1204-o.jpg)
 
 # D-Pad Navigation in a Web App
 
-![Google TV Web App Native Sample](/uploads/images/blog/2012/12/Web-App-D-Pad-Navigation.png)
+![Google TV Web App Native Sample](/images/blog/2012/12/Web-App-D-Pad-Navigation.png)
 
 <hr />
 <strong>Note:</strong> I've created a library to make this easier, please see this post for info - <http://blog.gauntface.co.uk/2014/01/14/quick-d-pad-navigation-in-a-web-app/>
@@ -26,7 +26,7 @@ Anyone developing an application for any platform should consider their UI from 
 
 With Google TV and indeed many other TV platforms, the main mode of navigation is the humble and well established D-Pad.
 
-![Remote D-Pads](/uploads/images/blog/2012/12/Remote-D-Pads.png)
+![Remote D-Pads](/images/blog/2012/12/Remote-D-Pads.png)
 
 The real question is, how can you make your website suitable for navigation via a D-Pad?
 

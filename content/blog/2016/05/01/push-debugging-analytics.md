@@ -1,13 +1,13 @@
 ---
 title: "Push Debugging & Analytics"
 excerpt: "How do you add tracking for push messaging and how do you go about debugging push notifications?"
-mainImage: "/uploads/images/blog/2016/2016-05-01/push-analytics-bg-darker.jpg"
+mainImage: "/images/blog/2016/2016-05-01/push-analytics-bg-darker.jpg"
 primaryColor: "#800249"
 date: "2016-05-01T09:59:51-07:00"
 updatedOn: "2016-05-01T09:59:51-07:00"
 slug: "push-debugging-analytics"
 ---
-![Key art for blog post "Push Debugging & Analytics"](/uploads/images/blog/2016/2016-05-01/push-analytics-bg-darker.jpg)
+![Key art for blog post "Push Debugging & Analytics"](/images/blog/2016/2016-05-01/push-analytics-bg-darker.jpg)
 
 # Push Debugging & Analytics
 
@@ -19,23 +19,23 @@ I found an app out in the wild that had a few problems and heres how I go about 
 
 First thing is to open the service worker panel in DevTools, which is hidden under `DevTools > Resources > Service Workers`
 
-![Service Worker Panel in DevTools](/uploads/images/blog/2016/2016-04-29/push-analytics-1.png "800")
+![Service Worker Panel in DevTools](/images/blog/2016/2016-04-29/push-analytics-1.png "800")
 
 You'll notice that on the screenshot above there is a handy 'Push' button, and clicking it will trigger a fake push notification (this will only do something if the service worker has implemented a `push` listener).
 
-![Forcing a fake push tickle in Chrome](/uploads/images/blog/2016/2016-04-29/push-analytics-2.png "800")
+![Forcing a fake push tickle in Chrome](/images/blog/2016/2016-04-29/push-analytics-2.png "800")
 
 Onto the problem site, clicking the push buttonyou can start to see errors clocking up in the console.
 
-![Errors with Push in DevTools service worker panel](/uploads/images/blog/2016/2016-04-29/push-analytics-3.png "800")
+![Errors with Push in DevTools service worker panel](/images/blog/2016/2016-04-29/push-analytics-3.png "800")
 
 The next step is to dig into these errors, tap the inspect button which will open up a new DevTools window, this is DevTools for the service worker.
 
-![Opening DevTools for the Service Worker DevTools](/uploads/images/blog/2016/2016-04-29/push-analytics-4.png "800")
+![Opening DevTools for the Service Worker DevTools](/images/blog/2016/2016-04-29/push-analytics-4.png "800")
 
 Click on the file / line number for the error and let's pretty print it since the javascript is on a single file. This gives us a little more information / visibility on where the problem lies.
 
-![Formatting Minified Code in Devtools](/uploads/images/blog/2016/2016-04-29/push-analytics-5.png "800")
+![Formatting Minified Code in Devtools](/images/blog/2016/2016-04-29/push-analytics-5.png "800")
 
 We can see where the code is falling over, it looks like the developer is trying to get the endpoint from the subscription object and the error is thrown because the subscription object is null.
 
@@ -67,17 +67,17 @@ I was still confused about why the subscription was null after I signed up for p
 self.registration.pushManager.getSubscription().then(subscription => console.log(subscription));
 ```
 
-![No Push Subscriptions in DevTools](/uploads/images/blog/2016/2016-04-29/push-analytics-6.png "800")
+![No Push Subscriptions in DevTools](/images/blog/2016/2016-04-29/push-analytics-6.png "800")
 
 It's definitely null, so where did the subscription object go?
 
 It turns out that the site I was looking at registers 2 service workers (silly me for only looking at the top one and ignoring the scroll bar.
 
-![Multiple Service Workers in DevTools](/uploads/images/blog/2016/2016-04-29/push-analytics-7.png "800")
+![Multiple Service Workers in DevTools](/images/blog/2016/2016-04-29/push-analytics-7.png "800")
 
 Running the same snippet in the other service workers DevTools printed out the subscription object (although it still errored on the first run).
 
-![Push Subscriptions in DevTools](/uploads/images/blog/2016/2016-04-29/push-analytics-8.png "800")
+![Push Subscriptions in DevTools](/images/blog/2016/2016-04-29/push-analytics-8.png "800")
 
 Why two service workers are registered I'm not sure - they seem to be the same code.
 
@@ -92,7 +92,7 @@ The most important things you can do if hit any issues with push / service worke
 
 ### Side Quest: Promises
 
-![Side Quest Dance with Adventure Time's Jake the Dog](/uploads/images/blog/2016/2016-04-29/at-jake-dancing.gif)
+![Side Quest Dance with Adventure Time's Jake the Dog](/images/blog/2016/2016-04-29/at-jake-dancing.gif)
 
 When you're new to promises it's super easy to get in a bit of a pickle and I've seen it happen in a few projects (I'm still finding old code from when I first started using Promises and its a mess).
 
@@ -140,7 +140,7 @@ I put together [a small demo here](http://bit.ly/1Ww2hRb) to try and demonstrate
 
 The main part is that the yellow states indicate where the primary promise is waiting for another promise to finish - notice how the top section doesn't wait for `fetch()` and moves straight onto `eventEnd()`.
 
-![Promise Chains](/uploads/images/blog/2016/2016-04-29/promise-chains.png "800")
+![Promise Chains](/images/blog/2016/2016-04-29/promise-chains.png "800")
 
 ## Analytics All the Things!
 
@@ -150,7 +150,7 @@ Well the major problem I had was figuring out how to ping Google Analytics from 
 
 With this I created a small method to make sending events to Analytics nice and easy, define a `trackingId` and call the `trackEvent()` method. See the [analytics.js](https://github.com/gauntface/simple-push-demo/blob/10f8cef6e4a1e3069926602fa301a295ed9d7812/src/scripts/analytics.js) and [serviceworker.js](https://github.com/gauntface/simple-push-demo/blob/10f8cef6e4a1e3069926602fa301a295ed9d7812/src/service-worker.js) files for how it's implemented and used.
 
-![Push Subscriptions in DevTools](/uploads/images/blog/2016/2016-04-29/push-analytics-with-events.png "800")
+![Push Subscriptions in DevTools](/images/blog/2016/2016-04-29/push-analytics-with-events.png "800")
 
 The most important / useful feature of it is that no matter what, it should resolve the promise it returns, in other words, it will **never error**. Tracking shouldn't get in the way of the user experience or functionality of your web app, so I wanted to make sure that sending a tracker ping wouldn't cause an error and prevent a push notification being sent.
 

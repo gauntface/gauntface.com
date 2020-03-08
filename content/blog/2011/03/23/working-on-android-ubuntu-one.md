@@ -1,13 +1,13 @@
 ---
 title: "Working on Android Ubuntu One"
 excerpt: "Some notes from working on the Ubuntu One Android App"
-mainImage: "/uploads/images/blog/2014/06/16/4429941637-a487835188-o.jpg"
+mainImage: "/images/blog/2014/06/16/4429941637-a487835188-o.jpg"
 primaryColor: "#7c345c"
 date: "2011-03-23T21:40:19-07:00"
 updatedOn: "2011-03-23T21:40:19-07:00"
 slug: "working-on-android-ubuntu-one"
 ---
-![Key art for blog post "Working on Android Ubuntu One "](/uploads/images/blog/2014/06/16/4429941637-a487835188-o.jpg)
+![Key art for blog post "Working on Android Ubuntu One "](/images/blog/2014/06/16/4429941637-a487835188-o.jpg)
 
 # Working on Android Ubuntu One 
 

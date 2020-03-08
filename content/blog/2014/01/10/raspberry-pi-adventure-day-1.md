@@ -4,17 +4,17 @@ excerpt: |
   First evening playing around with the Raspberry Pi and they always say you should blog about new things.
   
   Hardware, Raspbian and Wifi are all the exciting things covered.
-mainImage: "/uploads/images/blog/2014/05/24/img-20140109-232051.jpg"
+mainImage: "/images/blog/2014/05/24/img-20140109-232051.jpg"
 primaryColor: "#1d120f"
 date: "2014-01-10T00:04:24-08:00"
 updatedOn: "2014-01-10T00:04:24-08:00"
 slug: "raspberry-pi-adventure-day-1"
 ---
-![Key art for blog post "Raspberry Pi Adventure - Day 1 "](/uploads/images/blog/2014/05/24/img-20140109-232051.jpg)
+![Key art for blog post "Raspberry Pi Adventure - Day 1 "](/images/blog/2014/05/24/img-20140109-232051.jpg)
 
 # Raspberry Pi Adventure - Day 1 
 
-![Raspberry Pi in Wooden PiBow Case Close Up](/uploads/images/blog/2014/01/IMG_20140109_232116.jpg "1024") 
+![Raspberry Pi in Wooden PiBow Case Close Up](/images/blog/2014/01/IMG_20140109_232116.jpg "1024") 
 
 They say when you start doing something new, you should blog about it. 
 
@@ -28,19 +28,19 @@ Hopefully it'll go to control lights and heating etc.
 
 ## Raspberry Pi
 
-![Raspberry Pi in Wooden PiBow Case](/uploads/images/blog/2014/01/IMG_20140109_232053.jpg "1024") 
+![Raspberry Pi in Wooden PiBow Case](/images/blog/2014/01/IMG_20140109_232053.jpg "1024") 
 
 [In a PiBow Case](http://shop.pimoroni.com/products/pibow-timber)
 
 ### Keyboard & Mouse
 
-![Logitech Keyboard and Mouse](/uploads/images/blog/2014/01/IMG_20140109_232027.jpg "1024") 
+![Logitech Keyboard and Mouse](/images/blog/2014/01/IMG_20140109_232027.jpg "1024") 
 
 I had this lying around from Google TV usage, but would seriously recommend, it works out of the box. 
 
 ### Wireless Adapter
 
-![Maplins Wireless USB Adapter](/uploads/images/blog/2014/01/IMG_20140109_231903.jpg "1024") 
+![Maplins Wireless USB Adapter](/images/blog/2014/01/IMG_20140109_231903.jpg "1024") 
 
 I ended up going for [this USB Adapter](http://www.maplin.co.uk/p/maplin-single-band-n150-nano-usb-network-adapter-a71lb) from Maplins because I was walking past and it's all they had in the store. Wish I had waited to get the [Edimax from Amazon](http://www.amazon.co.uk/Edimax-EW-7811UN-150Mbps-Wireless-Adapter/dp/B003MTTJOY). Anyway this one from Maplins works without too much hassle (More Info Below). 
 

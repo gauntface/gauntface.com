@@ -1,13 +1,13 @@
 ---
 title: "Your Guide to SSL on Nginx"
 excerpt: "Everyone is moving to add SSL support on their site. If you're using Nginx and looking to do the same then this post is for you, walking you through from start to finish on how to add SSL support."
-mainImage: "/uploads/images/blog/2014/09/09/10248675643-d5ab02a636-o.jpg"
+mainImage: "/images/blog/2014/09/09/10248675643-d5ab02a636-o.jpg"
 primaryColor: "#c4ac44"
 date: "2014-09-09T18:41:00-07:00"
 updatedOn: "2014-09-09T18:41:00-07:00"
 slug: "your-guide-to-ssl-on-nginx"
 ---
-![Key art for blog post "Your Guide to SSL on Nginx "](/uploads/images/blog/2014/09/09/10248675643-d5ab02a636-o.jpg)
+![Key art for blog post "Your Guide to SSL on Nginx "](/images/blog/2014/09/09/10248675643-d5ab02a636-o.jpg)
 
 # Your Guide to SSL on Nginx
 
@@ -23,7 +23,7 @@ Go over to [namecheap.com](https://www.namecheap.com/security/ssl-certificates/d
 
 Once you've bought your SSL Certificate, you need to activate it. [This page has all the info you need](https://www.namecheap.com/support/knowledgebase/article.aspx/794/67/how-to-activate-ssl-certificate). Ultimately, it's squirrelled away here.
 
-![NameCheap SSL Activation](/uploads/images/blog/2014/09/09/ssl-menu-access.png "630")
+![NameCheap SSL Activation](/images/blog/2014/09/09/ssl-menu-access.png "630")
 
 The wizard will ask you to paste in a *Certificate Signing Request (CSR)*, which you'll either get from your host or if you are self-hosted, you can make one yourself with the following command:
 
@@ -219,19 +219,19 @@ There are a few tests you need to run on your site to make sure everything is A-
 
 This checks for a tonne of features that you should have on your site now that you've enabled SSL.
 
-![SSLLabs Test Results for Gauntface.com](/uploads/images/blog/2014/09/09/ssl-labs-test-results.png "600")
+![SSLLabs Test Results for Gauntface.com](/images/blog/2014/09/09/ssl-labs-test-results.png "600")
 
 ### [shaaaaaaaaaaaaa.com](https://shaaaaaaaaaaaaa.com/)
 
 This nifty little site checks that your site is using an SHA256 certificate. I believe this is sorted in step 1 where we create our private key and CSR file. The *-newkey rsa:2048* parameter is the bit which does it (or at least I think it does).
 
-![shaaaaaaa Test Results for Gauntface.com](/uploads/images/blog/2014/09/25/shaaaaa.png "600")
+![shaaaaaaa Test Results for Gauntface.com](/images/blog/2014/09/25/shaaaaa.png "600")
 
 ### [spdycheck.org](http://spdycheck.org/)
 
 If you use spdy, then you'll want to run your site through this, just to be sure everything is ok.
 
-![SPDY Check Test Results for Gauntface.com](/uploads/images/blog/2014/09/09/spdycheck-test.png "600")
+![SPDY Check Test Results for Gauntface.com](/images/blog/2014/09/09/spdycheck-test.png "600")
 
 # Final Comments
 

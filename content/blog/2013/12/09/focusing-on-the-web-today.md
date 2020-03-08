@@ -4,23 +4,23 @@ excerpt: |
   I made the mistake of digging around and looking at how you should implement focusing in a web app.
   
   I quickly found each browser has it's own quirks and has rather different behavior compared to focusing in Android.
-mainImage: "/uploads/images/blog/2014/05/24/627226315-92cea10701-o.jpg"
+mainImage: "/images/blog/2014/05/24/627226315-92cea10701-o.jpg"
 primaryColor: "#51515f"
 date: "2013-12-09T14:50:28-08:00"
 updatedOn: "2013-12-09T14:50:28-08:00"
 slug: "focusing-on-the-web-today"
 ---
-![Key art for blog post "'Focusing' on the Web Today "](/uploads/images/blog/2014/05/24/627226315-92cea10701-o.jpg)
+![Key art for blog post "'Focusing' on the Web Today "](/images/blog/2014/05/24/627226315-92cea10701-o.jpg)
 
 # 'Focusing' on the Web Today 
 
-![Checkbox States Masthead](/uploads/images/blog/2013/12/Checkbox-States-Masthead.png "360") 
+![Checkbox States Masthead](/images/blog/2013/12/Checkbox-States-Masthead.png "360") 
 
 Adding a focus state to your UI is great for accessibility on desktop, devices requiring remote control input or phones with multiple input methods, i.e. a scroll ball. 
 
 Some elements, most notably form fields, will add an outline when a user interacts with the element. 
 
-![Android Button Outline Touched](/uploads/images/blog/2013/12/Android-Button-Outline-Touched.png "500") ![Android Button Outline](/uploads/images/blog/2013/12/Android-Button-Outline.png "500")
+![Android Button Outline Touched](/images/blog/2013/12/Android-Button-Outline-Touched.png "500") ![Android Button Outline](/images/blog/2013/12/Android-Button-Outline.png "500")
 
 A  element during and after being touched
 
@@ -56,7 +56,7 @@ In the example below, the checkboxes are rendered using a sprite and have a bord
 
 ### Desktop Browsers
 
-![Checkbox States Across Desktop Browsers](/uploads/images/blog/2013/12/Checkbox-States-Desktop-Browsers.png "650") 
+![Checkbox States Across Desktop Browsers](/images/blog/2013/12/Checkbox-States-Desktop-Browsers.png "650") 
 
 The image above was created by clicking the checkbox with my mouse twice and recording the state changes. 
 
@@ -68,7 +68,7 @@ Firefox is at least consistent with it’s application of the :active state betw
 
 ### Mobile Browsers
 
-![Checkbox States Across Mobiles Browsers](/uploads/images/blog/2013/12/Checkbox-States-Mobiles-Browsers.png "650") 
+![Checkbox States Across Mobiles Browsers](/images/blog/2013/12/Checkbox-States-Mobiles-Browsers.png "650") 
 
 This is a set of states when touching the checkbox. 
 
@@ -98,7 +98,7 @@ Setting a state for **:active** and **:focus** should be done to highlight the c
 
 Personal preference is that **:focus** state should only be applied when using hardware input. This may be a hangover from developing on Google TV, where the focus color's can be quite separate from the default colors. Android would typically go for a set of states like so: 
 
-![Android Touch Feedback States](/uploads/images/blog/2013/12/touch_feedback_states.png "750") 
+![Android Touch Feedback States](/images/blog/2013/12/touch_feedback_states.png "750") 
 
 There is the option to define a **tabindex** which can be used to indicate to the browser that you want an element to be focusable. Applying this to all the elements caused Opera to match the same behaviour as Chrome (it would focus on the anchor), where as Firefox and Safari didn't change. It still seems unprecedented that a UI needs a tag to give it the ability to be focused on an element which is inherently interactive. 
 
@@ -110,8 +110,8 @@ The desktop and mobile browsers use of focusing for clicking and touching doesn'
 
 The biggest problem with this is the input field - generally it's accepted that on a focus event you can show tool tips, on blur you can do error checking, but with pseudo classes and events being tied together, this wouldn't be possible in my personal preference for state behaviour.
 
-[Full the Image Here](/uploads/images/blog/2013/12/User-Interactions-and-State-Changes.png)
+[Full the Image Here](/images/blog/2013/12/User-Interactions-and-State-Changes.png)
 
-![](/uploads/images/blog/2013/12/User-Interactions-and-State-Changes.png "500")
+![](/images/blog/2013/12/User-Interactions-and-State-Changes.png "500")
 
 Orig. Photo: https://flic.kr/p/XqGwP

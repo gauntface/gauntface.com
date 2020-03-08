@@ -1,13 +1,13 @@
 ---
 title: "Series 2 Droplets by the Awesome @JamFactory"
 excerpt: "The cute and awesome Droplet toys from Gavin Strange (a.k.a Jam Factory). A quick way to liven up your desk."
-mainImage: "/uploads/images/blog/2014/06/23/2313168461-58c38181e9-o.jpg"
+mainImage: "/images/blog/2014/06/23/2313168461-58c38181e9-o.jpg"
 primaryColor: "#8b1e28"
 date: "2010-02-10T22:23:10-08:00"
 updatedOn: "2010-02-10T22:23:10-08:00"
 slug: "series-2-droplets-by-the-awesome-jamfactory"
 ---
-![Key art for blog post "Series 2 Droplets by the Awesome @JamFactory "](/uploads/images/blog/2014/06/23/2313168461-58c38181e9-o.jpg)
+![Key art for blog post "Series 2 Droplets by the Awesome @JamFactory "](/images/blog/2014/06/23/2313168461-58c38181e9-o.jpg)
 
 # Series 2 Droplets by the Awesome @JamFactory
 

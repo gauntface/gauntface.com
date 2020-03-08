@@ -4,17 +4,17 @@ excerpt: |
   If you're using Cordova, there is no reason to not take advantage of build tools like grunt and fewer bytes to load will still cut down load times inside your apps.
 
   In this article we'll look at how you can hook up grunt into the Cordova build process, meaning you have one command to build your web project, copy that over into Cordova and build the project onto your device.
-mainImage: "/uploads/images/blog/2014/05/24/yeoman-cordova-copy.jpg"
+mainImage: "/images/blog/2014/05/24/yeoman-cordova-copy.jpg"
 primaryColor: "#d9615f"
 date: "2014-02-05T21:55:42-08:00"
 updatedOn: "2014-02-05T21:55:42-08:00"
 slug: "cordova-web-best-practices-v2-0"
 ---
-![Key art for blog post "Cordova + Web Best Practices v2.0 "](/uploads/images/blog/2014/05/24/yeoman-cordova-copy.jpg)
+![Key art for blog post "Cordova + Web Best Practices v2.0 "](/images/blog/2014/05/24/yeoman-cordova-copy.jpg)
 
 # Cordova + Web Best Practices v2.0
 
-![Cordova + Yeoman](/uploads/images/blog/2013/07/Cordova-and-Yeoman.png)
+![Cordova + Yeoman](/images/blog/2013/07/Cordova-and-Yeoman.png)
 
 My oh my doesn't time fly, a little while a go I [wrote a blog post](http://blog.gauntface.co.uk/2013/07/18/cordova-web-best-practices/) on how to get [Cordova](http://cordova.apache.org/) and [Yeoman](http://yeoman.io/) to work together bringing the best practices of the web to Cordova based applications.
 
@@ -52,7 +52,7 @@ Example:
 cordova create my-project co.uk.gauntface.myproject.cordova "My Project"
 ```
 
-![Cordova File Structure](/uploads/images/blog/2014/02/cordova-file-structure.png)
+![Cordova File Structure](/images/blog/2014/02/cordova-file-structure.png)
 
 Then add your platforms of choice (in this case Android).
 
@@ -75,7 +75,7 @@ Or run on an Android device with:
 cordova run android
 ```
 
-![Cordova App on a Nexus 5](/uploads/images/blog/2014/02/Cordova-App-Launch1.png "600")
+![Cordova App on a Nexus 5](/images/blog/2014/02/Cordova-App-Launch1.png "600")
 
 ## Set-Up Yeoman
 
@@ -96,7 +96,7 @@ cd yeoman
 yo webapp
 ```
 
-![Yeoman WebApp Terminal](/uploads/images/blog/2014/02/Yeoman-Terminal-Crop.png)
+![Yeoman WebApp Terminal](/images/blog/2014/02/Yeoman-Terminal-Crop.png)
 
 Go through all the Yeoman prompts.
 
@@ -147,7 +147,7 @@ Now whenever you try to run your project on an Android device, this script will 
 cordova run android
 ```
 
-![Yeoman and Cordova on Nexus 5](/uploads/images/blog/2014/02/Yeoman-and-Cordova.png "600")
+![Yeoman and Cordova on Nexus 5](/images/blog/2014/02/Yeoman-and-Cordova.png "600")
 
 Cordova's tools will actually add _cordova.js_ to the projects root directory, so when you want to use some of Cordova's features, you just need to reference _cordova.js_ in your html page.
 
@@ -157,6 +157,6 @@ With these hooks, you can have a pretty nice workflow, however it could be furth
 
 _P.S. This will also work for Chrome Mobile Apps too <https://github.com/MobileChromeApps/mobile-chrome-apps>_
 
-![Yeoman Loves Cordova](/uploads/images/blog/2013/07/Yeoman-Heart-Cordova.png)
+![Yeoman Loves Cordova](/images/blog/2013/07/Yeoman-Heart-Cordova.png)
 
 Orig. Photo: [https://dribbble.com/shots/1524414-Free-Polygonal-Low-Poly-Background-Texture-18?list=tags&tag=freebie&offset=3](https://dribbble.com/shots/1524414-Free-Polygonal-Low-Poly-Background-Texture-18?list=tags&tag=freebie&offset=3)

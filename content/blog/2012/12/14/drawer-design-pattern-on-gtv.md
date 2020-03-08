@@ -4,17 +4,17 @@ excerpt: |
   The navigation drawer has been turned into a standard Android design pattern after the community embraced it as the de facto way to navigate applications.
   
   This is a look at the most common libraries to see how they scare up on Google TV.
-mainImage: "/uploads/images/blog/2014/06/15/3234862031-b3bec43a41-o.jpg"
+mainImage: "/images/blog/2014/06/15/3234862031-b3bec43a41-o.jpg"
 primaryColor: "#929e75"
 date: "2012-12-14T16:42:33-08:00"
 updatedOn: "2012-12-14T16:42:33-08:00"
 slug: "drawer-design-pattern-on-gtv"
 ---
-![Key art for blog post "Drawer Design Pattern on GTV "](/uploads/images/blog/2014/06/15/3234862031-b3bec43a41-o.jpg)
+![Key art for blog post "Drawer Design Pattern on GTV "](/images/blog/2014/06/15/3234862031-b3bec43a41-o.jpg)
 
 # Drawer Design Pattern on GTV 
 
-![Screenshot of Sliding Drawer App for Google TV](/uploads/images/blog/2012/12/The-Test-Home.png "1024")
+![Screenshot of Sliding Drawer App for Google TV](/images/blog/2012/12/The-Test-Home.png "1024")
 
 At the moment there is a lot of debate within the Android community regarding how to implement the [Drawer design pattern](http://www.androiduipatterns.com/2012/06/emerging-ui-pattern-side-navigation.html) in Android. 
 
@@ -30,11 +30,11 @@ The best library I've seen to achieve this kind of interaction is the [SlidingMe
 
 I made a simple test environment to see how some of the popular sliding menu's worked when placed in an application with fragments side by side and how they re-act when navigating with the focus. 
 
-![Demo Application Screenshot](/uploads/images/blog/2012/12/Left-Focus.png "1024")
+![Demo Application Screenshot](/images/blog/2012/12/Left-Focus.png "1024")
 
 Given the focus position above you can start to interact with the Drawer by focusing left which will open the drawer. 
 
-![Focusing on an element and hitting left opens the navigation drawer](/uploads/images/blog/2012/12/Open-Via-Left-Focus.png "1024")
+![Focusing on an element and hitting left opens the navigation drawer](/images/blog/2012/12/Open-Via-Left-Focus.png "1024")
 
 From here a user can hit left to interact with the Drawer contents or hit right and the drawer will close. At the moment there are a number of ways beyond this to toggle the drawer open and shut: 
 

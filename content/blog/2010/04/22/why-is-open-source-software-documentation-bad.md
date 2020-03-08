@@ -1,13 +1,13 @@
 ---
 title: "Why is Open Source Software Documentation Bad?"
 excerpt: "Is documentation one of the key things holding back open source software?"
-mainImage: "/uploads/images/blog/2014/06/22/8574509123-3846af95a8-o.jpg"
+mainImage: "/images/blog/2014/06/22/8574509123-3846af95a8-o.jpg"
 primaryColor: "#e9c430"
 date: "2010-04-22T22:12:06-07:00"
 updatedOn: "2010-04-22T22:12:06-07:00"
 slug: "why-is-open-source-software-documentation-bad"
 ---
-![Key art for blog post "Why is Open Source Software Documentation Bad? "](/uploads/images/blog/2014/06/22/8574509123-3846af95a8-o.jpg)
+![Key art for blog post "Why is Open Source Software Documentation Bad? "](/images/blog/2014/06/22/8574509123-3846af95a8-o.jpg)
 
 # Why is Open Source Software Documentation Bad? 
 

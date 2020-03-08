@@ -1,13 +1,13 @@
 ---
 title: "Testing for the Web"
 excerpt: "Automated testing on the web has some real gnarly gotchas. Time to find out what they are."
-mainImage: "/uploads/images/blog/2016/2016-09-16/developer-desk.jpg"
+mainImage: "/images/blog/2016/2016-09-16/developer-desk.jpg"
 primaryColor: "#752e40"
 date: "2016-09-16T03:20:06-07:00"
 updatedOn: "2016-09-16T03:20:06-07:00"
 slug: "testing-for-the-web"
 ---
-![Key art for blog post "Testing for the Web"](/uploads/images/blog/2016/2016-09-16/developer-desk.jpg)
+![Key art for blog post "Testing for the Web"](/images/blog/2016/2016-09-16/developer-desk.jpg)
 
 # Testing for the Web
 

@@ -1,17 +1,17 @@
 ---
 title: "Spatial Navigation & Opera"
 excerpt: "Just a cheeky post on how to test Spatial Navigation in Opera TV."
-mainImage: "/uploads/images/blog/2014/05/24/opera-logo.jpg"
+mainImage: "/images/blog/2014/05/24/opera-logo.jpg"
 primaryColor: "#eaa4ac"
 date: "2013-12-03T12:45:57-08:00"
 updatedOn: "2013-12-03T12:45:57-08:00"
 slug: "spatial-navigation-opera"
 ---
-![Key art for blog post "Spatial Navigation & Opera "](/uploads/images/blog/2014/05/24/opera-logo.jpg)
+![Key art for blog post "Spatial Navigation & Opera "](/images/blog/2014/05/24/opera-logo.jpg)
 
 # Spatial Navigation & Opera 
 
-![Focus States](/uploads/images/blog/2013/12/Focus-Elements.png "240")
+![Focus States](/images/blog/2013/12/Focus-Elements.png "240")
 
 ## Desktop Opera
 

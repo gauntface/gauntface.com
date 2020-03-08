@@ -1,13 +1,13 @@
 ---
 title: "Start Up Scripts for Raspbian"
 excerpt: "Raspbian had a update basing itself on Debian Jessie and one change that came with this is a change in the tool used for start up dependencies, this is how I'm now auto-starting a web server on a pi."
-mainImage: "/uploads/images/blog/2015/2015-12-02/pi-crates.jpg"
+mainImage: "/images/blog/2015/2015-12-02/pi-crates.jpg"
 primaryColor: "#980c23"
 date: "2015-12-02T15:23:40-08:00"
 updatedOn: "2015-12-02T15:23:40-08:00"
 slug: "start-up-scripts-for-raspbian"
 ---
-![Key art for blog post "Start Up Scripts for Raspbian"](/uploads/images/blog/2015/2015-12-02/pi-crates.jpg)
+![Key art for blog post "Start Up Scripts for Raspbian"](/images/blog/2015/2015-12-02/pi-crates.jpg)
 
 # Start Up Scripts for Raspbian
 

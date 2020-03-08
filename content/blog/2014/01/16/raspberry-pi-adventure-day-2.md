@@ -1,13 +1,13 @@
 ---
 title: "Raspberry Pi Adventure - Day 2"
 excerpt: "Second evening of mucking around with my Raspberry Pi, VNC and FTP FTW."
-mainImage: "/uploads/images/blog/2014/05/24/img-20140113-232715.jpg"
+mainImage: "/images/blog/2014/05/24/img-20140113-232715.jpg"
 primaryColor: "#dfbb5b"
 date: "2014-01-16T21:09:19-08:00"
 updatedOn: "2014-01-16T21:09:19-08:00"
 slug: "raspberry-pi-adventure-day-2"
 ---
-![Key art for blog post "Raspberry Pi Adventure - Day 2 "](/uploads/images/blog/2014/05/24/img-20140113-232715.jpg)
+![Key art for blog post "Raspberry Pi Adventure - Day 2 "](/images/blog/2014/05/24/img-20140113-232715.jpg)
 
 # Raspberry Pi Adventure - Day 2
 
@@ -119,11 +119,11 @@ wlan0     
 
 From this we can enter fill in the settings for the VNC program.
 
-![Remmina Set-Up on Ubuntu](/uploads/images/blog/2014/01/Screenshot-from-2014-01-13-204835.png)
+![Remmina Set-Up on Ubuntu](/images/blog/2014/01/Screenshot-from-2014-01-13-204835.png)
 
 When we connect, we should be set up with our Raspberry Pi VNC session :)
 
-![Remmina VNC Session to Raspberry Pi With Gnome Shell Desktop](/uploads/images/blog/2014/01/Screenshot-from-2014-01-13-205408.png "1024")
+![Remmina VNC Session to Raspberry Pi With Gnome Shell Desktop](/images/blog/2014/01/Screenshot-from-2014-01-13-205408.png "1024")
 
 ## Start-Up
 
@@ -210,17 +210,17 @@ These instructions are how to connect from Gnome Ubuntu, if you are on OS X, I w
 
 First, we open up our chosen app to connect over SFTP.
 
-![Screenshot of Nautilus to connect over SFTP](/uploads/images/blog/2014/01/Screenshot-from-2014-01-13-213600.png "1024")
+![Screenshot of Nautilus to connect over SFTP](/images/blog/2014/01/Screenshot-from-2014-01-13-213600.png "1024")
 
 We’ll be asked to input the URL to our server (the IP Address of our Pi in this case).
 
-![SFTP Settings for Connecting to Raspberry Pi](/uploads/images/blog/2014/10/08/screenshot-from-2014-01-13-214218.png "430")
+![SFTP Settings for Connecting to Raspberry Pi](/images/blog/2014/10/08/screenshot-from-2014-01-13-214218.png "430")
 
 After you’ve entered the IP address, you’ll be asked for a username and password, the username is the one you’ve been using to log in to your Raspberry Pi (i.e. **pi** by default) and the password is the password you use for logging into the Raspberry Pi (i.e. the one you used when you first set-up Raspbian).
 
-![Screenshot of entering Raspberry Pi username and password](/uploads/images/blog/2014/01/Screenshot-from-2014-01-13-214554.png "360")
+![Screenshot of entering Raspberry Pi username and password](/images/blog/2014/01/Screenshot-from-2014-01-13-214554.png "360")
 
 And we are done :)
 
-![Screenshot of Nautilus Logged In](/uploads/images/blog/2014/01/Screenshot-from-2014-01-13-215030.png "1024")
+![Screenshot of Nautilus Logged In](/images/blog/2014/01/Screenshot-from-2014-01-13-215030.png "1024")
 

@@ -4,13 +4,13 @@ excerpt: |
   This is more of a personal note on how create a new git repo and get it pushed to Google Code.
 
   (It's kind of the reverse of how I start a Github repo)
-mainImage: "/uploads/images/blog/2014/06/15/256622412-3279115264-o.jpg"
+mainImage: "/images/blog/2014/06/15/256622412-3279115264-o.jpg"
 primaryColor: "#4231bb"
 date: "2012-11-26T16:31:07-08:00"
 updatedOn: "2012-11-26T16:31:07-08:00"
 slug: "getting-going-with-google-code"
 ---
-![Key art for blog post "Getting Going With Google Code "](/uploads/images/blog/2014/06/15/256622412-3279115264-o.jpg)
+![Key art for blog post "Getting Going With Google Code "](/images/blog/2014/06/15/256622412-3279115264-o.jpg)
 
 # Getting Going With Google Code
 

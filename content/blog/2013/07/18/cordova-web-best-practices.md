@@ -1,13 +1,13 @@
 ---
 title: "Cordova + Web Best Practices"
 excerpt: "In this post I'll cover how you can hook Yeoman and Cordova together so you get the benefits from Yeoman with the ease of deployment from Cordova."
-mainImage: "/uploads/images/blog/2014/05/24/yeoman-cordova-2.jpg"
+mainImage: "/images/blog/2014/05/24/yeoman-cordova-2.jpg"
 primaryColor: "#55aca0"
 date: "2013-07-18T08:32:00-07:00"
 updatedOn: "2013-07-18T08:32:00-07:00"
 slug: "cordova-web-best-practices"
 ---
-![Key art for blog post "Cordova + Web Best Practices "](/uploads/images/blog/2014/05/24/yeoman-cordova-2.jpg)
+![Key art for blog post "Cordova + Web Best Practices "](/images/blog/2014/05/24/yeoman-cordova-2.jpg)
 
 # Cordova + Web Best Practices
 
@@ -61,7 +61,7 @@ Example:
 cordova create my-project co.uk.gauntface.myproject.cordova "My Project"
 ```
 
-![Cordova Project Structure](/uploads/images/blog/2013/07/Cordova-Project-Structure.png)
+![Cordova Project Structure](/images/blog/2013/07/Cordova-Project-Structure.png)
 
 Then add your platforms of choice (in this case Android).
 
@@ -78,7 +78,7 @@ If you want, you can run an emulator with the following command:
 cordova emulate android
 ```
 
-![Android Emulator Running Cordova App](/uploads/images/blog/2013/07/Cordova-Emulator.png)
+![Android Emulator Running Cordova App](/images/blog/2013/07/Cordova-Emulator.png)
 
 ## Set-Up Yeoman
 
@@ -99,7 +99,7 @@ cd yeoman
 yo webapp
 ```
 
-![Yeoman WebApp Terminal](/uploads/images/blog/2013/07/Yeoman-WebApp-Terminal.png)
+![Yeoman WebApp Terminal](/images/blog/2013/07/Yeoman-WebApp-Terminal.png)
 
 Go through all the Yeoman prompts and once this is done, copy the _config.xml_ file from the _www_ directory over to _yeoman/app_.
 
@@ -216,12 +216,12 @@ grunt build && cordova run android
 
 Cordova’s tools will actually add cordova.js to the projects root directory, so when you want to use some of Cordova’s features, you just need to reference cordova.js in your html page.
 
-![Screenshot of End Result of Yeoman + Cordova](/uploads/images/blog/2013/07/Yeoman-End-Output.png)
+![Screenshot of End Result of Yeoman + Cordova](/images/blog/2013/07/Yeoman-End-Output.png)
 
 ## Fin.
 
 This is by no means a perfect workflow, ideally you’d have a single tool control the entire build process, but this is a huge leap forward from any previous workflows I’ve had while working with Cordova.
 
-![Yeoman Heart's Cordova](/uploads/images/blog/2013/07/Yeoman-Heart-Cordova.png)
+![Yeoman Heart's Cordova](/images/blog/2013/07/Yeoman-Heart-Cordova.png)
 
 Orig. Photo: <https://dribbble.com/shots/1519899-Free-Polygonal-Low-Poly-Background-Texture-11?list=tags&tag=freebie&offset=10>

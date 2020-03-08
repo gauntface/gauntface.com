@@ -4,17 +4,17 @@ excerpt: |
   Most sites don't respond to a users touch.
   
   This raises the question of how should you respond?
-mainImage: "/uploads/images/blog/2014/05/24/touch.jpg"
+mainImage: "/images/blog/2014/05/24/touch.jpg"
 primaryColor: "#746c71"
 date: "2013-06-25T14:20:17-07:00"
 updatedOn: "2013-06-25T14:20:17-07:00"
 slug: "touch-feedback-for-mobile-sites"
 ---
-![Key art for blog post "Touch Feedback for Mobile Sites "](/uploads/images/blog/2014/05/24/touch.jpg)
+![Key art for blog post "Touch Feedback for Mobile Sites "](/images/blog/2014/05/24/touch.jpg)
 
 # Touch Feedback for Mobile Sites 
 
-![Mobile Touch Feedback Hero Image](/uploads/images/blog/2013/06/Touch-Hero-Image1.png "400") 
+![Mobile Touch Feedback Hero Image](/images/blog/2013/06/Touch-Hero-Image1.png "400") 
 
 During a conversation about a mobile site, one of the comments made was "Why do they hate touch feedback?" and my general response was "It's the web, it doesn't really have touch feedback". 
 

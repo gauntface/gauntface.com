@@ -1,13 +1,13 @@
 ---
 title: "Is the Web a Developers Cwtch?"
 excerpt: "The web is awesome, no doubt about it. But are the very features that make it so powerful, also act as the very thing that holds it back."
-mainImage: "/uploads/images/blog/2014/10/10/4295780443-1822974617-o.jpg"
+mainImage: "/images/blog/2014/10/10/4295780443-1822974617-o.jpg"
 primaryColor: "#7a9a8b"
 date: "2014-10-10T10:19:27-07:00"
 updatedOn: "2014-10-10T10:19:27-07:00"
 slug: "is-the-web-a-developers-cwtch"
 ---
-![Key art for blog post "Is the Web a Developers Cwtch? "](/uploads/images/blog/2014/10/10/4295780443-1822974617-o.jpg)
+![Key art for blog post "Is the Web a Developers Cwtch? "](/images/blog/2014/10/10/4295780443-1822974617-o.jpg)
 
 # Is the Web a Developers Cwtch? 
 

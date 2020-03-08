@@ -4,13 +4,13 @@ excerpt: |
   One of my main gripes about PageSpeed Insights is that I have to go and manually run each of my pages through it. Instead I went and put together a little tool to do it for me.
   
   Don't forget kiddlywinks #PerfMatters
-mainImage: "/uploads/images/blog/2014/07/10/3707813723-398457e8e1-o.jpg"
+mainImage: "/images/blog/2014/07/10/3707813723-398457e8e1-o.jpg"
 primaryColor: "#c74214"
 date: "2014-07-10T21:11:13-07:00"
 updatedOn: "2014-07-10T21:11:13-07:00"
 slug: "web-performance-monitor"
 ---
-![Key art for blog post "Web Performance Monitor "](/uploads/images/blog/2014/07/10/3707813723-398457e8e1-o.jpg)
+![Key art for blog post "Web Performance Monitor "](/images/blog/2014/07/10/3707813723-398457e8e1-o.jpg)
 
 # Web Performance Monitor 
 
@@ -27,7 +27,7 @@ It consists of three parts:
 
 You can checkout what the end result is like at [gauntface.com/perfmatters/](https://gauntface.com/perfmatters/)
 
-![Example Screenshot of Web Perf Monitor](/uploads/images/blog/2014/07/10/chromebook-pixel-web-perf-monitor.png "800")
+![Example Screenshot of Web Perf Monitor](/images/blog/2014/07/10/chromebook-pixel-web-perf-monitor.png "800")
 
 The end goal of this, is that over time I can extend it to include support for [webpagetest.org](http://webpagetest.org) as well as data hints from [Google Analytics](http://www.google.com/analytics/) to create things like screenshots of the 10 most popular devices which visit my site.
 

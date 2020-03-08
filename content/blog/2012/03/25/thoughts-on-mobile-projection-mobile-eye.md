@@ -4,17 +4,17 @@ excerpt: |
   A look back on my thesis at University on the "Mobile Eye" project.
   
   The idea of projecting on the world around you manipulating and annotating it with useful information.
-mainImage: "/uploads/images/blog/2014/06/15/386508456-9861e6653b-o.jpg"
+mainImage: "/images/blog/2014/06/15/386508456-9861e6653b-o.jpg"
 primaryColor: "#6cd7e2"
 date: "2012-03-25T22:00:21-07:00"
 updatedOn: "2012-03-25T22:00:21-07:00"
 slug: "thoughts-on-mobile-projection-mobile-eye"
 ---
-![Key art for blog post "Thoughts on Mobile Projection + Mobile Eye "](/uploads/images/blog/2014/06/15/386508456-9861e6653b-o.jpg)
+![Key art for blog post "Thoughts on Mobile Projection + Mobile Eye "](/images/blog/2014/06/15/386508456-9861e6653b-o.jpg)
 
 # Thoughts on Mobile Projection + Mobile Eye 
 
-![Mobile Eye Projection Shot](/uploads/images/blog/2012/03/4543458986_41cc430491_z.jpg) 
+![Mobile Eye Projection Shot](/images/blog/2012/03/4543458986_41cc430491_z.jpg) 
 
 It's been a few years since I finished my Masters in Computer Science at the University of Bristol. My final project was "Mobile Eye", a thesis project exploring mobile projection techniques and interactions. 
 

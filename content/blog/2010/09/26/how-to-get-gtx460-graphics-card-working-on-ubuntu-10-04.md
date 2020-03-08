@@ -1,13 +1,13 @@
 ---
 title: "How-To: Get GTX460 Graphics Card Working on Ubuntu (10.04)"
 excerpt: "Graphics cards suck when it comes to getting them running with Ubuntu, so here's some info on setting up a GTX460 card."
-mainImage: "/uploads/images/blog/2014/06/22/6478631303-fb0634d361-o.jpg"
+mainImage: "/images/blog/2014/06/22/6478631303-fb0634d361-o.jpg"
 primaryColor: "#5a504c"
 date: "2010-09-26T16:36:12-07:00"
 updatedOn: "2010-09-26T16:36:12-07:00"
 slug: "how-to-get-gtx460-graphics-card-working-on-ubuntu-10-04"
 ---
-![Key art for blog post "How-To: Get GTX460 Graphics Card Working on Ubuntu (10.04) "](/uploads/images/blog/2014/06/22/6478631303-fb0634d361-o.jpg)
+![Key art for blog post "How-To: Get GTX460 Graphics Card Working on Ubuntu (10.04) "](/images/blog/2014/06/22/6478631303-fb0634d361-o.jpg)
 
 # How-To: Get GTX460 Graphics Card Working on Ubuntu (10.04)
 
@@ -39,7 +39,7 @@ Anyway, to get to the point, this is how I got my GTX 460 (Gigabyte 1GB card) wo
     sudo nvidia-settings
     ```
 
-![Screenshot of the NVIDIA X Server Settings Panel for Linux](/uploads/images/blog/2010/09/Screenshot-NVIDIA-X-Server-Settings.png "300")
+![Screenshot of the NVIDIA X Server Settings Panel for Linux](/images/blog/2010/09/Screenshot-NVIDIA-X-Server-Settings.png "300")
 
 Done, happy compizing.
 

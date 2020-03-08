@@ -1,13 +1,13 @@
 ---
 title: "WebP Support with ImageMagick and PHP"
 excerpt: "This was something I've been meaning to try and figure out one way or the other. WebP has some huge wins for reducing images sizes, so here's my first attempt at getting something up and running."
-mainImage: "/uploads/images/blog/2014/07/25/5849354012-74dfc121e9-o.jpg"
+mainImage: "/images/blog/2014/07/25/5849354012-74dfc121e9-o.jpg"
 primaryColor: "#783229"
 date: "2014-09-02T18:39:00-07:00"
 updatedOn: "2014-09-02T18:39:00-07:00"
 slug: "webp-support-with-imagemagick-and-php"
 ---
-![Key art for blog post "WebP Support with ImageMagick and PHP "](/uploads/images/blog/2014/07/25/5849354012-74dfc121e9-o.jpg)
+![Key art for blog post "WebP Support with ImageMagick and PHP "](/images/blog/2014/07/25/5849354012-74dfc121e9-o.jpg)
 
 # WebP Support with ImageMagick and PHP
 

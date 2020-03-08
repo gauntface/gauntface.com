@@ -1,13 +1,13 @@
 ---
 title: "Building Mobile Cordova Apps with Web Starter Kit"
 excerpt: "Web Starter Kit is an opinionated set of tools to help developers get started with development as quickly as possible. This post will cover how you can integrate Web Starter Kit with Cordova apps."
-mainImage: "/uploads/images/blog/2014/07/16/web-starter-kit-keyart.jpg"
+mainImage: "/images/blog/2014/07/16/web-starter-kit-keyart.jpg"
 primaryColor: "#659bf3"
 date: "2014-07-16T15:38:06-07:00"
 updatedOn: "2014-07-16T15:38:06-07:00"
 slug: "building-mobile-cordova-apps-with-web-starter-kit"
 ---
-![Key art for blog post "Building Mobile Cordova Apps with Web Starter Kit "](/uploads/images/blog/2014/07/16/web-starter-kit-keyart.jpg)
+![Key art for blog post "Building Mobile Cordova Apps with Web Starter Kit "](/images/blog/2014/07/16/web-starter-kit-keyart.jpg)
 
 # Building Mobile Cordova Apps with Web Starter Kit
 
@@ -46,7 +46,7 @@ cordova platform add android
 
 Our project directory will now look like this.
 
-![Directory Structure of a New Cordova Project](/uploads/images/blog/2014/07/16/directory-structure-for-new-cordova-project.jpg "800")
+![Directory Structure of a New Cordova Project](/images/blog/2014/07/16/directory-structure-for-new-cordova-project.jpg "800")
 
 Your Cordova project is ready to go, congrats :)
 
@@ -62,7 +62,7 @@ Or run on a real device with:
 cordova run android
 ```
 
-![Cordova App on a Nexus 5](/uploads/images/blog/2014/07/16/cordova-app-runnning-on-android.png "800")
+![Cordova App on a Nexus 5](/images/blog/2014/07/16/cordova-app-runnning-on-android.png "800")
 
 # Grab Web Starter Kit
 
@@ -74,7 +74,7 @@ This will give you a download button to get a zip of all the files you need.
 
 Extract the zip and copy the resulting folder into the root of your Cordova Project.
 
-![Cordova Project Structure with Web Start Kit](/uploads/images/blog/2014/07/16/cordova-project-directory-structure-with-web-starter-kit.jpg "800")
+![Cordova Project Structure with Web Start Kit](/images/blog/2014/07/16/cordova-project-directory-structure-with-web-starter-kit.jpg "800")
 
 Obviously you can leave the filename as is, but I'm going to rename it to plain old *web-starter-kit*.
 
@@ -154,7 +154,7 @@ One last thing to check so we know we're all good.
 cordova run android
 ```
 
-![Web Starter Kit on Nexus 5 via a Cordova App](/uploads/images/blog/2014/07/16/web-starter-kit-running-on-android-with-cordova.png "800")
+![Web Starter Kit on Nexus 5 via a Cordova App](/images/blog/2014/07/16/web-starter-kit-running-on-android-with-cordova.png "800")
 
 # Cordova.js
 

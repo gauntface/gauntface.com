@@ -1,25 +1,25 @@
 ---
 title: "What You Need to Know About the WebView in L"
 excerpt: "The WebView in Lollipop has been updated to M37 and comes with some new API's and alterations to some behaviours. I've noted them down just in case."
-mainImage: "/uploads/images/blog/2014/10/17/lollipop-2200.png"
+mainImage: "/images/blog/2014/10/17/lollipop-2200.png"
 primaryColor: "#f11431"
 date: "2014-10-17T19:25:26-07:00"
 updatedOn: "2014-10-17T19:25:26-07:00"
 slug: "what-you-need-to-know-about-the-webview-in-l"
 ---
-![Key art for blog post "What You Need to Know About the WebView in L "](/uploads/images/blog/2014/10/17/lollipop-2200.png)
+![Key art for blog post "What You Need to Know About the WebView in L "](/images/blog/2014/10/17/lollipop-2200.png)
 
 # What You Need to Know About the WebView in L
 
 # WebView Updated via Play Store
 
-![OMG Reaction Gif](/uploads/images/blog/2014/10/17/tumblr-lm11bt4oak1qe6xr2.gif)
+![OMG Reaction Gif](/images/blog/2014/10/17/tumblr-lm11bt4oak1qe6xr2.gif)
 
 With the L release, the WebView can be updated by the Play Store, this is a huge achievement!
 
 # Major New Features
 
-![WebRTC in the WebView](/uploads/images/blog/2014/10/17/328932a7-4adf-4e9a-8542-cc16ed01b963.png "400")
+![WebRTC in the WebView](/images/blog/2014/10/17/328932a7-4adf-4e9a-8542-cc16ed01b963.png "400")
 
 The following features are now supported in the latest WebView:
 
@@ -43,7 +43,7 @@ There are a few things that have changed which aren't obvious at first.
 
 3. Fullscreen video has caused a few issues where developers hadn't properly implemented the callbacks. I've put a [sample up on GitHub](https://github.com/GoogleChrome/chromium-webview-samples/tree/master/fullscreen-video-sample) to show how the callbacks can be used. This includes when to show / not show the fullscreen button based on whether the callbacks <a href="http://developer.android.com/reference/android/webkit/WebChromeClient.html#onShowCustomView(android.view.View, android.webkit.WebChromeClient.CustomViewCallback">onShowCustomView</a> and [onHideCustomView](http://developer.android.com/reference/android/webkit/WebChromeClient.html#onHideCustomView()) have been implemented or not.
 
-![Fullscreen Video Sample](/uploads/images/blog/2014/10/17/09894563-e134-4962-9a3a-1de11c2fbf99.png "400")
+![Fullscreen Video Sample](/images/blog/2014/10/17/09894563-e134-4962-9a3a-1de11c2fbf99.png "400")
 
 # New API's
 
@@ -84,7 +84,7 @@ The above was taken from the [WebRTC sample on GitHub](https://github.com/Google
 
 ## File Upload API
 
-![Input File Sample App](/uploads/images/blog/2014/10/17/b6ef89db-32fd-42ee-8e6d-6c81af3a3a6a.png "400")
+![Input File Sample App](/images/blog/2014/10/17/b6ef89db-32fd-42ee-8e6d-6c81af3a3a6a.png "400")
 
 A long standing feature request has been for support of the input field for files.
 

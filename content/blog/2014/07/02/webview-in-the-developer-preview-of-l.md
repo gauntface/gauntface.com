@@ -1,13 +1,13 @@
 ---
 title: "WebView in the Developer Preview of L"
 excerpt: "The WebView has been updated in the preview release of L and brings with it some new web platform features."
-mainImage: "/uploads/images/blog/2014/07/02/pupreandroid-outline.jpg"
+mainImage: "/images/blog/2014/07/02/pupreandroid-outline.jpg"
 primaryColor: "#ac7cd4"
 date: "2014-07-02T21:04:32-07:00"
 updatedOn: "2014-07-02T21:04:32-07:00"
 slug: "webview-in-the-developer-preview-of-l"
 ---
-![Key art for blog post "WebView in the Developer Preview of L "](/uploads/images/blog/2014/07/02/pupreandroid-outline.jpg)
+![Key art for blog post "WebView in the Developer Preview of L "](/images/blog/2014/07/02/pupreandroid-outline.jpg)
 
 # WebView in the Developer Preview of L
 
@@ -25,11 +25,11 @@ In the KitKat MR2 release, where the WebView was updated to M33, one small but i
 
 Looking at an example, the normal font would look something along the lines of:
 
-![Gauntface.co.uk with normal font inside a WebView](/uploads/images/blog/2014/07/01/normal-font-nexus-5.png "400")
+![Gauntface.co.uk with normal font inside a WebView](/images/blog/2014/07/01/normal-font-nexus-5.png "400")
 
 However, if you go to *Settings > Display > Font size* and select _Large_ or _Huge_, you'll get the following:
 
-![Gauntface.co.uk with large font inside a WebView](/uploads/images/blog/2014/07/01/large-font-nexus-5.png "400")
+![Gauntface.co.uk with large font inside a WebView](/images/blog/2014/07/01/large-font-nexus-5.png "400")
 
 A few people have asked how to switch this behaviour off as it's playing havoc with their layouts and the solution is to use  [setTextZoom()](http://developer.android.com/reference/android/webkit/WebSettings.html#setTextZoom(int)) with a value of 100.
 
@@ -85,4 +85,4 @@ The final thing you need to consider for these permissions is including the appr
 
 You can find a working WebRTC sample on the [Chromium WebView Samples Github Repo](https://github.com/GoogleChrome/chromium-webview-samples) which uses the permission model.
 
-![Sample of WebRTC Running in the Android L Preview WebView](/uploads/images/blog/2014/07/02/webrtc-in-webview-sample.png "400")
+![Sample of WebRTC Running in the Android L Preview WebView](/images/blog/2014/07/02/webrtc-in-webview-sample.png "400")

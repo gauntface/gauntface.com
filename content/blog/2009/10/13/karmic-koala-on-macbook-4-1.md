@@ -1,17 +1,17 @@
 ---
 title: "Karmic Koala on MacBook 4.1"
 excerpt: "A step by step guide on how to get Ubuntu's Karmic Koala running on a MacBook 4.1"
-mainImage: "/uploads/images/blog/2014/06/30/ubuntu-karmic-koala.jpg"
+mainImage: "/images/blog/2014/06/30/ubuntu-karmic-koala.jpg"
 primaryColor: "#fbb019"
 date: "2009-10-13T22:49:16-07:00"
 updatedOn: "2009-10-13T22:49:16-07:00"
 slug: "karmic-koala-on-macbook-4-1"
 ---
-![Key art for blog post "Karmic Koala on MacBook 4.1 "](/uploads/images/blog/2014/06/30/ubuntu-karmic-koala.jpg)
+![Key art for blog post "Karmic Koala on MacBook 4.1 "](/images/blog/2014/06/30/ubuntu-karmic-koala.jpg)
 
 # Karmic Koala on MacBook 4.1 
 
-![MacBook Ubuntu](/uploads/images/blog/2009/08/macBookUbuntu.png)
+![MacBook Ubuntu](/images/blog/2009/08/macBookUbuntu.png)
 
 It's that time of year again when the friendly people of Ubuntu release a new version of their OS and this one is just as awesome as it's predecessors!!.
 
@@ -75,6 +75,6 @@ I have tried dual screens with a DVI Monitor and it didn't like being plugged in
 
 Then this should be all you need to be up and running with the best Ubuntu yet!
 
-![Necropotame Koala](/uploads/images/blog/2009/10/necropotame_koala.png "500")
+![Necropotame Koala](/images/blog/2009/10/necropotame_koala.png "500")
 
 

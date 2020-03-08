@@ -1,17 +1,17 @@
 ---
 title: "Wordpress Woop Woop"
 excerpt: "Moved from Drupal to Wordpress, any why...."
-mainImage: "/uploads/images/blog/2014/06/30/2186228674-34104ccbbf-o.jpg"
+mainImage: "/images/blog/2014/06/30/2186228674-34104ccbbf-o.jpg"
 primaryColor: "#747074"
 date: "2009-08-04T21:47:32-07:00"
 updatedOn: "2009-08-04T21:47:32-07:00"
 slug: "wordpress-woop-woop"
 ---
-![Key art for blog post "Wordpress Woop Woop "](/uploads/images/blog/2014/06/30/2186228674-34104ccbbf-o.jpg)
+![Key art for blog post "Wordpress Woop Woop "](/images/blog/2014/06/30/2186228674-34104ccbbf-o.jpg)
 
 # Wordpress Woop Woop 
 
-![wordpress-logo-hoz-rgb](/uploads/images/blog/2009/08/wordpress-logo-hoz-rgb.png)
+![wordpress-logo-hoz-rgb](/images/blog/2009/08/wordpress-logo-hoz-rgb.png)
 
 So I changed from Drupal to Wordpress, why?. . . because I loves it I does!
 

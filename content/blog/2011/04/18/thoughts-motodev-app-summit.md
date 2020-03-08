@@ -1,13 +1,13 @@
 ---
 title: "Thoughts MotoDev App Summit"
 excerpt: ""
-mainImage: "/uploads/images/blog/2014/06/16/11259367736-e5063372f6-o.jpg"
+mainImage: "/images/blog/2014/06/16/11259367736-e5063372f6-o.jpg"
 primaryColor: "#8c8c9c"
 date: "2011-04-18T21:37:09-07:00"
 updatedOn: "2011-04-18T21:37:09-07:00"
 slug: "thoughts-motodev-app-summit"
 ---
-![Key art for blog post "Thoughts MotoDev App Summit "](/uploads/images/blog/2014/06/16/11259367736-e5063372f6-o.jpg)
+![Key art for blog post "Thoughts MotoDev App Summit "](/images/blog/2014/06/16/11259367736-e5063372f6-o.jpg)
 
 # Thoughts MotoDev App Summit 
 
@@ -41,17 +41,17 @@ Also while at the event I met Matt Oakes, who like me, wasn't to impressed by th
 
 Below are the official MotoDev App Summit App, my application and finally Matt Oakes application. 
 
-![Main MotoDev App Screen](/uploads/images/blog/2011/04/ss-0-320-480-160-0-652b37654ba712cf44fcac42b8a99f6c5210170d.jpg)
+![Main MotoDev App Screen](/images/blog/2011/04/ss-0-320-480-160-0-652b37654ba712cf44fcac42b8a99f6c5210170d.jpg)
 
-![Example of Presentation screen in MotoDev Summit App](/uploads/images/blog/2011/04/ss-1-320-480-160-0-48a7e896fb928026c0684702297cfe68d30eb242.jpg)
+![Example of Presentation screen in MotoDev Summit App](/images/blog/2011/04/ss-1-320-480-160-0-48a7e896fb928026c0684702297cfe68d30eb242.jpg)
 
-![My Version of the MotoDev App - Start Screen](/uploads/images/blog/2011/04/Motodev-start.png)
+![My Version of the MotoDev App - Start Screen](/images/blog/2011/04/Motodev-start.png)
 
-![My Version of the MotoDev App - Talk Listing](/uploads/images/blog/2011/04/Talk-List.png)
+![My Version of the MotoDev App - Talk Listing](/images/blog/2011/04/Talk-List.png)
 
-![Matt Oakes Take on the MotoDev Summit App - Listing](/uploads/images/blog/2011/04/ss-0-320-480-160-0-7159f4d8052fad3a662bb0448e32b25f32f40184.jpeg)
+![Matt Oakes Take on the MotoDev Summit App - Listing](/images/blog/2011/04/ss-0-320-480-160-0-7159f4d8052fad3a662bb0448e32b25f32f40184.jpeg)
 
-![Matt Oakes Take on the MotoDev Summit App - Talk Info](/uploads/images/blog/2011/04/ss-1-320-480-160-0-6e73b5ba5f390b70cb4728fe58e341d10eee5f81.jpeg) 
+![Matt Oakes Take on the MotoDev Summit App - Talk Info](/images/blog/2011/04/ss-1-320-480-160-0-6e73b5ba5f390b70cb4728fe58e341d10eee5f81.jpeg) 
 
 But this is frankly the most simple application and I would of expected much more from Motorola on this front, I spent 4 - 5 hours on my application and stopped at the event details because I didn't have the time to hard code the details in. But given a full day I would of matched their functionality, given another day I could of included mapping functionality, which hooked into Google Maps for directions and sharing capabilities with the hashtag included in the tweets. Then on the third day I would of optimised it for the Xoom (Something the current release doesn't do, or it at least didn't at the London event).
 

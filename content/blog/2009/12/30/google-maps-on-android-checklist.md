@@ -1,13 +1,13 @@
 ---
 title: "Google Maps on Android Checklist"
 excerpt: "A quick checklist for anyone starting out with using Google Maps"
-mainImage: "/uploads/images/blog/2014/06/30/2692346829-69b14eae45-o.jpg"
+mainImage: "/images/blog/2014/06/30/2692346829-69b14eae45-o.jpg"
 primaryColor: "#103499"
 date: "2009-12-30T16:27:46-08:00"
 updatedOn: "2009-12-30T16:27:46-08:00"
 slug: "google-maps-on-android-checklist"
 ---
-![Key art for blog post "Google Maps on Android Checklist "](/uploads/images/blog/2014/06/30/2692346829-69b14eae45-o.jpg)
+![Key art for blog post "Google Maps on Android Checklist "](/images/blog/2014/06/30/2692346829-69b14eae45-o.jpg)
 
 # Google Maps on Android Checklist
 

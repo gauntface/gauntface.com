@@ -1,13 +1,13 @@
 ---
 title: "CodeIgniter + Markdown + Libraries = Hell"
 excerpt: "Ever tried getting a third party library working in CodeIgniter? No? Oh, well maybe it's best to keep it that way aye."
-mainImage: "/uploads/images/blog/2014/05/24/hell.jpg"
+mainImage: "/images/blog/2014/05/24/hell.jpg"
 primaryColor: "#b95625"
 date: "2014-03-17T20:35:54-07:00"
 updatedOn: "2014-03-17T20:35:54-07:00"
 slug: "codeigniter-markdown-libraries-hell"
 ---
-![Key art for blog post "CodeIgniter + Markdown + Libraries = Hell "](/uploads/images/blog/2014/05/24/hell.jpg)
+![Key art for blog post "CodeIgniter + Markdown + Libraries = Hell "](/images/blog/2014/05/24/hell.jpg)
 
 # CodeIgniter + Markdown + Libraries = Hell
 

@@ -4,13 +4,13 @@ excerpt: |
   Is free time an important part of your work life?
   
   Thoughts on an interesting TED talk.
-mainImage: "/uploads/images/blog/2014/06/16/4961717384-e96fa7fb72-o.jpg"
+mainImage: "/images/blog/2014/06/16/4961717384-e96fa7fb72-o.jpg"
 primaryColor: "#86a59a"
 date: "2010-12-06T23:15:33-08:00"
 updatedOn: "2010-12-06T23:15:33-08:00"
 slug: "the-power-of-free-time"
 ---
-![Key art for blog post "The Power of Free Time "](/uploads/images/blog/2014/06/16/4961717384-e96fa7fb72-o.jpg)
+![Key art for blog post "The Power of Free Time "](/images/blog/2014/06/16/4961717384-e96fa7fb72-o.jpg)
 
 # The Power of Free Time 
 

@@ -1,13 +1,13 @@
 ---
 title: "Android UI Reference"
 excerpt: "A small slide deck on building Android UI and serves as a bit of a reference for custom design elements."
-mainImage: "/uploads/images/blog/2014/07/11/2265291597-d17bf9c3b2-o.png"
+mainImage: "/images/blog/2014/07/11/2265291597-d17bf9c3b2-o.png"
 primaryColor: "#1b1b1b"
 date: "2011-01-18T23:22:48-08:00"
 updatedOn: "2011-01-18T23:22:48-08:00"
 slug: "android-ui-reference"
 ---
-![Key art for blog post "Android UI Reference "](/uploads/images/blog/2014/07/11/2265291597-d17bf9c3b2-o.png)
+![Key art for blog post "Android UI Reference "](/images/blog/2014/07/11/2265291597-d17bf9c3b2-o.png)
 
 # Android UI Reference 
 

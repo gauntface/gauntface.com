@@ -1,13 +1,13 @@
 ---
 title: "Gulp & Sass"
 excerpt: "Just been toying with performance of compiling sass - some weird things I've spotted."
-mainImage: "/uploads/images/blog/2015/2015-09-17/gulpandsass.jpg"
+mainImage: "/images/blog/2015/2015-09-17/gulpandsass.jpg"
 primaryColor: ""
 date: "2015-06-09T16:10:49-07:00"
 updatedOn: "2015-06-09T16:10:49-07:00"
 slug: "gulp-and-sass"
 ---
-![Key art for blog post "Gulp & Sass "](/uploads/images/blog/2015/2015-09-17/gulpandsass.jpg)
+![Key art for blog post "Gulp & Sass "](/images/blog/2015/2015-09-17/gulpandsass.jpg)
 
 # Gulp & Sass
 

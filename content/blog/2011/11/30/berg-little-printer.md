@@ -4,13 +4,13 @@ excerpt: |
   This post is nothing more than a big congrats to Berg for releasing the Little Printer.
   
   A great looking product with a unique look on digital to physical life.
-mainImage: "/uploads/images/blog/2014/07/11/8647059978-7e0c0339ef-o.jpg"
+mainImage: "/images/blog/2014/07/11/8647059978-7e0c0339ef-o.jpg"
 primaryColor: "#404651"
 date: "2011-11-30T22:18:12-08:00"
 updatedOn: "2011-11-30T22:18:12-08:00"
 slug: "berg-little-printer"
 ---
-![Key art for blog post "Berg: Little Printer "](/uploads/images/blog/2014/07/11/8647059978-7e0c0339ef-o.jpg)
+![Key art for blog post "Berg: Little Printer "](/images/blog/2014/07/11/8647059978-7e0c0339ef-o.jpg)
 
 # Berg: Little Printer 
 
@@ -20,7 +20,7 @@ I'm not going to say much on it apart from a congrats to Berg for releasing it, 
 
 It's a bit of a weird thing to suggest (especially for an app developer), but a small chunk of paper I can grab in the morning, with all the bits of info I need for the day, that's pretty handy. The main reason I think it's going to be successful is because the output is something physical. 
 
-![Berg: Little Printer](/uploads/images/blog/2011/11/productpage-product-image.jpg)
+![Berg: Little Printer](/images/blog/2011/11/productpage-product-image.jpg)
 
 It's easy to believe that everything should be in the cloud and to be honest I keep the majority of my content in cloud. At the end of the day  I don't want to worry about back-ups and how to access content when I'm away from my usual computer. However, with this mentality comes a sense of letting go of all things physical, paper notes, CD's, DVD's, even hard drives, but should that be the case? 
 

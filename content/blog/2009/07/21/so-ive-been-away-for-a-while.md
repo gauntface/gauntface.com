@@ -1,13 +1,13 @@
 ---
 title: "So I've been away for a while . . ."
 excerpt: "Been away from blogging for a while - largely just Android development and moving house."
-mainImage: "/uploads/images/blog/2014/06/30/2283676770-55e4f51635-o.jpg"
+mainImage: "/images/blog/2014/06/30/2283676770-55e4f51635-o.jpg"
 primaryColor: "#e4aa27"
 date: "2009-07-21T14:47:48-07:00"
 updatedOn: "2009-07-21T14:47:48-07:00"
 slug: "so-ive-been-away-for-a-while"
 ---
-![Key art for blog post "So I've been away for a while . . . "](/uploads/images/blog/2014/06/30/2283676770-55e4f51635-o.jpg)
+![Key art for blog post "So I've been away for a while . . . "](/images/blog/2014/06/30/2283676770-55e4f51635-o.jpg)
 
 # So I've been away for a while . . . 
 

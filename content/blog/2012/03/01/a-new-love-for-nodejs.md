@@ -4,13 +4,13 @@ excerpt: |
   After playing with NodeJS for a few months I have to say I'm pretty damn impressed.
   
   Notes on why I like it so much and any concerns I have.
-mainImage: "/uploads/images/blog/2014/06/15/4582201683-4800ac4913-o-copy.jpg"
+mainImage: "/images/blog/2014/06/15/4582201683-4800ac4913-o-copy.jpg"
 primaryColor: "#b73a29"
 date: "2012-03-01T21:32:33-08:00"
 updatedOn: "2012-03-01T21:32:33-08:00"
 slug: "a-new-love-for-nodejs"
 ---
-![Key art for blog post "A New Love For NodeJS "](/uploads/images/blog/2014/06/15/4582201683-4800ac4913-o-copy.jpg)
+![Key art for blog post "A New Love For NodeJS "](/images/blog/2014/06/15/4582201683-4800ac4913-o-copy.jpg)
 
 # A New Love For NodeJS 
 

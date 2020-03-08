@@ -1,17 +1,17 @@
 ---
 title: "PageSpeed Quirks & Google Plus Sign In"
 excerpt: "When trying to use the Google+ Sign In button on my site, I found a few difficulties at making it happy with PageSpeed Insights and put down a few notes."
-mainImage: "/uploads/images/blog/2014/05/24/gplus.jpg"
+mainImage: "/images/blog/2014/05/24/gplus.jpg"
 primaryColor: "#8ade95"
 date: "2014-03-13T21:11:29-07:00"
 updatedOn: "2014-03-13T21:11:29-07:00"
 slug: "pagespeed-quirks-google-plus-sign-in"
 ---
-![Key art for blog post "PageSpeed Quirks & Google Plus Sign In "](/uploads/images/blog/2014/05/24/gplus.jpg)
+![Key art for blog post "PageSpeed Quirks & Google Plus Sign In "](/images/blog/2014/05/24/gplus.jpg)
 
 # PageSpeed Quirks & Google Plus Sign In
 
-![Loading Animation](/uploads/images/blog/2014/03/be60d6ac-d4f2-426b-8797-53dd4e5a836f.png "605")
+![Loading Animation](/images/blog/2014/03/be60d6ac-d4f2-426b-8797-53dd4e5a836f.png "605")
 
 For the back-end of my blog I wanted to use Google+ sign-in so that I didn't have to bother writing any user management logic.
 
@@ -23,11 +23,11 @@ $this->google->setRedirectUri('postmessage');
 
 Once it was up and running, I ran PageSpeed and got 85/100.
 
-![Render Blocking JS on PageSpeed](/uploads/images/blog/2014/03/Speed-Render-Blocking-JS.png "150")
+![Render Blocking JS on PageSpeed](/images/blog/2014/03/Speed-Render-Blocking-JS.png "150")
 
 Initial thoughts: Fine, You got me, I did a bad, what is it, oh a Javascript issue, let's fix that up, so an *async* on the Javascript and I'm up to 91/100.
 
-![No Blocking JS](/uploads/images/blog/2014/03/No-Blocking.png "150")
+![No Blocking JS](/images/blog/2014/03/No-Blocking.png "150")
 
 The oddity here was the error message.
 
@@ -41,19 +41,19 @@ The reason I'm getting this error is due to my site changing UI quite heavily fr
 
 ## Start with Loading Animation.....
 
-![Loading Animation](/uploads/images/blog/2014/03/be60d6ac-d4f2-426b-8797-53dd4e5a836f.png "605")
+![Loading Animation](/images/blog/2014/03/be60d6ac-d4f2-426b-8797-53dd4e5a836f.png "605")
 
 ## ....If We Aren't Signed In....
 
-![Sign In Screen](/uploads/images/blog/2014/03/c6d5ae76-11fe-4d13-a59a-4b4887ca62de.png "605")
+![Sign In Screen](/images/blog/2014/03/c6d5ae76-11fe-4d13-a59a-4b4887ca62de.png "605")
 
 ## ....If We Are Signed In Redirect
 
-![Add Blog](/uploads/images/blog/2014/03/9357c611-f69e-4b48-984c-4017a7e99330.png "605")
+![Add Blog](/images/blog/2014/03/9357c611-f69e-4b48-984c-4017a7e99330.png "605")
 
 If I drop the initial loading animation, we see a different score:
 
-![99 PageSpeed Score](/uploads/images/blog/2014/03/99-Score.png "150")
+![99 PageSpeed Score](/images/blog/2014/03/99-Score.png "150")
 
 The reason [PageSpeed](https://developers.google.com/speed/pagespeed/insights/) is picking this up is that it's creating two screenshots during the  test. One early on in the page load and one at the end, which it compares. By removing the loading animation and displaying the sign in screen, this test passes and the remaining 1 point is around the caching of the Javascript for G+ (It's 30 minutes).
 

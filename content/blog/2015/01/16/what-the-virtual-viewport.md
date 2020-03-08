@@ -1,13 +1,13 @@
 ---
 title: "What the Virtual Viewport?"
 excerpt: "We've heard the term \"virtual viewport\" get kicked around the office over the past few days and no one knew what it was. Rick Byers to the rescue."
-mainImage: "/uploads/images/blog/2015/2015-09-17/whatthevirtual.jpg"
+mainImage: "/images/blog/2015/2015-09-17/whatthevirtual.jpg"
 primaryColor: "#454047"
 date: "2015-01-16T14:38:40-08:00"
 updatedOn: "2015-01-16T14:38:40-08:00"
 slug: "what-the-virtual-viewport"
 ---
-![Key art for blog post "What the Virtual Viewport? "](/uploads/images/blog/2015/2015-09-17/whatthevirtual.jpg)
+![Key art for blog post "What the Virtual Viewport? "](/images/blog/2015/2015-09-17/whatthevirtual.jpg)
 
 # What the Virtual Viewport? 
 
@@ -23,7 +23,7 @@ The website videojs.com is a good example because it's toolbar is fixed to the t
 
 The image below shows what you would see if you zoomed in on a site and tried panning left and right, the top devices are Chrome Stable, which doesn't have a virtual viewport and the bottom 3 are from Chrome Beta, which does have a virtual viewport.
 
-![Example of Virtual Viewport](/uploads/images/blog/2015/01/16/virtualviewport1500h.png "1000")
+![Example of Virtual Viewport](/images/blog/2015/01/16/virtualviewport1500h.png "1000")
 
 In this example, stable Chrome (The top three images), which doesn't have the notion of a "virtual viewport" will show the top bar when you zoom, but you can't scroll to the right and view the links, you'll only ever see the logo.
 

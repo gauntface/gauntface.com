@@ -1,13 +1,13 @@
 ---
 title: "Nokia Nokia Nokia"
 excerpt: "I attended a Nokia event in London, here we have some notes as well as comments on the way Nokia positioned themselves at the event."
-mainImage: "/uploads/images/blog/2014/06/16/6082117463-f01f7b1273-o.jpg"
+mainImage: "/images/blog/2014/06/16/6082117463-f01f7b1273-o.jpg"
 primaryColor: "#613e24"
 date: "2011-02-05T14:53:28-08:00"
 updatedOn: "2011-02-05T14:53:28-08:00"
 slug: "nokia-nokia-nokia"
 ---
-![Key art for blog post "Nokia Nokia Nokia "](/uploads/images/blog/2014/06/16/6082117463-f01f7b1273-o.jpg)
+![Key art for blog post "Nokia Nokia Nokia "](/images/blog/2014/06/16/6082117463-f01f7b1273-o.jpg)
 
 # Nokia Nokia Nokia 
 

@@ -1,13 +1,13 @@
 ---
 title: "UI on the Big Screen & Android"
 excerpt: "A look at the best practices for UI on TV and comparing them to what we have on Android today."
-mainImage: "/uploads/images/blog/2014/06/15/5232306429-b3ec9418dc-o.jpg"
+mainImage: "/images/blog/2014/06/15/5232306429-b3ec9418dc-o.jpg"
 primaryColor: "#3fcae3"
 date: "2012-11-14T16:55:44-08:00"
 updatedOn: "2012-11-14T16:55:44-08:00"
 slug: "ui-on-the-big-screen-android"
 ---
-![Key art for blog post "UI on the Big Screen & Android "](/uploads/images/blog/2014/06/15/5232306429-b3ec9418dc-o.jpg)
+![Key art for blog post "UI on the Big Screen & Android "](/images/blog/2014/06/15/5232306429-b3ec9418dc-o.jpg)
 
 # UI on the Big Screen & Android
 
@@ -15,7 +15,7 @@ Working as part of the Google TV developer relations team means I see a lot of G
 
 ## No Toast for Me
 
-![Toasts on Google TV](/uploads/images/blog/2012/11/device-2012-11-05-163904.png)
+![Toasts on Google TV](/images/blog/2012/11/device-2012-11-05-163904.png)
 
 These little guys have been around since the days of Android Cupcake. For me they are a fantastic tool for showing up information when certain tasks were done without needing to look at LogCat, but for showing information from your application, outside of the debug build? I'm not so sure. They suffer from a number of problems:
 
@@ -28,13 +28,13 @@ These little guys have been around since the days of Android Cupcake. For me the
 
 If you still like the simplicity of the Toast API, then why not consider using a Crouton instead? They overcome the problem of identifying which app the message came from  as well as being customisable. <https://github.com/keyboardsurfer/Crouton>
 
-![Croutons on Google TV](/uploads/images/blog/2012/11/Crouton-device-2012-11-05-165501.png)
+![Croutons on Google TV](/images/blog/2012/11/Crouton-device-2012-11-05-165501.png)
 
 ## Use an ActionBar
 
-![Google Play Aciton Bar on Google TV](/uploads/images/blog/2012/11/Action-Bar-Crop-device-2012-11-05-165735.png "1024")
+![Google Play Aciton Bar on Google TV](/images/blog/2012/11/Action-Bar-Crop-device-2012-11-05-165735.png "1024")
 
-![YouTube Left Nav Bar on Google TV](/uploads/images/blog/2012/11/Left-Nav-Bar-Both.png "500")
+![YouTube Left Nav Bar on Google TV](/images/blog/2012/11/Left-Nav-Bar-Both.png "500")
 
 Android Mobile & Tablets have strong design guidelines and I think it's fair to say that since the introduction of the UI guidelines, developers have found it useful to be steered in the right direction as far as design is concerned. The end result being users get a common user interface, reducing the time needed to learn how to use a new app.
 
@@ -48,7 +48,7 @@ If you have vertical scrolling in your application, consider using the LeftNavBa
 
 This has a huge affect on your apps look and feel and requires little effort to implement. I've seen a few applications, which by default, don't use the Holo theme for their UI and you can tell by the look of the Dialog and the activity circle (as well as other stock widgets).
 
-![No Holo for Maps on TV](/uploads/images/blog/2012/11/No-Holo-for-Maps-on-TVdevice-2012-11-13-164706.png "1024")
+![No Holo for Maps on TV](/images/blog/2012/11/No-Holo-for-Maps-on-TVdevice-2012-11-13-164706.png "1024")
 
 But what is causing this? Well the offending line of code in the manifest is:
 
@@ -64,7 +64,7 @@ android:theme="@android:style/Theme.Holo.NoActionBar"
 
 You get:
 
-![Maps on TV with Holo](/uploads/images/blog/2012/11/Maps-on-TV-with-Holo-device-2012-11-13-165520.png "1024")
+![Maps on TV with Holo](/images/blog/2012/11/Maps-on-TV-with-Holo-device-2012-11-13-165520.png "1024")
 
 That's more like it :)
 
@@ -80,7 +80,7 @@ Have a look here for some info on themes and some of the widgets you can use:
 
 ## No Loading Dialog for Me
 
-![Loading Dialog](/uploads/images/blog/2012/11/Loading-Dialog.png)
+![Loading Dialog](/images/blog/2012/11/Loading-Dialog.png)
 
 Ever seen this dialog?
 
@@ -96,7 +96,7 @@ If you use the holo-colors link above, you don't have much to do ;)
 
 But we all like a bit of custom stuff, so if you do go down this route, then add focusing and ensure it works. If you are developing on a Tablet, then try adding a Bluetooth keyboard and using the arrows keys OR use the simulator with your computers arrow keys.
 
-![Touch states in Android](/uploads/images/blog/2012/11/touch_feedback_states.png)
+![Touch states in Android](/images/blog/2012/11/touch_feedback_states.png)
 
 <http://developer.android.com/design/style/touch-feedback.html>
 

@@ -4,17 +4,17 @@ excerpt: |
   In Android KitKat you have the ability to have a translucent theme in your app so you can style notification bar and navigation bar.
 
   We'll look at a basic example for doing this.
-mainImage: "/uploads/images/blog/2014/05/24/kitkat.jpg"
+mainImage: "/images/blog/2014/05/24/kitkat.jpg"
 primaryColor: "#c49e51"
 date: "2014-01-10T14:37:45-08:00"
 updatedOn: "2014-01-10T14:37:45-08:00"
 slug: "translucent-theme-in-android"
 ---
-![Key art for blog post "Translucent Theme in Android "](/uploads/images/blog/2014/05/24/kitkat.jpg)
+![Key art for blog post "Translucent Theme in Android "](/images/blog/2014/05/24/kitkat.jpg)
 
 # Translucent Theme in Android
 
-![Non Translucent and Translucent Android ActionBar](/uploads/images/blog/2014/01/device-2014-01-10-1.png "605")
+![Non Translucent and Translucent Android ActionBar](/images/blog/2014/01/device-2014-01-10-1.png "605")
 
 One of the new features in KitKat is the Translucent UI, where you have the ability to sit behind status and navigation bars, meaning you can have the subtle change shown above (left side is normal, right side is the translucent version).
 
@@ -33,7 +33,7 @@ To get going you need to set the following properties in your theme:
 
 Now the interesting thing is what you end up with when you use this. Everything is behind the ActionBar. Hmmmmm.
 
-![Initial Translucent Setting of Android App - Broken](/uploads/images/blog/2014/01/device-2014-01-10-120346vjggjgjgj.png "1024")
+![Initial Translucent Setting of Android App - Broken](/images/blog/2014/01/device-2014-01-10-120346vjggjgjgj.png "1024")
 
 So let's step through how we fix this.
 
@@ -104,7 +104,7 @@ The trick is wrap the navigation draw with a FrameLayout and apply the _fitsSyst
 
 This will give us the following layout.
 
-![Example Screenshot of Devices with fitsSystemWindows](/uploads/images/blog/2014/01/device-2014-01-10-120346vjggjgjgvvvvvj.png "1024")
+![Example Screenshot of Devices with fitsSystemWindows](/images/blog/2014/01/device-2014-01-10-120346vjggjgjgvvvvvj.png "1024")
 
 ## Add Some Color
 
@@ -114,7 +114,7 @@ To change the color of the status bar I just set the windowBackground attribute 
 <item name="android:windowBackground">@color/window_bg</item>
 ```
 
-![Screenshot with background color](/uploads/images/blog/2014/01/device-2014-01-10-135355.png "605")
+![Screenshot with background color](/images/blog/2014/01/device-2014-01-10-135355.png "605")
 
 Now I’d love to have a transparent navigation bar and if I could get the height of the navigation bar reliably, I would actually use that space for part of my UI and add padding to shift touchable elements at the bottom of my UI. But since I can’t find the height, that space is useless to me, hence a quick switch of the navigation bar to black with:
 
@@ -124,4 +124,4 @@ Now I’d love to have a transparent navigation bar and if I could get the heigh
 
 ## Fin.
 
-![Screenshot of finished result](/uploads/images/blog/2014/01/device-2014-01-10-135834.png "605")
+![Screenshot of finished result](/images/blog/2014/01/device-2014-01-10-135834.png "605")

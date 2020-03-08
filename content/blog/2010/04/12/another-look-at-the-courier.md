@@ -1,17 +1,17 @@
 ---
 title: "Another Look At The Courier"
 excerpt: "A look at the Microsoft Courier and the research behind it."
-mainImage: "/uploads/images/blog/2014/06/23/17wj5q452y89yjpg.jpg"
+mainImage: "/images/blog/2014/06/23/17wj5q452y89yjpg.jpg"
 primaryColor: "#56524f"
 date: "2010-04-12T22:18:33-07:00"
 updatedOn: "2010-04-12T22:18:33-07:00"
 slug: "another-look-at-the-courier"
 ---
-![Key art for blog post "Another Look At The Courier "](/uploads/images/blog/2014/06/23/17wj5q452y89yjpg.jpg)
+![Key art for blog post "Another Look At The Courier "](/images/blog/2014/06/23/17wj5q452y89yjpg.jpg)
 
 # Another Look At The Courier 
 
-![Early Prototype of the Microsoft Courier](/uploads/images/blog/2010/04/codex-book-posture.png)
+![Early Prototype of the Microsoft Courier](/images/blog/2010/04/codex-book-posture.png)
 
 Ever since I've seen those video's I've been getting very impatient in terms of news.
 
@@ -53,7 +53,7 @@ Microsoft have old videos of "Courier like" devices, the UI looks old, ugly and 
 
 You can see the UI is very different, but it's a thought provoker, has this been in the works for a long time, or did they forget it a long time ago and now figured this is the time to launch it? 
 
-![Early Microsoft Courier Prototype Closed](/uploads/images/blog/2010/04/codex-case-80-pct.png)
+![Early Microsoft Courier Prototype Closed](/images/blog/2010/04/codex-case-80-pct.png)
 
 I get the impression they asked a design team to take the Codex concept (above) and turn it into a viable, attractive product. This team produced the first video below. 
 

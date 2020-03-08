@@ -1,13 +1,13 @@
 ---
 title: "Web Development on Maverick Meerkat"
 excerpt: "Getting Ubuntu Maverick Meerkat set up for Web Development with an Apache Server."
-mainImage: "/uploads/images/blog/2014/06/16/4595771286-33fe96a4db-o.jpg"
+mainImage: "/images/blog/2014/06/16/4595771286-33fe96a4db-o.jpg"
 primaryColor: "#848474"
 date: "2010-11-07T19:13:42-08:00"
 updatedOn: "2010-11-07T19:13:42-08:00"
 slug: "web-development-on-maverick-meerkat"
 ---
-![Key art for blog post "Web Development on Maverick Meerkat "](/uploads/images/blog/2014/06/16/4595771286-33fe96a4db-o.jpg)
+![Key art for blog post "Web Development on Maverick Meerkat "](/images/blog/2014/06/16/4595771286-33fe96a4db-o.jpg)
 
 # Web Development on Maverick Meerkat
 

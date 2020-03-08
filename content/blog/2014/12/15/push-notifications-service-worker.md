@@ -4,13 +4,13 @@ excerpt: |
   Service worker is a seriously bad ass API. But what do you do with a bad ass API? Make it totes legit with some push notifications.
   
   I promise the article is better than this intro.
-mainImage: "/uploads/images/blog/2015/2015-09-17/push.jpg"
+mainImage: "/images/blog/2015/2015-09-17/push.jpg"
 primaryColor: ""
 date: "2014-12-15T09:27:42-08:00"
 updatedOn: "2014-12-15T09:27:42-08:00"
 slug: "push-notifications-service-worker"
 ---
-![Key art for blog post "Push Notifications & Service Worker "](/uploads/images/blog/2015/2015-09-17/push.jpg)
+![Key art for blog post "Push Notifications & Service Worker "](/images/blog/2015/2015-09-17/push.jpg)
 
 # Push Notifications & Service Worker 
 

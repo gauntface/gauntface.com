@@ -1,13 +1,13 @@
 ---
 title: "Proximity Alerts in Android"
 excerpt: "Getting proximity alerts to work in Android involves a little bit of black magic, as noted here."
-mainImage: "/uploads/images/blog/2014/06/29/11194772464-80fe47026b-o.jpg"
+mainImage: "/images/blog/2014/06/29/11194772464-80fe47026b-o.jpg"
 primaryColor: "#77afcd"
 date: "2010-01-04T23:24:07-08:00"
 updatedOn: "2010-01-04T23:24:07-08:00"
 slug: "proximity-alerts-in-android"
 ---
-![Key art for blog post "Proximity Alerts in Android "](/uploads/images/blog/2014/06/29/11194772464-80fe47026b-o.jpg)
+![Key art for blog post "Proximity Alerts in Android "](/images/blog/2014/06/29/11194772464-80fe47026b-o.jpg)
 
 # Proximity Alerts in Android
 

@@ -2,13 +2,13 @@
 title: "Crimp Housing for Makers"
 excerpt: "I would have loved for someone to have told me about
 crimp housing when I first started playing around with electronics."
-mainImage: "/uploads/images/blog/2019/2019-01-18/electronics.jpg"
+mainImage: "/images/blog/2019/2019-01-18/electronics.jpg"
 primaryColor: "#5DBCD2"
 date: "2019-01-19T18:00:00-07:00"
 updatedOn: "2019-01-19T18:00:00-07:00"
 slug: "crimp-housing-for-makers"
 ---
-![Key art for blog post "Crimp Housing for Makers"](/uploads/images/blog/2019/2019-01-19/electronics-mess.jpg)
+![Key art for blog post "Crimp Housing for Makers"](/images/blog/2019/2019-01-19/electronics-mess.jpg)
 
 The thought of soldering a circuit board when I'm still playing
 and learning how it works seems like a waste, but I've found
@@ -23,7 +23,7 @@ the end of thin electrical wire.
 The crimp housing simply covers the pin, protecting the exposed wire
 and fitting.
 
-![Example of the Crimp Pin and Housing](/uploads/images/blog/2019/2019-01-19/housing-removed.jpg)
+![Example of the Crimp Pin and Housing](/images/blog/2019/2019-01-19/housing-removed.jpg)
 
 Most electronics kits come with a batch of single wires with the 
 crimp pins and housing done for you.
@@ -46,7 +46,7 @@ and I would strongly recommend it over anything I can say on the matter.
 The crimp housing is a plastic cover and each pin slides in and
 is kept in place by a small plastic latch on the housing.
 
-![Image illustrating the crimp housing latch](/uploads/images/blog/2019/2019-01-19/housing-latch.jpg)
+![Image illustrating the crimp housing latch](/images/blog/2019/2019-01-19/housing-latch.jpg)
 
 ## Example Use
 
@@ -57,7 +57,7 @@ from the individual housings and put them into a 3x1 housing.
 Viola, easier to use and I'm using the housing arrow to point to
 the top most location.
 
-![Changing the USB serial cable to use a 3x1 crimp housing](/uploads/images/blog/2019/2019-01-19/usb-serial-3-housing.jpg)
+![Changing the USB serial cable to use a 3x1 crimp housing](/images/blog/2019/2019-01-19/usb-serial-3-housing.jpg)
 
 Note: I left out the fourth pin (red cable) because I'm more likely
 to plug the Pi into a stronger power source, meaning this cable won't

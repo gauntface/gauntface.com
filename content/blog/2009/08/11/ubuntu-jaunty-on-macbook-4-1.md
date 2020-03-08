@@ -1,17 +1,17 @@
 ---
 title: "Ubuntu Jaunty on MacBook 4.1"
 excerpt: "A short guide to getting Jaunty Jackalope running on an MacBook 4.1"
-mainImage: "/uploads/images/blog/2014/06/30/3366621990-669b12c37d-o.jpg"
+mainImage: "/images/blog/2014/06/30/3366621990-669b12c37d-o.jpg"
 primaryColor: "#623022"
 date: "2009-08-11T20:16:06-07:00"
 updatedOn: "2009-08-11T20:16:06-07:00"
 slug: "ubuntu-jaunty-on-macbook-4-1"
 ---
-![Key art for blog post "Ubuntu Jaunty on MacBook 4.1 "](/uploads/images/blog/2014/06/30/3366621990-669b12c37d-o.jpg)
+![Key art for blog post "Ubuntu Jaunty on MacBook 4.1 "](/images/blog/2014/06/30/3366621990-669b12c37d-o.jpg)
 
 # Ubuntu Jaunty on MacBook 4.1
 
-![MacBook Ubuntu](/uploads/images/blog/2009/08/macBookUbuntu.png)
+![MacBook Ubuntu](/images/blog/2009/08/macBookUbuntu.png)
 
 So tonight I finally got Jaunty on my MacBook - from my experience there is a bug in the current Jaunty CD's (both alternate and live CD) by which GRUB boot loader doesn't install properly, the weird thing was I didn't have this problem when I first tried Jaunty. Anyway if you want jaunty go and download Ubuntu Intrepid Ibex 8.10 from here - <http://releases.ubuntu.com/intrepid/>. Install that on your macbook the normal way (For a full guide go here - <http://ubuntuforums.org/showthread.php?t=1192296>)
 

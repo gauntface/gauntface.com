@@ -4,13 +4,13 @@ excerpt: |
   A common practice for web developers targeting TVs seems to be taking the 720p UI and simply zooming in on it to fill a 1080p screen.
 
   But this isn't the best way.
-mainImage: "/uploads/images/blog/2014/06/15/5882785-dbfe28f983-o.jpg"
+mainImage: "/images/blog/2014/06/15/5882785-dbfe28f983-o.jpg"
 primaryColor: "#e21905"
 date: "2012-12-04T13:34:11-08:00"
 updatedOn: "2012-12-04T13:34:11-08:00"
 slug: "to-zoom-or-to-scale"
 ---
-![Key art for blog post "To Zoom or to Scale "](/uploads/images/blog/2014/06/15/5882785-dbfe28f983-o.jpg)
+![Key art for blog post "To Zoom or to Scale "](/images/blog/2014/06/15/5882785-dbfe28f983-o.jpg)
 
 # To Zoom or to Scale
 

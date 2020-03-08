@@ -4,13 +4,13 @@ excerpt: |
   Adding support for D-Pad navigation is much harder than it should be for a web application.
 
   I've taken some of the best bits of a sample application written for Google TV and generalised it to hopefully help others add in D-Pad support by including some additional class names and tabindexes to your HTML.
-mainImage: "/uploads/images/blog/2014/07/11/8004856128-1a22b73f3a-o.jpg"
+mainImage: "/images/blog/2014/07/11/8004856128-1a22b73f3a-o.jpg"
 primaryColor: "#1a3e47"
 date: "2014-01-14T15:27:34-08:00"
 updatedOn: "2014-01-14T15:27:34-08:00"
 slug: "d-pad-navigation-in-a-web-app-2-0"
 ---
-![Key art for blog post "D-Pad Navigation in a Web App 2.0 "](/uploads/images/blog/2014/07/11/8004856128-1a22b73f3a-o.jpg)
+![Key art for blog post "D-Pad Navigation in a Web App 2.0 "](/images/blog/2014/07/11/8004856128-1a22b73f3a-o.jpg)
 
 # D-Pad Navigation in a Web App 2.0
 
@@ -102,7 +102,7 @@ There is a debug option to display lines which indicate the link between each no
 window.dpadFocusController.toggleDebugMode();
 ```
 
-![D-Pad Navigation Library in Debug Mode](/uploads/images/blog/2014/01/Google-TV-Stuff.png "860")
+![D-Pad Navigation Library in Debug Mode](/images/blog/2014/01/Google-TV-Stuff.png "860")
 
 # Be Gentle...
 

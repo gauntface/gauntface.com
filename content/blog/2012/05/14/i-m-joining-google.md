@@ -1,17 +1,17 @@
 ---
 title: "I'm Joining Google"
 excerpt: "Leaving Future Platforms for Google .... aaahhhh yeah."
-mainImage: "/uploads/images/blog/2014/06/15/img-8375.jpg"
+mainImage: "/images/blog/2014/06/15/img-8375.jpg"
 primaryColor: "#d6be62"
 date: "2012-05-14T21:01:18-07:00"
 updatedOn: "2012-05-14T21:01:18-07:00"
 slug: "i-m-joining-google"
 ---
-![Key art for blog post "I'm Joining Google "](/uploads/images/blog/2014/06/15/img-8375.jpg)
+![Key art for blog post "I'm Joining Google "](/images/blog/2014/06/15/img-8375.jpg)
 
 # I'm Joining Google 
 
-![Google TV Logo](/uploads/images/blog/2012/05/google-tv-logo3-m.jpg) 
+![Google TV Logo](/images/blog/2012/05/google-tv-logo3-m.jpg) 
 
 I've been a bit quiet on all the social networks lately and I am very happy to come back with some fantastic news. 
 

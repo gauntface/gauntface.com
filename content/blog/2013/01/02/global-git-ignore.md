@@ -4,13 +4,13 @@ excerpt: |
   Having unwanted files in a git repo is just a pain and can often bloat your repo, often resulting in problems when working with others.
 
   Here's a brain dump of using the global git ignore and the files I ignore by default.
-mainImage: "/uploads/images/blog/2014/06/15/4817906071-ebe598d664-o.jpg"
+mainImage: "/images/blog/2014/06/15/4817906071-ebe598d664-o.jpg"
 primaryColor: "#453338"
 date: "2013-01-02T14:02:54-08:00"
 updatedOn: "2013-01-02T14:02:54-08:00"
 slug: "global-git-ignore"
 ---
-![Key art for blog post "Global Git Ignore "](/uploads/images/blog/2014/06/15/4817906071-ebe598d664-o.jpg)
+![Key art for blog post "Global Git Ignore "](/images/blog/2014/06/15/4817906071-ebe598d664-o.jpg)
 
 # Global Git Ignore
 

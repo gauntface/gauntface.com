@@ -1,13 +1,13 @@
 ---
 title: "Building Anymote jar"
 excerpt: "The Anymote library for Google TV had a few issues when I tried to build it, so for anyone else trying to do the same, this might have a few helpful tips on getting there."
-mainImage: "/uploads/images/blog/2014/06/15/google-tv-remote-app-icon.jpg"
+mainImage: "/images/blog/2014/06/15/google-tv-remote-app-icon.jpg"
 primaryColor: "#277ce7"
 date: "2012-10-16T15:28:58-07:00"
 updatedOn: "2012-10-16T15:28:58-07:00"
 slug: "building-anymote-jar"
 ---
-![Key art for blog post "Building Anymote jar "](/uploads/images/blog/2014/06/15/google-tv-remote-app-icon.jpg)
+![Key art for blog post "Building Anymote jar "](/images/blog/2014/06/15/google-tv-remote-app-icon.jpg)
 
 # Building Anymote jar
 

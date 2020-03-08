@@ -1,13 +1,13 @@
 ---
 title: "LastMinute.com + Nokia + Qt & Me"
 excerpt: "After myself and James Hugman developed the Lastminute.com app for the Nokia Symbian platform we were invited to talk about our experience with Nokia."
-mainImage: "/uploads/images/blog/2014/06/15/4188753919-323bded0fa-o.jpg"
+mainImage: "/images/blog/2014/06/15/4188753919-323bded0fa-o.jpg"
 primaryColor: "#e7a1b6"
 date: "2011-11-30T20:02:31-08:00"
 updatedOn: "2011-11-30T20:02:31-08:00"
 slug: "lastminute-com-nokia-qt-me"
 ---
-![Key art for blog post "LastMinute.com + Nokia + Qt & Me "](/uploads/images/blog/2014/06/15/4188753919-323bded0fa-o.jpg)
+![Key art for blog post "LastMinute.com + Nokia + Qt & Me "](/images/blog/2014/06/15/4188753919-323bded0fa-o.jpg)
 
 # LastMinute.com + Nokia + Qt & Me 
 

@@ -4,13 +4,13 @@ excerpt: |
   Each distro seems to have slight variations on setting up a web development environment.
 
   Here's the notes from setting up Apache for Arch Linux.
-mainImage: "/uploads/images/blog/2014/06/16/8916518089-2f93c695f7-o-copy.jpg"
+mainImage: "/images/blog/2014/06/16/8916518089-2f93c695f7-o-copy.jpg"
 primaryColor: "#0d232d"
 date: "2011-07-07T20:35:33-07:00"
 updatedOn: "2011-07-07T20:35:33-07:00"
 slug: "arch-linux-apache-sites"
 ---
-![Key art for blog post "Arch Linux - Apache Sites "](/uploads/images/blog/2014/06/16/8916518089-2f93c695f7-o-copy.jpg)
+![Key art for blog post "Arch Linux - Apache Sites "](/images/blog/2014/06/16/8916518089-2f93c695f7-o-copy.jpg)
 
 # Arch Linux - Apache Sites
 

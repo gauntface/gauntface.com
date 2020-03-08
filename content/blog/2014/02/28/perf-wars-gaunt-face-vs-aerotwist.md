@@ -1,13 +1,13 @@
 ---
 title: "Perf Wars: Gaunt Face vs Aerotwist"
 excerpt: "Performant Web Apps...... The harsh world of getting 60fps for a newbie web developer."
-mainImage: "/uploads/images/blog/2014/05/24/lego-war.jpg"
+mainImage: "/images/blog/2014/05/24/lego-war.jpg"
 primaryColor: "#6c9c9c"
 date: "2014-02-28T17:32:22-08:00"
 updatedOn: "2014-02-28T17:32:22-08:00"
 slug: "perf-wars-gaunt-face-vs-aerotwist"
 ---
-![Key art for blog post "Perf Wars: Gaunt Face vs Aerotwist "](/uploads/images/blog/2014/05/24/lego-war.jpg)
+![Key art for blog post "Perf Wars: Gaunt Face vs Aerotwist "](/images/blog/2014/05/24/lego-war.jpg)
 
 # Perf Wars: Gaunt Face vs Aerotwist
 
@@ -37,7 +37,7 @@ I've started work on my new site and I was figuring out what kind of components 
 
 After a few hours of coding, the initial static version of my site was ripped apart and the makeshift component library was formed.
 
-![Component List](/uploads/images/blog/2014/02/Screenshot-from-2014-02-28-135238.png)
+![Component List](/images/blog/2014/02/Screenshot-from-2014-02-28-135238.png)
 
 This is where our story begins.
 
@@ -61,7 +61,7 @@ Once I had made that change, I wanted to check the frame rate of the animations.
 
 Running the timeline, there were two issues, I had regular dips in frame rate to 30fps (Generally when animations start / end) and there were some big old paints.
 
-![Screenshot of Chrome Timeline for the Navigation Drawer](/uploads/images/blog/2014/02/Screenshot-from-2014-02-28-150032.png "1024")
+![Screenshot of Chrome Timeline for the Navigation Drawer](/images/blog/2014/02/Screenshot-from-2014-02-28-150032.png "1024")
 
 A personal pet peeve is the large clear bars in the timeline, which basically indicates that Chrome is doing something, but Chrome isn't quite sure what it is, or there is no meaningful way to show the data, so it's kind of a black box. Me being me, poked [Paul Lewis](http://aerotwist.com/) and asked if he could give me a hand at figuring out what was up. We didn't look too hard, but since the bars were largely unfilled and chrome://tracing didn't have any obvious issues, it looked like a Chrome issue, so I reached out to an engineer, asked if they could help and we got a quick answer - I was flipping a Z-Index from -1 to 2 - <https://code.google.com/p/chromium/issues/detail?id=344625>.
 
@@ -77,11 +77,11 @@ This was breaking point for me, I had enough, the web clearly wasn't up to this 
 
 Well persistent nagging meant Paul went away and produced this: [http://jsbin.com/tiyoxobe/4/](http://jsbin.com/tiyoxobe/4/quiet/). A lovely non-painting version of the drawer.
 
-![Screenshot of Paul Lewis Demo Timeline](/uploads/images/blog/2014/02/Screenshot-of-Paul-Lewis-Demo-Timeline.png "1024")
+![Screenshot of Paul Lewis Demo Timeline](/images/blog/2014/02/Screenshot-of-Paul-Lewis-Demo-Timeline.png "1024")
 
 In my head I imagine he was all like:
 
-![Magnum P.I. gif](/uploads/images/blog/2014/02/magnum.gif "200")
+![Magnum P.I. gif](/images/blog/2014/02/magnum.gif "200")
 
 ## The Opacity Issue
 
@@ -95,7 +95,7 @@ Who in their right mind does this? Well apparently [Aerotwist](http://aerotwist.
 
 Moving swiftly along, I put this change in my page along with moving from a background color with an alpha value to a solid color and reducing the opacity from 1 to something lower. Suddenly a much happier looking graph appeared with no large paints.
 
-![Screenshot of Timeline without Request Animation Frame](/uploads/images/blog/2014/02/Screenshot-of-Timeline-without-Request-Animation-Frame.png "1024")
+![Screenshot of Timeline without Request Animation Frame](/images/blog/2014/02/Screenshot-of-Timeline-without-Request-Animation-Frame.png "1024")
 
 # Final Thoughts
 

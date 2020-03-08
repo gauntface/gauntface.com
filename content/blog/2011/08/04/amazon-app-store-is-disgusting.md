@@ -1,13 +1,13 @@
 ---
 title: "Amazon App Store is Disgusting"
 excerpt: "After reading a somewhat disappointing story of how Amazon mis-treated a developer, I ended up in a somewhat similar situation when attempting to remove one of my own apps from their store."
-mainImage: "/uploads/images/blog/2014/06/16/12612307855-8f581dacb5-o.jpg"
+mainImage: "/images/blog/2014/06/16/12612307855-8f581dacb5-o.jpg"
 primaryColor: "#0a0d0a"
 date: "2011-08-04T21:05:56-07:00"
 updatedOn: "2011-08-04T21:05:56-07:00"
 slug: "amazon-app-store-is-disgusting"
 ---
-![Key art for blog post "Amazon App Store is Disgusting "](/uploads/images/blog/2014/06/16/12612307855-8f581dacb5-o.jpg)
+![Key art for blog post "Amazon App Store is Disgusting "](/images/blog/2014/06/16/12612307855-8f581dacb5-o.jpg)
 
 # Amazon App Store is Disgusting 
 

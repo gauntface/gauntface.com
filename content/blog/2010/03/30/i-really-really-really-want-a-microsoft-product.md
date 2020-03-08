@@ -1,17 +1,17 @@
 ---
 title: "I Really want a . . . .  Microsoft Product"
 excerpt: "An initial look at the moleskin-esque tablet from Microsoft."
-mainImage: "/uploads/images/blog/2014/06/23/2883322248-39ee413933-o.jpg"
+mainImage: "/images/blog/2014/06/23/2883322248-39ee413933-o.jpg"
 primaryColor: "#9f9da1"
 date: "2010-03-30T22:37:43-07:00"
 updatedOn: "2010-03-30T22:37:43-07:00"
 slug: "i-really-really-really-want-a-microsoft-product"
 ---
-![Key art for blog post "I Really want a . . . .  Microsoft Product"](/uploads/images/blog/2014/06/23/2883322248-39ee413933-o.jpg)
+![Key art for blog post "I Really want a . . . .  Microsoft Product"](/images/blog/2014/06/23/2883322248-39ee413933-o.jpg)
 
 # I Really want a . . . .  Microsoft Product
 
-![Screen capture of the Microsoft Courier](/uploads/images/blog/2010/03/couriervid1.jpg)
+![Screen capture of the Microsoft Courier](/images/blog/2010/03/couriervid1.jpg)
 
 Shock horror right?
 
@@ -33,4 +33,4 @@ Nice UI - Intelligent UI - Solid Implementation
 
 p.s. I really would like to see a moleskin cover for the courier (Don't know what I just like the moleskin look/branding)
 
-![Image of Moleskin Notebook](/uploads/images/blog/2010/03/moleskin.jpg)
+![Image of Moleskin Notebook](/images/blog/2010/03/moleskin.jpg)

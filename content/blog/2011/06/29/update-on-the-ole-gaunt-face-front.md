@@ -1,13 +1,13 @@
 ---
 title: "Update on the Ole' Gaunt Face Front"
 excerpt: "What have I been up to I hear you ask...."
-mainImage: "/uploads/images/blog/2014/06/16/5872625524-b46916d50a-z.jpg"
+mainImage: "/images/blog/2014/06/16/5872625524-b46916d50a-z.jpg"
 primaryColor: "#637b9f"
 date: "2011-06-29T21:05:29-07:00"
 updatedOn: "2011-06-29T21:05:29-07:00"
 slug: "update-on-the-ole-gaunt-face-front"
 ---
-![Key art for blog post "Update on the Ole' Gaunt Face Front "](/uploads/images/blog/2014/06/16/5872625524-b46916d50a-z.jpg)
+![Key art for blog post "Update on the Ole' Gaunt Face Front "](/images/blog/2014/06/16/5872625524-b46916d50a-z.jpg)
 
 # Update on the Ole' Gaunt Face Front
 

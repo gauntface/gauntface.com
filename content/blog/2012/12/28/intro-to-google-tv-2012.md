@@ -1,13 +1,13 @@
 ---
 title: "Intro to Google TV 2012"
 excerpt: "After travelling around Europe giving presentations on Google TV, I rounded the year off with presenting at Droidcon NL. This post has the slide deck and a cheeky image of one of our more *interesting* office hours."
-mainImage: "/uploads/images/blog/2014/07/11/img-20121122-155801.jpg"
+mainImage: "/images/blog/2014/07/11/img-20121122-155801.jpg"
 primaryColor: "#1b2022"
 date: "2012-12-28T14:50:39-08:00"
 updatedOn: "2012-12-28T14:50:39-08:00"
 slug: "intro-to-google-tv-2012"
 ---
-![Key art for blog post "Intro to Google TV 2012 "](/uploads/images/blog/2014/07/11/img-20121122-155801.jpg)
+![Key art for blog post "Intro to Google TV 2012 "](/images/blog/2014/07/11/img-20121122-155801.jpg)
 
 # Intro to Google TV 2012 
 

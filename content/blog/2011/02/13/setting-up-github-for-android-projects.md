@@ -1,13 +1,13 @@
 ---
 title: "Setting Up GitHub for Android Projects"
 excerpt: "What should be put into *.gitignore* as well as some other notes on using git."
-mainImage: "/uploads/images/blog/2014/06/16/heisencat.jpg"
+mainImage: "/images/blog/2014/06/16/heisencat.jpg"
 primaryColor: "#bb7867"
 date: "2011-02-13T13:51:58-08:00"
 updatedOn: "2011-02-13T13:51:58-08:00"
 slug: "setting-up-github-for-android-projects"
 ---
-![Key art for blog post "Setting Up GitHub for Android Projects "](/uploads/images/blog/2014/06/16/heisencat.jpg)
+![Key art for blog post "Setting Up GitHub for Android Projects "](/images/blog/2014/06/16/heisencat.jpg)
 
 # Setting Up GitHub for Android Projects 
 

@@ -1,13 +1,13 @@
 ---
 title: "Arduino Fun Times"
 excerpt: "Brief notes of playing with Arduino"
-mainImage: "/uploads/images/blog/2014/06/16/6052455554-61b54422d4-o.jpg"
+mainImage: "/images/blog/2014/06/16/6052455554-61b54422d4-o.jpg"
 primaryColor: "#5b8bae"
 date: "2011-03-12T16:26:53-08:00"
 updatedOn: "2011-03-12T16:26:53-08:00"
 slug: "arduino-fun-times"
 ---
-![Key art for blog post "Arduino Fun Times "](/uploads/images/blog/2014/06/16/6052455554-61b54422d4-o.jpg)
+![Key art for blog post "Arduino Fun Times "](/images/blog/2014/06/16/6052455554-61b54422d4-o.jpg)
 
 # Arduino Fun Times
 
@@ -19,7 +19,7 @@ Nan over at Mubaloo bought an Arduino for everyone to have a little play with, s
 
 I set the logo image to image below.
 
-![Arduino Logo](/uploads/images/blog/2011/03/menu_logo.png "200")
+![Arduino Logo](/images/blog/2011/03/menu_logo.png "200")
 
 **Step 3:** The IDE requires some library files, so you need to run the following command:
 

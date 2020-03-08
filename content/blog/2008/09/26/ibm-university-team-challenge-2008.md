@@ -1,17 +1,17 @@
 ---
 title: "IBM University Team Challenge 2008"
 excerpt: "A fantastic day was had at the IBM University Team Challenge event and here's a run down of everything we got up to."
-mainImage: "/uploads/images/blog/2014/06/30/5494014657-375af27308-o.jpg"
+mainImage: "/images/blog/2014/06/30/5494014657-375af27308-o.jpg"
 primaryColor: "#2aadac"
 date: "2008-09-26T21:28:16-07:00"
 updatedOn: "2008-09-26T21:28:16-07:00"
 slug: "ibm-university-team-challenge-2008"
 ---
-![Key art for blog post "IBM University Team Challenge 2008 "](/uploads/images/blog/2014/06/30/5494014657-375af27308-o.jpg)
+![Key art for blog post "IBM University Team Challenge 2008 "](/images/blog/2014/06/30/5494014657-375af27308-o.jpg)
 
 # IBM University Team Challenge 2008 
 
-![ibmLogo](/uploads/images/blog/2009/08/ibmLogo.jpg)
+![ibmLogo](/images/blog/2009/08/ibmLogo.jpg)
 
 I was lucky enough to be invited to the IBM University Tem Challange 2008 event, formally known as "IBM Thinkpad Challenge".
 

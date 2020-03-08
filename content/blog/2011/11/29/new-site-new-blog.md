@@ -4,13 +4,13 @@ excerpt: |
   The site was looking and and not all that hawt.
   
   \#Boom.
-mainImage: "/uploads/images/blog/2014/06/15/gaunt-face-screenshot.png"
+mainImage: "/images/blog/2014/06/15/gaunt-face-screenshot.png"
 primaryColor: "#577b77"
 date: "2011-11-29T20:40:29-08:00"
 updatedOn: "2011-11-29T20:40:29-08:00"
 slug: "new-site-new-blog"
 ---
-![Key art for blog post "New Site & New Blog "](/uploads/images/blog/2014/06/15/gaunt-face-screenshot.png)
+![Key art for blog post "New Site & New Blog "](/images/blog/2014/06/15/gaunt-face-screenshot.png)
 
 # New Site & New Blog 
 

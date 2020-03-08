@@ -1,13 +1,13 @@
 ---
 title: "Hacky Quantum Hack"
 excerpt: ""
-mainImage: "/uploads/images/blog/2014/06/22/10499687176-909344e3b1-o.jpg"
+mainImage: "/images/blog/2014/06/22/10499687176-909344e3b1-o.jpg"
 primaryColor: "null"
 date: "2010-08-30T12:13:24-07:00"
 updatedOn: "2010-08-30T12:13:24-07:00"
 slug: "hacky-quantum-hack"
 ---
-![Key art for blog post "Hacky Quantum Hack "](/uploads/images/blog/2014/06/22/10499687176-909344e3b1-o.jpg)
+![Key art for blog post "Hacky Quantum Hack "](/images/blog/2014/06/22/10499687176-909344e3b1-o.jpg)
 
 # Hacky Quantum Hack 
 

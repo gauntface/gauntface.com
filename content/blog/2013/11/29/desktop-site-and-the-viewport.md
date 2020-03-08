@@ -1,17 +1,17 @@
 ---
 title: "Desktop Site and the Viewport"
 excerpt: "Ever wondered what exactly happens when you try to get a mobile device display a desktop site correctly, with the required zoom level?"
-mainImage: "/uploads/images/blog/2014/05/24/2670960042-cddebd5ab2-o.jpg"
+mainImage: "/images/blog/2014/05/24/2670960042-cddebd5ab2-o.jpg"
 primaryColor: "#547c74"
 date: "2013-11-29T19:41:26-08:00"
 updatedOn: "2013-11-29T19:41:26-08:00"
 slug: "desktop-site-and-the-viewport"
 ---
-![Key art for blog post "Desktop Site and the Viewport "](/uploads/images/blog/2014/05/24/2670960042-cddebd5ab2-o.jpg)
+![Key art for blog post "Desktop Site and the Viewport "](/images/blog/2014/05/24/2670960042-cddebd5ab2-o.jpg)
 
 # Desktop Site and the Viewport 
 
-![Desktop Viewport Cheatsheet](/uploads/images/blog/2013/11/desktop_viewport_cheat_sheet_trans.png) 
+![Desktop Viewport Cheatsheet](/images/blog/2013/11/desktop_viewport_cheat_sheet_trans.png) 
 
 The viewport came and gave web developers a way to determine the best way to support mobile devices. 
 
@@ -54,7 +54,7 @@ Let’s say we have a site which has been designed for a width of 640px, how doe
 
 On desktop we’ll get a view like the image below, where the blue section is an element with a hardcoded width of 640px and we’ve centered an image within that with a width of 320px and height of 320px. 
 
-![Desktop Website with Viewport](/uploads/images/blog/2013/11/Page-on-Desktop.png "1024")
+![Desktop Website with Viewport](/images/blog/2013/11/Page-on-Desktop.png "1024")
 
 # <meta name="viewport" content="width=640">
 
@@ -68,13 +68,13 @@ Compared to a Nexus 10 with a width of 1280px in landscape, 1280px / 640px = 2.0
 
 ### Nexus 5
 
-![Desktop Site on Nexus 5 with No Initial Scale](/uploads/images/blog/2013/11/Frame-No-Initial-Scale.png "605")
+![Desktop Site on Nexus 5 with No Initial Scale](/images/blog/2013/11/Frame-No-Initial-Scale.png "605")
 
 360px / 640px = 0.5625
 
 ### Nexus 10
 
-![Desktop Site on Nexus 10 with No Initial Scale](/uploads/images/blog/2013/11/Frame-No-Initial-Scale1.png "1024")
+![Desktop Site on Nexus 10 with No Initial Scale](/images/blog/2013/11/Frame-No-Initial-Scale1.png "1024")
 
 1280px / 640px = 2.0
 
@@ -88,11 +88,11 @@ For Nexus 10, which has a width of 1280px, we would expect there to be 640px of 
 
 ### Nexus 5 (Width 360px)
 
-![Desktop Site on Nexus 5 with Initial Scale of 1.0](/uploads/images/blog/2013/11/Frame-Initial-Scale-1.0.png "605")
+![Desktop Site on Nexus 5 with Initial Scale of 1.0](/images/blog/2013/11/Frame-Initial-Scale-1.0.png "605")
 
 ### Nexus 10 (Width 1280px)
 
-![Desktop Site on Nexus 10 with Initial Scale of 1.0](/uploads/images/blog/2013/11/Frame-Initial-Scale-1.01.png "1024")
+![Desktop Site on Nexus 10 with Initial Scale of 1.0](/images/blog/2013/11/Frame-Initial-Scale-1.01.png "1024")
 
 # <meta name="viewport" content="width=640,initial-scale=0.5">
 
@@ -106,11 +106,11 @@ The Nexus 10 will have a viewport width of 1280px / 0.5 = 2560px, causing 1920px
 
 ### Nexus 5 (Width 360px)
 
-![Desktop Site on Nexus 5 with Initial Scale of 0.5](/uploads/images/blog/2013/11/Frame-Initial-Scale-0.5.png "605")
+![Desktop Site on Nexus 5 with Initial Scale of 0.5](/images/blog/2013/11/Frame-Initial-Scale-0.5.png "605")
 
 ### Nexus 10 (Width 1280px)
 
-![Desktop Site on Nexus 10 with Initial Scale of 0.5](/uploads/images/blog/2013/11/Frame-Initial-Scale-0.51.png "1024")
+![Desktop Site on Nexus 10 with Initial Scale of 0.5](/images/blog/2013/11/Frame-Initial-Scale-0.51.png "1024")
 
 # <meta name="viewport" content="width=640,initial-scale=1.5">
 
@@ -124,11 +124,11 @@ Lastly, Nexus 10, 1280px / 1.5 = 853px, so we should still have some white space
 
 ### Nexus 5 (Width 360px)
 
-![Desktop Site on Nexus 5 with Initial Scale of 1.5](/uploads/images/blog/2013/11/Frame-Initial-Scale-1.5.png "605")
+![Desktop Site on Nexus 5 with Initial Scale of 1.5](/images/blog/2013/11/Frame-Initial-Scale-1.5.png "605")
 
 ### Nexus 10 (Width 1280px)
 
-![Desktop Site on Nexus 10 with Initial Scale of 1.5](/uploads/images/blog/2013/11/Frame-Initial-Scale-1.51.png "1024")
+![Desktop Site on Nexus 10 with Initial Scale of 1.5](/images/blog/2013/11/Frame-Initial-Scale-1.51.png "1024")
 
 # iPhone & iPad
 
@@ -138,6 +138,6 @@ Safari on iOS 7 on both of these devices behave the same as Chrome for Android o
 
 My memory is terrible so here’s a little bare bones cheat sheet of the images and the viewports applied. 
 
-![Desktop Viewport Cheatsheet](/uploads/images/blog/2013/11/desktop_viewport_cheat_sheet_white.png "1024")
+![Desktop Viewport Cheatsheet](/images/blog/2013/11/desktop_viewport_cheat_sheet_white.png "1024")
 
 Orig. Photo: https://flic.kr/p/552nnd

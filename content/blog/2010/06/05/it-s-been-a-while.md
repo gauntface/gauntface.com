@@ -1,13 +1,13 @@
 ---
 title: "It's been a while..."
 excerpt: "This is a boring update about me doing my thesis......so much work to be done argh."
-mainImage: "/uploads/images/blog/2014/06/22/3316800986-dde2cf1aeb-o.jpg"
+mainImage: "/images/blog/2014/06/22/3316800986-dde2cf1aeb-o.jpg"
 primaryColor: "#b28059"
 date: "2010-06-05T17:27:39-07:00"
 updatedOn: "2010-06-05T17:27:39-07:00"
 slug: "it-s-been-a-while"
 ---
-![Key art for blog post "It's been a while... "](/uploads/images/blog/2014/06/22/3316800986-dde2cf1aeb-o.jpg)
+![Key art for blog post "It's been a while... "](/images/blog/2014/06/22/3316800986-dde2cf1aeb-o.jpg)
 
 # It's been a while... 
 

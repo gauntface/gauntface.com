@@ -1,17 +1,17 @@
 ---
 title: "Skillset Academi+ - Mobile Apps & Content Creation"
 excerpt: "Matt Gaunt was asked to give a presentation on the current state of affairs in the mobile landscape at the Skillset Academy in Newport, Wales. Here's the slide deck."
-mainImage: "/uploads/images/blog/2014/07/11/4062887277-618c01f4d3-o.jpg"
+mainImage: "/images/blog/2014/07/11/4062887277-618c01f4d3-o.jpg"
 primaryColor: "#cad5ef"
 date: "2012-03-27T11:57:56-07:00"
 updatedOn: "2012-03-27T11:57:56-07:00"
 slug: "skillset-academi-mobile-apps-content-creation"
 ---
-![Key art for blog post "Skillset Academi+ - Mobile Apps & Content Creation "](/uploads/images/blog/2014/07/11/4062887277-618c01f4d3-o.jpg)
+![Key art for blog post "Skillset Academi+ - Mobile Apps & Content Creation "](/images/blog/2014/07/11/4062887277-618c01f4d3-o.jpg)
 
 # Skillset Academi+ - Mobile Apps & Content Creation 
 
-![Skillset Academi+ Matt Gaunt Presentation](/uploads/images/blog/2012/03/AorR_InCQAAIc5q.jpg) 
+![Skillset Academi+ Matt Gaunt Presentation](/images/blog/2012/03/AorR_InCQAAIc5q.jpg) 
 
 Last Friday I was invited by Adam Martin to give a presentation on the current state of affairs in the mobile space. Despite the tube problems (damn you circle line) I got there on time. As usual it was a great crowd and I hope they enjoyed. 
 

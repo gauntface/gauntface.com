@@ -1,13 +1,13 @@
 ---
 title: "Lucid Lynx Web Development"
 excerpt: "In Lucid Lynx the Apache / PHP version has changed so need to enable display_errors to display PHP errors in the browser."
-mainImage: "/uploads/images/blog/2014/06/22/4628277592-ddd81f9a4b-o.jpg"
+mainImage: "/images/blog/2014/06/22/4628277592-ddd81f9a4b-o.jpg"
 primaryColor: "#d264a9"
 date: "2010-07-07T18:58:04-07:00"
 updatedOn: "2010-07-07T18:58:04-07:00"
 slug: "lucid-lynx-web-development"
 ---
-![Key art for blog post "Lucid Lynx Web Development "](/uploads/images/blog/2014/06/22/4628277592-ddd81f9a4b-o.jpg)
+![Key art for blog post "Lucid Lynx Web Development "](/images/blog/2014/06/22/4628277592-ddd81f9a4b-o.jpg)
 
 # Lucid Lynx Web Development 
 

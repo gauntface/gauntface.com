@@ -1,17 +1,17 @@
 ---
 title: "#MobileBrighton - 15th March 2012"
 excerpt: "Challenged with the task of talking to the Mobile group of Brighton about Android Resources, Matt Gaunt put on one hell of a show . . . . . and you know told some people about Android Resources for design and layout."
-mainImage: "/uploads/images/blog/2014/07/11/9675318481-e6105f1461-o.jpg"
+mainImage: "/images/blog/2014/07/11/9675318481-e6105f1461-o.jpg"
 primaryColor: "#8194ce"
 date: "2012-03-18T01:29:45-07:00"
 updatedOn: "2012-03-18T01:29:45-07:00"
 slug: "mobilebrighton-15th-march-2012"
 ---
-![Key art for blog post "#MobileBrighton - 15th March 2012 "](/uploads/images/blog/2014/07/11/9675318481-e6105f1461-o.jpg)
+![Key art for blog post "#MobileBrighton - 15th March 2012 "](/images/blog/2014/07/11/9675318481-e6105f1461-o.jpg)
 
 # #MobileBrighton - 15th March 2012 
 
-![Mobile Brighton, Matt Gaunt Talk](/uploads/images/blog/2012/03/F9FD26D8-D348-48FE-91D1-EC40D1278F1D.jpg)
+![Mobile Brighton, Matt Gaunt Talk](/images/blog/2012/03/F9FD26D8-D348-48FE-91D1-EC40D1278F1D.jpg)
 
 Last thursday I gave a talk on the approach I take to target the various Android screen sizes. I was bit unsure how to  get the information across since it was predominantly an iOS crowd (the group was originally an iOS group before changing to be mobile). 
 

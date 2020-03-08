@@ -3,13 +3,13 @@ title: "Raspberry Pi Over Serial USB on Ubuntu"
 excerpt: "One of the biggest barriers to working with
 a Raspberry Pi is working on it from a seperate computer. 
 USB to Serial cables make it easy."
-mainImage: "/uploads/images/blog/2019/2019-01-17/raspberry-pi-snes.jpg"
+mainImage: "/images/blog/2019/2019-01-17/raspberry-pi-snes.jpg"
 primaryColor: "#5DBCD2"
 date: "2019-01-17T19:14:00-07:00"
 updatedOn: "2019-01-17T19:14:00-07:00"
 slug: "raspberry-pi-over-serial-usb"
 ---
-![Key art for blog post "Raspberry Pi Over Serial USB"](/uploads/images/blog/2019/2019-01-17/raspberry-pi-snes.jpg)
+![Key art for blog post "Raspberry Pi Over Serial USB"](/images/blog/2019/2019-01-17/raspberry-pi-snes.jpg)
 
 Running commands on the Raspberry Pi over serial USB makes 
 development a lot easier when starting out with a 
@@ -73,7 +73,7 @@ via the micro USB **DO NOT USE THE RED CABLE**.
 
 Attach the cables to the Pi like so:
 
-![Raspberry Pi Serial USB Cables](/uploads/images/blog/2019/2019-01-17/serial-connections.jpg)
+![Raspberry Pi Serial USB Cables](/images/blog/2019/2019-01-17/serial-connections.jpg)
 
 ## Run Screen
 

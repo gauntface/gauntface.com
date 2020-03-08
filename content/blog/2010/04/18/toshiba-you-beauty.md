@@ -1,13 +1,13 @@
 ---
 title: "Toshiba You Beauty"
 excerpt: "Touch are entering the tablet arena with a dual screen Windows device, much like the MS Courier concept."
-mainImage: "/uploads/images/blog/2014/06/22/91f1ckh6nnl-sl1500.jpg"
+mainImage: "/images/blog/2014/06/22/91f1ckh6nnl-sl1500.jpg"
 primaryColor: "#4b7dd4"
 date: "2010-04-18T22:01:43-07:00"
 updatedOn: "2010-04-18T22:01:43-07:00"
 slug: "toshiba-you-beauty"
 ---
-![Key art for blog post "Toshiba You Beauty "](/uploads/images/blog/2014/06/22/91f1ckh6nnl-sl1500.jpg)
+![Key art for blog post "Toshiba You Beauty "](/images/blog/2014/06/22/91f1ckh6nnl-sl1500.jpg)
 
 # Toshiba You Beauty 
 
