@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="en"><head>
+  <title>Google TV + In App Billing</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="Description" content="This is the site description"/>
+  <meta name="theme-color" content="#565797"/>
+<style>:root{--body-font-family:"Roboto",sans-serif;--code-font-family:"dm",monospace;--default-font-size:18px;--table-cell-padding:8px;--page-padding:24px;--header-padding:64px;--white-smoke:#f7f7f7;--platnum:#e5dedf;--dust-storm:#e5c9cf;--pale-chestnut:#e5a9b4;--liberty:#565797;--dark-slate-blue:#434596;--lightest:#d0d0d0;--light:#bfc7d4;--muted-light:#747a88;--muted:#434757;--dark:#292d3d;--black:#272729;--drop-shadow:rgba(39,39,41,0.4);--red:#ee727a;--green:#c4e791;--yellow:#feca72;--blue:#84acfc;--purple:#c694e8;--light-blue:#8cddfd}html{height:100%;font-size:18px;font-size:var(--default-font-size)}</style><style>svg{display:block}</style><style>.c-footer{display:flex;flex-direction:row}.c-footer__corner{flex:1}.c-footer__corner svg{display:block;width:80%;height:100%;margin-left:auto}.c-footer__content{flex:2;margin-left:auto;background:var(--liberty)}@media (min-width:1000px){.c-footer{width:80%;margin-left:auto}}</style><style>@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");body{display:inline;min-height:100%;font-family:var(--body-font-family);background:var(--platnum);margin:0}</style><style>.c-header{color:var(--platnum);padding:var(--header-padding) var(--page-padding);background:var(--liberty)}.c-header__logo svg{width:124px;height:124px;margin:auto}.c-header__logo svg path{fill:var(--platnum)}</style><style>img{max-width:100%;height:auto}</style><style>h3{font-size:1.4rem}</style><style>p{word-wrap:break-word}</style><style>pre{overflow-x:auto}</style><style>pre{background-color:var(--dark);color:var(--light);padding:12px;overflow-x:auto;border-radius:12px;box-shadow:0 2px 8px var(--drop-shadow)}pre code{padding:0;background:unset}</style><style>.l-default{display:flex;flex-direction:column;min-height:100%}.l-default__main{flex:1;padding:var(--page-padding)}</style><style>h1{font-size:2rem}</style><style>code{padding:0 4px;font-family:var(--code-font-family);background:var(--pale-chestnut)}</style></head><body>
+<div class="l-default">
+  <header class="c-header">
+  <a href="/" class="c-header__logo">
+    <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M988 36H36V987H988V36ZM0 0V1023H1024V0H0Z" fill="black"></path>
+<path d="M834.787 519.358H767.661V590H746.567V430.039H845.664V447.397H767.661V502.109H834.787V519.358Z" fill="black"></path>
+<path d="M574.089 447.397H522.673V590H501.689V447.397H450.383V430.039H574.089V447.397Z" fill="black"></path>
+<path d="M834.984 821.062H765.661V877.751H846.19V895H744.567V735.039H845.092V752.397H765.661V803.813H834.984V821.062Z" fill="black"></path>
+<path d="M575.23 844.243C573.253 861.162 566.991 874.236 556.444 883.464C545.97 892.62 532.018 897.197 514.586 897.197C495.689 897.197 480.528 890.422 469.103 876.873C457.75 863.323 452.074 845.195 452.074 822.49V807.109C452.074 792.241 454.71 779.167 459.984 767.888C465.331 756.609 472.875 747.966 482.616 741.96C492.357 735.881 503.636 732.842 516.454 732.842C533.446 732.842 547.069 737.603 557.323 747.124C567.577 756.572 573.546 769.683 575.23 786.455H554.027C552.196 773.711 548.204 764.482 542.052 758.77C535.973 753.057 527.44 750.2 516.454 750.2C502.977 750.2 492.394 755.181 484.703 765.142C477.086 775.103 473.277 789.275 473.277 807.659V823.149C473.277 840.508 476.903 854.314 484.154 864.568C491.405 874.822 501.549 879.949 514.586 879.949C526.305 879.949 535.277 877.312 541.502 872.039C547.801 866.692 551.976 857.427 554.027 844.243H575.23Z" fill="black"></path>
+<path d="M266.397 853.252H199.38L184.329 895H162.576L223.66 735.039H242.117L303.311 895H281.668L266.397 853.252ZM205.752 835.894H260.135L232.889 761.077L205.752 835.894Z" fill="black"></path>
+<path d="M294.004 590H272.8L192.271 466.733V590H171.067V430.039H192.271L273.02 553.855V430.039H294.004V590Z" fill="black"></path>
+<path d="M848.177 122.039V230.804C848.104 245.892 843.343 258.233 833.895 267.828C824.52 277.422 811.775 282.806 795.662 283.978L790.059 284.197C772.554 284.197 758.602 279.473 748.201 270.025C737.801 260.577 732.527 247.576 732.381 231.023V122.039H753.255V230.364C753.255 241.937 756.441 250.945 762.813 257.391C769.185 263.763 778.267 266.949 790.059 266.949C801.998 266.949 811.116 263.763 817.415 257.391C823.787 251.019 826.973 242.046 826.973 230.474V122.039H848.177Z" fill="black"></path>
+<path d="M545.897 240.252H478.88L463.829 282H442.076L503.16 122.039H521.617L582.811 282H561.168L545.897 240.252ZM485.252 222.894H539.635L512.389 148.077L485.252 222.894Z" fill="black"></path>
+<path d="M292.17 261.016C286.75 268.78 279.169 274.603 269.428 278.484C259.76 282.293 248.481 284.197 235.59 284.197C222.553 284.197 210.981 281.158 200.874 275.079C190.766 268.926 182.929 260.21 177.363 248.931C171.87 237.652 169.05 224.578 168.903 209.71V195.757C168.903 171.661 174.506 152.984 185.712 139.727C196.992 126.47 212.812 119.842 233.173 119.842C249.873 119.842 263.312 124.126 273.493 132.696C283.674 141.192 289.899 153.277 292.17 168.951H271.076C267.121 147.784 254.523 137.2 233.283 137.2C219.147 137.2 208.417 142.181 201.093 152.142C193.842 162.029 190.18 176.385 190.107 195.208V208.282C190.107 226.226 194.208 240.508 202.412 251.128C210.615 261.675 221.711 266.949 235.7 266.949C243.61 266.949 250.532 266.07 256.464 264.312C262.397 262.554 267.304 259.588 271.186 255.413V219.488H234.162V202.349H292.17V261.016Z" fill="black"></path>
+</svg>
+
+  </a>
+</header>
+  <main class="l-default__main">
+<p><img src="/images/blog/2014/06/15/3302646512-caf444ea65-o.jpg" alt="Key art for blog post “Google TV + In App Billing “"/></p>
+<h1 id="google-tv--in-app-billing">Google TV + In App Billing</h1>
+<p>The other day I was asked a few questions regarding In-App billing on Google TV and since it was the first time I&#39;d looked into this, I thought I&#39;d share a few details on what was needed to get things working.</p>
+<p>I started off with the stock Android example, which you can find here: <a href="http://developer.android.com/guide/google/play/billing/billing_integrate.html#billing-download">http://developer.android.com/guide/google/play/billing/billing_integrate.html#billing-download</a></p>
+<p>Installing this directly on TV quickly threw up some issues.</p>
+<p>The first problem was suggesting that GTV didn&#39;t support billing (The exact error, in case your were wondering, was <em>RESULT_BILLING_UNAVAILABLE</em> ). I was puzzled as to why this was the case and the error wasn&#39;t particularly helpful, but I tried changing the API_VERSION to 1. That was the ticket.</p>
+<p>The reason for this change, Google TV doesn&#39;t currently* support subscription billing (see the asterisks on info regarding this matter), so it makes sense that API_VERSION 2 would cause an error.</p>
+<p>So onwards and upwards, but alas we run into issues as soon as we come to buying some goodies.</p>
+<p>The error I was receiving was <em>INTERNAL_SERVICE_ERROR</em>, again not such a useful piece of info. Again a little head scratching and we come back back to the previous issue. If GTV only supports in-app billing, there is no need to define an <em>ITEM_TYPE</em>. Remove this and you get to the next stage. Hurrah.</p>
+<p>At this point you&#39;ll want to export a signed version of your application, upload it to the Play Store, then install this APK onto your device ‘<em>adb install <!-- raw HTML omitted --></em>&#39;. At this stage its worth reading the testing page, this will give you info on this as well as how to set up test accounts so you don&#39;t get charged.</p>
+<p>However, if you&#39;re like me. you might see another error from Google Play, “This version of the application is not configured for Market billing. Check the Help Centre for more information.&#34;. This doesn&#39;t necessarily mean you have done something wrong. I had this problem and it seemed to be that Play hadn&#39;t quite updated with the product ID&#39;s or the APK I had uploaded. I left it for 24 hours and then I was good to go.</p>
+<p>*Now all of this will hopefully be avoidable once the native Google Play store is released for Google TV, which was one of our announcements at this years Google I/O and should be released by the end of the summer. This will support subscription billing and should work with the Android in app billing example straight out the box.</p>
+<h3 id="changes-to-source-code">Changes to Source Code</h3>
+<p>Changes to make to makeRequestBundle in  BillingService.java:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">protected</span> Bundle <span style="color:#a6e22e">makeRequestBundle</span><span style="color:#f92672">(</span>String method<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+  Bundle request <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Bundle<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  request<span style="color:#f92672">.</span><span style="color:#a6e22e">putString</span><span style="color:#f92672">(</span>Consts<span style="color:#f92672">.</span><span style="color:#a6e22e">BILLING_REQUEST_METHOD</span><span style="color:#f92672">,</span> method<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  request<span style="color:#f92672">.</span><span style="color:#a6e22e">putInt</span><span style="color:#f92672">(</span>Consts<span style="color:#f92672">.</span><span style="color:#a6e22e">BILLING_REQUEST_API_VERSION</span><span style="color:#f92672">,</span> 1<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  request<span style="color:#f92672">.</span><span style="color:#a6e22e">putString</span><span style="color:#f92672">(</span>Consts<span style="color:#f92672">.</span><span style="color:#a6e22e">BILLING_REQUEST_PACKAGE_NAME</span><span style="color:#f92672">,</span> getPackageName<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  <span style="color:#66d9ef">return</span> request<span style="color:#f92672">;</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>Changes to make to run in BillingService.java:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@Override</span>
+<span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">long</span> <span style="color:#a6e22e">run</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> RemoteException <span style="color:#f92672">{</span>
+  Bundle request <span style="color:#f92672">=</span> makeRequestBundle<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;REQUEST_PURCHASE&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  request<span style="color:#f92672">.</span><span style="color:#a6e22e">putString</span><span style="color:#f92672">(</span>Consts<span style="color:#f92672">.</span><span style="color:#a6e22e">BILLING_REQUEST_ITEM_ID</span><span style="color:#f92672">,</span> mProductId<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+
+  <span style="color:#75715e">//TODO: Filter out for API_VERSION &lt; 2 only
+</span><span style="color:#75715e"></span>  <span style="color:#75715e">//request.putString(Consts.BILLING_REQUEST_ITEM_TYPE, mProductType);
+</span><span style="color:#75715e"></span>
+  <span style="color:#75715e">// Note that the developer payload is optional.
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>mDeveloperPayload <span style="color:#f92672">!</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    request<span style="color:#f92672">.</span><span style="color:#a6e22e">putString</span><span style="color:#f92672">(</span>Consts<span style="color:#f92672">.</span><span style="color:#a6e22e">BILLING_REQUEST_DEVELOPER_PAYLOAD</span><span style="color:#f92672">,</span> mDeveloperPayload<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  <span style="color:#f92672">}</span>
+  Bundle response <span style="color:#f92672">=</span> mService<span style="color:#f92672">.</span><span style="color:#a6e22e">sendBillingRequest</span><span style="color:#f92672">(</span>request<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  PendingIntent pendingIntent <span style="color:#f92672">=</span> response<span style="color:#f92672">.</span><span style="color:#a6e22e">getParcelable</span><span style="color:#f92672">(</span>Consts<span style="color:#f92672">.</span><span style="color:#a6e22e">BILLING_RESPONSE_PURCHASE_INTENT</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+
+  <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>pendingIntent <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    Log<span style="color:#f92672">.</span><span style="color:#a6e22e">e</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Error with requestPurchase&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+    <span style="color:#66d9ef">return</span> Consts<span style="color:#f92672">.</span><span style="color:#a6e22e">BILLING_RESPONSE_INVALID_REQUEST_ID</span><span style="color:#f92672">;</span>
+  <span style="color:#f92672">}</span>
+
+  Intent intent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  ResponseHandler<span style="color:#f92672">.</span><span style="color:#a6e22e">buyPageIntentResponse</span><span style="color:#f92672">(</span>pendingIntent<span style="color:#f92672">,</span> intent<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  <span style="color:#66d9ef">long</span> value <span style="color:#f92672">=</span> response<span style="color:#f92672">.</span><span style="color:#a6e22e">getLong</span><span style="color:#f92672">(</span>Consts<span style="color:#f92672">.</span><span style="color:#a6e22e">BILLING_RESPONSE_REQUEST_ID</span><span style="color:#f92672">,</span> Consts<span style="color:#f92672">.</span><span style="color:#a6e22e">BILLING_RESPONSE_INVALID_REQUEST_ID</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+
+  <span style="color:#66d9ef">return</span> value<span style="color:#f92672">;</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>Orig Photo: <a href="https://flic.kr/p/62QVKf">https://flic.kr/p/62QVKf</a></p>
+
+</main>
+<footer class="c-footer">
+  <div class="c-footer__corner">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135.467 135.467" preserveAspectRatio="none"><path d="M135.467 135.467h-82.55L134.937 0h.53z" fill="#565797"></path><path d="M135.07 0L53.049 135.467H39.688L121.707 0z" fill="#feca72"></path><path d="M121.84 0L39.82 135.467H26.458L108.48 0z" fill="#c4e791"></path><path d="M108.611 0l-82.02 135.467H13.229L95.25 0z" fill="#84acfc"></path><path d="M95.382 0l-82.02 135.467H0L82.02 0z" fill="#ee727a"></path></svg>
+  </div>
+  <div class="c-footer__content"></div>
+</footer>
+</div>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-155219449-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-155219449-1');
+</script>
+
+<script>var haCSS = haCSS || []; haCSS.push(...['/css/elements/code-async.css']);</script></body></html>

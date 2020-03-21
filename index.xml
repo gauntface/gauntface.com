@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Gauntface | Matt Gaunt</title>
+    <link>https://www.gauntface.com/</link>
+    <description>Recent content in Home on Gauntface | Matt Gaunt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Feb 2019 10:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.gauntface.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>KBWiki Tutorial Notes</title>
+      <link>https://www.gauntface.com/blog/2019/02/02/kbwiki-tutorial-notes/</link>
+      <pubDate>Sat, 02 Feb 2019 10:00:00 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2019/02/02/kbwiki-tutorial-notes/</guid>
+      <description>These are my notes from running through the kbwiki tutorial / guide for making a custom keyboard.
+First few sections is largely getting familiar with GitHub and KiCad.
+PCB Guide 3 Wondering the the position of the +5V over the UVCC pin and chaining with two join points has any benefit over placing the +5V over VCC. I assume it makes no difference as this is just a schematic view.</description>
+    </item>
+    
+    <item>
+      <title>Crimp Housing for Makers</title>
+      <link>https://www.gauntface.com/blog/2019/01/19/crimp-housing-for-makers/</link>
+      <pubDate>Sat, 19 Jan 2019 18:00:00 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2019/01/19/crimp-housing-for-makers/</guid>
+      <description>The thought of soldering a circuit board when I&#39;m still playing and learning how it works seems like a waste, but I&#39;ve found a few situations where I wanted something between breadboard and permanent project. Enter crimp pins and housing.
+What are they? Crimp pins come in male and female forms and can be attached to the end of thin electrical wire.
+The crimp housing simply covers the pin, protecting the exposed wire and fitting.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Over Serial USB on Ubuntu</title>
+      <link>https://www.gauntface.com/blog/2019/01/17/raspberry-pi-over-serial-usb/</link>
+      <pubDate>Thu, 17 Jan 2019 19:14:00 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2019/01/17/raspberry-pi-over-serial-usb/</guid>
+      <description>Running commands on the Raspberry Pi over serial USB makes development a lot easier when starting out with a fresh install of Raspbian.
+Worth noting, most of this guide is from the Adafruit Guide, but I had a permission issue and since I&#39;m hoping to use this cable a lot in the future, I decided to write a cut down version for myself.
+Where to get a USB Serial Cable? You can get a USB Serial Cable on Adafruit or on Amazon (affiliate link).</description>
+    </item>
+    
+    <item>
+      <title>Testing for the Web</title>
+      <link>https://www.gauntface.com/blog/2016/09/16/testing-for-the-web/</link>
+      <pubDate>Fri, 16 Sep 2016 03:20:06 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2016/09/16/testing-for-the-web/</guid>
+      <description>Testing for the Web After sitting on this for a while, I&#39;ve come to the conclusion that testing a web app is a manual job.
+I&#39;ve been working on selenium-assistant for some time now, trying to make testing on real browsers a little easier.
+In the early versions of building the library, supporting Chrome and Firefox was proving it&#39;s worth highlighting service worker differences.
+However, the problems I&#39;ve hit as I&#39;ve continued working on this library is making me question whether testing for the web is something browsers / developers really care about.</description>
+    </item>
+    
+    <item>
+      <title>Push Debugging &amp; Analytics</title>
+      <link>https://www.gauntface.com/blog/2016/05/01/push-debugging-analytics/</link>
+      <pubDate>Sun, 01 May 2016 09:59:51 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2016/05/01/push-debugging-analytics/</guid>
+      <description>Push Debugging &amp;amp; Analytics A few people have asked how do to debug push messaging and how to track stats for push messaging, like push messages received or notifications clicked?
+Debugging in the Wild. I found an app out in the wild that had a few problems and heres how I go about spotting issues.
+First thing is to open the service worker panel in DevTools, which is hidden under DevTools &amp;gt; Resources &amp;gt; Service Workers</description>
+    </item>
+    
+    <item>
+      <title>Unit Testing a Service Worker</title>
+      <link>https://www.gauntface.com/blog/2015/12/14/unit-testing-service-worker/</link>
+      <pubDate>Mon, 14 Dec 2015 13:03:03 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2015/12/14/unit-testing-service-worker/</guid>
+      <description>Unit Testing a Service Worker After reading a few discussions on Twitter and discussing some of the pro and cons of sw-toolbox and sw-precache with Mat Scales and Jeff Posnick, I realised I had no idea of half the edge cases that exist when it comes to using SW.
+In a vain attempt to note some of these down I went about writing a set of unit tests.
+While the end result a set of fictitious service worker unit tests which you can find up on Github - sw-unit-test-sample.</description>
+    </item>
+    
+    <item>
+      <title>Start Up Scripts for Raspbian</title>
+      <link>https://www.gauntface.com/blog/2015/12/02/start-up-scripts-for-raspbian/</link>
+      <pubDate>Wed, 02 Dec 2015 15:23:40 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2015/12/02/start-up-scripts-for-raspbian/</guid>
+      <description>Start Up Scripts for Raspbian On older versions of Raspbian I was using LSBInitScripts to start a web server when my Raspberry Pi booted up.
+In Debian Jessie, the use of init scripts changed to systemd, so this post covers how to get a script starting on boot.
+Systemd In Debian Jessie, systemd is the new boss in town and this doc from coreos was probably the most helpful starting off point I found.</description>
+    </item>
+    
+    <item>
+      <title>Node Unit Testing</title>
+      <link>https://www.gauntface.com/blog/2015/10/30/node-unit-testing/</link>
+      <pubDate>Fri, 30 Oct 2015 16:35:23 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2015/10/30/node-unit-testing/</guid>
+      <description>Node Unit Testing I&#39;ve recently started work on a new project all on my todand in a vein attempt to get reassurance that what I was writing worked, I started to put together some unit tests and while it&#39;s still a little messy, I figured some may find this post helpful to skip through the early stages of &amp;ldquo;OMG, WTF, ERGH, OK, Maybe?&amp;rdquo; that I went through
+The Test Runner There a few different options that will probably crop when you first look into unit testing.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Network</title>
+      <link>https://www.gauntface.com/blog/2015/10/11/raspberry-pi-network/</link>
+      <pubDate>Sun, 11 Oct 2015 20:57:32 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2015/10/11/raspberry-pi-network/</guid>
+      <description>Raspberry Pi Network I&#39;ve just got something super minimal, but actually useful working on my Pi. It&#39;s a node server serving up a web page that toggles a button that switches an Energenie Plug on and off.
+One of the problems I&#39;ve been having is that Raspberry Pi keeps losing connection to the Wifi network. Here are the two things I&#39;ve done to fix the problem.
+Wifi Disconnects / Dies / Sleeps If you are using one of the Edimax USB Wifi Dongles, you may find that after a while the Wifi just dies / disconnects.</description>
+    </item>
+    
+    <item>
+      <title>Gulp &amp; Sass</title>
+      <link>https://www.gauntface.com/blog/2015/06/09/gulp-and-sass/</link>
+      <pubDate>Tue, 09 Jun 2015 16:10:49 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2015/06/09/gulp-and-sass/</guid>
+      <description>Gulp &amp;amp; Sass Hopefully I&#39;ll be doing some work on the Web Fundamentals site used for hosting the Chrome team documentation.
+One of the first things I wanted to tackle was styles for a few reasons:
+1.) It&#39;s something I know I am going to change 2.) We currently have a ruby dependency because of Sass which I want to get rid of 3.) It&#39;s relatively simple to check if it&#39;s working, Sass goes in, CSS comes out.</description>
+    </item>
+    
+    <item>
+      <title>Arachnidlabs Minishift and Ubuntu / Pi</title>
+      <link>https://www.gauntface.com/blog/2015/03/24/arachnidlabs-minishift-and-ubuntu-pi/</link>
+      <pubDate>Tue, 24 Mar 2015 20:22:43 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2015/03/24/arachnidlabs-minishift-and-ubuntu-pi/</guid>
+      <description>Arachnidlabs Minishift and Ubuntu / Pi I was mucking around with the the Arachnidlabs minishift and ran into a few things I wanted to note down for my own sanity.
+udev Rules on Ubuntu One thing I quickly hit was the inability to run any of the minishift python code on my machine without sudo, which originally freaked me and took a while to dig around with.
+In the end I had to add a udev rule, which I did like so:</description>
+    </item>
+    
+    <item>
+      <title>Fetch is the new XHR</title>
+      <link>https://www.gauntface.com/blog/2015/02/11/fetch-is-the-new-xhr/</link>
+      <pubDate>Wed, 11 Feb 2015 11:11:07 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2015/02/11/fetch-is-the-new-xhr/</guid>
+      <description>Fetch is the new XHR fetch(), defined in the Fetch API, is a new API which allows you to make requests similar to XHR&#39;s, but has a simpler / friendly API. The Fetch API is available in service workers today and in the global space (a.k.a in the normal Chrome window) if you enable the Experimental Web Platform Features in chrome://flags.
+After getting asked about how to make an XHR for push notifications from service worker, I realised I had never attempted to view the contents of a fetch request, so did a little mucking around and put together a few examples (largely for my own peace of mind).</description>
+    </item>
+    
+    <item>
+      <title>What the Virtual Viewport?</title>
+      <link>https://www.gauntface.com/blog/2015/01/16/what-the-virtual-viewport/</link>
+      <pubDate>Fri, 16 Jan 2015 14:38:40 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2015/01/16/what-the-virtual-viewport/</guid>
+      <description>What the Virtual Viewport? The virtual viewport is a new term that has been floating around the Chrome DevRel team lately and we kind of figured we should find out what it is.
+The way [Rick Byers](https://plus.google.com/ RickByers/about) describes it is as follows, the idea is splitting the notion of &amp;ldquo;the viewport&amp;rdquo; into the &amp;ldquo;layout viewport&amp;rdquo; (where fixed position items are attached) and the &amp;ldquo;visual viewport&amp;rdquo; (What the users actually see).</description>
+    </item>
+    
+    <item>
+      <title>Trying to do a Good Job</title>
+      <link>https://www.gauntface.com/blog/2015/01/06/trying-to-do-a-good-job/</link>
+      <pubDate>Tue, 06 Jan 2015 18:26:23 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2015/01/06/trying-to-do-a-good-job/</guid>
+      <description>Trying to do a Good Job We recently had a workshop with Harry Roberts (a.k.a CSSWizardry) at the Google Office, largely with a goal of learning about better web project maintenance, hopefully helping us improve Web Starter Kit.
+The annoying with this workshop was the number of things that immediately made sense to do in terms of best practice, the tricks were awesome and general ethos was reassuring.
+I took some of the stuff we&#39;d learnt and started to just muck about with reworking the styles in my site.</description>
+    </item>
+    
+    <item>
+      <title>Push Notifications &amp; Service Worker</title>
+      <link>https://www.gauntface.com/blog/2014/12/15/push-notifications-service-worker/</link>
+      <pubDate>Mon, 15 Dec 2014 09:27:42 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/12/15/push-notifications-service-worker/</guid>
+      <description>Push Notifications &amp;amp; Service Worker Please Read I&#39;m moving all this content to here: https://github.com/gauntface/web-push-book
+If you just want a quick and easy demo of push go here:
+ Demo: https://simple-push-demo.appspot.com/ Source: https://github.com/gauntface/simple-push-demo  Orig. Photo: https://flic.kr/p/nFov1y</description>
+    </item>
+    
+    <item>
+      <title>DevTools Ideas</title>
+      <link>https://www.gauntface.com/blog/2014/12/10/devtools-ideas/</link>
+      <pubDate>Wed, 10 Dec 2014 11:51:11 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/12/10/devtools-ideas/</guid>
+      <description>DevTools Ideas One of the biggest failings of service worker at the moment is the debugging story.
+Its genuinely a shame since the API for service worker is simple enough to get going with, but complex enough to loop yourself in circles with simple errors and they&#39;d be easier to work with if the debugging story had been thought through.
+Service Worker - a.k.a Terminator One of the major things you quickly learn about service worker is that it will come and go (or technically terminate and instantiate) as it needs to.</description>
+    </item>
+    
+    <item>
+      <title>What You Need to Know About the WebView in L</title>
+      <link>https://www.gauntface.com/blog/2014/10/17/what-you-need-to-know-about-the-webview-in-l/</link>
+      <pubDate>Fri, 17 Oct 2014 19:25:26 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/10/17/what-you-need-to-know-about-the-webview-in-l/</guid>
+      <description>What You Need to Know About the WebView in L WebView Updated via Play Store With the L release, the WebView can be updated by the Play Store, this is a huge achievement!
+Major New Features The following features are now supported in the latest WebView:
+ WebRTC (Full Sample Here) WebAudio WebGL Native support for all web components APIs  Subtle Behaviour Changes There are a few things that have changed which aren&#39;t obvious at first.</description>
+    </item>
+    
+    <item>
+      <title>Is the Web a Developers Cwtch?</title>
+      <link>https://www.gauntface.com/blog/2014/10/10/is-the-web-a-developers-cwtch/</link>
+      <pubDate>Fri, 10 Oct 2014 10:19:27 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/10/10/is-the-web-a-developers-cwtch/</guid>
+      <description>Is the Web a Developers Cwtch? I&#39;ve been looking for a way to frame this post, this title is probably the closest I can get to expressing my point of view; plus I can reward myself bonus points for using my favorite welsh word.
+ Cwtch
+Welsh word for an affectionate hug.
+There&#39;s no literal English translation, but its nearest equivalent is &amp;ldquo;safe place&amp;rdquo;.
+So if you give someone a cwtch, you&#39;re giving them a &amp;ldquo;safe place&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Your Guide to SSL on Nginx</title>
+      <link>https://www.gauntface.com/blog/2014/09/09/your-guide-to-ssl-on-nginx/</link>
+      <pubDate>Tue, 09 Sep 2014 18:41:00 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/09/09/your-guide-to-ssl-on-nginx/</guid>
+      <description>Your Guide to SSL on Nginx Looking to set up SSL on your site? Using Nginx to host? Then come on it.
+7 Steps to SSL Bliss 1.) Get a Certificate Go over to namecheap.com and pick yourself up a nice little cert. The cheapest is about $9.00 (~£5.58)
+2.) Activate your Certificate Once you&#39;ve bought your SSL Certificate, you need to activate it. This page has all the info you need.</description>
+    </item>
+    
+    <item>
+      <title>WebP Support with ImageMagick and PHP</title>
+      <link>https://www.gauntface.com/blog/2014/09/02/webp-support-with-imagemagick-and-php/</link>
+      <pubDate>Tue, 02 Sep 2014 18:39:00 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/09/02/webp-support-with-imagemagick-and-php/</guid>
+      <description>WebP Support with ImageMagick and PHP I&#39;ve been wanting to get WebP set-up on my site for a little while now, the biggest barrier to entry has been getting it integrated into the flow already had, where I generate different sized images where I need to.
+It turns out you can use ImageMagick if it can find libwebp-dev when it&#39;s built.
+By default, unfortunately, Ubuntu doesn&#39;t come with ImageMagick built with WebP support and I&#39;m assuming the same is true for Debian (I got everything working on Ubuntu and went through the same process on Debian - didn&#39;t check Debian needed this, I just assumed).</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &lt;3 Node</title>
+      <link>https://www.gauntface.com/blog/2014/08/28/raspberry-pi-3-node/</link>
+      <pubDate>Thu, 28 Aug 2014 23:15:05 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/08/28/raspberry-pi-3-node/</guid>
+      <description>Raspberry Pi &amp;lt;3 Node I remember trying to get Node to run on the Pi when I first got one and it really wasn&#39;t a fun journey, things seem to have changed (or my Google-foo has gotten better) and it&#39;s dead simple.
+Install Node and NPM Best guide was from Adafruit. These deb&#39;s are actually more up to date than the Pi builds available of the official NodeJS site.
+For the basic guide:</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Look at Load Time Performance</title>
+      <link>https://www.gauntface.com/blog/2014/07/16/let-s-look-at-load-time-performance/</link>
+      <pubDate>Wed, 16 Jul 2014 18:54:23 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/07/16/let-s-look-at-load-time-performance/</guid>
+      <description>Let&#39;s Look at Load Time Performance I&#39;ve been doing work on my site for far too long now.
+One of the things I spent some time on up front was getting my PageSpeed Score up. All the way up in fact, to 100/100.
+The one niggle I had with this score, was I felt like I cheated it. I hadn&#39;t optimised my critical rendering path. I just inlined my CSS. My CSS was hand-written and the structure of my Sass meant each CSS file included what it needed and nothing else (or at least I think it does).</description>
+    </item>
+    
+    <item>
+      <title>Building Mobile Cordova Apps with Web Starter Kit</title>
+      <link>https://www.gauntface.com/blog/2014/07/16/building-mobile-cordova-apps-with-web-starter-kit/</link>
+      <pubDate>Wed, 16 Jul 2014 15:38:06 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/07/16/building-mobile-cordova-apps-with-web-starter-kit/</guid>
+      <description>Building Mobile Cordova Apps with Web Starter Kit If you have no idea what Web Starter Kit is, the simple overview is that it&#39;s a set of opinionated tools that can help you get up and running with web development best practices for a new project. Including a build process, browser sync, live reloading and all sorts of other goodies.
+I won&#39;t cover all the features of Web Starter Kit here, but check out the Web Starter Kit site for more info.</description>
+    </item>
+    
+    <item>
+      <title>Web Performance Monitor</title>
+      <link>https://www.gauntface.com/blog/2014/07/10/web-performance-monitor/</link>
+      <pubDate>Thu, 10 Jul 2014 21:11:13 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/07/10/web-performance-monitor/</guid>
+      <description>Web Performance Monitor I&#39;ve been wanting and needing a dashboard for continuously testing out the performance of my site and I&#39;ve never really found anything that met my needs. In the end, I put together a Web Performance Monitor.
+It consists of three parts:
+ A PageSpeed library module webperf-lib-psi  This essentially takes either a list of URL&#39;s or a sitemap and runs it through the PageSpeed Insights API and emits events when a new result, run completion or error event occurs.</description>
+    </item>
+    
+    <item>
+      <title>Installing SSL Certs...</title>
+      <link>https://www.gauntface.com/blog/2014/07/04/installing-ssl-certs/</link>
+      <pubDate>Fri, 04 Jul 2014 18:10:36 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/07/04/installing-ssl-certs/</guid>
+      <description>Installing SSL Certs&amp;hellip; The SSL cert is going to come from startssl.com since they are free and a recommendation from Mike West is more than good enough for me.
+Getting the Certificates To get an account you have to go through a bit of a dance to get some &amp;ldquo;login&amp;rdquo; certificates from StartSSL to install on your system.
+Next time you visit the site, StartSSL will access these certificates and use them to validate who you are, at least there are no usernames or passwords.</description>
+    </item>
+    
+    <item>
+      <title>WebView in the Developer Preview of L</title>
+      <link>https://www.gauntface.com/blog/2014/07/02/webview-in-the-developer-preview-of-l/</link>
+      <pubDate>Wed, 02 Jul 2014 21:04:32 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/07/02/webview-in-the-developer-preview-of-l/</guid>
+      <description>WebView in the Developer Preview of L The WebView in the Android Developer Preview of L has once again received an update, this time to Chromium M36 and brings with it some new web platform features.
+If you haven&#39;t been following the WebView updates since the KitKat release everything you need to know is right here in this video.
+Text Sizing in KK MR2 and Above In the KitKat MR2 release, where the WebView was updated to M33, one small but important change was made to the way the fonts are sized inside the WebView.</description>
+    </item>
+    
+    <item>
+      <title>CodeIgniter &#43; Markdown &#43; Libraries = Hell</title>
+      <link>https://www.gauntface.com/blog/2014/03/17/codeigniter-markdown-libraries-hell/</link>
+      <pubDate>Mon, 17 Mar 2014 20:35:54 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/03/17/codeigniter-markdown-libraries-hell/</guid>
+      <description>CodeIgniter + Markdown + Libraries = Hell When it comes to pulling in third party libraries in CodeIgniter, there seems to be this little dance you need to do to get things working - frankly it sucks.
+One of the tasks I had on my to-do list was to get Markdown converting to HTML using this helpful set of PHP classes: http://michelf.ca/projects/php-markdown/
+Put the markdown files from Michel Fortin into the third_party directory, in my case I created a directory called Md and moved the PHP files into the root of that directory (third_party/Md/).</description>
+    </item>
+    
+    <item>
+      <title>PageSpeed Quirks &amp; Google Plus Sign In</title>
+      <link>https://www.gauntface.com/blog/2014/03/13/pagespeed-quirks-google-plus-sign-in/</link>
+      <pubDate>Thu, 13 Mar 2014 21:11:29 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/03/13/pagespeed-quirks-google-plus-sign-in/</guid>
+      <description>PageSpeed Quirks &amp;amp; Google Plus Sign In For the back-end of my blog I wanted to use Google+ sign-in so that I didn&#39;t have to bother writing any user management logic.
+I stuffed in the Javascript API, debugged an issue where the oauth2 token exchange where the PHP guide was lacking information on the subtle requirement of:
+$this-&amp;gt;google-&amp;gt;setRedirectUri(&amp;#39;postmessage&amp;#39;); Once it was up and running, I ran PageSpeed and got 85/100.</description>
+    </item>
+    
+    <item>
+      <title>Pagespeed Score Hunt</title>
+      <link>https://www.gauntface.com/blog/2014/03/02/pagespeed-score-hunt/</link>
+      <pubDate>Sun, 02 Mar 2014 21:49:40 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/03/02/pagespeed-score-hunt/</guid>
+      <description>Pagespeed Score Hunt For those who aren&#39;t aware of PageSpeed insights, it&#39;s a service which will allow you to figure out where you could optimise the load time of your site and well worth checking out https://developers.google.com/speed/pagespeed/insights/.
+IO Byte For Google I/O 2014 I put together a video covering a lot of these details, with useful Grunt and Gulp tasks to achieve certain tasks.
+If you&#39;re more of a video fan then give this a go, otherwise if you prefer a read, then skip on ahead :)</description>
+    </item>
+    
+    <item>
+      <title>Perf Wars: Gaunt Face vs Aerotwist</title>
+      <link>https://www.gauntface.com/blog/2014/02/28/perf-wars-gaunt-face-vs-aerotwist/</link>
+      <pubDate>Fri, 28 Feb 2014 17:32:22 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/02/28/perf-wars-gaunt-face-vs-aerotwist/</guid>
+      <description>Perf Wars: Gaunt Face vs Aerotwist In the not so distant past&amp;hellip;
+ The second day running where it&#39;s started off by being mocked for my poor code.
+— Matt Gaunt (@gauntface) February 19, 2014
+  @gauntface: @aerotwist must like it as you &amp;ldquo;do all the bad things&amp;rdquo;.
+— Chris Banes (@chrisbanes) February 19, 2014
+  @chrisbanes @gauntface He’s a one-man, walking, talking, cautionary tale.
+— Paul Lewis (@aerotwist) February 19, 2014</description>
+    </item>
+    
+    <item>
+      <title>New Site, New Approach</title>
+      <link>https://www.gauntface.com/blog/2014/02/16/new-site-new-approach/</link>
+      <pubDate>Sun, 16 Feb 2014 22:35:57 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/02/16/new-site-new-approach/</guid>
+      <description>New Site, New Approach I&#39;ve started working on a new version of my site and I&#39;m aiming to work on a range of problems / areas where my current site sucks.
+Static Site Originally the redesign was a static site, largely to see what I wanted the site to look like / how I the UX to behave.
+After a long haul flight and a quick chat with Paul Lewes, I reached a point of diminishing returns, given my intention to move to a dynamic site, so this weekend I switched over to Codeigniter.</description>
+    </item>
+    
+    <item>
+      <title>Cordova &#43; Web Best Practices v2.0</title>
+      <link>https://www.gauntface.com/blog/2014/02/05/cordova-web-best-practices-v2-0/</link>
+      <pubDate>Wed, 05 Feb 2014 21:55:42 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/02/05/cordova-web-best-practices-v2-0/</guid>
+      <description>Cordova + Web Best Practices v2.0 My oh my doesn&#39;t time fly, a little while a go I wrote a blog post on how to get Cordova and Yeoman to work together bringing the best practices of the web to Cordova based applications.
+Well times have changed, we&#39;ve all grown a little older, a little wiser and projects have progressed, with that in mind here is the new way to get yourself set up with Cordova and Yeoman.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Adventure - Day 2</title>
+      <link>https://www.gauntface.com/blog/2014/01/16/raspberry-pi-adventure-day-2/</link>
+      <pubDate>Thu, 16 Jan 2014 21:09:19 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/01/16/raspberry-pi-adventure-day-2/</guid>
+      <description>Raspberry Pi Adventure - Day 2 One of the nice things about the Pi, is how small it is, meaning it&#39;s easy to find a spot for it to live, well you could if it wasn&#39;t for those pesky cables.
+That&#39;s why I opted for wifi over ethernet. The next target on my cable hit list was HDMI, which we can get rid of by making our Pi accessible via VNC.</description>
+    </item>
+    
+    <item>
+      <title>D-Pad Navigation in a Web App 2.0</title>
+      <link>https://www.gauntface.com/blog/2014/01/14/d-pad-navigation-in-a-web-app-2-0/</link>
+      <pubDate>Tue, 14 Jan 2014 15:27:34 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/01/14/d-pad-navigation-in-a-web-app-2-0/</guid>
+      <description>D-Pad Navigation in a Web App 2.0 A little over a year ago I wrote D-Pad Navigation in a Web App. The biggest problem was it required a lot of work to get things going, so I spent a few days rewriting some of the logic into a more friendly, generic library.
+https://github.com/gauntface/dpad-navigation
+To support D-Pad navigation with this library, you need to do the following:
+  Download the library&#39;s javascript file from here: https://raw.</description>
+    </item>
+    
+    <item>
+      <title>Translucent Theme in Android</title>
+      <link>https://www.gauntface.com/blog/2014/01/10/translucent-theme-in-android/</link>
+      <pubDate>Fri, 10 Jan 2014 14:37:45 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/01/10/translucent-theme-in-android/</guid>
+      <description>Translucent Theme in Android One of the new features in KitKat is the Translucent UI, where you have the ability to sit behind status and navigation bars, meaning you can have the subtle change shown above (left side is normal, right side is the translucent version).
+NOTE: This application is just me playing around with some stuff, so please look past the awful UI
+The How To get going you need to set the following properties in your theme:</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Adventure - Day 1</title>
+      <link>https://www.gauntface.com/blog/2014/01/10/raspberry-pi-adventure-day-1/</link>
+      <pubDate>Fri, 10 Jan 2014 00:04:24 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2014/01/10/raspberry-pi-adventure-day-1/</guid>
+      <description>Raspberry Pi Adventure - Day 1 They say when you start doing something new, you should blog about it.
+Hence my on-going log of Raspberry Pi use and development.
+The goal of this is to basically serve as a home server, nothing heavy, but anything that feels like it is for use when I&#39;m in house and want a quick link to my router or NAS, avoiding the IP address remembering step.</description>
+    </item>
+    
+    <item>
+      <title>&#39;Focusing&#39; on the Web Today</title>
+      <link>https://www.gauntface.com/blog/2013/12/09/focusing-on-the-web-today/</link>
+      <pubDate>Mon, 09 Dec 2013 14:50:28 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2013/12/09/focusing-on-the-web-today/</guid>
+      <description>&amp;lsquo;Focusing&amp;rsquo; on the Web Today Adding a focus state to your UI is great for accessibility on desktop, devices requiring remote control input or phones with multiple input methods, i.e. a scroll ball.
+Some elements, most notably form fields, will add an outline when a user interacts with the element.
+A element during and after being touched
+The outline is used to display where the focus of the page currently resides.</description>
+    </item>
+    
+    <item>
+      <title>Spatial Navigation &amp; Opera</title>
+      <link>https://www.gauntface.com/blog/2013/12/03/spatial-navigation-opera/</link>
+      <pubDate>Tue, 03 Dec 2013 12:45:57 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2013/12/03/spatial-navigation-opera/</guid>
+      <description>Spatial Navigation &amp;amp; Opera Desktop Opera On Opera&#39;s site it mentions that spatial navigation should be enabled and Shift + Arrow will focus elements on the page.
+This doesn&#39;t really work as I&#39;d expect, it won&#39;t just start focusing.
+I ended up using tab to step over the focusable elements and in certain scenarios where I found I couldn&#39;t reach an element, using the Shift + Arrow key would give the unreachable element focus.</description>
+    </item>
+    
+    <item>
+      <title>Desktop Site and the Viewport</title>
+      <link>https://www.gauntface.com/blog/2013/11/29/desktop-site-and-the-viewport/</link>
+      <pubDate>Fri, 29 Nov 2013 19:41:26 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2013/11/29/desktop-site-and-the-viewport/</guid>
+      <description>Desktop Site and the Viewport The viewport came and gave web developers a way to determine the best way to support mobile devices.
+But what exactly happens when you define a viewport width and initial scale for a desktop site?
+It&#39;s hard to visualise what the result is of twiddling the initial-scale value, so here it is for your very eyes (and my own memory / sanity).
+Firstly let’s consider the devices:</description>
+    </item>
+    
+    <item>
+      <title>Royal Parks Half Marathon</title>
+      <link>https://www.gauntface.com/blog/2013/11/09/royal-parks-half-marathon/</link>
+      <pubDate>Sat, 09 Nov 2013 17:12:32 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2013/11/09/royal-parks-half-marathon/</guid>
+      <description>Royal Parks Half Marathon Well it was an experience!
+I thoroughly enjoyed the event, the sun was out in London as the 16,000 people descended on Hyde Park to take part.
+My time came in at 1:50:26 which I was insanely happy about as my goal was to get under 2 hours.
+I just wanted to say a massive thank you to everyone who donated money to Rocking Horse, helping to raise £500 which I&#39;m hoping Google will be able to match.</description>
+    </item>
+    
+    <item>
+      <title>Cordova &#43; Web Best Practices</title>
+      <link>https://www.gauntface.com/blog/2013/07/18/cordova-web-best-practices/</link>
+      <pubDate>Thu, 18 Jul 2013 08:32:00 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2013/07/18/cordova-web-best-practices/</guid>
+      <description>Cordova + Web Best Practices Note:There is a new version of this guide on my site which takes into account changes in the Cordova-CLI and Yeoman.
+Cordova + Web Best Practices v2.0
+Those of you who have tried Cordova / PhoneGap, will know that it&#39;s not always easy to manage your web content along side the native platform projects.
+Historically, you&#39;ve had to create your own Android, iOS, &amp;hellip; projects and then wrangle them to work with Cordova&#39;s libraries.</description>
+    </item>
+    
+    <item>
+      <title>Touch Feedback for Mobile Sites</title>
+      <link>https://www.gauntface.com/blog/2013/06/25/touch-feedback-for-mobile-sites/</link>
+      <pubDate>Tue, 25 Jun 2013 14:20:17 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2013/06/25/touch-feedback-for-mobile-sites/</guid>
+      <description>Touch Feedback for Mobile Sites During a conversation about a mobile site, one of the comments made was &amp;ldquo;Why do they hate touch feedback?&amp;rdquo; and my general response was &amp;ldquo;It&#39;s the web, it doesn&#39;t really have touch feedback&amp;rdquo;.
+Basically, this kicked off a little hissy fit in my mind. The rant was along the lines of &amp;ldquo;Well why the hell don&#39;t we have touch feedback? I want it, how do I get it?</description>
+    </item>
+    
+    <item>
+      <title>Gaunt Face Redesign</title>
+      <link>https://www.gauntface.com/blog/2013/06/03/gaunt-face-redesign/</link>
+      <pubDate>Mon, 03 Jun 2013 19:44:45 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2013/06/03/gaunt-face-redesign/</guid>
+      <description>Gaunt Face Redesign Question What happens when a site doesn&#39;t click with it&#39;s blog counter part, doesn&#39;t support mobile devices and is starting to look a little old?
+Answer Redesign.
+It&#39;s far from finished and still in need of a lot of polish, but hopefully, as people start to use it, I&#39;ll find the big issues sooner rather than later :)</description>
+    </item>
+    
+    <item>
+      <title>Google I/O 2013 - Modern Workflow for the Mobile Web</title>
+      <link>https://www.gauntface.com/blog/2013/06/03/google-i-o-2013-modern-workflow-for-the-mobile-web/</link>
+      <pubDate>Mon, 03 Jun 2013 17:49:56 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2013/06/03/google-i-o-2013-modern-workflow-for-the-mobile-web/</guid>
+      <description>Google I/O 2013 - Modern Workflow for the Mobile Web Another year means another epic Google I/O!!!
+It was great meeting so many old and new faces, helping as much as possible and not to forget this year was my first time presenting :)
+I have to say a big thank you to everyone who attended in person and on the live stream.
+Below you&#39;ll find the recording of the event and the slides will be available @ http://io13mobileworkflow.</description>
+    </item>
+    
+    <item>
+      <title>Android Aspect Ratio for VideoView</title>
+      <link>https://www.gauntface.com/blog/2013/03/18/aspect-ratio-for-videoview/</link>
+      <pubDate>Mon, 18 Mar 2013 15:44:49 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2013/03/18/aspect-ratio-for-videoview/</guid>
+      <description>Android Aspect Ratio for VideoView A couple of people have had issues with the aspect ratio of their videos not being what they expected on Google TV.
+The problem seems to come from the VideoView sizing itself in the layout and making the SurfaceHolder the same size, regardless of video content.
+By fixing the size of the SurfaceHolder you have a good canvas for the video to be drawn on, then ensure the size of the VideoView is the right aspect ratio so as it sizes the SurfaceHolder, it&#39;s uniform with the video size.</description>
+    </item>
+    
+    <item>
+      <title>CodeIgniter - Damn that pesky index.php</title>
+      <link>https://www.gauntface.com/blog/2013/03/02/codeigniter-damn-that-pesky-index-php/</link>
+      <pubDate>Sat, 02 Mar 2013 19:35:36 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2013/03/02/codeigniter-damn-that-pesky-index-php/</guid>
+      <description>CodeIgniter - Damn that pesky index.php This is largely for self reference, but is useful if you are just starting to look at CodeIgniter.
+Firstly, everything has an index.php in front of the URL parameters. For example, I might want to have www.gauntface.co.uk/apps/ which would show all the apps I&#39;ve worked on. Unfortunately this needs to be www.gauntface.co.uk/index.php. To remove that annoying blighter, we start our journey at the codeigniter docs http://ellislab.</description>
+    </item>
+    
+    <item>
+      <title>Adding Custom Applications to the &#34;Open With” Tab on Debian</title>
+      <link>https://www.gauntface.com/blog/2013/02/24/adding-custom-applications-to-the-open-with-tab-on-debian/</link>
+      <pubDate>Sun, 24 Feb 2013 20:21:00 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2013/02/24/adding-custom-applications-to-the-open-with-tab-on-debian/</guid>
+      <description>Adding Custom Applications to the “Open With” Tab on Debian I&#39;m a big fan of Sublime text editor, but since it doesn&#39;t have an installer for Linux, I can&#39;t set it as the default application for certain files.
+I finally did some digging and found the solution.
+  Open the Main Menu application (if it&#39;s not available you&#39;ll need to download it):
+sudo apt-get install alacarte   In Main Menu, set up Sublime as a normal application, but in the Command field, add &#39; %U&amp;rsquo; to the end</description>
+    </item>
+    
+    <item>
+      <title>Global Git Ignore</title>
+      <link>https://www.gauntface.com/blog/2013/01/02/global-git-ignore/</link>
+      <pubDate>Wed, 02 Jan 2013 14:02:54 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2013/01/02/global-git-ignore/</guid>
+      <description>Global Git Ignore Here&#39;s a nifty trick Les Vogel introduced me to, to set a global git ignore file.
+git config --global core.excludesfile ~/.gitignore_global nano ~/.gitignore_global Then for me I add in the following:
+.project .settings .idea # built application files *.apk *.ap_ # files for the dex VM *.dex # Java class files *.class # IntelliJ config files *.iml # generated files bin/ gen/ # Local configuration file (sdk path, etc) local.</description>
+    </item>
+    
+    <item>
+      <title>Intro to Google TV 2012</title>
+      <link>https://www.gauntface.com/blog/2012/12/28/intro-to-google-tv-2012/</link>
+      <pubDate>Fri, 28 Dec 2012 14:50:39 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/12/28/intro-to-google-tv-2012/</guid>
+      <description>Intro to Google TV 2012 I was lucky enough to travel around presenting an Intro to Google TV at a number of events and here are the slides from Droidcon NL, the last event of 2012 :)</description>
+    </item>
+    
+    <item>
+      <title>D-Pad Navigation in a Web App</title>
+      <link>https://www.gauntface.com/blog/2012/12/28/d-pad-navigation-in-a-web-app/</link>
+      <pubDate>Fri, 28 Dec 2012 11:31:04 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/12/28/d-pad-navigation-in-a-web-app/</guid>
+      <description>D-Pad Navigation in a Web App Anyone developing an application for any platform should consider their UI from the outset, which relies heavily on understanding how people will interact with their app.
+With Google TV and indeed many other TV platforms, the main mode of navigation is the humble and well established D-Pad.
+The real question is, how can you make your website suitable for navigation via a D-Pad?
+ Mike Hostetler&#39;s Keyboard Navigation Plugin for jQuery - https://github.</description>
+    </item>
+    
+    <item>
+      <title>Drawer Design Pattern on GTV</title>
+      <link>https://www.gauntface.com/blog/2012/12/14/drawer-design-pattern-on-gtv/</link>
+      <pubDate>Fri, 14 Dec 2012 16:42:33 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/12/14/drawer-design-pattern-on-gtv/</guid>
+      <description>Drawer Design Pattern on GTV At the moment there is a lot of debate within the Android community regarding how to implement the Drawer design pattern in Android.
+Generally, developers love the concept and see where it fits in with the platform, it&#39;s the details that are still needing to be ironed out. Personally I love the design pattern, it&#39;s an easy way of including functionality without bombarding users with tonnes of options.</description>
+    </item>
+    
+    <item>
+      <title>To Zoom or to Scale</title>
+      <link>https://www.gauntface.com/blog/2012/12/04/to-zoom-or-to-scale/</link>
+      <pubDate>Tue, 04 Dec 2012 13:34:11 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/12/04/to-zoom-or-to-scale/</guid>
+      <description>To Zoom or to Scale You&#39;ve made your website for Google TV, it&#39;s looking damn fine, but you&#39;ve hard coded a width, eek, how do I handle 720p &amp;amp; 1080p . . . . I know I&#39;ll zoom the hell out of it.
+This is a fairly common use case, generally I would strongly encourage developers to create websites which are responsive and handle different screen sizes accordingly, but the history of web development has shown that fixed width pages are fairly common, especially moving from designs to HTML + CSS.</description>
+    </item>
+    
+    <item>
+      <title>Pimp Your Terminal</title>
+      <link>https://www.gauntface.com/blog/2012/11/26/pimp-your-terminal/</link>
+      <pubDate>Mon, 26 Nov 2012 16:35:29 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/11/26/pimp-your-terminal/</guid>
+      <description>Pimp Your Terminal The rather awesome Paul Lewis introduced me to the rather awesome Paul Irish&#39;s dotfiles.
+This basically makes your Terminal awesome with syntax &amp;amp; git highlighting.
+https://github.com/paulirish/dotfiles
+Orig Photo: https://flic.kr/p/hF8af</description>
+    </item>
+    
+    <item>
+      <title>Getting Going With Google Code</title>
+      <link>https://www.gauntface.com/blog/2012/11/26/getting-going-with-google-code/</link>
+      <pubDate>Mon, 26 Nov 2012 16:31:07 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/11/26/getting-going-with-google-code/</guid>
+      <description>Getting Going With Google Code First create you.re project @ https://code.google.com/
+cd to the directory of your application.
+git init git remote add origin &amp;lt;URL of Google Code Repo&amp;gt; git commit -a -m &amp;#34;Initial commit&amp;#34; git push origin master FIN.
+Orig Photo: https://flic.kr/p/oFfUm</description>
+    </item>
+    
+    <item>
+      <title>UI on the Big Screen &amp; Android</title>
+      <link>https://www.gauntface.com/blog/2012/11/14/ui-on-the-big-screen-android/</link>
+      <pubDate>Wed, 14 Nov 2012 16:55:44 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/11/14/ui-on-the-big-screen-android/</guid>
+      <description>UI on the Big Screen &amp;amp; Android Working as part of the Google TV developer relations team means I see a lot of Google TV applications. Coming from a mobile development background means I&#39;ve seen a lot of UI / UX design patterns come and go. So here is my short list of things I&#39;ve seen come and go in the Android space, which are following the same trend on Google TV and give you some useful hints on how to make your good TV apps great.</description>
+    </item>
+    
+    <item>
+      <title>Building Anymote jar</title>
+      <link>https://www.gauntface.com/blog/2012/10/16/building-anymote-jar/</link>
+      <pubDate>Tue, 16 Oct 2012 15:28:58 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/10/16/building-anymote-jar/</guid>
+      <description>Building Anymote jar I started digging around in the Anymote protocol and a few things popped up regarding how to build everything and start using the latest and greatest stuff. So here&#39;s a brief guide on how to get going with it.
+Step 1: We need protobuf jar Protocol Buffers are an efficient way of encoding structured data and serializing / deserializing the info.
+The Main URL you need is: http://code.</description>
+    </item>
+    
+    <item>
+      <title>Google TV &#43; In App Billing</title>
+      <link>https://www.gauntface.com/blog/2012/08/15/google-tv-in-app-billing/</link>
+      <pubDate>Wed, 15 Aug 2012 14:54:38 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/08/15/google-tv-in-app-billing/</guid>
+      <description>Google TV + In App Billing The other day I was asked a few questions regarding In-App billing on Google TV and since it was the first time I&#39;d looked into this, I thought I&#39;d share a few details on what was needed to get things working.
+I started off with the stock Android example, which you can find here: http://developer.android.com/guide/google/play/billing/billing_integrate.html#billing-download
+Installing this directly on TV quickly threw up some issues.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m Joining Google</title>
+      <link>https://www.gauntface.com/blog/2012/05/14/i-m-joining-google/</link>
+      <pubDate>Mon, 14 May 2012 21:01:18 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/05/14/i-m-joining-google/</guid>
+      <description>I&#39;m Joining Google I&#39;ve been a bit quiet on all the social networks lately and I am very happy to come back with some fantastic news.
+I&#39;m joining Google :)
+As of June I will be joining the Google TV team as a Developer Advocate for Europe. What this means is I&#39;ll be helping developers create fantastic applications for Google TV and after the GTV Hackathon held in London, I know you guys are going to keep me on my toes ;)</description>
+    </item>
+    
+    <item>
+      <title>Skillset Academi&#43; - Mobile Apps &amp; Content Creation</title>
+      <link>https://www.gauntface.com/blog/2012/03/27/skillset-academi-mobile-apps-content-creation/</link>
+      <pubDate>Tue, 27 Mar 2012 11:57:56 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/03/27/skillset-academi-mobile-apps-content-creation/</guid>
+      <description>Skillset Academi+ - Mobile Apps &amp;amp; Content Creation Last Friday I was invited by Adam Martin to give a presentation on the current state of affairs in the mobile space. Despite the tube problems (damn you circle line) I got there on time. As usual it was a great crowd and I hope they enjoyed.
+There may be a video at a later stage but not sure Adam&#39;s plans with that.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts on Mobile Projection &#43; Mobile Eye</title>
+      <link>https://www.gauntface.com/blog/2012/03/25/thoughts-on-mobile-projection-mobile-eye/</link>
+      <pubDate>Sun, 25 Mar 2012 22:00:21 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/03/25/thoughts-on-mobile-projection-mobile-eye/</guid>
+      <description>Thoughts on Mobile Projection + Mobile Eye It&#39;s been a few years since I finished my Masters in Computer Science at the University of Bristol. My final project was &amp;ldquo;Mobile Eye&amp;rdquo;, a thesis project exploring mobile projection techniques and interactions.
+There were two things I discovered when beginning the project, mobile projection is fairly new, very niche and the majority of work undertaken was using old platforms / hardware because of output flexibility rather than platform capabilities.</description>
+    </item>
+    
+    <item>
+      <title>#MobileBrighton - 15th March 2012</title>
+      <link>https://www.gauntface.com/blog/2012/03/18/mobilebrighton-15th-march-2012/</link>
+      <pubDate>Sun, 18 Mar 2012 01:29:45 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/03/18/mobilebrighton-15th-march-2012/</guid>
+      <description>#MobileBrighton - 15th March 2012 Last thursday I gave a talk on the approach I take to target the various Android screen sizes. I was bit unsure how to get the information across since it was predominantly an iOS crowd (the group was originally an iOS group before changing to be mobile).
+All in all I think it went well and people found it useful. I&#39;ve put the slides up on slideshare.</description>
+    </item>
+    
+    <item>
+      <title>Android ListView with Rounded Corners and Highlighting</title>
+      <link>https://www.gauntface.com/blog/2012/03/04/android-listview-with-rounded-corners-and-highlighting/</link>
+      <pubDate>Sun, 04 Mar 2012 22:21:27 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/03/04/android-listview-with-rounded-corners-and-highlighting/</guid>
+      <description>Android ListView with Rounded Corners and Highlighting I&#39;ve just been asked for a helping hand about how to have a ListView with rounded corners, so here&#39;s the solution.
+In Android it&#39;s fairly trivial to have a ListView with rounded corners on the first and last element. The problems comes when you want to be able to highlight the view, whether that be via press or with a focus.
+The solution is nice and simple, the highlight applied by the system can be removed by setting the ListSelector color to transparent android:listSelector=&amp;quot;#00000000&amp;quot;</description>
+    </item>
+    
+    <item>
+      <title>A New Love For NodeJS</title>
+      <link>https://www.gauntface.com/blog/2012/03/01/a-new-love-for-nodejs/</link>
+      <pubDate>Thu, 01 Mar 2012 21:32:33 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/03/01/a-new-love-for-nodejs/</guid>
+      <description>A New Love For NodeJS I&#39;ve been working with NodeJS for the past couple of months and I have to say . . . . it is incredible.
+I&#39;ve been using it for building a restful JSON API and been amazed out how simple it was to pick and getting running with. Reasons for my loving it:
+ God damn that NPM is awesome. Having a set up for installing and maintain plugin&#39;s is fantastic, speeds up development and gives the platform a sense of maturity.</description>
+    </item>
+    
+    <item>
+      <title>Agile - Are You or Aren&#39;t You?</title>
+      <link>https://www.gauntface.com/blog/2012/02/09/agile-are-you-or-aren-t-you/</link>
+      <pubDate>Thu, 09 Feb 2012 21:56:45 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/02/09/agile-are-you-or-aren-t-you/</guid>
+      <description>Agile - Are You or Aren&#39;t You? One of the weirdest things I found when working for various companies whether that&#39;s as a developer within a company, or simply a developer using desk space in a client office, it&#39;s always fascinating discussing and seeing how other development houses are run.
+They&#39;ll tend to mention agile development methodologies and for the most part companies will say something along the lines of &amp;ldquo;Yes we are an agile development house&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Facebook Sync 2.0</title>
+      <link>https://www.gauntface.com/blog/2012/01/31/facebook-sync-2-0/</link>
+      <pubDate>Tue, 31 Jan 2012 23:21:32 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/01/31/facebook-sync-2-0/</guid>
+      <description>Facebook Sync 2.0 I&#39;ve been messing around with Android Fragments for the past couple of days and just wanted to bung up some early screenshots and get some feedback. The screenshots shown are from a G1 running 1.6 and a Samsung Tab 10.1 (confusingly framed in a Motorola Xoom).
+Orig Photo: https://flic.kr/p/dUnPaB</description>
+    </item>
+    
+    <item>
+      <title>Android is Still a Young&#39;un</title>
+      <link>https://www.gauntface.com/blog/2012/01/15/android-is-still-a-youngun/</link>
+      <pubDate>Sun, 15 Jan 2012 19:33:57 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/01/15/android-is-still-a-youngun/</guid>
+      <description>Android is Still a Young&#39;un Seeing the changes of a platform which has grown to handle various screen sizes, various OEM alterations, various API tweaks, re-writes and now devices types has been an exciting, albeit challenging experience.
+I&#39;ve had the fortune of working with some of the best Android developers out there, but keeping on top of all of this is a must and unfortunately only experience can account for a lot of quirks in Android.</description>
+    </item>
+    
+    <item>
+      <title>Heroku You Crafty Devil</title>
+      <link>https://www.gauntface.com/blog/2012/01/05/heroku-you-crafty-devil/</link>
+      <pubDate>Thu, 05 Jan 2012 11:21:36 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2012/01/05/heroku-you-crafty-devil/</guid>
+      <description>Heroku You Crafty Devil After using Heroku for a new project, these are the commands which I need learn and remember. Until then, I&#39;m jotting them down here as I go along:
+Lists the Currently Running Processes - Heroku Process State. heroku ps
+Scale Processes heroku ps:scale web=1 heroku ps:scale &amp;lt;Process Name&amp;gt;=&amp;lt;No of Instances&amp;gt;
+Logs heroku logs
+Open heroku open
+Orig Photo: https://flic.kr/p/bxzVLh</description>
+    </item>
+    
+    <item>
+      <title>ADB Right on the Command Line</title>
+      <link>https://www.gauntface.com/blog/2011/12/29/adb-right-on-the-command-line/</link>
+      <pubDate>Thu, 29 Dec 2011 16:50:35 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/12/29/adb-right-on-the-command-line/</guid>
+      <description>ADB Right on the Command Line Edit your ~/.profile file
+Then add something along the lines of:
+if [ -d &amp;quot;/home/matt/Development-Tools/android-sdks/tools&amp;quot; ] ; then PATH=&amp;quot;/home/matt/Development-Tools/android-sdks/tools:$PATH&amp;quot; fi if [ -d &amp;quot;/home/matt/Development-Tools/android-sdks/platform-tools&amp;quot; ] ; then PATH=&amp;quot;/home/matt/Development-Tools/android-sdks/platform-tools:$PATH&amp;quot; fi
+I tried &amp;lsquo;~/Development-Tools&amp;hellip;..&amp;rsquo; but had no luck.
+Anyway, restart your machine and jobs a good&#39;un
+Orig Photo: https://flic.kr/p/9FfDQ8</description>
+    </item>
+    
+    <item>
+      <title>Berg: Little Printer</title>
+      <link>https://www.gauntface.com/blog/2011/11/30/berg-little-printer/</link>
+      <pubDate>Wed, 30 Nov 2011 22:18:12 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/11/30/berg-little-printer/</guid>
+      <description>Berg: Little Printer Another post on Little Printer? Yeah, you guessed it ;)
+I&#39;m not going to say much on it apart from a congrats to Berg for releasing it, it&#39;s a fantastic looking product and I&#39;m looking forward to getting my hands on one and secondly the reason I like this is because it&#39;s moving away from digital.
+It&#39;s a bit of a weird thing to suggest (especially for an app developer), but a small chunk of paper I can grab in the morning, with all the bits of info I need for the day, that&#39;s pretty handy.</description>
+    </item>
+    
+    <item>
+      <title>LastMinute.com &#43; Nokia &#43; Qt &amp; Me</title>
+      <link>https://www.gauntface.com/blog/2011/11/30/lastminute-com-nokia-qt-me/</link>
+      <pubDate>Wed, 30 Nov 2011 20:02:31 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/11/30/lastminute-com-nokia-qt-me/</guid>
+      <description>LastMinute.com + Nokia + Qt &amp;amp; Me I&#39;ve been working with team Phaedrus at Future Platforms HQ to develop the Qt version of LastMinute.com&#39;s hotel booking application.
+Being one of the first Qt projects I&#39;d worked on, I was amazed at how easy it was to get to grips with Qt Quick, Nokia&#39;s technique for developing applications in QML and Javascript.
+After the application was finished Nokia asked if we would be happy to talk about our experience developing with Qt and you can see the result below.</description>
+    </item>
+    
+    <item>
+      <title>New Site &amp; New Blog</title>
+      <link>https://www.gauntface.com/blog/2011/11/29/new-site-new-blog/</link>
+      <pubDate>Tue, 29 Nov 2011 20:40:29 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/11/29/new-site-new-blog/</guid>
+      <description>New Site &amp;amp; New Blog Oh yeah.
+The site was looking a little bit outdated and it wasn&#39;t quite fitting my needs:
+ I struggled to adding sections to the site at a whim, at least now it consists of small chunks of content I can add, edit and remove. It was old and looked it I wanted an excuse to play with a little HTML5 I wasn&#39;t particularly happy with the format of the blog and hopefully the simplified look and feel will encourage me to post on a regular basis.</description>
+    </item>
+    
+    <item>
+      <title>Android Source Code in Eclipse</title>
+      <link>https://www.gauntface.com/blog/2011/10/25/android-source-code-in-eclipse/</link>
+      <pubDate>Tue, 25 Oct 2011 09:23:04 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/10/25/android-source-code-in-eclipse/</guid>
+      <description>Android Source Code in Eclipse Ever wanted to view the source code for an Android method?
+#Boom
+http://www.martynhaigh.com/blog/2011/10/20/android-sources-plugin-for-eclipse/
+Cheers Martyn.
+Orig Photo: https://plus.google.com/+MartynHaigh/</description>
+    </item>
+    
+    <item>
+      <title>Formatting XML Files in Android</title>
+      <link>https://www.gauntface.com/blog/2011/10/20/formatting-xml-files-in-android/</link>
+      <pubDate>Thu, 20 Oct 2011 10:31:27 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/10/20/formatting-xml-files-in-android/</guid>
+      <description>Formatting XML Files in Android To use cmd+shift+f to format layout and xml files nicely just do the following:
+Search for &amp;ldquo;format&amp;rdquo; in Eclipse preferences - XML &amp;gt; Split multiple attributes each on a new line
+Then go to: Android &amp;gt; Editors &amp;gt; Automatically format the XML edited by the visual layout editor
+Orig Photo: https://flic.kr/p/6HmQfR</description>
+    </item>
+    
+    <item>
+      <title>Droidcon UK 2011</title>
+      <link>https://www.gauntface.com/blog/2011/08/23/droidcon-uk-2011/</link>
+      <pubDate>Tue, 23 Aug 2011 20:32:52 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/08/23/droidcon-uk-2011/</guid>
+      <description>Droidcon UK 2011 It&#39;s that time of year when all the conferences are a go and if you&#39;re an Android developer the key event you should have in your diary is Droidcon UK 2011.
+I attended the second day of the event last year (Was in project deadline mode for the first day unfortunately) and thoroughly enjoyed it. Judging by the speaker list so far it should be an unmissable event.</description>
+    </item>
+    
+    <item>
+      <title>Amazon App Store is Disgusting</title>
+      <link>https://www.gauntface.com/blog/2011/08/04/amazon-app-store-is-disgusting/</link>
+      <pubDate>Thu, 04 Aug 2011 21:05:56 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/08/04/amazon-app-store-is-disgusting/</guid>
+      <description>Amazon App Store is Disgusting After reading the story by Shifty Jelly about the Amazon App Store&#39;s &amp;ldquo;Free app of the day&amp;rdquo;, I kind of felt that Amazon had let down the developer community and I didn&#39;t want to a part of it anymore. If you missed the article it&#39;s well worth a read: Shifty Jelly - Amazon App Store : Rotten to the Core.
+The post briefly mentions how the Amazon App Store doesn&#39;t allow developers to remove their applications, this gave me a slight hint of doubt to how valid the story was, but a quick check and yup, no remove, delete or un-publish button.</description>
+    </item>
+    
+    <item>
+      <title>Admob [Beta] &#43; Google Accounts</title>
+      <link>https://www.gauntface.com/blog/2011/07/28/admob-beta-google-accounts/</link>
+      <pubDate>Thu, 28 Jul 2011 17:53:48 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/07/28/admob-beta-google-accounts/</guid>
+      <description>Admob [Beta] + Google Accounts If you are a user of Admob and have opted to sign up with a Google Account or have migrated to a Google Account from an old Admob account, you&#39;ll need to perform the following tasks to use Admob [Beta].
+ First step is to login to Admob.com on your PC. Go to Account &amp;gt; Account Information Enable the API Password if you haven&#39;t already: &amp;ldquo;Enable read-only API access to your account&amp;rdquo; Use this API Password with your normal e-mail address to login to the application  I hope to implement a much nicer way of getting this information on behalf of the user, but it&#39;s all a matter of time.</description>
+    </item>
+    
+    <item>
+      <title>Arch Linux - Apache Sites</title>
+      <link>https://www.gauntface.com/blog/2011/07/07/arch-linux-apache-sites/</link>
+      <pubDate>Thu, 07 Jul 2011 20:35:33 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/07/07/arch-linux-apache-sites/</guid>
+      <description>Arch Linux - Apache Sites I followed a number of steps in the arch linux LAMP guide and this is now the process for me to set up new sites:
+sudo gedit /etc/httpd/conf/extra/httpd-vhosts.conf Add this to the end of the file:
+&amp;lt;VirtualHost *:80&amp;gt; ServerAdmin webmaster@localhost DocumentRoot &amp;#34;/home/matt/Sites/GauntFace/Local&amp;#34; ServerName gauntface.local.co.uk &amp;lt;Directory /home/matt/Sites/GauntFace/Local/&amp;gt; Options Indexes FollowSymLinks MultiViews AllowOverride All Order allow,deny allow from all &amp;lt;/Directory&amp;gt; &amp;lt;/VirtualHost&amp;gt; Then add the servername to the hosts file:</description>
+    </item>
+    
+    <item>
+      <title>Update on the Ole&#39; Gaunt Face Front</title>
+      <link>https://www.gauntface.com/blog/2011/06/29/update-on-the-ole-gaunt-face-front/</link>
+      <pubDate>Wed, 29 Jun 2011 21:05:29 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/06/29/update-on-the-ole-gaunt-face-front/</guid>
+      <description>Update on the Ole&amp;rsquo; Gaunt Face Front It&#39;s been a long time since I&#39;ve posted on here . . . . . too long.
+But I have been a little bit busy :)
+I left my Android team at Mubaloo over a month ago to join the awesome folks over at Future Platforms and as Tom Hume put it, I had a &amp;ldquo;baptism of fire&amp;rdquo; for my first project. I was started straight away on the Glastonbury application for Android developing the custom schedule screen and then progressing on to the other areas of the app with James Hugman.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts MotoDev App Summit</title>
+      <link>https://www.gauntface.com/blog/2011/04/18/thoughts-motodev-app-summit/</link>
+      <pubDate>Mon, 18 Apr 2011 21:37:09 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/04/18/thoughts-motodev-app-summit/</guid>
+      <description>Thoughts MotoDev App Summit I attended the MotoDev App Summit in London on Friday 15th April 2011 and I have mixed feelings about this event.
+Most events I&#39;ve ever attended have one of two approaches:
+ The event is made of lots of short talks with option to break off into smaller groups later The event is an hour or two with talks on how x, y and z was achieved which would be new features used in a fairly complete example Several talks going on at once and you&#39;re given the choice of which talks to attend  Normally I&#39;ve found these to be particularly useful, whether it&#39;s just one part of the event or the entire thing, the app summit was different, it was one room and all talks were held one after the other.</description>
+    </item>
+    
+    <item>
+      <title>Motodev App Summit App</title>
+      <link>https://www.gauntface.com/blog/2011/04/14/motodev-app-summit-app/</link>
+      <pubDate>Thu, 14 Apr 2011 07:07:14 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/04/14/motodev-app-summit-app/</guid>
+      <description>Motodev App Summit App This is only going to be a real quick blog post, but basically after signing up for the Motodev App Summit in London, I received an e-mail giving me extra information about the event as well as a link to download the Motodev App Summit App. Initial thoughts about this idea was . . . awesome, comments on speaks, bit of twitter integration, info about the speakers and how to get in touch and a fancy new app to look at.</description>
+    </item>
+    
+    <item>
+      <title>Working on Android Ubuntu One</title>
+      <link>https://www.gauntface.com/blog/2011/03/23/working-on-android-ubuntu-one/</link>
+      <pubDate>Wed, 23 Mar 2011 21:40:19 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/03/23/working-on-android-ubuntu-one/</guid>
+      <description>Working on Android Ubuntu One Note to self:
+Pull using bazaar, the command is
+bzr branch lp:ubuntuone-android-files
+Karni: &amp;lsquo;you hack, you do&amp;rsquo;:
+bzr commit -m &amp;quot;what have you done&amp;quot;
+bzr push lp:~gauntface/ubuntuone-android-files/the-branch-name-you-like
+if you add new files (such as drawables, resources, etc), you need to do (before you do bzr commit):
+bzr add
+Also, right after you bzr branch, you have to run the setup bash script, which downloads the necessary libs.</description>
+    </item>
+    
+    <item>
+      <title>Arduino Fun Times</title>
+      <link>https://www.gauntface.com/blog/2011/03/12/arduino-fun-times/</link>
+      <pubDate>Sat, 12 Mar 2011 16:26:53 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/03/12/arduino-fun-times/</guid>
+      <description>Arduino Fun Times Nan over at Mubaloo bought an Arduino for everyone to have a little play with, so now here is my experience of working with the Arduino Uno.
+Step 1: Go get the IDE - http://arduino.cc/en/Main/Software
+Step 2: The download for linux doesn&#39;t come in an deb, so you can add a menu entry by right clicking Applications &amp;gt; Edit Menu, then set the Name and comment accordingly, the command just needs to be on /arduino</description>
+    </item>
+    
+    <item>
+      <title>Setting Up GitHub for Android Projects</title>
+      <link>https://www.gauntface.com/blog/2011/02/13/setting-up-github-for-android-projects/</link>
+      <pubDate>Sun, 13 Feb 2011 13:51:58 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/02/13/setting-up-github-for-android-projects/</guid>
+      <description>Setting Up GitHub for Android Projects This is only a little reminder for myself when I&#39;m setting up Android Projects on GitHub.
+Firstly create the repo on GitHub which is nice and easy to do
+Secondly create the Android Project Eclipse so you have something to commit
+Then in a terminal navigate to the project directory and run &amp;lsquo;git init&amp;rsquo;
+Next step we need to setup the gitignore file so run &amp;lsquo;sudo gedit .</description>
+    </item>
+    
+    <item>
+      <title>Android Headset - Full Example</title>
+      <link>https://www.gauntface.com/blog/2011/02/13/android-headset-full-example/</link>
+      <pubDate>Sun, 13 Feb 2011 12:24:53 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/02/13/android-headset-full-example/</guid>
+      <description>Android Headset - Full Example When working on my Thesis for my Masters I ended up needing to use the headset of the Nexus One and from that project I uploaded a couple of code snippets. Within the comments someone asked for a full example of working code and I said I would put one together.
+A little late I admit, but I have finally found the time to put it together, I had a little issue with the priority of the intent filter, but I have put a fix within the source code, although it is extremely hacky and I&#39;m not particularly happy it being there.</description>
+    </item>
+    
+    <item>
+      <title>Nokia Nokia Nokia</title>
+      <link>https://www.gauntface.com/blog/2011/02/05/nokia-nokia-nokia/</link>
+      <pubDate>Sat, 05 Feb 2011 14:53:28 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/02/05/nokia-nokia-nokia/</guid>
+      <description>Nokia Nokia Nokia Yesterday I went to a Nokia event hosted in London.
+First off I have to say a huge thank you for Nokia for doing it, at least now should I ever need to develop for Nokia, I&#39;d know where to start, which for certain platforms is a bit of an issue Nokia Cough Blackberry Cough Windows Cough
+To be blunt, RIM, Nokia and Microsoft (Although less so) all are starting to realise that developer communities become the reason a platform can be so successful.</description>
+    </item>
+    
+    <item>
+      <title>Android UI Reference</title>
+      <link>https://www.gauntface.com/blog/2011/01/18/android-ui-reference/</link>
+      <pubDate>Tue, 18 Jan 2011 23:22:48 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2011/01/18/android-ui-reference/</guid>
+      <description>Android UI Reference Android UI Reference One evening after work, @gazsp asked me to do a presentation on Android UI and after kind of chatting with him about what sorta things he wanted to know, I stuck some stuff done in a presentation and largely based it on the approach I took for the Admob app I&#39;d been working (Beta coming soon :P).
+Anyway I tidied up the notes and published them on SlideShare.</description>
+    </item>
+    
+    <item>
+      <title>How-To: Multiple Proximity Alerts in Android</title>
+      <link>https://www.gauntface.com/blog/2010/12/28/how-to-multiple-proximity-alerts-in-android/</link>
+      <pubDate>Tue, 28 Dec 2010 16:52:19 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/12/28/how-to-multiple-proximity-alerts-in-android/</guid>
+      <description>How-To: Multiple Proximity Alerts in Android A number of people have asked me about a little snippet of code I put up at:
+http://blog.gauntface.co.uk/2010/01/04/proximity-alerts-in-android/
+Because the code was originally written for a piece of University coursework, so I needed to be careful to avoid any issues with plagiarism. Since all of that is over now, I&#39;ve re-written the example into a little example project. It&#39;s by no means a full piece of code - I have only briefly tested it and I haven&#39;t included any code to remove the broadcast receivers after they&#39;ve been registered.</description>
+    </item>
+    
+    <item>
+      <title>The Power of Free Time</title>
+      <link>https://www.gauntface.com/blog/2010/12/06/the-power-of-free-time/</link>
+      <pubDate>Mon, 06 Dec 2010 23:15:33 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/12/06/the-power-of-free-time/</guid>
+      <description>The Power of Free Time This is something I&#39;ve been pondering on the last couple of weeks, it&#39;s a little bit of a ramble but it would be great to get some experienced developers points of view.
+When I say &amp;ldquo;free&amp;rdquo; time, what I&#39;m referring to, is paid time, in work hours, to look into / research / learn a new skill, technology or api etc. All of which a company may benefit from.</description>
+    </item>
+    
+    <item>
+      <title>Admob Android App Update</title>
+      <link>https://www.gauntface.com/blog/2010/12/01/admob-android-app-update/</link>
+      <pubDate>Wed, 01 Dec 2010 21:20:34 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/12/01/admob-android-app-update/</guid>
+      <description>Admob Android App Update Since the release of Facebook Sync I have found that I want to keep track of my Admob Revenue and to be honest the website isn&#39;t too bad both on the phone and on a standard browser, but what I really want is a simple widget and an app with a nice interface if I want more info, so after noticing they&#39;ve released an API I went about writing an Admob application.</description>
+    </item>
+    
+    <item>
+      <title>Notes from playing with Android&#39;s Canvas</title>
+      <link>https://www.gauntface.com/blog/2010/11/21/notes-from-playing-with-androids-canvas/</link>
+      <pubDate>Sun, 21 Nov 2010 19:00:56 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/11/21/notes-from-playing-with-androids-canvas/</guid>
+      <description>Notes from playing with Android&#39;s Canvas The first thing I couldn&#39;t find quickly in the docs was that the top left corner is (0,0) and the bottom right is the canvas size (w, h).
+The measured height of the canvas doesn&#39;t necessarily equal the canvas size, what this means is that the canvas size shouldn&#39;t be used for calculating positions, but the getMeasuredHeight() and getMeasuredWidth() should be.
+One situation I has was I wanted to fill up as much space as possible but allow the containing linearlayout determine how much space I got by setting the weight to 1 for my custom view.</description>
+    </item>
+    
+    <item>
+      <title>Web Development on Maverick Meerkat</title>
+      <link>https://www.gauntface.com/blog/2010/11/07/web-development-on-maverick-meerkat/</link>
+      <pubDate>Sun, 07 Nov 2010 19:13:42 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/11/07/web-development-on-maverick-meerkat/</guid>
+      <description>Web Development on Maverick Meerkat A new Ubuntu, a new update to my web development environment how-to, so lets get down to business.
+I do a fair bit of web development for free lance work, project work and personal sites. Each time I upgrade my Ubuntu Distro I like to do a clean installation rather than upgrade which means settings up apache on my machine, but each time I forget about how I created my set-up.</description>
+    </item>
+    
+    <item>
+      <title>Shotwell, sooo Close to Perfect, Yet so Far</title>
+      <link>https://www.gauntface.com/blog/2010/09/26/shotwell-sooo-close-to-perfect-yet-so-far/</link>
+      <pubDate>Sun, 26 Sep 2010 20:05:20 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/09/26/shotwell-sooo-close-to-perfect-yet-so-far/</guid>
+      <description>Shotwell, sooo Close to Perfect, Yet so Far Shotwell is by far the best photo management software I&#39;ve used on linux, it far surpasses picasa with its easy to use interface, taking a similar approach to iPhoto for Mac OS X. The polish on the application is fantastic, something many linux application lack.
+It offers publishing features for Facebook, Flickr and Picasa Web Albums, but alas this is where my own personal tastes and this little program go our separate ways.</description>
+    </item>
+    
+    <item>
+      <title>How-To: Get GTX460 Graphics Card Working on Ubuntu (10.04)</title>
+      <link>https://www.gauntface.com/blog/2010/09/26/how-to-get-gtx460-graphics-card-working-on-ubuntu-10-04/</link>
+      <pubDate>Sun, 26 Sep 2010 16:36:12 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/09/26/how-to-get-gtx460-graphics-card-working-on-ubuntu-10-04/</guid>
+      <description>How-To: Get GTX460 Graphics Card Working on Ubuntu (10.04) I&#39;ve just upgraded my computer and with this came the multiple decisions of what to buy, followed by the nightmare of installing Windows 7 and then to be dragged into the problems Ubuntu is likely to have with up-to-date hardware.
+A little part of me was hoping that Ubuntu would be able to handle it, but alas, there was a graphics card issue.</description>
+    </item>
+    
+    <item>
+      <title>Hacky Quantum Hack</title>
+      <link>https://www.gauntface.com/blog/2010/08/30/hacky-quantum-hack/</link>
+      <pubDate>Mon, 30 Aug 2010 12:13:24 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/08/30/hacky-quantum-hack/</guid>
+      <description>Hacky Quantum Hack Hacky Quantum Hack My Slashdot RSS feed came up with the story of how an institution had hacked a Quantum cryptography system.
+My first thought was, well that is pretty reasonable, you can read a quantum state without any real issue, the problem is Alice and Bob will be aware that you&#39;re reading their conversation. But then this story went on to claim that the hack enabled them read the conversation without the other parties becoming aware.</description>
+    </item>
+    
+    <item>
+      <title>Lucid Lynx Web Development</title>
+      <link>https://www.gauntface.com/blog/2010/07/07/lucid-lynx-web-development/</link>
+      <pubDate>Wed, 07 Jul 2010 18:58:04 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/07/07/lucid-lynx-web-development/</guid>
+      <description>Lucid Lynx Web Development I&#39;ve been upgrading ALOT of my computers and virtualised machines to Ubuntu Lucid Lynx and the web development for them is pretty much the same.
+The only difference is the default php error message setting, which know treats your install as a production install rather than a development install - Good for some, bad for others so here&#39;s the simple fix.
+Open a terminal and type in the command:</description>
+    </item>
+    
+    <item>
+      <title>It&#39;s been a while...</title>
+      <link>https://www.gauntface.com/blog/2010/06/05/it-s-been-a-while/</link>
+      <pubDate>Sat, 05 Jun 2010 17:27:39 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/06/05/it-s-been-a-while/</guid>
+      <description>It&#39;s been a while&amp;hellip; I haven&#39;t been on the internet over the past week or 2 and this is purely because of:
+ Finishing Thesis Celebrating the finishing of the Thesis Sorting out new flat Preparing for a presentation on the contents of my thesis  But the end of my student life is near, as of Wednesday evening I will be finished with uni. But this is the start of some rather fun stuff.</description>
+    </item>
+    
+    <item>
+      <title>Change is just around the corner . . .</title>
+      <link>https://www.gauntface.com/blog/2010/04/24/change-is-just-around-the-corner/</link>
+      <pubDate>Sat, 24 Apr 2010 22:24:52 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/04/24/change-is-just-around-the-corner/</guid>
+      <description>Change is just around the corner . . . Orig Photo: https://flic.kr/p/3f38m</description>
+    </item>
+    
+    <item>
+      <title>Why is Open Source Software Documentation Bad?</title>
+      <link>https://www.gauntface.com/blog/2010/04/22/why-is-open-source-software-documentation-bad/</link>
+      <pubDate>Thu, 22 Apr 2010 22:12:06 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/04/22/why-is-open-source-software-documentation-bad/</guid>
+      <description>Why is Open Source Software Documentation Bad? I&#39;ve just gotten off the IRC of the #ubuntu-tweakers room on irc.freenode.net and we were having a full-blown discussion on why there is this huge barrier to entry with open source software.
+The main area&#39;s that we all agreed on were the following:
+ The programmer doesn&#39;t know the tools which are used The programmer is lost the minute they get into the code  and one thing I&#39;d tag onto that is:</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Power Users - We Want You!</title>
+      <link>https://www.gauntface.com/blog/2010/04/22/ubuntu-power-users-we-want-you/</link>
+      <pubDate>Thu, 22 Apr 2010 15:03:27 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/04/22/ubuntu-power-users-we-want-you/</guid>
+      <description>Ubuntu Power Users - We Want You! Jono Bacon came up with this concept of creating a community for power users, those that want to do more with Ubuntu, other than just install and run programs. A couple of peeps are now starting to build up the idea of what / how we are going to approach setting up this community.
+Me (gauntface), Brandon Tomlinson (thebwt) and Toni Korpela (TMKCodes) have started discussing couple of things and thebwt has started setting up a mailing list, so hopefully we will have some kool things going soon.</description>
+    </item>
+    
+    <item>
+      <title>More News on the  MS Courier</title>
+      <link>https://www.gauntface.com/blog/2010/04/19/more-news-on-the-ms-courier/</link>
+      <pubDate>Mon, 19 Apr 2010 11:36:33 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/04/19/more-news-on-the-ms-courier/</guid>
+      <description>More News on the MS Courier It&#39;s not getting released till next year :-(
+The new york times have posted a story saying sources inside Microsoft have expressed concerns over battery life, but also a change in where to market the device.
+I appreciate there are some technical concerns with the hardware and I would prefer Microsoft fixed this rather than release a half baked product leaving everyone frustrated they spent good money on such a product.</description>
+    </item>
+    
+    <item>
+      <title>Toshiba You Beauty</title>
+      <link>https://www.gauntface.com/blog/2010/04/18/toshiba-you-beauty/</link>
+      <pubDate>Sun, 18 Apr 2010 22:01:43 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/04/18/toshiba-you-beauty/</guid>
+      <description>Toshiba You Beauty The fantastic Toshiba have mentioned they are throwing their hat into the tablet ring with 2 devices, one android device and one dual screen Windows device.
+Alot of people are &amp;ldquo;claiming&amp;rdquo; it&#39;s the courier or mentioning it sounds like it, but you can also see a dual screen MSI tablet, where one screen is touch screen the other is not (I don&#39;t think, judging from the video&#39;s I saw).</description>
+    </item>
+    
+    <item>
+      <title>Future Bag of Goodies</title>
+      <link>https://www.gauntface.com/blog/2010/04/17/what-ill-have-in-a-years-time/</link>
+      <pubDate>Sat, 17 Apr 2010 23:14:49 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/04/17/what-ill-have-in-a-years-time/</guid>
+      <description>Future Bag of Goodies This is a real short post, but I can&#39;t help but write put this down.
+Also extra note with the phone - *Work as a good replacement for an ipod (i.e. big hard drive, easy sync tools)
+Orig Photo: https://flic.kr/p/7FvUFQ</description>
+    </item>
+    
+    <item>
+      <title>Using Android Headset Buttons (Earphone Buttons)</title>
+      <link>https://www.gauntface.com/blog/2010/04/14/using-android-headset-buttons-earphone-buttons/</link>
+      <pubDate>Wed, 14 Apr 2010 13:54:34 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/04/14/using-android-headset-buttons-earphone-buttons/</guid>
+      <description>Using Android Headset Buttons (Earphone Buttons) Hey&#39;all
+I needed to get access to the button presses on the earphone buttons that are built into the earphones that come with the Nexus One (Also with the G1 I think?) and I found it a tad harder than I expected, largely because I expected someone else of done it already for me.
+So anyway, here we go in terms of how to get you up an running.</description>
+    </item>
+    
+    <item>
+      <title>Another Look At The Courier</title>
+      <link>https://www.gauntface.com/blog/2010/04/12/another-look-at-the-courier/</link>
+      <pubDate>Mon, 12 Apr 2010 22:18:33 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/04/12/another-look-at-the-courier/</guid>
+      <description>Another Look At The Courier Ever since I&#39;ve seen those video&#39;s I&#39;ve been getting very impatient in terms of news.
+I don&#39;t know enough about Microsoft&#39;s advertising strategy to comment on it, because I very rarely give Microsoft any notice (Especially when you consider that I work in an office of Apple Lovers and spend my time following Open Source fanatics on Twitter), so whether these videos are just advertising techniques or not, I can&#39;t say.</description>
+    </item>
+    
+    <item>
+      <title>I Really want a . . . .  Microsoft Product</title>
+      <link>https://www.gauntface.com/blog/2010/03/30/i-really-really-really-want-a-microsoft-product/</link>
+      <pubDate>Tue, 30 Mar 2010 22:37:43 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/03/30/i-really-really-really-want-a-microsoft-product/</guid>
+      <description>I Really want a . . . . Microsoft Product Shock horror right?
+But the Microsoft Courier is just damn nice, the UI &amp;ldquo;seems&amp;rdquo; to make sense in the videos, how it works on hardware I admit I&#39;m a little dubious about because flicking an image from one screen to another with a plastic hinge in the middle might not work so well.
+But I&#39;ve been thinking about it and it&#39;s probably the first Microsoft product I&#39;ve ever wanted, sure I used to use Windows, but thats only due to me not knowing the alternatives.</description>
+    </item>
+    
+    <item>
+      <title>Android, Chrome OS, It&#39;s Just Clicked</title>
+      <link>https://www.gauntface.com/blog/2010/03/20/android-chrome-os-it-s-just-clicked/</link>
+      <pubDate>Sat, 20 Mar 2010 22:52:58 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/03/20/android-chrome-os-it-s-just-clicked/</guid>
+      <description>Android, Chrome OS, It&#39;s Just Clicked After a discussion about Apple&#39;s new iPad with a friend about the reasons why it&#39;s going to be successful and why nothing I&#39;ve seen will match it, I started to think. I say nothing I&#39;ve seen will match, thats not strictly true, nothing I&#39;ve seen that has been physically made will match it. However concepts . . . . Maybe not.
+Lets consider the following:</description>
+    </item>
+    
+    <item>
+      <title>Android Apps - How to Get Your Problems Fixed</title>
+      <link>https://www.gauntface.com/blog/2010/03/08/android-apps-how-to-get-your-problems-fixed/</link>
+      <pubDate>Mon, 08 Mar 2010 14:53:39 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/03/08/android-apps-how-to-get-your-problems-fixed/</guid>
+      <description>Android Apps - How to Get Your Problems Fixed I recently announced the release of Facebook Sync, after perfecting the UI, getting it to work for devices running Android 1.5 - 2.1, testing it on my G1, Nexus One &amp;amp; friends HTC Hero and T-Mobile Pulse, I put it on the Market and now I need your the help, yes you the user! I knew people would experience problems, everyone has unique contacts and Facebook friends, I&#39;ve tried to think of all possible outcomes, but some have still slipped through.</description>
+    </item>
+    
+    <item>
+      <title>Series 2 Droplets by the Awesome @JamFactory</title>
+      <link>https://www.gauntface.com/blog/2010/02/10/series-2-droplets-by-the-awesome-jamfactory/</link>
+      <pubDate>Wed, 10 Feb 2010 22:23:10 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/02/10/series-2-droplets-by-the-awesome-jamfactory/</guid>
+      <description>Series 2 Droplets by the Awesome @JamFactory Last week on saturday was the launch of the series 2 droplets, and well . . . they are just awesome!!!
+@JamFactory sold out of the little slick ricks in 58 minutes at the fifty fifty store Bristol after throwing a cool shindig with custom Droplets galore on display. However never fear, if you want some of your own, check out Crazylabel.
+But also @JamFactory got the amazing word today that the IT Crowd Series 4 want some of his Droplets for the show, so congratulations to him for that!</description>
+    </item>
+    
+    <item>
+      <title>Google Nexus One - Oh Me Oh My</title>
+      <link>https://www.gauntface.com/blog/2010/02/10/google-nexus-one-oh-me-oh-my/</link>
+      <pubDate>Wed, 10 Feb 2010 22:13:50 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/02/10/google-nexus-one-oh-me-oh-my/</guid>
+      <description>Google Nexus One - Oh Me Oh My Google Nexus One - Oh Me Oh My I was lucky enough to attend the Android Developer Labs (ADL) 2010 in London and we were the first batch (of many on the ADL world tour) to receive a free Nexus One courtesy of Google (and a huge thanks to the host Reto Meier).
+Anyway I&#39;ve been playing with it since that day and love it, I don&#39;t have any gripes about it, what so ever.</description>
+    </item>
+    
+    <item>
+      <title>Method behind the madness -  Android Contacts</title>
+      <link>https://www.gauntface.com/blog/2010/02/10/method-behind-the-madness-android-contacts/</link>
+      <pubDate>Wed, 10 Feb 2010 21:56:00 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/02/10/method-behind-the-madness-android-contacts/</guid>
+      <description>Method behind the madness - Android Contacts In the 2.0 release of Android the Contacts api changed, and boy do I mean changed.
+The thing is if you read through the documentation it&#39;s near impossible to differentiate the difference between ContactsContract.Contacts and RawContacts and then Entity and Data. But there is a reasoning behind all of this and I&#39;m going to attempt to illustrate it with a little image, while this isn&#39;t accurate I just thought it might help some of you get to grip a bit with the differences.</description>
+    </item>
+    
+    <item>
+      <title>MapView with Widgets Android</title>
+      <link>https://www.gauntface.com/blog/2010/01/04/mapview-with-widgets-android/</link>
+      <pubDate>Mon, 04 Jan 2010 23:38:55 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/01/04/mapview-with-widgets-android/</guid>
+      <description>MapView with Widgets Android This phased me for quite sometime, how do I use a widget like a button, or a view as an overlay?
+I asked on the Google Groups, got a great reply from Mark Murphy, and he explained about how you can use relative layouts to add views on top of the map view and set x, y coordinates and use z ordering.
+I started to think about what the MapView was, then a quick look at the API and bam, addView.</description>
+    </item>
+    
+    <item>
+      <title>Proximity Alerts in Android</title>
+      <link>https://www.gauntface.com/blog/2010/01/04/proximity-alerts-in-android/</link>
+      <pubDate>Mon, 04 Jan 2010 23:24:07 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2010/01/04/proximity-alerts-in-android/</guid>
+      <description>Proximity Alerts in Android I&#39;ve spent probably the best part of a couple of days attempting to get Proximity Alerts working in Android. There are a large number of Google Group threads, all leading to essentially someone saying it still doesn&#39;t work. There was one or two that had working solutions, or some who managed to get it working to a certain degree.
+I managed to get a working implementation of proximity alerts by combining the information from a number of threads, this is just a guide through what I learnt and should get you up and running with your own alerts.</description>
+    </item>
+    
+    <item>
+      <title>Android - Handling Screen Rotation</title>
+      <link>https://www.gauntface.com/blog/2009/12/30/android-handling-screen-rotation/</link>
+      <pubDate>Wed, 30 Dec 2009 18:31:47 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/12/30/android-handling-screen-rotation/</guid>
+      <description>Android - Handling Screen Rotation Word of warning before we start, this goes against the recommended Android UI Design Guidelines and should only be used when you are certain it is appropriate.
+To handle screen rotations such that your activity doesn&#39;t get destroyed and restarted do the following:
+  In your AndroidManifest.xml file go to the Application tab (Assuming you are in Eclipse, Manual programmers can still use this info, but will need to work out the corresponding xml), then under Application Nodes select the Activity you want to stop the rotations on, on the right hand side under &amp;ldquo;Attributes for (Activity)&amp;rdquo; scroll down to Screen Orientation and set it to portrait or landscape.</description>
+    </item>
+    
+    <item>
+      <title>Google Maps on Android Checklist</title>
+      <link>https://www.gauntface.com/blog/2009/12/30/google-maps-on-android-checklist/</link>
+      <pubDate>Wed, 30 Dec 2009 16:27:46 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/12/30/google-maps-on-android-checklist/</guid>
+      <description>Google Maps on Android Checklist Your making an Android app and want to take advantage of Google Maps, you&#39;ve been bashing your head against the desk attempting to work out what is going wrong.
+So welcome to this little checklist of things I&#39;ve forgotten to do when doing this task:
+  Right click on your project in eclipse and go to properties. Then under Android select Google APIs with the correct platform number, click apply then Ok</description>
+    </item>
+    
+    <item>
+      <title>Handling Facebook Date/Times</title>
+      <link>https://www.gauntface.com/blog/2009/12/28/handling-facebook-date-times/</link>
+      <pubDate>Mon, 28 Dec 2009 16:19:32 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/12/28/handling-facebook-date-times/</guid>
+      <description>Handling Facebook Date/Times Today I was playing around with the facebook api and needed to extract the date and time for each event. When you look at the value from the api call, you get something along the lines of:
+1262028000
+For the date of the event from the facebook event page, is 28th Dec 09 11:20, so what is the result above all about? Well it&#39;s Unix Epoch Time representation of the time, however the wonderful folks of facebook convert the time into pacific time, before then converting it to Unix Epoch time.</description>
+    </item>
+    
+    <item>
+      <title>Android Losing It&#39;s Edge?</title>
+      <link>https://www.gauntface.com/blog/2009/12/09/android-losing-it-s-edge/</link>
+      <pubDate>Wed, 09 Dec 2009 22:28:05 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/12/09/android-losing-it-s-edge/</guid>
+      <description>Android Losing It&#39;s Edge? After attending one of the Google Developer days in London, I couldn&#39;t help but think that Android is going down a bit of a bad road, taking away some of the simplistic things that made it such a perfect platform to develop for.
+So in the good old days of Android, you downloaded a single SDK and everything worked, now you have to download it, and then run an application inside the SDK to install the required versions of code (which actually wasn&#39;t all that obvious to me when I needed a new install of the SDK).</description>
+    </item>
+    
+    <item>
+      <title>Wheres My Contacts 1.8.0</title>
+      <link>https://www.gauntface.com/blog/2009/10/31/wheres-my-contacts-1-8-0/</link>
+      <pubDate>Sat, 31 Oct 2009 17:04:54 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/10/31/wheres-my-contacts-1-8-0/</guid>
+      <description>Wheres My Contacts 1.8.0 Wheres my contacts version 1.8.0 is now available on the Android Market.
+This version is alot more stable, offers a few more options for unlinking and removing photos from facebook.
+For those of you who don&#39;t know, Wheres My Contacts is an app that sync&#39;s your friends facebook photos with your contact photos. Easy :-)
+So anyone with an Android phone give it a go, it&#39;s free with ads or 50p to buy without ads.</description>
+    </item>
+    
+    <item>
+      <title>Karmic Koala Web Development Set-Up Guide</title>
+      <link>https://www.gauntface.com/blog/2009/10/15/karmic-koala-web-development-set-up-guide/</link>
+      <pubDate>Thu, 15 Oct 2009 20:18:30 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/10/15/karmic-koala-web-development-set-up-guide/</guid>
+      <description>Karmic Koala Web Development Set-Up Guide I do a fair bit of web development personal projects. Each time I upgrade my Ubuntu Distro I like to do a clean installation rather than upgrade which means settings up apache on my machine, but each time I forget about how I created my set-up. This is where I&#39;m going to dump my knowledge of doing things, mostly for me, but some of you lovely people might find it a bit useful :-)</description>
+    </item>
+    
+    <item>
+      <title>Karmic Koala on MacBook 4.1</title>
+      <link>https://www.gauntface.com/blog/2009/10/13/karmic-koala-on-macbook-4-1/</link>
+      <pubDate>Tue, 13 Oct 2009 22:49:16 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/10/13/karmic-koala-on-macbook-4-1/</guid>
+      <description>Karmic Koala on MacBook 4.1 It&#39;s that time of year again when the friendly people of Ubuntu release a new version of their OS and this one is just as awesome as it&#39;s predecessors!!.
+The UI has been tweaked again and is getting there, the new icons on the gnome panel are fantastic, I was tempted to even try Evolution Mail, in place of Thunderbird, just to keep the mail icon there.</description>
+    </item>
+    
+    <item>
+      <title>Where&#39;s My Contacts</title>
+      <link>https://www.gauntface.com/blog/2009/10/12/where-s-my-contacts/</link>
+      <pubDate>Mon, 12 Oct 2009 21:24:06 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/10/12/where-s-my-contacts/</guid>
+      <description>Where&#39;s My Contacts Released my new app Where&#39;s My Contacts on Android.
+This App will sync your friend&#39;s facebook profile picture with their contact photos. No Fussing, No effort.
+And it&#39;s free with ad&#39;s or 50p without ads!
+Orig. Photo: https://flic.kr/p/f5jwk</description>
+    </item>
+    
+    <item>
+      <title>Android Unusual Behaviour - Nine Patch PNG&#39;s</title>
+      <link>https://www.gauntface.com/blog/2009/09/01/android-unusual-behaviour-nine-patch-png-s/</link>
+      <pubDate>Tue, 01 Sep 2009 21:49:49 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/09/01/android-unusual-behaviour-nine-patch-png-s/</guid>
+      <description>Android Unusual Behaviour - Nine Patch PNG&#39;s I was doing some development on an app and got some weird behaviour where 3 buttons, all of the same background would line up as expected in eclipse and the emulator, but when I inserted a different button in the centre, it messed up when ran on the emulator.
+I played around with a number different layouts trying to work out how I was going to fix this, assuming it was just my layout that was playing up.</description>
+    </item>
+    
+    <item>
+      <title>Where-To-Do : Android (Part 2)</title>
+      <link>https://www.gauntface.com/blog/2009/08/20/where-to-do-android-part-2/</link>
+      <pubDate>Thu, 20 Aug 2009 19:16:43 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/08/20/where-to-do-android-part-2/</guid>
+      <description>Where-To-Do : Android (Part 2) What I&#39;m going to do now is begin setting up some more of the basic layout of the app to get it looking roughly how I want, so here are some of the things I wanted to achieve.
+ Fullscreen or no title bar Tiled background Add in the buttons on the top menu  Fullscreen To get the fullscreen view I went into the AndroidManifest.</description>
+    </item>
+    
+    <item>
+      <title>Where-To-Do : Android (Part 1)</title>
+      <link>https://www.gauntface.com/blog/2009/08/16/where-to-do-android-part-1/</link>
+      <pubDate>Sun, 16 Aug 2009 16:43:20 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/08/16/where-to-do-android-part-1/</guid>
+      <description>Where-To-Do : Android (Part 1) I&#39;ve been meaning to do an Android project for quite some time, but because of Uni work and exams I haven&#39;t had the time, but since break I figured I could make a start on a project. I also remember how hard I found it to make my own app when I first started using Android, so here it is for anyone interested, I start to finish app covering the EVERY part of app development.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Jaunty on MacBook 4.1</title>
+      <link>https://www.gauntface.com/blog/2009/08/11/ubuntu-jaunty-on-macbook-4-1/</link>
+      <pubDate>Tue, 11 Aug 2009 20:16:06 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/08/11/ubuntu-jaunty-on-macbook-4-1/</guid>
+      <description>Ubuntu Jaunty on MacBook 4.1 So tonight I finally got Jaunty on my MacBook - from my experience there is a bug in the current Jaunty CD&#39;s (both alternate and live CD) by which GRUB boot loader doesn&#39;t install properly, the weird thing was I didn&#39;t have this problem when I first tried Jaunty. Anyway if you want jaunty go and download Ubuntu Intrepid Ibex 8.10 from here - http://releases.ubuntu.com/intrepid/. Install that on your macbook the normal way (For a full guide go here - http://ubuntuforums.</description>
+    </item>
+    
+    <item>
+      <title>Wordpress Woop Woop</title>
+      <link>https://www.gauntface.com/blog/2009/08/04/wordpress-woop-woop/</link>
+      <pubDate>Tue, 04 Aug 2009 21:47:32 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/08/04/wordpress-woop-woop/</guid>
+      <description>Wordpress Woop Woop So I changed from Drupal to Wordpress, why?. . . because I loves it I does!
+To be honest I didn&#39;t give Drupal a fair try, but I felt I could develop my site faster without a full blown CMS as there aren&#39;t any problems with fairly trivial things.
+Anyway this design is probably very few people&#39;s cup of tea but one thing I love is the speech bubble comment boxes below for comments, leave a message to see what I mean ;-) and my sliding tabs (Twitter, Wordpress and Flickr) - again give &amp;lsquo;em a click to see what I mean.</description>
+    </item>
+    
+    <item>
+      <title>So I&#39;ve been away for a while . . .</title>
+      <link>https://www.gauntface.com/blog/2009/07/21/so-ive-been-away-for-a-while/</link>
+      <pubDate>Tue, 21 Jul 2009 14:47:48 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/07/21/so-ive-been-away-for-a-while/</guid>
+      <description>So I&#39;ve been away for a while . . . I haven&#39;t been blogging or updating my website for quite some time . .
+I&#39;ve been busy moving house and learning Android development. So far I&#39;ve really enjoyed it, everyone on the IRC room (#android-dev) is great and I strongly recommend anyone interested in Android development join the chat to just learn from other peoples questions (including mine :-P) and ask questions you might have.</description>
+    </item>
+    
+    <item>
+      <title>OpenMIC #2</title>
+      <link>https://www.gauntface.com/blog/2009/07/05/openmic-2/</link>
+      <pubDate>Sun, 05 Jul 2009 14:46:29 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/07/05/openmic-2/</guid>
+      <description>OpenMIC #2 So I went along to the OpenMIC event in Bristol which was a conference with speakers from Vodafone BetaVine, Intohand, WeLoveMobile, Wireless Wanders and Paul Golding. After the talks there were 2 bar camps held on a number of topics suggested by some of the attendees. Obviously, the day ended with a few beers in the bar.
+All in all it was a great event, just getting other peoples views on any and all mobile topics with a range of people from various fields related to mobile phones, not just developers.</description>
+    </item>
+    
+    <item>
+      <title>My Personal Avatar</title>
+      <link>https://www.gauntface.com/blog/2009/01/16/my-personal-avatar/</link>
+      <pubDate>Fri, 16 Jan 2009 23:47:52 -0800</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2009/01/16/my-personal-avatar/</guid>
+      <description>My Personal Avatar I just finished an avatar that I made in Maya and texture mapped using GIMP. anyway just posting these up to show them off :-P</description>
+    </item>
+    
+    <item>
+      <title>IBM University Team Challenge 2008 Results</title>
+      <link>https://www.gauntface.com/blog/2008/10/07/ibm-university-team-challenge-2008-results/</link>
+      <pubDate>Tue, 07 Oct 2008 10:50:54 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2008/10/07/ibm-university-team-challenge-2008-results/</guid>
+      <description>IBM University Team Challenge 2008 Results We got the results from IBM&#39;s thinkpad challenge and the University of Bristol came 5th out the 18 attending universities (Discovered there were 18 not 15 universities attending from my lecturer).
+Orig. Photo: https://flic.kr/p/65GtK3</description>
+    </item>
+    
+    <item>
+      <title>IBM University Team Challenge 2008</title>
+      <link>https://www.gauntface.com/blog/2008/09/26/ibm-university-team-challenge-2008/</link>
+      <pubDate>Fri, 26 Sep 2008 21:28:16 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2008/09/26/ibm-university-team-challenge-2008/</guid>
+      <description>IBM University Team Challenge 2008 I was lucky enough to be invited to the IBM University Tem Challange 2008 event, formally known as &amp;ldquo;IBM Thinkpad Challenge&amp;rdquo;.
+I was in a team of four to represent the University of Bristol amongst many other universities such as Oxford, Durham, Southampton, Warwick, York etc, roughly 15 other Universities were attending this event.
+The event was split into two events, one on the 25th Sep and one on the 26th.</description>
+    </item>
+    
+    <item>
+      <title>Installing Icons</title>
+      <link>https://www.gauntface.com/blog/2008/09/12/installing-icons/</link>
+      <pubDate>Fri, 12 Sep 2008 18:36:27 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2008/09/12/installing-icons/</guid>
+      <description>Installing Icons Since posting my icons on the internet, a couple of people have asked how to install them, so heres the guide for each one to install them on ubuntu:
+For all of them Download your icon set for ubuntu from gnome-look.org and de-compress the icon folder, we are going to change images in this folder to the icons you want to use. Once you&#39;ve changed the images as described below, compress the folder to a .</description>
+    </item>
+    
+    <item>
+      <title>Programming Mimetype Icons</title>
+      <link>https://www.gauntface.com/blog/2008/09/11/programming-mimetype-icons/</link>
+      <pubDate>Thu, 11 Sep 2008 13:25:53 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2008/09/11/programming-mimetype-icons/</guid>
+      <description>Programming Mimetype Icons I made a set of programming file mimetype icons.
+I used them just to make them easier to identify.
+NOTE: I apologise that this isn&#39;t I direct link, My Bandwidth is getting hit pretty hard from all the downloads so I&#39;ve had to host the files somewhere else, I will try to find an alternative to this.
+Download Here
+Orig. Photo: https://flic.kr/p/8JQeEw</description>
+    </item>
+    
+    <item>
+      <title>Open Office Icons</title>
+      <link>https://www.gauntface.com/blog/2008/09/11/open-office-icons/</link>
+      <pubDate>Thu, 11 Sep 2008 13:21:32 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2008/09/11/open-office-icons/</guid>
+      <description>Open Office Icons These are a set of custom Open Office Icons.
+NOTE: I apologise that this isn&#39;t I direct link, My Bandwidth is getting hit pretty hard from all the downloads so I&#39;ve had to host the files somewhere else, I will try to find an alternative to this.
+Download Here</description>
+    </item>
+    
+    <item>
+      <title>Hard Drive Icon Version 1 - Download</title>
+      <link>https://www.gauntface.com/blog/2008/09/10/hard-drive-icon-version-1-download/</link>
+      <pubDate>Wed, 10 Sep 2008 14:13:45 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2008/09/10/hard-drive-icon-version-1-download/</guid>
+      <description>Hard Drive Icon Version 1 - Download I&#39;ve uploaded my first attempt at making some hard-drive icons to use in my own icon set.
+Please let me know what you think.
+NOTE: I apologise that this isn&#39;t I direct link, My Bandwidth is getting hit pretty hard from all the downloads so I&#39;ve had to host the files somewhere else, I will try to find an alternative to this.
+Download Here</description>
+    </item>
+    
+    <item>
+      <title>New Blog, New Theme . . .</title>
+      <link>https://www.gauntface.com/blog/2008/09/05/new-blog-new-theme/</link>
+      <pubDate>Fri, 05 Sep 2008 21:08:45 -0700</pubDate>
+      
+      <guid>https://www.gauntface.com/blog/2008/09/05/new-blog-new-theme/</guid>
+      <description>New Blog, New Theme . . . Hi everyone,
+Welcome to my new blog, after changing hosts with some helpful advice from the folks at forums.overclockers.co.uk, I decided a blog would be useful to post events and news of whats going on.
+Soon I&#39;ll be attending the &amp;lsquo;&amp;lsquo;IBM Thinkpad Challenge&amp;rdquo; where teams from universities all over the UK are invited to visit the IBM labs at Winchester with the chance of winning a Thinkpad each for one team.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,137 @@
+<!DOCTYPE html><html lang="en"><head>
+  <title>Push Debugging &amp; Analytics</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="Description" content="This is the site description"/>
+  <meta name="theme-color" content="#565797"/>
+<style>pre{overflow-x:auto}</style><style>pre{background-color:var(--dark);color:var(--light);padding:12px;overflow-x:auto;border-radius:12px;box-shadow:0 2px 8px var(--drop-shadow)}pre code{padding:0;background:unset}</style><style>p{word-wrap:break-word}</style><style>.c-header{color:var(--platnum);padding:var(--header-padding) var(--page-padding);background:var(--liberty)}.c-header__logo svg{width:124px;height:124px;margin:auto}.c-header__logo svg path{fill:var(--platnum)}</style><style>h1{font-size:2rem}</style><style>h3{font-size:1.4rem}</style><style>code{padding:0 4px;font-family:var(--code-font-family);background:var(--pale-chestnut)}</style><style>@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");body{display:inline;min-height:100%;font-family:var(--body-font-family);background:var(--platnum);margin:0}</style><style>.l-default{display:flex;flex-direction:column;min-height:100%}.l-default__main{flex:1;padding:var(--page-padding)}</style><style>.c-footer{display:flex;flex-direction:row}.c-footer__corner{flex:1}.c-footer__corner svg{display:block;width:80%;height:100%;margin-left:auto}.c-footer__content{flex:2;margin-left:auto;background:var(--liberty)}@media (min-width:1000px){.c-footer{width:80%;margin-left:auto}}</style><style>svg{display:block}</style><style>img{max-width:100%;height:auto}</style><style>h2{font-size:1.7rem}</style><style>:root{--body-font-family:"Roboto",sans-serif;--code-font-family:"dm",monospace;--default-font-size:18px;--table-cell-padding:8px;--page-padding:24px;--header-padding:64px;--white-smoke:#f7f7f7;--platnum:#e5dedf;--dust-storm:#e5c9cf;--pale-chestnut:#e5a9b4;--liberty:#565797;--dark-slate-blue:#434596;--lightest:#d0d0d0;--light:#bfc7d4;--muted-light:#747a88;--muted:#434757;--dark:#292d3d;--black:#272729;--drop-shadow:rgba(39,39,41,0.4);--red:#ee727a;--green:#c4e791;--yellow:#feca72;--blue:#84acfc;--purple:#c694e8;--light-blue:#8cddfd}html{height:100%;font-size:18px;font-size:var(--default-font-size)}</style></head><body>
+<div class="l-default">
+  <header class="c-header">
+  <a href="/" class="c-header__logo">
+    <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M988 36H36V987H988V36ZM0 0V1023H1024V0H0Z" fill="black"></path>
+<path d="M834.787 519.358H767.661V590H746.567V430.039H845.664V447.397H767.661V502.109H834.787V519.358Z" fill="black"></path>
+<path d="M574.089 447.397H522.673V590H501.689V447.397H450.383V430.039H574.089V447.397Z" fill="black"></path>
+<path d="M834.984 821.062H765.661V877.751H846.19V895H744.567V735.039H845.092V752.397H765.661V803.813H834.984V821.062Z" fill="black"></path>
+<path d="M575.23 844.243C573.253 861.162 566.991 874.236 556.444 883.464C545.97 892.62 532.018 897.197 514.586 897.197C495.689 897.197 480.528 890.422 469.103 876.873C457.75 863.323 452.074 845.195 452.074 822.49V807.109C452.074 792.241 454.71 779.167 459.984 767.888C465.331 756.609 472.875 747.966 482.616 741.96C492.357 735.881 503.636 732.842 516.454 732.842C533.446 732.842 547.069 737.603 557.323 747.124C567.577 756.572 573.546 769.683 575.23 786.455H554.027C552.196 773.711 548.204 764.482 542.052 758.77C535.973 753.057 527.44 750.2 516.454 750.2C502.977 750.2 492.394 755.181 484.703 765.142C477.086 775.103 473.277 789.275 473.277 807.659V823.149C473.277 840.508 476.903 854.314 484.154 864.568C491.405 874.822 501.549 879.949 514.586 879.949C526.305 879.949 535.277 877.312 541.502 872.039C547.801 866.692 551.976 857.427 554.027 844.243H575.23Z" fill="black"></path>
+<path d="M266.397 853.252H199.38L184.329 895H162.576L223.66 735.039H242.117L303.311 895H281.668L266.397 853.252ZM205.752 835.894H260.135L232.889 761.077L205.752 835.894Z" fill="black"></path>
+<path d="M294.004 590H272.8L192.271 466.733V590H171.067V430.039H192.271L273.02 553.855V430.039H294.004V590Z" fill="black"></path>
+<path d="M848.177 122.039V230.804C848.104 245.892 843.343 258.233 833.895 267.828C824.52 277.422 811.775 282.806 795.662 283.978L790.059 284.197C772.554 284.197 758.602 279.473 748.201 270.025C737.801 260.577 732.527 247.576 732.381 231.023V122.039H753.255V230.364C753.255 241.937 756.441 250.945 762.813 257.391C769.185 263.763 778.267 266.949 790.059 266.949C801.998 266.949 811.116 263.763 817.415 257.391C823.787 251.019 826.973 242.046 826.973 230.474V122.039H848.177Z" fill="black"></path>
+<path d="M545.897 240.252H478.88L463.829 282H442.076L503.16 122.039H521.617L582.811 282H561.168L545.897 240.252ZM485.252 222.894H539.635L512.389 148.077L485.252 222.894Z" fill="black"></path>
+<path d="M292.17 261.016C286.75 268.78 279.169 274.603 269.428 278.484C259.76 282.293 248.481 284.197 235.59 284.197C222.553 284.197 210.981 281.158 200.874 275.079C190.766 268.926 182.929 260.21 177.363 248.931C171.87 237.652 169.05 224.578 168.903 209.71V195.757C168.903 171.661 174.506 152.984 185.712 139.727C196.992 126.47 212.812 119.842 233.173 119.842C249.873 119.842 263.312 124.126 273.493 132.696C283.674 141.192 289.899 153.277 292.17 168.951H271.076C267.121 147.784 254.523 137.2 233.283 137.2C219.147 137.2 208.417 142.181 201.093 152.142C193.842 162.029 190.18 176.385 190.107 195.208V208.282C190.107 226.226 194.208 240.508 202.412 251.128C210.615 261.675 221.711 266.949 235.7 266.949C243.61 266.949 250.532 266.07 256.464 264.312C262.397 262.554 267.304 259.588 271.186 255.413V219.488H234.162V202.349H292.17V261.016Z" fill="black"></path>
+</svg>
+
+  </a>
+</header>
+  <main class="l-default__main">
+<p><img src="/images/blog/2016/2016-05-01/push-analytics-bg-darker.jpg" alt="Key art for blog post “Push Debugging &amp; Analytics”"/></p>
+<h1 id="push-debugging--analytics">Push Debugging &amp; Analytics</h1>
+<p>A few people have asked how do to debug push messaging and how to track stats for push messaging, like push messages received or notifications clicked?</p>
+<h2 id="debugging-in-the-wild">Debugging in the Wild.</h2>
+<p>I found an app out in the wild that had a few problems and heres how I go about spotting issues.</p>
+<p>First thing is to open the service worker panel in DevTools, which is hidden under <code>DevTools &gt; Resources &gt; Service Workers</code></p>
+<p><img src="/images/blog/2016/2016-04-29/push-analytics-1.png" alt="Service Worker Panel in DevTools" title="800"/></p>
+<p>You&#39;ll notice that on the screenshot above there is a handy ‘Push’ button, and clicking it will trigger a fake push notification (this will only do something if the service worker has implemented a <code>push</code> listener).</p>
+<p><img src="/images/blog/2016/2016-04-29/push-analytics-2.png" alt="Forcing a fake push tickle in Chrome" title="800"/></p>
+<p>Onto the problem site, clicking the push buttonyou can start to see errors clocking up in the console.</p>
+<p><img src="/images/blog/2016/2016-04-29/push-analytics-3.png" alt="Errors with Push in DevTools service worker panel" title="800"/></p>
+<p>The next step is to dig into these errors, tap the inspect button which will open up a new DevTools window, this is DevTools for the service worker.</p>
+<p><img src="/images/blog/2016/2016-04-29/push-analytics-4.png" alt="Opening DevTools for the Service Worker DevTools" title="800"/></p>
+<p>Click on the file / line number for the error and let&#39;s pretty print it since the javascript is on a single file. This gives us a little more information / visibility on where the problem lies.</p>
+<p><img src="/images/blog/2016/2016-04-29/push-analytics-5.png" alt="Formatting Minified Code in Devtools" title="800"/></p>
+<p>We can see where the code is falling over, it looks like the developer is trying to get the endpoint from the subscription object and the error is thrown because the subscription object is null.</p>
+<p>The specific piece of code is this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">splitEndPointSubscription</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">subscriptionDetails</span>) {
+  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">endpointURL</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://android.googleapis.com/gcm/send/&#39;</span>;
+  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">endpoint</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">subscriptionDetails</span>.<span style="color:#a6e22e">endpoint</span>;
+  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">subscriptionId</span>;
+  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">endpoint</span>.<span style="color:#a6e22e">indexOf</span>(<span style="color:#a6e22e">endpointURL</span>) <span style="color:#f92672">===</span> <span style="color:#ae81ff">0</span>) {
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">subscriptionId</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">endpoint</span>.<span style="color:#a6e22e">replace</span>(<span style="color:#a6e22e">endpointURL</span>, <span style="color:#e6db74">&#39;&#39;</span>);
+  }
+  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">subscriptionDetails</span>.<span style="color:#a6e22e">subscriptionId</span>;
+}
+
+<span style="color:#a6e22e">self</span>.<span style="color:#a6e22e">registration</span>.<span style="color:#a6e22e">pushManager</span>.<span style="color:#a6e22e">getSubscription</span>()
+.<span style="color:#a6e22e">then</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">subscription</span>) {
+    ... <span style="color:#f92672">=</span> <span style="color:#a6e22e">splitEndPointSubscription</span>(<span style="color:#a6e22e">subscription</span>);
+</code></pre></div><p>This code runs as soon as the service worker is run by the browser, this will always result in an error the first time the script is loaded simply because to subscribe a user to push, you first need to register a service worker, so the first time this runs, there can&#39;t be a subscription object.</p>
+<p>A second issue with this code is that it checks for the GCM endpoint used in Chrome, which is fine in itself, but it falls back to returning the <code>subscriptionId</code> parameter. The <code>subscriptionId</code> was removed a long time ago in Chrome when the spec changed and was only added in Chrome. In other browsers this code will always cause an error, in other words - this will break Firefox.</p>
+<p>I was still confused about why the subscription was null after I signed up for push and triggered a fake push, to try and get some info I ran the following snippet of code in the service workers DevTools:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">self</span>.<span style="color:#a6e22e">registration</span>.<span style="color:#a6e22e">pushManager</span>.<span style="color:#a6e22e">getSubscription</span>().<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">subscription</span> =&gt; <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">subscription</span>));
+</code></pre></div><p><img src="/images/blog/2016/2016-04-29/push-analytics-6.png" alt="No Push Subscriptions in DevTools" title="800"/></p>
+<p>It&#39;s definitely null, so where did the subscription object go?</p>
+<p>It turns out that the site I was looking at registers 2 service workers (silly me for only looking at the top one and ignoring the scroll bar.</p>
+<p><img src="/images/blog/2016/2016-04-29/push-analytics-7.png" alt="Multiple Service Workers in DevTools" title="800"/></p>
+<p>Running the same snippet in the other service workers DevTools printed out the subscription object (although it still errored on the first run).</p>
+<p><img src="/images/blog/2016/2016-04-29/push-analytics-8.png" alt="Push Subscriptions in DevTools" title="800"/></p>
+<p>Why two service workers are registered I&#39;m not sure - they seem to be the same code.</p>
+<p>But at least we now have a working push subscription (although this code will still fail on other browsers).</p>
+<p>That&#39;s all I&#39;m going to say on debugging with DevTools, hopefully just the steps of navigating DevTools will help you find and fix problems in your code.</p>
+<p>The most important things you can do if hit any issues with push / service workers:</p>
+<ol>
+<li>If you see an error, try not to brush it off, it&#39;s easy for these to mount up and cause obscure problems, especially with service workers when you start out.</li>
+<li>Know your Promises!</li>
+</ol>
+<h3 id="side-quest-promises">Side Quest: Promises</h3>
+<p><img src="/images/blog/2016/2016-04-29/at-jake-dancing.gif" alt="Side Quest Dance with Adventure Time&#39;s Jake the Dog"/></p>
+<p>When you&#39;re new to promises it&#39;s super easy to get in a bit of a pickle and I&#39;ve seen it happen in a few projects (I&#39;m still finding old code from when I first started using Promises and its a mess).</p>
+<p>If you&#39;ve not read <a href="https://developers.google.com/web/fundamentals/primers/promises/">Jake&#39;s primer on Promises</a>, please go check it out now.</p>
+<p>The common mistake I see, especially in push events in a service worker, is a failure to return the promise from a <code>fetch()</code> call.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">event</span>.<span style="color:#a6e22e">waitUntil</span>(
+  <span style="color:#a6e22e">doSomething</span>()
+  .<span style="color:#a6e22e">then</span>(<span style="color:#66d9ef">function</span>() {
+    <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#39;/some/api/&#39;</span>)
+    .<span style="color:#a6e22e">then</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">response</span>) {
+      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">text</span>();
+    })
+    .<span style="color:#a6e22e">then</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">responseText</span>) {
+      <span style="color:#a6e22e">showNotification</span>(<span style="color:#a6e22e">responseText</span>.<span style="color:#a6e22e">title</span>, {
+        <span style="color:#a6e22e">body</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">responseText</span>.<span style="color:#a6e22e">body</span>
+      });
+    });
+  })
+)
+</code></pre></div><p>This would have two problems. Both <code>fetch()</code> and <code>showNotification()</code> could return promises and if you don&#39;t return those promises, the chain is broken. What this means is that <code>event.waitUntil()</code> will wait for the promise to finish which will done after the fetch call is made, but not after the <code>fetch()</code>o call has finished its network request. The correct way to do the above is to add returns:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">event</span>.<span style="color:#a6e22e">waitUntil</span>(
+  <span style="color:#a6e22e">doSomething</span>()
+  .<span style="color:#a6e22e">then</span>(<span style="color:#66d9ef">function</span>() {
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#39;/some/api/&#39;</span>)
+    .<span style="color:#a6e22e">then</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">response</span>) {
+      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">text</span>();
+    })
+    .<span style="color:#a6e22e">then</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">responseText</span>) {
+      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">showNotification</span>(<span style="color:#a6e22e">responseText</span>.<span style="color:#a6e22e">title</span>, {
+        <span style="color:#a6e22e">body</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">responseText</span>.<span style="color:#a6e22e">body</span>
+      });
+    });
+  })
+)
+</code></pre></div><p>I put together <a href="http://bit.ly/1Ww2hRb">a small demo here</a> to try and demonstrate promise chains visually, one is broken and there a two working chains. Toggle the steps using the arrows along the top and see if you can spot what is wrong and why.</p>
+<p>The main part is that the yellow states indicate where the primary promise is waiting for another promise to finish - notice how the top section doesn&#39;t wait for <code>fetch()</code> and moves straight onto <code>eventEnd()</code>.</p>
+<p><img src="/images/blog/2016/2016-04-29/promise-chains.png" alt="Promise Chains" title="800"/></p>
+<h2 id="analytics-all-the-things">Analytics All the Things!</h2>
+<p>I realised I had no analytics in <a href="https://gauntface.github.io/simple-push-demo/">simple-push-demo</a> and given the problem site above had issues caused by analytics lust, how would I do it?</p>
+<p>Well the major problem I had was figuring out how to ping Google Analytics from a service worker, but thanks to the genius that is <a href="https://twitter.com/crhym3">Alex Vaghin</a>, he pointed me in the direction of the <a href="https://developers.google.com/analytics/devguides/collection/protocol/v1/reference">Analytics Measurement Protocol</a>, an easy restful API.</p>
+<p>With this I created a small method to make sending events to Analytics nice and easy, define a <code>trackingId</code> and call the <code>trackEvent()</code> method. See the <a href="https://github.com/gauntface/simple-push-demo/blob/10f8cef6e4a1e3069926602fa301a295ed9d7812/src/scripts/analytics.js">analytics.js</a> and <a href="https://github.com/gauntface/simple-push-demo/blob/10f8cef6e4a1e3069926602fa301a295ed9d7812/src/service-worker.js">serviceworker.js</a> files for how it&#39;s implemented and used.</p>
+<p><img src="/images/blog/2016/2016-04-29/push-analytics-with-events.png" alt="Push Subscriptions in DevTools" title="800"/></p>
+<p>The most important / useful feature of it is that no matter what, it should resolve the promise it returns, in other words, it will <strong>never error</strong>. Tracking shouldn&#39;t get in the way of the user experience or functionality of your web app, so I wanted to make sure that sending a tracker ping wouldn&#39;t cause an error and prevent a push notification being sent.</p>
+<p>Big thanks to <a href="https://twitter.com/dassurma">Das Surma</a> for spotting some sweet tidy up and for the idea of using <code>Promise.all()</code> to kick off the tracking asynchronously with showing a notification or handling a notification click.</p>
+<p>Check it out on the <a href="https://github.com/gauntface/simple-push-demo">simple-push-demo</a>.</p>
+
+</main>
+<footer class="c-footer">
+  <div class="c-footer__corner">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135.467 135.467" preserveAspectRatio="none"><path d="M135.467 135.467h-82.55L134.937 0h.53z" fill="#565797"></path><path d="M135.07 0L53.049 135.467H39.688L121.707 0z" fill="#feca72"></path><path d="M121.84 0L39.82 135.467H26.458L108.48 0z" fill="#c4e791"></path><path d="M108.611 0l-82.02 135.467H13.229L95.25 0z" fill="#84acfc"></path><path d="M95.382 0l-82.02 135.467H0L82.02 0z" fill="#ee727a"></path></svg>
+  </div>
+  <div class="c-footer__content"></div>
+</footer>
+</div>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-155219449-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-155219449-1');
+</script>
+
+<script>var haCSS = haCSS || []; haCSS.push(...['/css/elements/code-async.css']);</script></body></html>

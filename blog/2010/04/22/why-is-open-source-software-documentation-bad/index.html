@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="en"><head>
+  <title>Why is Open Source Software Documentation Bad?</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="Description" content="This is the site description"/>
+  <meta name="theme-color" content="#565797"/>
+<style>@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");body{display:inline;min-height:100%;font-family:var(--body-font-family);background:var(--platnum);margin:0}</style><style>:root{--body-font-family:"Roboto",sans-serif;--code-font-family:"dm",monospace;--default-font-size:18px;--table-cell-padding:8px;--page-padding:24px;--header-padding:64px;--white-smoke:#f7f7f7;--platnum:#e5dedf;--dust-storm:#e5c9cf;--pale-chestnut:#e5a9b4;--liberty:#565797;--dark-slate-blue:#434596;--lightest:#d0d0d0;--light:#bfc7d4;--muted-light:#747a88;--muted:#434757;--dark:#292d3d;--black:#272729;--drop-shadow:rgba(39,39,41,0.4);--red:#ee727a;--green:#c4e791;--yellow:#feca72;--blue:#84acfc;--purple:#c694e8;--light-blue:#8cddfd}html{height:100%;font-size:18px;font-size:var(--default-font-size)}</style><style>.c-header{color:var(--platnum);padding:var(--header-padding) var(--page-padding);background:var(--liberty)}.c-header__logo svg{width:124px;height:124px;margin:auto}.c-header__logo svg path{fill:var(--platnum)}</style><style>img{max-width:100%;height:auto}</style><style>.l-default{display:flex;flex-direction:column;min-height:100%}.l-default__main{flex:1;padding:var(--page-padding)}</style><style>.c-footer{display:flex;flex-direction:row}.c-footer__corner{flex:1}.c-footer__corner svg{display:block;width:80%;height:100%;margin-left:auto}.c-footer__content{flex:2;margin-left:auto;background:var(--liberty)}@media (min-width:1000px){.c-footer{width:80%;margin-left:auto}}</style><style>svg{display:block}</style><style>h1{font-size:2rem}</style><style>p{word-wrap:break-word}</style></head><body>
+<div class="l-default">
+  <header class="c-header">
+  <a href="/" class="c-header__logo">
+    <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M988 36H36V987H988V36ZM0 0V1023H1024V0H0Z" fill="black"></path>
+<path d="M834.787 519.358H767.661V590H746.567V430.039H845.664V447.397H767.661V502.109H834.787V519.358Z" fill="black"></path>
+<path d="M574.089 447.397H522.673V590H501.689V447.397H450.383V430.039H574.089V447.397Z" fill="black"></path>
+<path d="M834.984 821.062H765.661V877.751H846.19V895H744.567V735.039H845.092V752.397H765.661V803.813H834.984V821.062Z" fill="black"></path>
+<path d="M575.23 844.243C573.253 861.162 566.991 874.236 556.444 883.464C545.97 892.62 532.018 897.197 514.586 897.197C495.689 897.197 480.528 890.422 469.103 876.873C457.75 863.323 452.074 845.195 452.074 822.49V807.109C452.074 792.241 454.71 779.167 459.984 767.888C465.331 756.609 472.875 747.966 482.616 741.96C492.357 735.881 503.636 732.842 516.454 732.842C533.446 732.842 547.069 737.603 557.323 747.124C567.577 756.572 573.546 769.683 575.23 786.455H554.027C552.196 773.711 548.204 764.482 542.052 758.77C535.973 753.057 527.44 750.2 516.454 750.2C502.977 750.2 492.394 755.181 484.703 765.142C477.086 775.103 473.277 789.275 473.277 807.659V823.149C473.277 840.508 476.903 854.314 484.154 864.568C491.405 874.822 501.549 879.949 514.586 879.949C526.305 879.949 535.277 877.312 541.502 872.039C547.801 866.692 551.976 857.427 554.027 844.243H575.23Z" fill="black"></path>
+<path d="M266.397 853.252H199.38L184.329 895H162.576L223.66 735.039H242.117L303.311 895H281.668L266.397 853.252ZM205.752 835.894H260.135L232.889 761.077L205.752 835.894Z" fill="black"></path>
+<path d="M294.004 590H272.8L192.271 466.733V590H171.067V430.039H192.271L273.02 553.855V430.039H294.004V590Z" fill="black"></path>
+<path d="M848.177 122.039V230.804C848.104 245.892 843.343 258.233 833.895 267.828C824.52 277.422 811.775 282.806 795.662 283.978L790.059 284.197C772.554 284.197 758.602 279.473 748.201 270.025C737.801 260.577 732.527 247.576 732.381 231.023V122.039H753.255V230.364C753.255 241.937 756.441 250.945 762.813 257.391C769.185 263.763 778.267 266.949 790.059 266.949C801.998 266.949 811.116 263.763 817.415 257.391C823.787 251.019 826.973 242.046 826.973 230.474V122.039H848.177Z" fill="black"></path>
+<path d="M545.897 240.252H478.88L463.829 282H442.076L503.16 122.039H521.617L582.811 282H561.168L545.897 240.252ZM485.252 222.894H539.635L512.389 148.077L485.252 222.894Z" fill="black"></path>
+<path d="M292.17 261.016C286.75 268.78 279.169 274.603 269.428 278.484C259.76 282.293 248.481 284.197 235.59 284.197C222.553 284.197 210.981 281.158 200.874 275.079C190.766 268.926 182.929 260.21 177.363 248.931C171.87 237.652 169.05 224.578 168.903 209.71V195.757C168.903 171.661 174.506 152.984 185.712 139.727C196.992 126.47 212.812 119.842 233.173 119.842C249.873 119.842 263.312 124.126 273.493 132.696C283.674 141.192 289.899 153.277 292.17 168.951H271.076C267.121 147.784 254.523 137.2 233.283 137.2C219.147 137.2 208.417 142.181 201.093 152.142C193.842 162.029 190.18 176.385 190.107 195.208V208.282C190.107 226.226 194.208 240.508 202.412 251.128C210.615 261.675 221.711 266.949 235.7 266.949C243.61 266.949 250.532 266.07 256.464 264.312C262.397 262.554 267.304 259.588 271.186 255.413V219.488H234.162V202.349H292.17V261.016Z" fill="black"></path>
+</svg>
+
+  </a>
+</header>
+  <main class="l-default__main">
+<p><img src="/images/blog/2014/06/22/8574509123-3846af95a8-o.jpg" alt="Key art for blog post “Why is Open Source Software Documentation Bad? “"/></p>
+<h1 id="why-is-open-source-software-documentation-bad">Why is Open Source Software Documentation Bad?</h1>
+<p>I&#39;ve just gotten off the IRC of the #ubuntu-tweakers room on irc.freenode.net and we were having a full-blown discussion on why there is this huge barrier to entry with open source software.</p>
+<p>The main area&#39;s that we all agreed on were the following:</p>
+<ol>
+<li>The programmer doesn&#39;t know the tools which are used</li>
+<li>The programmer is lost the minute they get into the code</li>
+</ol>
+<p>and one thing I&#39;d tag onto that is:</p>
+<ol>
+<li>Where the hell is everything? (Bug tracker, info on commiting patches, stuff I should know but you haven&#39;t told me about so I can&#39;t even know I should know it, let alone then finding information on it)</li>
+</ol>
+<p>Let&#39;s look at an example of an open source program, Gnome-Do for instance (<a href="http://do.davebsd.com/development.shtml">http://do.davebsd.com/development.shtml</a>).</p>
+<p>We can see, development has a link at the top - so far so good - <a href="http://do.davebsd.com/development.shtml">http://do.davebsd.com/development.shtml</a></p>
+<p>There is a wealth of information there, Mono, links to the mono site, it&#39;s in C# with a link to the wikipedia page on it, I have links to irc and even the developers blogs and twitter feeds. Then we have a link to launchpad.</p>
+<p>Now I&#39;ve never used launchpad in my life, it&#39;s a daunting tool, to say the least.</p>
+<p>Don&#39;t get me wrong, I know it has everything you could want in a development platform. But all I wanted to do was download the source, install the relevant packages and tools to get developing and then start building a plugin or change to gnome-do.</p>
+<p>What&#39;s actually happened:</p>
+<ol>
+<li>I&#39;ve been sent on a wild goose chase to learn about Mono, what is relevant to Gnome-Do specifically? I don&#39;t know, so your guess is as good as mine.</li>
+<li>I&#39;ve been sent to a wikipedia page for C# which I imagine is the last place I&#39;d want to look for on programming info.</li>
+<li>Been told they use launchpad and then that is it in terms of repo etc.</li>
+<li>Remember the things I should know but don&#39;t know I should know them? Well what happens if I add something, what do I do? Should launchpad have this info? should their project site have it?</li>
+</ol>
+<p>Jono Bacon mentions alot of the time about - opportunistic programming and how Quickly enables that, and he&#39;s totally right, it&#39;s easy to knock up a program in many cases, that just scratches a little itch. But what happens if you don&#39;t want opportunistic programming starting from scratch, but in some other projects code? Is this even possible?</p>
+<p>This is in no way a dig at gnome-do (honestly I love your guys work and I can bet if I went in the irc these questions would be answered). It&#39;s just I&#39;ve looked at your development site before when I started programming and I got lost very quickly.</p>
+<p>The main point I&#39;m trying to get at, is does open source, think enough about the people who want to get involved but can&#39;t, because of this seemingly high barrier?</p>
+<p>I think the following would of changed things for the Gnome-Do example:</p>
+<ol>
+<li>Instead of a link to the Mono Documentation, perhaps just a small documentation, explaining how to install, set-up, create new projects and import projects, rather than the mono page itself (Which at the end of the day may have this information, but it&#39;s mixed in with the advertising stuff and how do I know what&#39;s relevant to just getting a move on).</li>
+<li>instead of a C# link to a page just about C# why not another documentation on just getting started with C# including (again) how to install, set-up and use C# (including the relevant links to documentation and useful/key links)</li>
+<li>A video on how to use Launchpad, what everything is, and where to find everything</li>
+<li>Documentation directly relevant to the project (This is the bit I will never expect to happen, I&#39;ll explain why in a bit)</li>
+</ol>
+<p>Basically, relevant documentation, that just tells me, how to get moving. I don&#39;t care about the in&#39;s and out&#39;s I just want to go, same as Quickly, you don&#39;t care what Quickly does to build your app, you just care that it starts to work. Everything else you can work out, as and when you need to.</p>
+<p>The video of Launchpad, because I simple don&#39;t want to read a whole set of docs on it, it&#39;s far too much info to take in, from just text, it would be easier and far more pleasant through a video format.</p>
+<p>Now the final comment, why do I think a project wouldn&#39;t produce documentation for new-comers, because it&#39;s a lot of effort. I&#39;ve developed in small teams, and the last thing you want to do is comment stuff - it&#39;s boring. But there must be some way of getting across the structure of an app right? I mean, I downloaded the VLC Media Player source, and I couldn&#39;t find where a play function was, the code was so foreign to me, yet if I had their file structure drawn in a graph format, I would probably be able to follow exactly where I should of been looking. But again this requires someone to do it, but would it take long for an experienced developer to scan in a drawn picture of a program structure?</p>
+<p>As for the main documentation for tools etc, I might take some of the doc&#39;s written for the Ubuntu Tweakers community and turn it into something suited for projects to simply link to.</p>
+<p>This is obviously my own point of view and I have no doubt someone will disagree with me every step of the way, and if that is the case then please comment because I do find this a really interesting topic.</p>
+<p>Orig Photo: <a href="https://flic.kr/p/e4GAQc">https://flic.kr/p/e4GAQc</a></p>
+
+</main>
+<footer class="c-footer">
+  <div class="c-footer__corner">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135.467 135.467" preserveAspectRatio="none"><path d="M135.467 135.467h-82.55L134.937 0h.53z" fill="#565797"></path><path d="M135.07 0L53.049 135.467H39.688L121.707 0z" fill="#feca72"></path><path d="M121.84 0L39.82 135.467H26.458L108.48 0z" fill="#c4e791"></path><path d="M108.611 0l-82.02 135.467H13.229L95.25 0z" fill="#84acfc"></path><path d="M95.382 0l-82.02 135.467H0L82.02 0z" fill="#ee727a"></path></svg>
+  </div>
+  <div class="c-footer__content"></div>
+</footer>
+</div>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-155219449-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-155219449-1');
+</script>
+
+</body></html>

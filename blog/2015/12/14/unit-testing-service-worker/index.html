@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="en"><head>
+  <title>Unit Testing a Service Worker</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="Description" content="This is the site description"/>
+  <meta name="theme-color" content="#565797"/>
+<style>p{word-wrap:break-word}</style><style>.c-footer{display:flex;flex-direction:row}.c-footer__corner{flex:1}.c-footer__corner svg{display:block;width:80%;height:100%;margin-left:auto}.c-footer__content{flex:2;margin-left:auto;background:var(--liberty)}@media (min-width:1000px){.c-footer{width:80%;margin-left:auto}}</style><style>img{max-width:100%;height:auto}</style><style>pre{overflow-x:auto}</style><style>pre{background-color:var(--dark);color:var(--light);padding:12px;overflow-x:auto;border-radius:12px;box-shadow:0 2px 8px var(--drop-shadow)}pre code{padding:0;background:unset}</style><style>code{padding:0 4px;font-family:var(--code-font-family);background:var(--pale-chestnut)}</style><style>:root{--body-font-family:"Roboto",sans-serif;--code-font-family:"dm",monospace;--default-font-size:18px;--table-cell-padding:8px;--page-padding:24px;--header-padding:64px;--white-smoke:#f7f7f7;--platnum:#e5dedf;--dust-storm:#e5c9cf;--pale-chestnut:#e5a9b4;--liberty:#565797;--dark-slate-blue:#434596;--lightest:#d0d0d0;--light:#bfc7d4;--muted-light:#747a88;--muted:#434757;--dark:#292d3d;--black:#272729;--drop-shadow:rgba(39,39,41,0.4);--red:#ee727a;--green:#c4e791;--yellow:#feca72;--blue:#84acfc;--purple:#c694e8;--light-blue:#8cddfd}html{height:100%;font-size:18px;font-size:var(--default-font-size)}</style><style>h2{font-size:1.7rem}</style><style>.l-default{display:flex;flex-direction:column;min-height:100%}.l-default__main{flex:1;padding:var(--page-padding)}</style><style>.c-header{color:var(--platnum);padding:var(--header-padding) var(--page-padding);background:var(--liberty)}.c-header__logo svg{width:124px;height:124px;margin:auto}.c-header__logo svg path{fill:var(--platnum)}</style><style>h1{font-size:2rem}</style><style>svg{display:block}</style><style>@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");body{display:inline;min-height:100%;font-family:var(--body-font-family);background:var(--platnum);margin:0}</style></head><body>
+<div class="l-default">
+  <header class="c-header">
+  <a href="/" class="c-header__logo">
+    <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M988 36H36V987H988V36ZM0 0V1023H1024V0H0Z" fill="black"></path>
+<path d="M834.787 519.358H767.661V590H746.567V430.039H845.664V447.397H767.661V502.109H834.787V519.358Z" fill="black"></path>
+<path d="M574.089 447.397H522.673V590H501.689V447.397H450.383V430.039H574.089V447.397Z" fill="black"></path>
+<path d="M834.984 821.062H765.661V877.751H846.19V895H744.567V735.039H845.092V752.397H765.661V803.813H834.984V821.062Z" fill="black"></path>
+<path d="M575.23 844.243C573.253 861.162 566.991 874.236 556.444 883.464C545.97 892.62 532.018 897.197 514.586 897.197C495.689 897.197 480.528 890.422 469.103 876.873C457.75 863.323 452.074 845.195 452.074 822.49V807.109C452.074 792.241 454.71 779.167 459.984 767.888C465.331 756.609 472.875 747.966 482.616 741.96C492.357 735.881 503.636 732.842 516.454 732.842C533.446 732.842 547.069 737.603 557.323 747.124C567.577 756.572 573.546 769.683 575.23 786.455H554.027C552.196 773.711 548.204 764.482 542.052 758.77C535.973 753.057 527.44 750.2 516.454 750.2C502.977 750.2 492.394 755.181 484.703 765.142C477.086 775.103 473.277 789.275 473.277 807.659V823.149C473.277 840.508 476.903 854.314 484.154 864.568C491.405 874.822 501.549 879.949 514.586 879.949C526.305 879.949 535.277 877.312 541.502 872.039C547.801 866.692 551.976 857.427 554.027 844.243H575.23Z" fill="black"></path>
+<path d="M266.397 853.252H199.38L184.329 895H162.576L223.66 735.039H242.117L303.311 895H281.668L266.397 853.252ZM205.752 835.894H260.135L232.889 761.077L205.752 835.894Z" fill="black"></path>
+<path d="M294.004 590H272.8L192.271 466.733V590H171.067V430.039H192.271L273.02 553.855V430.039H294.004V590Z" fill="black"></path>
+<path d="M848.177 122.039V230.804C848.104 245.892 843.343 258.233 833.895 267.828C824.52 277.422 811.775 282.806 795.662 283.978L790.059 284.197C772.554 284.197 758.602 279.473 748.201 270.025C737.801 260.577 732.527 247.576 732.381 231.023V122.039H753.255V230.364C753.255 241.937 756.441 250.945 762.813 257.391C769.185 263.763 778.267 266.949 790.059 266.949C801.998 266.949 811.116 263.763 817.415 257.391C823.787 251.019 826.973 242.046 826.973 230.474V122.039H848.177Z" fill="black"></path>
+<path d="M545.897 240.252H478.88L463.829 282H442.076L503.16 122.039H521.617L582.811 282H561.168L545.897 240.252ZM485.252 222.894H539.635L512.389 148.077L485.252 222.894Z" fill="black"></path>
+<path d="M292.17 261.016C286.75 268.78 279.169 274.603 269.428 278.484C259.76 282.293 248.481 284.197 235.59 284.197C222.553 284.197 210.981 281.158 200.874 275.079C190.766 268.926 182.929 260.21 177.363 248.931C171.87 237.652 169.05 224.578 168.903 209.71V195.757C168.903 171.661 174.506 152.984 185.712 139.727C196.992 126.47 212.812 119.842 233.173 119.842C249.873 119.842 263.312 124.126 273.493 132.696C283.674 141.192 289.899 153.277 292.17 168.951H271.076C267.121 147.784 254.523 137.2 233.283 137.2C219.147 137.2 208.417 142.181 201.093 152.142C193.842 162.029 190.18 176.385 190.107 195.208V208.282C190.107 226.226 194.208 240.508 202.412 251.128C210.615 261.675 221.711 266.949 235.7 266.949C243.61 266.949 250.532 266.07 256.464 264.312C262.397 262.554 267.304 259.588 271.186 255.413V219.488H234.162V202.349H292.17V261.016Z" fill="black"></path>
+</svg>
+
+  </a>
+</header>
+  <main class="l-default__main">
+<p><img src="/images/blog/2015/2015-12-14/sw-unit-test.jpg" alt="Key art for blog post “Unit Testing a Service Worker”"/></p>
+<h1 id="unit-testing-a-service-worker">Unit Testing a Service Worker</h1>
+<p>After reading a few discussions on Twitter and discussing some of the pro and cons of sw-toolbox and sw-precache with <a href="https://twitter.com/wibblymat">Mat Scales</a> and <a href="https://twitter.com/jeffposnick">Jeff Posnick</a>, I realised I had no idea of half the edge cases that exist when it comes to using SW.</p>
+<p>In a vain attempt to note some of these down I went about writing a set of unit tests.</p>
+<p>While the end result a set of fictitious service worker unit tests which you can find up on Github - <a href="https://github.com/GoogleChrome/sw-unit-test-sample">sw-unit-test-sample</a>.</p>
+<p>People who might find this interesting:</p>
+<ol>
+<li>Currently using SW and curious about what a test could look like</li>
+<li>Curious about what edge cases exists</li>
+</ol>
+<p>If you aren&#39;t in one of those groups, this may be a tedious read.</p>
+<h1 id="type-of-tests">Type of Tests</h1>
+<p>Once I started working on this a few groups of tests naturally revealed themselves.</p>
+<h2 id="http-cache-headers">HTTP Cache Headers</h2>
+<p>One common example of an edge case was the use of HTTP Cache Headers and the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Cache">cache API</a>.</p>
+<p>When you make a fetch request from a service worker it will still make use the HTTP cache. As a result if an asset is served with a long life HTTP cache header, it&#39;s cached in the HTTP cache and then changes, the service worker won&#39;t get the latest changes.</p>
+<p>This seems to be a common misconception.</p>
+<p><em>sidenote: Having DevTools open with caching disabled will skew your results</em></p>
+<h2 id="service-worker-lifecycle">Service Worker Lifecycle</h2>
+<p>Some of the big questions I had was around how to illustrate what <a href="https://github.com/GoogleChrome/sw-precache">sw-precache</a> does.</p>
+<p>It has an insanely aggressive and well thought through caching story. The idea is that assets should be cached and not updated until a file is created or updated and new service worker is pushed. This is all possible because of the file revisioning that sw-precache adds in.</p>
+<p>I&#39;ve tried to sum up the most basic example with the following asset lists where “service worker 1” would be the first service worker a user would get and “service worker 2” would be an updated service worker the user receive on a future visit.</p>
+<p><strong>Service worker 1</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">installList</span> <span style="color:#f92672">=</span> [
+  <span style="color:#e6db74">&#39;/example/file/shared/1&#39;</span>,
+  <span style="color:#e6db74">&#39;/example/file/shared/2&#39;</span>,
+  <span style="color:#e6db74">&#39;/example/file/upgrade/1&#39;</span>,
+  <span style="color:#e6db74">&#39;/example/file/upgrade/2&#39;</span>,
+  <span style="color:#e6db74">&#39;/example/file/remove/1&#39;</span>,
+  <span style="color:#e6db74">&#39;/example/file/remove/2&#39;</span>
+];
+</code></pre></div><p><strong>Service worker 2</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">installList</span> <span style="color:#f92672">=</span> [
+  <span style="color:#e6db74">&#39;/example/file/shared/1&#39;</span>,
+  <span style="color:#e6db74">&#39;/example/file/shared/2&#39;</span>,
+  <span style="color:#e6db74">&#39;/example/file/upgrade/1&#39;</span>,
+  <span style="color:#e6db74">&#39;/example/file/upgrade/2&#39;</span>,
+  <span style="color:#e6db74">&#39;/example/file/new/1&#39;</span>,
+  <span style="color:#e6db74">&#39;/example/file/new/2&#39;</span>
+];
+</code></pre></div><p>The idea of this test is that each url represents what the cache should do during the upgrade.</p>
+<ul>
+<li>/example/file/shared/*
+<ul>
+<li>These assets should not get updated, and by that I mean the service worker shouldn&#39;t even try to cache an update, this is vital if you are intending to save as much data as possible.</li>
+</ul>
+</li>
+<li>/example/file/upgrade/*
+<ul>
+<li>This asset has changed between the two service workers and the cache <strong>needs</strong> updating.</li>
+</ul>
+</li>
+<li>/example/file/{new | remove}/*
+<ul>
+<li>This is just a stupid naming convention so I can ensure that the <em>remove</em> urls are no longer cached and <em>new</em> exists only in the new cache list.</li>
+</ul>
+</li>
+</ul>
+<p>Reading this as a developer it&#39;s kind of obvious of the end goal of these URLs, but accounting for HTTP caches, file revisioning (or lack of) and being new to the service worker API, it isn&#39;t as simple as it may first seem.</p>
+<p>This is intentionally a failing (and stupid) test in the repo to see if a library like sw-precache could account for these changes.</p>
+<h2 id="http-status-codes">HTTP Status Codes</h2>
+<p>Talking with Jake this morning I learnt that cache.addAll() will actually cache a 404 response. I thought failed requests, including 404, would cause addAll to reject. I&#39;ll hopefully get some time to add a few test cases in for this.</p>
+<h1 id="how-to-test">How to Test</h1>
+<p>Take a lot of this with a pinch of salt in terms of what might actually be useful for you. These are fictitious examples being tested with no clear goals other than to explore different behaviours.</p>
+<p>To the best of my knowledge there is no headless browser which supports Service Workers which means you need to run these tests in a browser with SW support (Chrome or FF Nightly). That means Mocha and Chai running in the browser. I grabbed the dependencies from Bower for this - See <a href="https://github.com/GoogleChrome/sw-unit-test-sample/blob/master/.bowerrc">.bowerrc</a> and <a href="https://github.com/GoogleChrome/sw-unit-test-sample/blob/master/bower.json#L20">bower.json</a>.</p>
+<p>I ended up creating a number of simple helper methods that would perform specific tasks (See: <a href="https://github.com/GoogleChrome/sw-unit-test-sample/blob/master/front-end/scripts/helper-functions.js">helper-functions.js</a>). Tasks like registering a SW and wait until its installed, register a SW and wait until it&#39;s activated and get all the cached assets are here to keep the tests simple and easy to read.</p>
+<p>The actual tests that use these methods exist in the <a href="https://github.com/GoogleChrome/sw-unit-test-sample/blob/master/tests/test.sw.js">/tests/ directory</a>.</p>
+<p>Before each test there is a callback which unregisters all service workers and clears all caches.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">beforeEach</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">done</span>) {
+  Promise.<span style="color:#a6e22e">all</span>([
+    <span style="color:#a6e22e">SWTestHelper</span>.<span style="color:#a6e22e">unregisterAllRegistrations</span>(),
+    <span style="color:#a6e22e">SWTestHelper</span>.<span style="color:#a6e22e">clearAllCaches</span>()
+  ])
+  .<span style="color:#a6e22e">then</span>(() =&gt; {
+    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;\n\n----\n\n&#39;</span>);
+    <span style="color:#a6e22e">done</span>();
+  }).<span style="color:#66d9ef">catch</span>(<span style="color:#a6e22e">done</span>);
+});
+</code></pre></div><p>This results in a clean state at the start of each test.</p>
+<h2 id="testing-caches">Testing Caches</h2>
+<p>Testing the contents of a cache is fairly simple since we are running our tests inside aweb  page which has access to the caches directly.</p>
+<p>My very first attempt at testing service workers was to write an API that would create a service worker will with files in a certain format / with certain behaviours. If you look at the tests you&#39;ll see some URL&#39;s that look like the following:</p>
+<pre><code>/sw/:fileCache/:fileRev/:cacheId/:numOfAssets
+</code></pre><ul>
+<li>fileCache: defines if the file should have a long life HTTP cache header</li>
+<li>fileRev: determines if the files in the service worker would be given a file revision of some kind</li>
+<li>cacheId: just adds a number to the cache name so it&#39;s easy to access the cache</li>
+<li>numOfAssets: defines how many files to cache in the install step</li>
+</ul>
+<p>This endpoint will then return a service worker template with a populated install list (Template is Here)[https://github.com/GoogleChrome/sw-unit-test-sample/blob/master/sw-tmpl.js].</p>
+<p>This meant I could toggle cache headers and file revisioning quickly. In hind sight - lot of effort for little gain, but a nice illustration of different scenarios that could arise.</p>
+<p>Given this URL, I went about testing how the HTTP cache would affect a service worker so I register two service workers. The first warms up the HTTP cache and the second then pulls int he same assets. The cached files should all be unique, if there is a match between the caches then the HTTP cache has handled a response.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">it</span>(<span style="color:#e6db74">&#39;should update cached assets with same file names and no cache headers.&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">done</span>) {
+  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">firstCachedAssets</span> <span style="color:#f92672">=</span> [];
+  <span style="color:#a6e22e">SWTestHelper</span>.<span style="color:#a6e22e">installSW</span>(<span style="color:#e6db74">&#39;/sw/no-file-cache/no-file-rev/1/3&#39;</span>)
+  .<span style="color:#a6e22e">then</span>(() =&gt; {
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">SWTestHelper</span>.<span style="color:#a6e22e">getAllCachedAssets</span>(<span style="color:#a6e22e">CACHE_NAME_1</span>);
+  })
+  .<span style="color:#a6e22e">then</span>((<span style="color:#a6e22e">cachedAssets</span>) =&gt; {
+    <span style="color:#a6e22e">firstCachedAssets</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">cachedAssets</span>;
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">SWTestHelper</span>.<span style="color:#a6e22e">installSW</span>(<span style="color:#e6db74">&#39;/sw/no-file-cache/no-file-rev/2/3&#39;</span>);
+  })
+  .<span style="color:#a6e22e">then</span>(() =&gt; {
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">SWTestHelper</span>.<span style="color:#a6e22e">getAllCachedAssets</span>(<span style="color:#a6e22e">CACHE_NAME_2</span>);
+  })
+  .<span style="color:#a6e22e">then</span>((<span style="color:#a6e22e">cachedAssets</span>) =&gt; {
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">cachedAssetsKeys</span> <span style="color:#f92672">=</span> Object.<span style="color:#a6e22e">keys</span>(<span style="color:#a6e22e">cachedAssets</span>);
+    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">cachedAssetsKeys</span>.<span style="color:#a6e22e">length</span>; <span style="color:#a6e22e">i</span>  ) {
+      <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">key</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">cachedAssetsKeys</span>[<span style="color:#a6e22e">i</span>];
+      <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">firstCachedAssets</span>[<span style="color:#a6e22e">key</span>]) {
+        <span style="color:#75715e">// Nothing to compare so latest cached asset must be unique
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">continue</span>;
+      }
+
+      <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">cachedAssets</span>[<span style="color:#a6e22e">key</span>] <span style="color:#f92672">===</span> <span style="color:#a6e22e">firstCachedAssets</span>[<span style="color:#a6e22e">key</span>]) {
+        <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> Error(<span style="color:#e6db74">&#39;Two results match in text&#39;</span>);
+      }
+    }
+  })
+  .<span style="color:#a6e22e">then</span>(() =&gt; {
+    <span style="color:#a6e22e">done</span>();
+  }).<span style="color:#66d9ef">catch</span>((<span style="color:#a6e22e">err</span>) =&gt; {
+    <span style="color:#a6e22e">done</span>(<span style="color:#a6e22e">err</span>);
+  });
+});
+</code></pre></div><p>The main <em>gotchas</em> this revealed when I first wrote this test are:</p>
+<ul>
+<li>You need to ensure you unregister service workers between tests. In <a href="https://github.com/GoogleChrome/sw-unit-test-sample/blob/master/front-end/scripts/helper-functions.js#L75">SWTestHelper.installSW()</a> I can rely on <code>registration.installing</code> existing because I ensure that unregistering always occurs before each test.</li>
+<li>Opening a cache will create the cache if it doesn&#39;t exist. This meant I hit some weird scenarios where tests were passing because I was passing in the wrong cache name in the test and as a result a cache was opened with no assets. I altered <a href="https://github.com/GoogleChrome/sw-unit-test-sample/blob/master/front-end/scripts/helper-functions.js#L153">SWTestHelper.getAllCachedAssets()</a> to check the cache exists and throw an error if it didn&#39;t to account for this in each test.</li>
+</ul>
+<h2 id="test-upgrades">Test Upgrades</h2>
+<p>One path users will experience when using a sw enabled site is a service worker update. This will likely require removing old cached assets, adding new ones, leaving some assets alone and updating others.</p>
+<p>I had a crack at <a href="https://github.com/GoogleChrome/sw-unit-test-sample/blob/master/tests/test.sw.js#L369">writing one test to cover this</a>.</p>
+<p>For this it was easier to register specific service worker files (/sw-upgrade-test-1.js &amp; /sw-upgrade-test-2.js) and examining the resulting caches contents. This is where the urls I described earlier came in: /shared/, /upgraded/, /removed/ &amp; /new/.</p>
+<p>This is almost identical to the previous test except the comparison of the cached assets at the end of the test is different.</p>
+<h2 id="test-fetch-event">Test Fetch Event</h2>
+<p>The second feature of service workers is test is the fetch event itself. It&#39;s easy to imagine scenarios where some URL&#39;s should always be cached and some requests that should never touch the cache.</p>
+<p>This is where things got a tad hairy.</p>
+<p>For a service worker to intercept a network request from a web page it needs to be controlling the page. This is ok, because from a service worker we can call <a href="https://github.com/GoogleChrome/sw-unit-test-sample/blob/master/data/sw-fetch-test.js#L41">claim()</a> which will start controlling any page under the service workers scope immediately.</p>
+<p>This worked just fine when I let the service worker control the page running the tests……but it was only file for the first test.</p>
+<p>A problem arose when I tried to register the same service worker for a second test. “Unregistering” a service worker doesn&#39;t mean its actually dead, it just means the service worker is waiting to be killed off, not what I expected. Furthermore, registering the same service worker meant that the old service worker waiting to be killed would come back to life, which meant it never went through the install step again.</p>
+<p>The way I got around this isn&#39;t pretty. In the tests for fetch I create an iframe and add it to the DOM (See <a href="https://github.com/GoogleChrome/sw-unit-test-sample/blob/master/front-end/scripts/helper-functions.js#L19">createNewIframe() for more info</a>. The URL of the iframe is then set to:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">newIframe</span>.<span style="color:#a6e22e">src</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;/test-iframe/&#39;</span>   Math.<span style="color:#a6e22e">random</span>();
+</code></pre></div><p>Where <code>/test-iframe/*</code> just returns a plain old HTML file -&gt; it does nothing. When I register a SW in a test, I set the scope to be the same as the iframe&#39;s URL.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">options</span> <span style="color:#f92672">=</span> {<span style="color:#a6e22e">scope</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;./&#39;</span>};
+<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">iframe</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;.js-test-iframe&#39;</span>);
+<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">iframe</span>) {
+  <span style="color:#a6e22e">options</span> <span style="color:#f92672">=</span> {<span style="color:#a6e22e">scope</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">iframe</span>.<span style="color:#a6e22e">contentWindow</span>.<span style="color:#a6e22e">location</span>.<span style="color:#a6e22e">pathname</span>};
+}
+</code></pre></div><p><em>Internet high fives to <a href="https://twitter.com/jaffathecake">Jake Archibald</a> for pin-pointing this issue</em></p>
+<p>This means that when the service worker calls <code>claim</code> it won&#39;t claim the page running the tests, but instead claim the iframe. To test then test  the fetch event of a service worker, we enter another delightful hack.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Activate the service worker
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">return</span> <span style="color:#a6e22e">SWTestHelper</span>.<span style="color:#a6e22e">activateSW</span>(<span style="color:#e6db74">&#39;/sw-fetch-test.js&#39;</span>)
+  .<span style="color:#a6e22e">then</span>(() =&gt; {
+    <span style="color:#75715e">// Call the iframes fetch event so it goes through the service worker
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">iframe</span>.<span style="color:#a6e22e">contentWindow</span>.<span style="color:#a6e22e">fetch</span>(<span style="color:#e6db74">&#39;/echo/test-2&#39;</span>);
+  });
+</code></pre></div><p>Yup. Grab the iframe, and call fetch on the contentWindow. The alternative to this would be to send messages between the parent page and the iframe to manage these fetches, but that would be messier compared to the above approach.</p>
+<p>The extra bonus of this is there is little risk of overlapping service workers when registering and unregistering due to the random URL.</p>
+<h1 id="improvements">Improvements</h1>
+<p>Things that could be improved:</p>
+<ul>
+<li>Actual tests. I can see how these types of test apply to a library, but testing an individual sites service worker is a little harder to picture.</li>
+<li>The fetch testing is weird enough that I&#39;m inclined to explore finding a way to trigger a fetch event directly on the service worker rather than through fetch events in a page.</li>
+<li>It still needs to be run in an actual browser. I would love to be able to run these kinds of tests through something like phantom JS so they could be added to CI&#39;s like Travis.</li>
+</ul>
+<p>If nothing else, this has been insanely useful for cleaning up some of my thoughts around SW. I&#39;m still Noobish enough that I had made a number of assumptions that simply don&#39;t hold.</p>
+<p>Hopefully this will be a stepping stone in the creation of unit tests for SW libraries.</p>
+
+</main>
+<footer class="c-footer">
+  <div class="c-footer__corner">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135.467 135.467" preserveAspectRatio="none"><path d="M135.467 135.467h-82.55L134.937 0h.53z" fill="#565797"></path><path d="M135.07 0L53.049 135.467H39.688L121.707 0z" fill="#feca72"></path><path d="M121.84 0L39.82 135.467H26.458L108.48 0z" fill="#c4e791"></path><path d="M108.611 0l-82.02 135.467H13.229L95.25 0z" fill="#84acfc"></path><path d="M95.382 0l-82.02 135.467H0L82.02 0z" fill="#ee727a"></path></svg>
+  </div>
+  <div class="c-footer__content"></div>
+</footer>
+</div>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-155219449-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-155219449-1');
+</script>
+
+<script>var haCSS = haCSS || []; haCSS.push(...['/css/elements/code-async.css']);</script></body></html>

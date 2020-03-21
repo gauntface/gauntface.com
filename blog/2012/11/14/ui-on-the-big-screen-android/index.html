@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="en"><head>
+  <title>UI on the Big Screen &amp; Android</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="Description" content="This is the site description"/>
+  <meta name="theme-color" content="#565797"/>
+<style>pre{overflow-x:auto}</style><style>pre{background-color:var(--dark);color:var(--light);padding:12px;overflow-x:auto;border-radius:12px;box-shadow:0 2px 8px var(--drop-shadow)}pre code{padding:0;background:unset}</style><style>@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");body{display:inline;min-height:100%;font-family:var(--body-font-family);background:var(--platnum);margin:0}</style><style>.c-header{color:var(--platnum);padding:var(--header-padding) var(--page-padding);background:var(--liberty)}.c-header__logo svg{width:124px;height:124px;margin:auto}.c-header__logo svg path{fill:var(--platnum)}</style><style>code{padding:0 4px;font-family:var(--code-font-family);background:var(--pale-chestnut)}</style><style>h4{font-size:1.2rem}</style><style>.l-default{display:flex;flex-direction:column;min-height:100%}.l-default__main{flex:1;padding:var(--page-padding)}</style><style>p{word-wrap:break-word}</style><style>img{max-width:100%;height:auto}</style><style>:root{--body-font-family:"Roboto",sans-serif;--code-font-family:"dm",monospace;--default-font-size:18px;--table-cell-padding:8px;--page-padding:24px;--header-padding:64px;--white-smoke:#f7f7f7;--platnum:#e5dedf;--dust-storm:#e5c9cf;--pale-chestnut:#e5a9b4;--liberty:#565797;--dark-slate-blue:#434596;--lightest:#d0d0d0;--light:#bfc7d4;--muted-light:#747a88;--muted:#434757;--dark:#292d3d;--black:#272729;--drop-shadow:rgba(39,39,41,0.4);--red:#ee727a;--green:#c4e791;--yellow:#feca72;--blue:#84acfc;--purple:#c694e8;--light-blue:#8cddfd}html{height:100%;font-size:18px;font-size:var(--default-font-size)}</style><style>h1{font-size:2rem}</style><style>h2{font-size:1.7rem}</style><style>.c-footer{display:flex;flex-direction:row}.c-footer__corner{flex:1}.c-footer__corner svg{display:block;width:80%;height:100%;margin-left:auto}.c-footer__content{flex:2;margin-left:auto;background:var(--liberty)}@media (min-width:1000px){.c-footer{width:80%;margin-left:auto}}</style><style>svg{display:block}</style></head><body>
+<div class="l-default">
+  <header class="c-header">
+  <a href="/" class="c-header__logo">
+    <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M988 36H36V987H988V36ZM0 0V1023H1024V0H0Z" fill="black"></path>
+<path d="M834.787 519.358H767.661V590H746.567V430.039H845.664V447.397H767.661V502.109H834.787V519.358Z" fill="black"></path>
+<path d="M574.089 447.397H522.673V590H501.689V447.397H450.383V430.039H574.089V447.397Z" fill="black"></path>
+<path d="M834.984 821.062H765.661V877.751H846.19V895H744.567V735.039H845.092V752.397H765.661V803.813H834.984V821.062Z" fill="black"></path>
+<path d="M575.23 844.243C573.253 861.162 566.991 874.236 556.444 883.464C545.97 892.62 532.018 897.197 514.586 897.197C495.689 897.197 480.528 890.422 469.103 876.873C457.75 863.323 452.074 845.195 452.074 822.49V807.109C452.074 792.241 454.71 779.167 459.984 767.888C465.331 756.609 472.875 747.966 482.616 741.96C492.357 735.881 503.636 732.842 516.454 732.842C533.446 732.842 547.069 737.603 557.323 747.124C567.577 756.572 573.546 769.683 575.23 786.455H554.027C552.196 773.711 548.204 764.482 542.052 758.77C535.973 753.057 527.44 750.2 516.454 750.2C502.977 750.2 492.394 755.181 484.703 765.142C477.086 775.103 473.277 789.275 473.277 807.659V823.149C473.277 840.508 476.903 854.314 484.154 864.568C491.405 874.822 501.549 879.949 514.586 879.949C526.305 879.949 535.277 877.312 541.502 872.039C547.801 866.692 551.976 857.427 554.027 844.243H575.23Z" fill="black"></path>
+<path d="M266.397 853.252H199.38L184.329 895H162.576L223.66 735.039H242.117L303.311 895H281.668L266.397 853.252ZM205.752 835.894H260.135L232.889 761.077L205.752 835.894Z" fill="black"></path>
+<path d="M294.004 590H272.8L192.271 466.733V590H171.067V430.039H192.271L273.02 553.855V430.039H294.004V590Z" fill="black"></path>
+<path d="M848.177 122.039V230.804C848.104 245.892 843.343 258.233 833.895 267.828C824.52 277.422 811.775 282.806 795.662 283.978L790.059 284.197C772.554 284.197 758.602 279.473 748.201 270.025C737.801 260.577 732.527 247.576 732.381 231.023V122.039H753.255V230.364C753.255 241.937 756.441 250.945 762.813 257.391C769.185 263.763 778.267 266.949 790.059 266.949C801.998 266.949 811.116 263.763 817.415 257.391C823.787 251.019 826.973 242.046 826.973 230.474V122.039H848.177Z" fill="black"></path>
+<path d="M545.897 240.252H478.88L463.829 282H442.076L503.16 122.039H521.617L582.811 282H561.168L545.897 240.252ZM485.252 222.894H539.635L512.389 148.077L485.252 222.894Z" fill="black"></path>
+<path d="M292.17 261.016C286.75 268.78 279.169 274.603 269.428 278.484C259.76 282.293 248.481 284.197 235.59 284.197C222.553 284.197 210.981 281.158 200.874 275.079C190.766 268.926 182.929 260.21 177.363 248.931C171.87 237.652 169.05 224.578 168.903 209.71V195.757C168.903 171.661 174.506 152.984 185.712 139.727C196.992 126.47 212.812 119.842 233.173 119.842C249.873 119.842 263.312 124.126 273.493 132.696C283.674 141.192 289.899 153.277 292.17 168.951H271.076C267.121 147.784 254.523 137.2 233.283 137.2C219.147 137.2 208.417 142.181 201.093 152.142C193.842 162.029 190.18 176.385 190.107 195.208V208.282C190.107 226.226 194.208 240.508 202.412 251.128C210.615 261.675 221.711 266.949 235.7 266.949C243.61 266.949 250.532 266.07 256.464 264.312C262.397 262.554 267.304 259.588 271.186 255.413V219.488H234.162V202.349H292.17V261.016Z" fill="black"></path>
+</svg>
+
+  </a>
+</header>
+  <main class="l-default__main">
+<p><img src="/images/blog/2014/06/15/5232306429-b3ec9418dc-o.jpg" alt="Key art for blog post “UI on the Big Screen &amp; Android “"/></p>
+<h1 id="ui-on-the-big-screen--android">UI on the Big Screen &amp; Android</h1>
+<p>Working as part of the Google TV developer relations team means I see a lot of Google TV applications. Coming from a mobile development background means I&#39;ve seen a lot of UI / UX design patterns come and go. So here is my short list of things I&#39;ve seen come and go in the Android space, which are following the same trend on Google TV and give you some useful hints on how to make your good TV apps great.</p>
+<h2 id="no-toast-for-me">No Toast for Me</h2>
+<p><img src="/images/blog/2012/11/device-2012-11-05-163904.png" alt="Toasts on Google TV"/></p>
+<p>These little guys have been around since the days of Android Cupcake. For me they are a fantastic tool for showing up information when certain tasks were done without needing to look at LogCat, but for showing information from your application, outside of the debug build? I&#39;m not so sure. They suffer from a number of problems:</p>
+<ol>
+<li>Your app doesn&#39;t need to be in the foreground for a toast to show up, meaning you may well end confusing a user as to where the message is from.</li>
+<li>It&#39;s not that pretty to look at.</li>
+<li>In some cases, like the image above,  it covers up the UI, right where you don&#39;t want it to.</li>
+<li>If the information is that important to show to the user, do you really want to add a time limit to how long it is visible? Imagine telling a user their password was invalid via a Toast. If they look away from the screen for the duration of a Toast, when they eventually come back, they&#39;ll have no indication as to why they are still staring at the login screen.</li>
+</ol>
+<h4 id="say-no-to-toast">Say no to Toast!</h4>
+<p>If you still like the simplicity of the Toast API, then why not consider using a Crouton instead? They overcome the problem of identifying which app the message came from  as well as being customisable. <a href="https://github.com/keyboardsurfer/Crouton">https://github.com/keyboardsurfer/Crouton</a></p>
+<p><img src="/images/blog/2012/11/Crouton-device-2012-11-05-165501.png" alt="Croutons on Google TV"/></p>
+<h2 id="use-an-actionbar">Use an ActionBar</h2>
+<p><img src="/images/blog/2012/11/Action-Bar-Crop-device-2012-11-05-165735.png" alt="Google Play Aciton Bar on Google TV" title="1024"/></p>
+<p><img src="/images/blog/2012/11/Left-Nav-Bar-Both.png" alt="YouTube Left Nav Bar on Google TV" title="500"/></p>
+<p>Android Mobile &amp; Tablets have strong design guidelines and I think it&#39;s fair to say that since the introduction of the UI guidelines, developers have found it useful to be steered in the right direction as far as design is concerned. The end result being users get a common user interface, reducing the time needed to learn how to use a new app.</p>
+<p>On Google TV the Action Bar is a design pattern which applies to Mobile, Tablet and TV. As a developer you have a choice, either the default Android ActionBar or you can use the LeftNavBar. There are some interaction differences with the LeftNavBar, but the API is the same.</p>
+<p>If you have vertical scrolling in your application, consider using the LeftNavBar since focusing on an item in the LeftNavBar can be achieved by pressing left on the D-Pad, if however you have horizontal scrolling then perhaps a stock ActionBar is more suitable. If you have no scrolling, then you my lucky friend, can pick.</p>
+<p><a href="http://developer.android.com/design/patterns/actionbar.html">http://developer.android.com/design/patterns/actionbar.html</a> <a href="https://developers.google.com/tv/android/docs/gtv_displayguide#LeftNavBar">https://developers.google.com/tv/android/docs/gtv_displayguide#LeftNavBar</a></p>
+<h2 id="use-holo">Use Holo</h2>
+<p>This has a huge affect on your apps look and feel and requires little effort to implement. I&#39;ve seen a few applications, which by default, don&#39;t use the Holo theme for their UI and you can tell by the look of the Dialog and the activity circle (as well as other stock widgets).</p>
+<p><img src="/images/blog/2012/11/No-Holo-for-Maps-on-TVdevice-2012-11-13-164706.png" alt="No Holo for Maps on TV" title="1024"/></p>
+<p>But what is causing this? Well the offending line of code in the manifest is:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">android:theme=&#34;@android:style/Theme.NoTitleBar&#34;
+</code></pre></div><p>Swap this for:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">android:theme=&#34;@android:style/Theme.Holo.NoActionBar&#34;
+</code></pre></div><p>You get:</p>
+<p><img src="/images/blog/2012/11/Maps-on-TV-with-Holo-device-2012-11-13-165520.png" alt="Maps on TV with Holo" title="1024"/></p>
+<p>That&#39;s more like it :)</p>
+<p>If you are sitting there thinking “well this Holo theme is all good and well, but it&#39;s blue. I hate blue. My logo is the opposite of blue, what then?” Well never fear, there is a handy little tool which will generate assets colored for your application and give you a theme to go with it.</p>
+<p><a href="http://android-holo-colors.com/">http://android-holo-colors.com/</a> <em>Created by <a href="mailto:jeromevdl@android-holo-colors.com">Jérôme Van Der Linden</a></em></p>
+<p>Have a look here for some info on themes and some of the widgets you can use:</p>
+<p><a href="http://developer.android.com/design/style/themes.html">http://developer.android.com/design/style/themes.html</a></p>
+<p><a href="http://developer.android.com/design/building-blocks/index.html">http://developer.android.com/design/building-blocks/index.html</a></p>
+<h2 id="no-loading-dialog-for-me">No Loading Dialog for Me</h2>
+<p><img src="/images/blog/2012/11/Loading-Dialog.png" alt="Loading Dialog"/></p>
+<p>Ever seen this dialog?</p>
+<p>Perhaps you&#39;ve even included it within your application?</p>
+<p>I can see why developers take this approach, it blocks the users from playing with the UI while a network request is on going, but for users it&#39;s infuriating to be blocked out and forced to wait. If you embed it into the UI, not only does it look and feel more integrated with your application, it means the user feels they still have control of the application, even if you don&#39;t offer any form of interaction.</p>
+<h2 id="finally-use-focusing-in-your-app">Finally, Use Focusing in Your App</h2>
+<p>Please add a focus state to your buttons etc.</p>
+<p>If you use the holo-colors link above, you don&#39;t have much to do ;)</p>
+<p>But we all like a bit of custom stuff, so if you do go down this route, then add focusing and ensure it works. If you are developing on a Tablet, then try adding a Bluetooth keyboard and using the arrows keys OR use the simulator with your computers arrow keys.</p>
+<p><img src="/images/blog/2012/11/touch_feedback_states.png" alt="Touch states in Android"/></p>
+<p><a href="http://developer.android.com/design/style/touch-feedback.html">http://developer.android.com/design/style/touch-feedback.html</a></p>
+<p><a href="https://developers.google.com/tv/android/docs/gtv_displayguide#NavigationFocus">https://developers.google.com/tv/android/docs/gtv_displayguide#NavigationFocus</a></p>
+<p><a href="http://developer.android.com/training/tv/optimizing-navigation-tv.html">http://developer.android.com/training/tv/optimizing-navigation-tv.html</a></p>
+<p>Orig Photo: <a href="https://flic.kr/p/8YmWpP">https://flic.kr/p/8YmWpP</a></p>
+
+</main>
+<footer class="c-footer">
+  <div class="c-footer__corner">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135.467 135.467" preserveAspectRatio="none"><path d="M135.467 135.467h-82.55L134.937 0h.53z" fill="#565797"></path><path d="M135.07 0L53.049 135.467H39.688L121.707 0z" fill="#feca72"></path><path d="M121.84 0L39.82 135.467H26.458L108.48 0z" fill="#c4e791"></path><path d="M108.611 0l-82.02 135.467H13.229L95.25 0z" fill="#84acfc"></path><path d="M95.382 0l-82.02 135.467H0L82.02 0z" fill="#ee727a"></path></svg>
+  </div>
+  <div class="c-footer__content"></div>
+</footer>
+</div>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-155219449-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-155219449-1');
+</script>
+
+<script>var haCSS = haCSS || []; haCSS.push(...['/css/elements/code-async.css']);</script></body></html>
