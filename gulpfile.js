@@ -4,6 +4,7 @@ const spawn = require('child_process').spawn;
 
 const fs = require('fs-extra');
 const clean = require('@hopin/wbt-clean');
+const html = require('@hopin/wbt-html-assets'); 
 
 const basetheme = require('@hopin/hugo-base-theme');
 const gftheme = require('@gauntface/hugo-theme');
@@ -59,10 +60,18 @@ gulp.task('hugo-build', () => {
   });
 })
 
+gulp.task('html', gulp.series(
+  html.gulpProcessFiles({
+    htmlPaths: [path.join(__dirname, 'public')],
+    assetPaths: [path.join(__dirname, 'public')],
+  }),
+));
+
 gulp.task('build', gulp.series(
   'clean',
   'themes',
   'hugo-build',
+  'html',
 ))
 
 /**
