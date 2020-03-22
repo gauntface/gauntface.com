@@ -14,7 +14,7 @@ Hopefully the lockdown in California will help me fix it up quickly.
 
 ### Web Push Book
 
-Having spent a large amount of time playing with web push I put together a collection of information into "a kind of book" that you can grab [from the web-push-book](https://web-push-book.gauntface.com/).
+Having spent a large amount of time playing with web push I put together a collection of information into a kind of book that you can grab [from the web-push-book](https://web-push-book.gauntface.com/).
 
 ### Smashing Book 5
 
