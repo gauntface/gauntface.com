@@ -9,7 +9,7 @@
     "@gauntface/hugo-theme": "0.0.150",
     "@hopin/hugo-base-theme": "0.0.120",
     "@hopin/wbt-clean": "0.0.59",
-    "@hopin/wbt-html-assets": "0.0.58",
+    "@hopin/wbt-html-assets": "0.0.59",
     "fs-extra": "9.0.0",
     "gulp": "4.0.2"
   }
