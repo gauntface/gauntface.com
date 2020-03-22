@@ -1,1 +1,1 @@
-code{padding:0 4px;font-family:var(--code-font-family);background:var(--pale-chestnut)}
+code{padding:0 var(--inline-code-padding);border-radius:var(--inline-code-padding);font-family:var(--code-font-family);background:var(--dark-grey);color:var(--white)}
