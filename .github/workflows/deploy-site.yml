@@ -24,4 +24,4 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-west-1
     - name: Upload to S3
-      run: aws s3 sync ./public/ s3://www.gauntface.com/
+      run: aws s3 sync ./public/ s3://www.gauntface.com/ --delete
