@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@gauntface/hugo-theme": "0.0.158",
-    "@hopin/hugo-base-theme": "0.0.125",
+    "@hopin/hugo-base-theme": "0.0.126",
     "@hopin/wbt-clean": "0.0.61",
     "@hopin/wbt-html-assets": "0.0.59",
     "fs-extra": "9.0.0",
