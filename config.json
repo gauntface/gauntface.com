@@ -9,7 +9,7 @@
    "uglyURLs": true,
    "params": {
       "description": "This is the site description",
-      "themecolor": "#565797",
+      "themecolor": "#2f3640",
       "googleanalytics": "UA-123456789-1"
    }
 }
