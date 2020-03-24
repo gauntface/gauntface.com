@@ -8,8 +8,8 @@
    ],
    "uglyURLs": true,
    "params": {
-      "description": "This is the site description",
+      "description": "The personal site for Matt Gaunt, a software engineer from the UK living in California.",
       "themecolor": "#2f3640",
-      "googleanalytics": "UA-123456789-1"
+      "googleanalytics": "UA-161686512-1"
    }
 }
