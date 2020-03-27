@@ -6,7 +6,7 @@
     "test": "echo 'No tests in project'"
   },
   "devDependencies": {
-    "@gauntface/hugo-theme": "0.0.205",
+    "@gauntface/hugo-theme": "0.0.206",
     "@hopin/hugo-base-theme": "0.0.148",
     "@hopin/wbt-clean": "0.0.66",
     "@hopin/wbt-html-assets": "0.0.65",
