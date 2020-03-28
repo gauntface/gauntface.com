@@ -1,8 +1,9 @@
 const gulp = require('gulp');
 const path = require('path');
 const spawn = require('child_process').spawn;
-
+const htmlmin = require('gulp-htmlmin');
 const fs = require('fs-extra');
+
 const clean = require('@hopin/wbt-clean');
 const html = require('@hopin/wbt-html-assets');
 
@@ -60,11 +61,21 @@ gulp.task('hugo-build', () => {
   });
 })
 
+gulp.task('minify-html', () => {
+  return gulp.src(path.join(__dirname, 'public', '**', '*.html'))
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      removeComments: true,
+    }))
+    .pipe(gulp.dest(path.join(__dirname, 'public')));
+})
+
 gulp.task('html', gulp.series(
   html.gulpProcessFiles({
     htmlPath: path.join(__dirname, 'public'),
     silent: true,
   }),
+  'minify-html'
 ));
 
 gulp.task('build', gulp.series(
