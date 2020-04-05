@@ -1,7 +1,3 @@
----
-title: "Home"
----
-
 # Hello.
 
 Please excuse the dust, I'm in the middle of changing my site, again, but

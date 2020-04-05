@@ -7,6 +7,7 @@
       "hopin-base-theme"
    ],
    "uglyURLs": true,
+   "disableHugoGeneratorInject": true,
    "params": {
       "description": "The personal site for Matt Gaunt, a software engineer from the UK living in California.",
       "themecolor": "#2f3640",
