@@ -234,3 +234,11 @@ I've set up my repo such that I can't push commits to master and
 that Pull Requests must pass the Build action before they can be merged.
 
 ![GitHub Branch Protection Configuration](/images/blog/2020/2020-04-05/github-branch-protection.png)
+
+## Fin.
+
+I would recommend anyone to give this a go if you are looking for an
+easy way to run a site directly on AWS.
+
+It is missing some of the bells and whistles from Netlify, but it's
+good enough for my needs and I really don't need much.
