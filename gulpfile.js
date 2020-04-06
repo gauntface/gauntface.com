@@ -118,10 +118,21 @@ gulp.task('restart-server', async () => {
 
 gulp.task('watch-gf-theme', () => {
   const opts = {
-    ignoreInitial: false,
+    ignoreInitial: true,
   };
   return gulp.watch(
     [path.join(__dirname, 'node_modules', '@gauntface/hugo-theme', '**', '*')],
+    opts,
+    gulp.series('themes', 'restart-server'),
+  );
+});
+
+gulp.task('watch-base-theme', () => {
+  const opts = {
+    ignoreInitial: true,
+  };
+  return gulp.watch(
+    [path.join(__dirname, 'node_modules', '@hopin/hugo-base-theme', '**', '*')],
     opts,
     gulp.series('themes', 'restart-server'),
   );
@@ -131,6 +142,7 @@ gulp.task('watch',
   gulp.series(
     'themes',
     gulp.parallel(
+      'watch-base-theme',
       'watch-gf-theme',
       'hugo-server',
     ),

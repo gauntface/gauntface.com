@@ -50,7 +50,7 @@ Below is the full 55 page thesis paper. Enjoy.
 [Mobile Eye - Matthew Gaunt on Scribed](http://www.scribd.com/doc/86679610)
 
 <div class="embed">
-<iframe class="scribd_iframe_embed" src="//www.scribd.com/embeds/86679610/content?start_page=1&view_mode=scroll&show_recommendations=true" data-auto-height="false" data-aspect-ratio="undefined" scrolling="no" id="doc_6729" width="100%" height="600" frameborder="0"></iframe>
+<iframe class="scribd_iframe_embed" src="//www.scribd.com/embeds/86679610/content?start_page=1&view_mode=scroll&show_recommendations=true" data-auto-height="false" data-aspect-ratio="undefined" scrolling="no" id="doc_6729" frameborder="0"></iframe>
 </div>
 
 Orig Photo: [https://flic.kr/p/A9XuU](https://flic.kr/p/A9XuU)
