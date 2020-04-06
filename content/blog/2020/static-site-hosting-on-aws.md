@@ -1,5 +1,7 @@
 ---
 title: "Continuous Deployment with AWS and GitHub Actions"
+excerpt: "Continuous deployment with AWS and GitHub Actions is
+fairly easy to set up and use."
 mainImage: "/images/blog/2020/2020-04-05/clouds.jpg"
 date: "2020-04-05T12:00:00-07:00"
 ---
