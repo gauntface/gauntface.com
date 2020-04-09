@@ -1,4 +1,14 @@
 {
+   "//": "Hugo should have these as defaults - it's becoming tedious to use.",
+   "disableHugoGeneratorInject": true,
+   "markup": {
+      "goldmark": {
+         "renderer": {
+            "unsafe": true
+         }
+      }
+   },
+
    "baseURL": "https://www.gauntface.com/",
    "languageCode": "en-us",
    "title": "Gauntface | Matt Gaunt",
@@ -7,7 +17,7 @@
       "hopin-base-theme"
    ],
    "uglyURLs": true,
-   "disableHugoGeneratorInject": true,
+
    "params": {
       "description": "The personal site for Matt Gaunt, a software engineer from the UK living in California.",
       "themecolor": "#2f3640",
