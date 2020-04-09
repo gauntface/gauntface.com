@@ -24,7 +24,7 @@ jobs:
       if: github.ref == 'refs/heads/master'
       run: aws s3 sync ./public/ s3://www.gauntface.com/ --delete
     - name: Set Caching for everything to 24 hours
-      # if: github.ref == 'refs/heads/master'
+      if: github.ref == 'refs/heads/master'
       run: |
         aws s3 cp \
         s3://www.gauntface.com/ s3://www.gauntface.com/ \
@@ -38,13 +38,13 @@ jobs:
     - name: Set Caching for images to 360 days
       if: github.ref == 'refs/heads/master'
       run: |
-        aws s3 cp
-         s3://www.gauntface.com/ s3://www.gauntface.com/
-        --metadata-directive REPLACE
-        --cache-control 'max-age=31104000'
-        --exclude="*"
-        --include="*.png"
-        --include="*.jpg"
-        --include="*.jpeg"
-        --include="*.gif"
+        aws s3 cp \
+         s3://www.gauntface.com/ s3://www.gauntface.com/ \
+        --metadata-directive REPLACE \
+        --cache-control 'max-age=31104000' \
+        --exclude="*" \
+        --include="*.png" \
+        --include="*.jpg" \
+        --include="*.jpeg" \
+        --include="*.gif" \
         --recursive
