@@ -3,12 +3,16 @@ const path = require('path');
 const spawn = require('child_process').spawn;
 const htmlmin = require('gulp-htmlmin');
 const fs = require('fs-extra');
+const util = require('util');
+const exec = util.promisify(require('child_process').exec);
 
 const clean = require('@hopin/wbt-clean');
 const html = require('@hopin/wbt-html-assets');
 
 const basetheme = require('@hopin/hugo-base-theme');
 const gftheme = require('@gauntface/hugo-theme');
+
+const desiredHugoVersion = 'v0.68.3';
 
 /**
  * Themes
@@ -78,7 +82,20 @@ gulp.task('html', gulp.series(
   'minify-html'
 ));
 
+gulp.task('hugo-version', async () => {
+  const {stdout} = await exec('hugo version');
+  const vr = /v\d*.\d*.\d*/
+  const got = stdout.match(vr)
+  if (!got) {
+    throw new Error(`Failed to match hugo version from '${stdout}'`)
+  }
+  if (got[0] != desiredHugoVersion) {
+    throw new Error(`Wrong hugo version; got ${got[0]}, want ${desiredHugoVersion}`)
+  }
+})
+
 gulp.task('build', gulp.series(
+  'hugo-version',
   'clean',
   'themes',
   'hugo-build',
