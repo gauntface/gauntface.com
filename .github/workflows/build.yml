@@ -32,8 +32,8 @@ jobs:
         --cache-control 'max-age=86400' \
         --exclude="*" \
         --include="*.html" \
-        --include="*.css" \
-        --include="*.js" \
+        --include="*.xml" \
+        --include="*.json" \
         --recursive
     - name: Set Caching for images to 360 days
       if: github.ref == 'refs/heads/master'
@@ -43,6 +43,8 @@ jobs:
         --metadata-directive REPLACE \
         --cache-control 'max-age=31104000' \
         --exclude="*" \
+        --include="*.css" \
+        --include="*.js" \
         --include="*.png" \
         --include="*.jpg" \
         --include="*.jpeg" \
