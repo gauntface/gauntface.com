@@ -77,7 +77,9 @@ gulp.task('minify-html', () => {
 gulp.task('html', gulp.series(
   html.gulpProcessFiles({
     htmlPath: path.join(__dirname, 'public'),
-    silent: true,
+    jsonAssetsPath: path.join(__dirname, 'themes', 'gauntface', 'data', 'hopin'),
+    // debug: 'static-site-hosting-on-aws.html',
+    output: true,
   }),
   'minify-html'
 ));
