@@ -5,7 +5,7 @@ fairly easy to set up and use."
 mainImage: "/images/blog/2020/2020-04-05/clouds.jpg"
 date: "2020-04-05T12:00:00-07:00"
 ---
-![Clouds over a flourescent blue see"](/images/blog/2020/2020-04-05/clouds.jpg)
+![Clouds over a flourescent blue sea](/images/blog/2020/2020-04-05/clouds.jpg)
 
 # Continuous Deployment with AWS and GitHub Actions
 
