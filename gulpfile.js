@@ -74,15 +74,19 @@ gulp.task('minify-html', () => {
     .pipe(gulp.dest(path.join(__dirname, 'public')));
 })
 
-gulp.task('html', gulp.series(
+gulp.task('html-assets', gulp.series(
   html.gulpProcessFiles({
     htmlPath: path.join(__dirname, 'public'),
     jsonAssetsPath: path.join(__dirname, 'themes', 'gauntface', 'data', 'hopin'),
     // debug: 'static-site-hosting-on-aws.html',
     output: true,
   }),
-  'minify-html'
 ));
+
+gulp.task('html', gulp.series(
+  'html-assets',
+  'minify-html',
+))
 
 gulp.task('hugo-version', async () => {
   const {stdout} = await exec('hugo version');
