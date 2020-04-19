@@ -6,10 +6,10 @@
     "test": "echo 'No tests in project'"
   },
   "devDependencies": {
-    "@gauntface/hugo-theme": "0.0.395",
-    "@hopin/hugo-base-theme": "0.0.257",
-    "@hopin/wbt-clean": "0.0.87",
-    "@hopin/wbt-html-assets": "0.0.87",
+    "@gauntface/hugo-theme": "0.0.398",
+    "@hopin/hugo-base-theme": "0.0.259",
+    "@hopin/wbt-clean": "0.0.88",
+    "@hopin/wbt-html-assets": "0.0.88",
     "fs-extra": "9.0.0",
     "gulp": "4.0.2",
     "gulp-htmlmin": "^5.0.1"
