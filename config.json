@@ -1,5 +1,4 @@
 {
-   "//": "Hugo should have these as defaults - it's becoming tedious to use.",
    "disableHugoGeneratorInject": true,
    "markup": {
       "goldmark": {
@@ -19,7 +18,6 @@
       "gauntface",
       "hopin-base-theme"
    ],
-   "uglyURLs": true,
 
    "params": {
       "description": "The personal site for Matt Gaunt, a software engineer from the UK living in California.",
