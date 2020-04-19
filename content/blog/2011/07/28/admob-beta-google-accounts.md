@@ -1,13 +1,12 @@
 ---
 title: "Admob [Beta] + Google Accounts"
 excerpt: "A brief note on how to get Admob [Beta] working if you switch to a Google Account to access Admob."
-mainImage: "null"
-primaryColor: "null"
+mainImage: ""
+primaryColor: ""
 date: "2011-07-28T17:53:48-07:00"
 updatedOn: "2011-07-28T17:53:48-07:00"
 slug: "admob-beta-google-accounts"
 ---
-![Key art for blog post "Admob [Beta] + Google Accounts "](null)
 
 # Admob [Beta] + Google Accounts 
 
@@ -21,3 +20,4 @@ If you are a user of Admob and have opted to sign up with a Google Account or ha
 I hope to implement a much nicer way of getting this information on behalf of the user, but it's all a matter of time. 
 
 Any questions feel free to leave a comment :)
+ 

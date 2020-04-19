@@ -78,6 +78,7 @@ gulp.task('html-assets', gulp.series(
   html.gulpProcessFiles({
     htmlPath: path.join(__dirname, 'public'),
     jsonAssetsPath: path.join(__dirname, 'themes', 'gauntface', 'data', 'hopin'),
+    genPath: path.join(__dirname, 'public', 'generated'),
     // debug: 'static-site-hosting-on-aws.html',
     output: true,
   }),
