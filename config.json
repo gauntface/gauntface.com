@@ -8,7 +8,7 @@
          }
       },
       "highlight": {
-         "noClasses": false
+         "codeFences": false
       }
    },
 
@@ -23,7 +23,6 @@
 
    "params": {
       "description": "The personal site for Matt Gaunt, a software engineer from the UK living in California.",
-      "themecolor": "#2f3640",
-      "googleanalytics": "UA-161686512-1"
+      "themecolor": "#2f3640"
    }
 }
