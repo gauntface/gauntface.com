@@ -70,6 +70,9 @@ gulp.task('minify-html', () => {
     .pipe(htmlmin({
       collapseWhitespace: true,
       removeComments: true,
+      minifyCSS: true,
+      minifyJS: true,
+      minifyURLs: true,
     }))
     .pipe(gulp.dest(path.join(__dirname, 'public')));
 })
