@@ -49,4 +49,5 @@ jobs:
         --include="*.jpg" \
         --include="*.jpeg" \
         --include="*.gif" \
+        --include="*.webp" \
         --recursive
