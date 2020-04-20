@@ -104,11 +104,15 @@ gulp.task('hugo-version', async () => {
   }
 })
 
-gulp.task('build', gulp.series(
+gulp.task('build-raw', gulp.series(
   'hugo-version',
   'clean',
   'themes',
   'hugo-build',
+));
+
+gulp.task('build', gulp.series(
+  'build-raw',
   'html',
 ))
 
