@@ -34,6 +34,8 @@ jobs:
         --include="*.html" \
         --include="*.xml" \
         --include="*.json" \
+        --include="*.svg" \
+        --acl public-read \
         --recursive
     - name: Set Caching for images to 360 days
       if: github.ref == 'refs/heads/master'
@@ -50,4 +52,5 @@ jobs:
         --include="*.jpeg" \
         --include="*.gif" \
         --include="*.webp" \
+        --acl public-read \
         --recursive
