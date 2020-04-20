@@ -41,7 +41,7 @@ jobs:
       if: github.ref == 'refs/heads/master'
       run: |
         aws s3 cp \
-         s3://www.gauntface.com/ s3://www.gauntface.com/ \
+        s3://www.gauntface.com/ s3://www.gauntface.com/ \
         --metadata-directive REPLACE \
         --cache-control 'max-age=31104000' \
         --exclude="*" \
@@ -54,3 +54,9 @@ jobs:
         --include="*.webp" \
         --acl public-read \
         --recursive
+    - name: Invalidate cloudfont
+      if: github.ref == 'refs/heads/master'
+      run: |
+        aws cloudfront create-invalidation \
+        --distribution-id E2XJO1NK2D7PWE \
+        --paths "/*"
