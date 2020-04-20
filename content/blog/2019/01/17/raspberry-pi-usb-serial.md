@@ -100,4 +100,4 @@ Cheeky FYI, to exit `screen` you need to press `ctrl + shift + d`.
 
 I wanted to make it so it was a little easier to plug in the cables
 so I alter the crimp housing for my cables after writing this post,
-you can learn more [here](/blog/2019/01/18/crimp-housing-for-makers).
+you can learn more [here](/blog/2019/01/19/crimp-housing-for-makers).
