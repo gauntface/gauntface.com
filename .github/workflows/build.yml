@@ -52,9 +52,11 @@ jobs:
         --include="*.jpeg" \
         --include="*.gif" \
         --include="*.webp" \
+        --include="*.woff" \
+        --include="*.woff2" \
         --acl public-read \
         --recursive
-    - name: Invalidate cloudfont
+    - name: Invalidate cloudfront
       if: github.ref == 'refs/heads/master'
       run: |
         aws cloudfront create-invalidation \
