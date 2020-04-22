@@ -59,4 +59,4 @@ jobs:
       run: |
         aws cloudfront create-invalidation \
         --distribution-id E2XJO1NK2D7PWE \
-        --paths "/*"
+        --paths "/*.html"
