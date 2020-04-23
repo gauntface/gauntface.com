@@ -104,6 +104,11 @@ gulp.task('hugo-version', async () => {
   }
 })
 
+gulp.task('verification',() => {
+  return gulp.src(path.join(__dirname, 'verification', '**', '*'))
+    .pipe(gulp.dest(path.join(__dirname, 'public')));
+})
+
 gulp.task('build-raw', gulp.series(
   'hugo-version',
   'clean',
@@ -114,6 +119,7 @@ gulp.task('build-raw', gulp.series(
 gulp.task('build', gulp.series(
   'build-raw',
   'html',
+  'verification',
 ))
 
 /**
