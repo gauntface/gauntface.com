@@ -50,7 +50,6 @@ jobs:
           --recursive
 
       - name: Set Caching for images to 360 days
-        if: github.ref == 'refs/heads/master'
         run: |
           aws s3 cp \
           s3://www.gauntface.com/ s3://www.gauntface.com/ \
@@ -70,7 +69,6 @@ jobs:
           --recursive
 
       # - name: Invalidate cloudfront
-      #   if: github.ref == 'refs/heads/master'
       #   run: |
       #     aws cloudfront create-invalidation \
       #     --distribution-id E2XJO1NK2D7PWE \
