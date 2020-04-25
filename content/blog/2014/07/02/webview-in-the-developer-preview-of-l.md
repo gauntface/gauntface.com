@@ -15,9 +15,7 @@ The WebView in the Android Developer Preview of L has once again received an upd
 
 If you haven't been following the WebView updates since the KitKat release everything you need to know is right here in this video.
 
-<div class="embed">
 <iframe width="560" height="315" src="//www.youtube.com/embed/0tH-KHvifMk" frameborder="0" allowfullscreen></iframe>
-</div>
 
 ## Text Sizing in KK MR2 and Above
 

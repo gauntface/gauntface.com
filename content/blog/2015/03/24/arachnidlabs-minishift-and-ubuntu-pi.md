@@ -13,9 +13,7 @@ slug: "arachnidlabs-minishift-and-ubuntu-pi"
 
 I was mucking around with the the [Arachnidlabs minishift](http://www.arachnidlabs.com/minishift/) and ran into a few things I wanted to note down for my own sanity.
 
-<div class="embed">
 <iframe src="https://www.youtube.com/embed/DGM5Mnr_MeA?controls=2&modestbranding=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
 
 # udev Rules on Ubuntu
 

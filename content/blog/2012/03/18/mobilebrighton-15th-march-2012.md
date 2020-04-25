@@ -17,9 +17,7 @@ Last thursday I gave a talk on the approach I take to target the various Android
 
 All in all I think it went well and people found it useful. I've put the slides up on slideshare.
 
-<div class="embed">
 <iframe src="//www.slideshare.net/slideshow/embed_code/12025959" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-</div>
 
 <p><strong><a href="https://www.slideshare.net/GauntFace/android-fragmentawesome" title="Android Fragment-Awesome" target="_blank">Android Fragment-Awesome</a></strong> from <strong><a href="http://www.slideshare.net/GauntFace" target="_blank">GauntFace</a></strong></p>
 

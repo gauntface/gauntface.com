@@ -39,8 +39,6 @@ You want to learn more huh?
 
 Well then, you can view the slide deck below OR check out [Rick's Google  Post](https://plus.google.com/ RickByers/posts/bpxrWN4G3X5), which you really should do since he's much better at this stuff than me ;)
 
-<div class="embed">
 <iframe src="https://docs.google.com/presentation/embed?id=1nJvJqL2dw5STi5FFpR6tP371vSpDWWs5Beksbfitpzc&start=false&loop=false" frameborder="0"></iframe>
-</div>
 
 Orig. Image: [https://unsplash.com/leonephraim](https://unsplash.com/leonephraim)

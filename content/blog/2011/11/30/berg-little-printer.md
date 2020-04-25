@@ -34,9 +34,7 @@ Now consider Little Printer, you can see how that might apply. Having a physical
 
 If you want to find more info then check out: <http://bergcloud.com/>
 
-<div class="embed">
 <iframe src="//player.vimeo.com/video/32796535?color=ffffff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
 
 <p><a href="http://vimeo.com/32796535">Hello Little Printer, available 2012</a> from <a href="http://vimeo.com/bergstudio">BERG</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
