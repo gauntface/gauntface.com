@@ -4,6 +4,7 @@ excerpt: "Continuous deployment with AWS and GitHub Actions is
 fairly easy to set up and use."
 mainImage: "/images/blog/2020/2020-04-05/clouds.jpg"
 date: "2020-04-05T12:00:00-07:00"
+updatedOn: "2020-04-25T12:00:00-07:00"
 ---
 ![Clouds over a flourescent blue sea](/images/blog/2020/2020-04-05/clouds.jpg)
 
@@ -37,13 +38,15 @@ it can only serve `index.html` for the home page.
 This was a problem for me since [Hugo](https://gohugo.io/) will create index
 pages in directories to create  [clean URLs](https://en.wikipedia.org/wiki/Clean_URL).
 For example, it would create `/blog/2019/09/post-slug/index.html` and use the 
-URL `/blog/2019/08/post-slug/` as a link to this page. This behavior was easy to change
-in Hugo by adding `uglyURLs: true` to the config for my sites, causing Hugo to create
-`/blog/2019/08/post-slug.html` instead of a nested `index.html` file.
+URL `/blog/2019/08/post-slug/` as a link to this page. There are two options to fix this.
+
+Change the default behavior of Hugo by adding `uglyURLs: true` to the config, causing Hugo to create `/blog/2019/08/post-slug.html` instead of a nested `index.html` file.
+
+The second option is to turn on the S3 bucket static site property and configure Cloudfront's origin to be the S3 buckets static URL instead of the S3 bucket directly (which uses the Rest API behind the scenes).
 
 ### Custom domains
 
-Adding a custom domain is easy enough and it **doesn't** require [Route 53](https://aws.amazon.com/route53/), despite how it seems in all of the AWS material.
+Adding a custom domain is easy enough and it **doesn't** require [Route 53](https://aws.amazon.com/route53/), despite how it seems in all of the AWS docs.
 
 You need to create a certificate for you domain using
 [AWS's Certificate Manager](https://console.aws.amazon.com/acm/home?region=us-east-1#/), 
@@ -62,21 +65,15 @@ minutes. Once the certificates were issued I could add my domain to the *Alterna
 After Cloudfront was set up to serve my site as www.gauntface.com, I wanted
 to set up redirects for the naked domain (i.e. gauntface.com -> www.gauntface.com).
 
-The naked domain required a seperate S3 Bucket and Cloudfront distribution and the
-configuration and usage of these differed as well.
+The naked domain required a seperate S3 Bucket and Cloudfront distribution.
 
-`www.gauntface.com` was set up such that the Cloudfront distrubtion's *Origin Domain
-Name* was was to the  S3 Bucket with *Restrict Bucket Access* set to *Yes*. This meant
-that Cloudfront would request assets from the bucket with an identity that
-had permissions to read from it. Behind the scenes, Cloudfront is using a Rest
-API to read from the bucket. The S3 Bucket in this case was just used to host the files.
-
-For the naked domain I created an empty S3 Bucket and setup the *Static website 
-hosting* property to *Redirect requests*. With this, the bucket has a URL that you can 
-use to access the site, and it'll simply redirect you to whatever site you configure. 
-When creating the Cloudfront distribution the *Origin Domain Name* need to be set to the 
+Both `gauntface.com` and `www.gauntface.com` used an S3 bucket with the *Static website 
+hosting* property turned on. This gave the bucket a URL that you can 
+use to access the site. When creating the Cloudfront distribution the *Origin Domain Name* needs to be set to the 
 URL of the buckets *Static website hosting* property. This causes Cloudfront to make 
-network requests to the S3 Bucket's static site, which will respond with redirects.
+network requests to the S3 Bucket's static site, which will respond with the files and serves index.html files for directories. 
+
+For the naked domain I created an empty S3 Bucket and the static site property was configured with *Redirect requests* meaning Cloudfront will respond to requests with the redirect.
 
 With all of the above set up, I had a working site that was easy to update from the 
 command line. The next step was to set up continuous deployment so the site would
@@ -84,46 +81,45 @@ deploy updates as changes were made.
 
 ## Continuous Deployment with GitHub Actions
 
-GitHub actions were the obvious choice for this since I host my sites on GitHub
-and I am already on the pro plan.
-
-I'm still new to GitHub Actions and there is some redundancy in my
-setup at the moment, but it's working well enough to share.
+GitHub actions were the obvious choice for this since I host all my projects on GitHub
+and I am already on the pro plan giving plenty of action minutes.
 
 ### Build on PRs
 
 On a Pull Request I want to know that the site builds before it's merged which
-was achieved with the following GitHub Action workflow (saved to `.github/workflows/build.yml` in my repo):
+was achieved with the following GitHub Action workflow (saved to `.github/workflows/build-and-test.yml` in my repo):
 
 ```yaml
+name: Build and Test
+
 on: push
-name: Build
+
 jobs:
-  all:
-    name: Build
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.62.2'
+        hugo-version: '0.68.3'
+    
+    - uses: actions/checkout@v2
+    
     - name: Install
       run: npm install
+    
     - name: Build
       run: npm run build
 ```
 
 These steps do the following:
 
--   `uses: actions/checkout@master`
-    - This is a GitHub action that checksout the repo the action is running against. 
-      The `@master` in this action refers to the master branch of the 
-      [action's source code](https://github.com/actions/checkout) and not the master
-      branch of the repo running the action.
 -   `name: Setup Hugo ↵ uses: peaceiris/actions-hugo@v2`
     - My site is using Hugo for a static site generator and this action will retrieve
       and configure a specific version of hugo. 
+-   `uses: actions/checkout@v2`
+    - This is a GitHub action that checks out the repo the action is running against. 
 -   `name: Install ↵ run: npm install`
     - I'm using gulp to manage my build process for the site, including calling out
       to Hugo, so I need to install it's dependencies from NPM.
@@ -143,56 +139,67 @@ You can find the
 
 ### Deploy the Master Branch
 
-Whenever a commit is pushed to the master branch I wanted to build and deploy the site.
+[Renovate](https://github.com/apps/renovate) raises and merges PRs for my site whenever
+a dependency is updated and I wanted to make it easy to publish this changes on a regular
+basis.
 
-At the moment this is achieved with a seperate GitHub workflow but it should be merged
-with the build workflow above to avoid duplication.
+The end result was using a GitHub action to publish these changes once a week.
 
 The full workflow is:
 
 ```yaml
+name: Publish
+
+# Run every Sunday @ 13:30 UTC => 6:30 PST
 on:
-  push:
-    branches:
-      - master
-name: Deploy Site
+  schedule:
+    - cron:  '30 13 * * 0'
+
 jobs:
-  all:
-    name: Deploy
-    runs-on: ubuntu-latest
+  publish:
+    runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@master
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: '0.62.2'
-    - name: Install
-      run: npm install
-    - name: Build
-      run: npm run build
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v1
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-west-1
-    - name: Upload to S3
-      run: aws s3 sync ./public/ s3://www.gauntface.com/ --delete
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.68.3'
+      
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+
+      - name: Install
+        run: npm install
+      
+      - name: Build
+        run: npm run build
+      
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-west-1
+
+      - name: Upload to S3
+        run: aws s3 sync ./public/ s3://www.gauntface.com/ --delete --acl public-read
 ```
 
 The key differences are the the start and end of the workflow.
 
 ```yaml
+name: Publish
+
+# Run every Sunday @ 13:30 UTC => 6:30 PST
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron:  '30 13 * * 0'
 ```
 
-This controls when the deploy workflow will run. **On** a **push** to any **branches** 
-named **master**, run this workflow.
+This controls when the deploy workflow will run. I run this script every Sunday morning.
 
-Then we have the same steps as before, checkout the repo, install dependencies, build the 
+Then I have the same steps as before, checkout the repo, install dependencies, build the 
 site followed by two new steps:
 
 ```yaml
@@ -201,9 +208,10 @@ site followed by two new steps:
   with:
     aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
     aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-    aws-region: <AWS Region - us-east-1>
+    aws-region: us-west-1
+
 - name: Upload to S3
-  run: aws s3 sync ./< Directory with Built Site >/ s3://<Bucket Name>/ --delete
+  run: aws s3 sync ./public/ s3://www.gauntface.com/ --delete --acl public-read
 ```
 
 The first step sets up the AWS CLI using the `aws-actions/configure-aws-credentials@v1` 
@@ -236,6 +244,47 @@ I've set up my repo such that I can't push commits to master and
 that Pull Requests must pass the Build action before they can be merged.
 
 ![GitHub Branch Protection Configuration](/images/blog/2020/2020-04-05/github-branch-protection.png)
+
+## Cache headers
+
+Setting cache headers for assets can help improve the performance of your site and reduce running costs of your site.
+
+To that end I've added the two following steps to add cache headers.
+
+```yaml
+- name: Set Caching for some files to 24 hours
+  run: |
+    aws s3 cp \
+    s3://www.gauntface.com/ s3://www.gauntface.com/ \
+    --metadata-directive REPLACE \
+    --cache-control 'max-age=86400' \
+    --exclude="*" \
+    --include="*.html" \
+    --include="*.xml" \
+    --include="*.json" \
+    --include="*.svg" \
+    --acl public-read \
+    --recursive
+
+- name: Set Caching for images to 360 days
+  run: |
+    aws s3 cp \
+    s3://www.gauntface.com/ s3://www.gauntface.com/ \
+    --metadata-directive REPLACE \
+    --cache-control 'max-age=31104000' \
+    --exclude="*" \
+    --include="*.css" \
+    --include="*.js" \
+    --include="*.png" \
+    --include="*.jpg" \
+    --include="*.jpeg" \
+    --include="*.gif" \
+    --include="*.webp" \
+    --include="*.woff" \
+    --include="*.woff2" \
+    --acl public-read \
+    --recursive
+```
 
 ## Fin.
 
