@@ -2,7 +2,7 @@
 title: "Crimp Housing for Makers"
 excerpt: "I would have loved for someone to have told me about
 crimp housing when I first started playing around with electronics."
-mainImage: "/images/blog/2019/2019-01-18/electronics.jpg"
+mainImage: "/images/blog/2019/2019-01-19/electronics-mess.jpg"
 primaryColor: "#5DBCD2"
 date: "2019-01-19T18:00:00-07:00"
 updatedOn: "2019-01-19T18:00:00-07:00"

@@ -22,8 +22,6 @@ I have to say a big thank you to everyone who attended in person and on the live
 
 Below you'll find the recording of the event and the slides will be available @ <http://io13mobileworkflow.appspot.com/> - enjoy.
 
-<div class="embed">
-    <iframe src="//www.youtube.com/embed/dkOmuyL7ffM" frameborder="0" allowfullscreen></iframe>
-</div>
+<iframe src="//www.youtube.com/embed/dkOmuyL7ffM" frameborder="0" allowfullscreen></iframe>
 
 Orig Photo: <https://www.flickr.com/photos/kiddinha/>

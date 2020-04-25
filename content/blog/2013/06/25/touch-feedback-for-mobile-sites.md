@@ -36,13 +36,11 @@ What do you get out of the box if the user clicks a link on your site?
 
 ### Android
 
-<div class="embed">
-<iframe width="640" height="480" src="//www.youtube.com/embed/mjTNG7Wuzi8" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="640" height="480" src="//www.youtube.com/embed/mjTNG7Wuzi8" frameborder="0" allowfullscreen></iframe>
 
 ### iOS
 
-<div class="embed">
-<iframe width="640" height="480" src="//www.youtube.com/embed/A6afcJRKwp0" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="640" height="480" src="//www.youtube.com/embed/A6afcJRKwp0" frameborder="0" allowfullscreen></iframe>
 
 With Chrome for Android you get a flash of blue. Safari on iOS will give you a nice flash of grey. 
 
@@ -62,13 +60,11 @@ The issue with this class for touch devices, is that it actually throws up the c
 
 ### Android
 
-<div class="embed">
-<iframe width="640" height="480" src="//www.youtube.com/embed/vD77Lyfl-_A" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="640" height="480" src="//www.youtube.com/embed/vD77Lyfl-_A" frameborder="0" allowfullscreen></iframe>
 
 ### iOS
 
-<div class="embed">
-<iframe width="640" height="480" src="//www.youtube.com/embed/DrZ4WZBavEs" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="640" height="480" src="//www.youtube.com/embed/DrZ4WZBavEs" frameborder="0" allowfullscreen></iframe>
 
 ## Safari & :active
 
@@ -80,13 +76,11 @@ You may have noticed that Safari does nothing with the :active pseudo class, whi
 
 ### Android
 
-<div class="embed">
-<iframe width="640" height="480" src="//www.youtube.com/embed/FTco2vK7ubA" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="640" height="480" src="//www.youtube.com/embed/FTco2vK7ubA" frameborder="0" allowfullscreen></iframe>
 
 ### iOS
 
-<div class="embed">
-<iframe width="640" height="480" src="//www.youtube.com/embed/OC6VLqz6jhQ" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="640" height="480" src="//www.youtube.com/embed/OC6VLqz6jhQ" frameborder="0" allowfullscreen></iframe>
 
 # Touch Events
 
@@ -96,13 +90,11 @@ The next best thing to try, touch events, which we can use to change the style o
 
 ### Android
 
-<div class="embed">
-<iframe width="640" height="480" src="//www.youtube.com/embed/1Lv7MVh4ZGA" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="640" height="480" src="//www.youtube.com/embed/1Lv7MVh4ZGA" frameborder="0" allowfullscreen></iframe>
 
 ### iOS
 
-<div class="embed">
-<iframe width="640" height="480" src="//www.youtube.com/embed/LGpSGFVYEOk" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="640" height="480" src="//www.youtube.com/embed/LGpSGFVYEOk" frameborder="0" allowfullscreen></iframe>
 
 ## Flicker
 
@@ -118,13 +110,11 @@ Here's an example of the third option where the flicker is no more and it works 
 
 ### Android
 
-<div class="embed">
-<iframe width="640" height="480" src="//www.youtube.com/embed/67UnId5Vzrg" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="640" height="480" src="//www.youtube.com/embed/67UnId5Vzrg" frameborder="0" allowfullscreen></iframe>
 
 ### iOS
 
-<div class="embed">
-<iframe width="640" height="480" src="//www.youtube.com/embed/n1lu3ZjWfsU" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="640" height="480" src="//www.youtube.com/embed/n1lu3ZjWfsU" frameborder="0" allowfullscreen></iframe>
 
 # Scrolling
 
@@ -138,12 +128,10 @@ In an ideal world this wouldn't show the style is the gesture is a scroll, but a
 
 ### Android
 
-<div class="embed">
-<iframe width="640" height="480" src="//www.youtube.com/embed/985ZDf4_v_E" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="640" height="480" src="//www.youtube.com/embed/985ZDf4_v_E" frameborder="0" allowfullscreen></iframe>
 
 ### iOS
 
-<div class="embed">
 <iframe width="640" height="480" src="//www.youtube.com/embed/KjHYISz8uF8" frameborder="0" allowfullscreen></iframe>
 </div>
 
@@ -155,12 +143,10 @@ FastClick doesn’t really help with the drawing but it does speed up the click 
 
 ### Android
 
-<div class="embed">
-<iframe width="640" height="480" src="//www.youtube.com/embed/x1cwOUFkvSM" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="640" height="480" src="//www.youtube.com/embed/x1cwOUFkvSM" frameborder="0" allowfullscreen></iframe>
 
 ### iOS
 
-<div class="embed">
 <iframe width="640" height="480" src="//www.youtube.com/embed/1J-tZ62v_Bw" frameborder="0" allowfullscreen></iframe>
 </div>
 

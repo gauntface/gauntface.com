@@ -17,8 +17,7 @@ Being one of the first Qt projects I'd worked on, I was amazed at how easy it wa
 
 After the application was finished Nokia asked if we would be happy to talk about our experience developing with Qt and you can see the result below. 
 
-<div class="embed">
-<iframe width="853" height="480" src="//www.youtube.com/embed/57400bATtos" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="853" height="480" src="//www.youtube.com/embed/57400bATtos" frameborder="0" allowfullscreen></iframe>
 
 If you wanted to hear other developers experience with Qt then look no further than <http://www.developer.nokia.com/Develop/Qt/Videos/>.
 
