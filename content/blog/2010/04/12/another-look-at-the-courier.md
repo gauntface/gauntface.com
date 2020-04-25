@@ -47,9 +47,7 @@ Straight off . . . . Is the Courier Vaporware? . . . . answer: Maybe
 
 Microsoft have old videos of "Courier like" devices, the UI looks old, ugly and not too user friendly, but it has some big similarities to the original videos. 
 
-<div class="embed">
 <iframe width="853" height="480" src="//www.youtube.com/embed/049_U-0C9qU?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
 
 You can see the UI is very different, but it's a thought provoker, has this been in the works for a long time, or did they forget it a long time ago and now figured this is the time to launch it? 
 
@@ -57,9 +55,7 @@ You can see the UI is very different, but it's a thought provoker, has this been
 
 I get the impression they asked a design team to take the Codex concept (above) and turn it into a viable, attractive product. This team produced the first video below. 
 
-<div class="embed">
 <iframe width="853" height="480" src="//www.youtube.com/embed/UmIgNfp-MdI?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
 
 Then the Codex team who probably created the prototype, took a look at this and figured, we can do this this and this, but probably not this, but maybe like this. Right, said the design team, so now we need to show you what you want the new UI to be and how it's going to work.
 
@@ -75,9 +71,7 @@ The answer is obcourse, Computer's are powerful beasts, so I reckon it's easily 
 
 To start off with, the hand writing recognition (which I think is a pretty important part of the Courier), can be achieved with good accuracy. According to my colleague @mattcolliss (Twitter, look him up), who is doing a lot of work  in a different text recognition area, thinks text recognition of this kind is pretty much a done deal, it can be accomplished, and it can be accomplished well. I believe him, but if you dont, check out this video from Mark Cummins, a developer of Plink Art an image processing tool for photo's, the accuracy is insane, so hand writing should be fine.
 
-<div class="embed">
 <iframe width="853" height="480" src="//www.youtube.com/embed/96sWzECkGCw?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
 
 Then consider the actual task being performed. The first thing to notice is that each screen is essentially a different application. You could argue that it is a single application and by all means take that point of view, but I tell you what, designing a single app to perform the tasks that you want, would quickly become a pain to develop for. So from this point on, I’m going to take the view that they are 2 seperate applications running on each screen. Therefore the obvious is needed, multi-tasking. This never used to be a big deal, but iPhone changed it to be a big functionality. Phones don’t need it, the fact the iPad doesn’t have multitasking is a big shocker to me, but this thing will have to have it, but there are processors that can do this, and 2 screens means the casing could have the space to store and power the screens and applications that will run on them. (As a proof, think of your netbook running Linux, can run a browser and open office right?)
 
@@ -99,9 +93,7 @@ The reason I’m thinking it might be a bad idea is that you instantly limit it 
 
 The reason I’m not sure it’s possible is after asking a Google engineer about whether HTML5 supported multi touch gestures, which is pretty essential to any touch screen device, the response was that it isn’t standard in HTML5, but it is in implemented in Webkit, so it’s probably working it’s way into Chrome and Chrome OS, but a long way to go to be as smooth as Android’s widget elements? (I have no idea just for the record)
 
-<div class="embed">
 <iframe width="853" height="480" src="//www.youtube.com/embed/fyfu4OwjUEI?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
 
 (Finally) **Linux** - Yes, No, Maybe, Linux can do some great things, but it needs a lot of work to make applications that look as nice, work as nice and be as well integrated to work like the video’s shown above. Linux does support tablets, and we have seen other versions of the desktop Linux to work better on net-books, but will Linux be able to specialise a separate version of itself for these devices?
 

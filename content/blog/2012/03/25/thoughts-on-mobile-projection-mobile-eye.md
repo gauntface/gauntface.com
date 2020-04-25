@@ -22,14 +22,11 @@ There were two things I discovered when beginning the project, mobile projection
 
 My interest in this area was sparked by the Sixth Sense concept video: 
 
-<div class="embed">
 <iframe width="560" height="315" src="//www.youtube.com/embed/nZ-VjUKAsao" frameborder="0" allowfullscreen></iframe>
-</div>
 
 This post was then kicked off after I found a similar research piece undertaken by Microsoft using some of the technology from the Kinect:
 
-<div class="embed">
-<iframe width="853" height="480" src="//www.youtube.com/embed/WLoMecZ80BQ" frameborder="0" allowfullscreen></iframe></div>
+<iframe width="853" height="480" src="//www.youtube.com/embed/WLoMecZ80BQ" frameborder="0" allowfullscreen></iframe>
 
 This research is fantastic. No doubt about it. My question is whether a user would like to interact with such a system. Perhaps if projection improves to work well outside of low light environments and the interaction methods improve. But for me I've always seen these projection systems as a much more passive tool, creating a ubiquitous environment for the user.
 
@@ -49,8 +46,6 @@ Below is the full 55 page thesis paper. Enjoy.
 
 [Mobile Eye - Matthew Gaunt on Scribed](http://www.scribd.com/doc/86679610)
 
-<div class="embed">
 <iframe class="scribd_iframe_embed" src="//www.scribd.com/embeds/86679610/content?start_page=1&view_mode=scroll&show_recommendations=true" data-auto-height="false" data-aspect-ratio="undefined" scrolling="no" id="doc_6729" frameborder="0"></iframe>
-</div>
 
 Orig Photo: [https://flic.kr/p/A9XuU](https://flic.kr/p/A9XuU)

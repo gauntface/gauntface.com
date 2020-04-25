@@ -17,9 +17,8 @@ Last Friday I was invited by Adam Martin to give a presentation on the current s
 
 There may be a video at a later stage but not sure Adam's plans with that. Here's the slides and of course you are free to download them.
 
-<div class="embed">
 <iframe src="//www.slideshare.net/slideshow/embed_code/12173035" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-</div>
+
 <p><strong> <a href="https://www.slideshare.net/GauntFace/mobile-in-a-nutshell" title="Mobile in a Nutshell" target="_blank">Mobile in a Nutshell</a> </strong> from <strong><a href="http://www.slideshare.net/GauntFace" target="_blank">GauntFace</a></strong></p>
 
 Orig Photo: [https://flic.kr/p/7c2mQD](https://flic.kr/p/7c2mQD)

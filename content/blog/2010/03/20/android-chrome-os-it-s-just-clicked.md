@@ -28,9 +28,8 @@ HP Slate, well . . . . its Windows 7 on a big touch screen, now I'm sure HP will
 
 Chrome OS Touch Screen concept, if you haven't already seen it, then check out the video here - go on -<http://www.engadget.com/2010/02/02/google-mum-on-chrome-os-touch-support-chromium-devs-show-us-how/> I'll be honest and say it's nothing too exciting. After attending a Chrome Event held by Google (Big thanks to Google for letting me come along) there was a lot of talk on HTML 5 that  made me think that perhaps Chrome OS has still some way to go before it is anywhere ready for release. Just small things like web apps being allowed to save files to a computer filesystem not yet implemented in Chrome browser. This isn't Google's idea of everything in the cloud, but for a netbook running Chrome OS I think they'll give in and settle to slowly change users to the cloud and give the option to store files on the filesystem. Now consider the next little video shown below: 
 
-<div class="embed">
 <iframe width="853" height="480" src="//www.youtube.com/embed/UmIgNfp-MdI?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
+
 
 This is beautiful, it has limited use from the default apps (Thats fine with me if it works this damn well) but I can't see Microsoft making something work so smoothly. Don't get me wrong, if they managed to make this I will eat my own words and buy one from the nearest PC World (well maybe not PC World). But more realistically, it would be Google with a manufacturer of their choice. However Chrome OS, the first computer Web OS, would that suite this device? I mean I want journals, ripping photos and info from websites, take photos, changing between apps running on the 2 screens. Well Chrome OS could work, but lets consider Android? I've always been a believer that Android will never get put on a netbook (or at least a popular netbook) but does this count as a netbook?
 

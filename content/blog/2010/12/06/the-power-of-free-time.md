@@ -32,8 +32,6 @@ The final question, who should get this time? Does an entire development team ne
 
 This video is a little off topic but it's an interesting talk and discusses how the work environment might be changed for the better.
 
-<div class="embed">
 <iframe width="560" height="315" src="//www.youtube.com/embed/5XD2kNopsUs" frameborder="0" allowfullscreen></iframe>
-</div>
 
 Orig Photo: [https://flic.kr/p/8ys6Hs](https://flic.kr/p/8ys6Hs)

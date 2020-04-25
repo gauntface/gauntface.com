@@ -17,9 +17,7 @@ One evening after work, [@gazsp](https://twitter.com/gazsp) asked me to do a pre
 
 Anyway I tidied up the notes and published them on SlideShare. Enjoy.
 
-<div class="embed">
 <iframe src="//www.slideshare.net/slideshow/embed_code/6618743" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
-</div>
 
 <p> <strong> <a href="https://www.slideshare.net/GauntFace/android-ui-reference" title="Android UI Reference" target="_blank">Android UI Reference</a> </strong> from <strong><a href="http://www.slideshare.net/GauntFace" target="_blank">GauntFace</a></strong> </p>
 

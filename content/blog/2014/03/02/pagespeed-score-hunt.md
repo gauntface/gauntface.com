@@ -22,9 +22,7 @@ For Google I/O 2014 I put together a video covering a lot of these details, with
 
 If you're more of a video fan then give this a go, otherwise if you prefer a read, then skip on ahead :)
 
-<div class="embed">
 <iframe width="560" height="315" src="//www.youtube.com/embed/pNKnhBIVj4w" frameborder="0" allowfullscreen></iframe>
-</div>
 
 # Without Conscious Effort
 
