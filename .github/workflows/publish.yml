@@ -1,0 +1,75 @@
+name: Publish
+
+# Run every Sunday @ 13:30 UTC => 6:30 PST
+on:
+  schedule:
+    - cron:  '30 13 * * 0'
+
+jobs:
+  publish:
+    runs-on: ubuntu-18.04
+    steps:
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.68.3'
+      
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+
+      - name: Install
+        run: npm install
+      
+      - name: Build
+        run: npm run build
+      
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-west-1
+
+      - name: Upload to S3
+        run: aws s3 sync ./public/ s3://www.gauntface.com/ --delete --acl public-read
+
+      - name: Set Caching for some files to 24 hours
+        run: |
+          aws s3 cp \
+          s3://www.gauntface.com/ s3://www.gauntface.com/ \
+          --metadata-directive REPLACE \
+          --cache-control 'max-age=86400' \
+          --exclude="*" \
+          --include="*.html" \
+          --include="*.xml" \
+          --include="*.json" \
+          --include="*.svg" \
+          --acl public-read \
+          --recursive
+
+      - name: Set Caching for images to 360 days
+        run: |
+          aws s3 cp \
+          s3://www.gauntface.com/ s3://www.gauntface.com/ \
+          --metadata-directive REPLACE \
+          --cache-control 'max-age=31104000' \
+          --exclude="*" \
+          --include="*.css" \
+          --include="*.js" \
+          --include="*.png" \
+          --include="*.jpg" \
+          --include="*.jpeg" \
+          --include="*.gif" \
+          --include="*.webp" \
+          --include="*.woff" \
+          --include="*.woff2" \
+          --acl public-read \
+          --recursive
+
+      # - name: Invalidate cloudfront
+      #   run: |
+      #     aws cloudfront create-invalidation \
+      #     --distribution-id E2XJO1NK2D7PWE \
+      #     --paths "/*.html"
