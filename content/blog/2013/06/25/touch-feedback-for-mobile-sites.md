@@ -10,7 +10,6 @@ date: "2013-06-25T14:20:17-07:00"
 updatedOn: "2013-06-25T14:20:17-07:00"
 slug: "touch-feedback-for-mobile-sites"
 ---
-![Key art for blog post "Touch Feedback for Mobile Sites "](/images/blog/2014/05/24/touch.jpg)
 
 # Touch Feedback for Mobile Sites 
 

@@ -10,7 +10,6 @@ date: "2012-11-26T16:31:07-08:00"
 updatedOn: "2012-11-26T16:31:07-08:00"
 slug: "getting-going-with-google-code"
 ---
-![Key art for blog post "Getting Going With Google Code "](/images/blog/2014/06/15/256622412-3279115264-o.jpg)
 
 # Getting Going With Google Code
 

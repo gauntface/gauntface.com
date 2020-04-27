@@ -7,7 +7,6 @@ date: "2010-06-05T17:27:39-07:00"
 updatedOn: "2010-06-05T17:27:39-07:00"
 slug: "it-s-been-a-while"
 ---
-![Key art for blog post "It's been a while... "](/images/blog/2014/06/22/3316800986-dde2cf1aeb-o.jpg)
 
 # It's been a while... 
 

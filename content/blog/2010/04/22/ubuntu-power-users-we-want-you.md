@@ -7,7 +7,6 @@ date: "2010-04-22T15:03:27-07:00"
 updatedOn: "2010-04-22T15:03:27-07:00"
 slug: "ubuntu-power-users-we-want-you"
 ---
-![Key art for blog post "Ubuntu Power Users - We Want You! "](/images/blog/2014/06/22/4033888284-434fa6f5ef-o.jpg)
 
 # Ubuntu Power Users - We Want You! 
 

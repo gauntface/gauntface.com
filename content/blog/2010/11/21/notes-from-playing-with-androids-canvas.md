@@ -7,7 +7,6 @@ date: "2010-11-21T19:00:56-08:00"
 updatedOn: "2010-11-21T19:00:56-08:00"
 slug: "notes-from-playing-with-androids-canvas"
 ---
-![Key art for blog post "Notes from playing with Android's Canvas "](/images/blog/2014/06/16/2100724010-56f520346f-o.jpg)
 
 # Notes from playing with Android's Canvas 
 

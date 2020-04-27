@@ -7,7 +7,6 @@ date: "2011-06-29T21:05:29-07:00"
 updatedOn: "2011-06-29T21:05:29-07:00"
 slug: "update-on-the-ole-gaunt-face-front"
 ---
-![Key art for blog post "Update on the Ole' Gaunt Face Front "](/images/blog/2014/06/16/5872625524-b46916d50a-z.jpg)
 
 # Update on the Ole' Gaunt Face Front
 

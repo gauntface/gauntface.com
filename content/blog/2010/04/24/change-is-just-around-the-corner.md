@@ -7,7 +7,6 @@ date: "2010-04-24T22:24:52-07:00"
 updatedOn: "2010-04-24T22:24:52-07:00"
 slug: "change-is-just-around-the-corner"
 ---
-![Key art for blog post "Change is just around the corner . . . "](/images/blog/2014/06/22/25371714-4e766b4a29-o.jpg)
 
 # Change is just around the corner . . . 
 

@@ -7,7 +7,6 @@ date: "2015-12-14T13:03:03-08:00"
 updatedOn: "2015-12-14T13:03:03-08:00"
 slug: "unit-testing-service-worker"
 ---
-![Key art for blog post "Unit Testing a Service Worker"](/images/blog/2015/2015-12-14/sw-unit-test.jpg)
 
 # Unit Testing a Service Worker
 

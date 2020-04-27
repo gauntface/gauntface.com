@@ -7,7 +7,6 @@ date: "2009-07-05T14:46:29-07:00"
 updatedOn: "2009-07-05T14:46:29-07:00"
 slug: "openmic-2"
 ---
-![Key art for blog post "OpenMIC #2 "](/images/blog/2014/06/30/3721771714-ce70ee1362-o.jpg)
 
 # OpenMIC #2 
 

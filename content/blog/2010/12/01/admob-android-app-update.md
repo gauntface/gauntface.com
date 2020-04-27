@@ -10,7 +10,6 @@ date: "2010-12-01T21:20:34-08:00"
 updatedOn: "2010-12-01T21:20:34-08:00"
 slug: "admob-android-app-update"
 ---
-![Key art for blog post "Admob Android App Update "](/images/blog/2014/06/16/452245099-829fa7013d-o.jpg)
 
 # Admob Android App Update 
 

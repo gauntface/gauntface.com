@@ -7,7 +7,6 @@ date: "2011-08-04T21:05:56-07:00"
 updatedOn: "2011-08-04T21:05:56-07:00"
 slug: "amazon-app-store-is-disgusting"
 ---
-![Key art for blog post "Amazon App Store is Disgusting "](/images/blog/2014/06/16/12612307855-8f581dacb5-o.jpg)
 
 # Amazon App Store is Disgusting 
 

@@ -10,7 +10,6 @@ date: "2013-06-03T17:49:56-07:00"
 updatedOn: "2013-06-03T17:49:56-07:00"
 slug: "google-i-o-2013-modern-workflow-for-the-mobile-web"
 ---
-![Key art for blog post "Google I/O 2013 - Modern Workflow for the Mobile Web "](/images/blog/2014/05/24/io-workflow.jpg)
 
 # Google I/O 2013 - Modern Workflow for the Mobile Web 
 

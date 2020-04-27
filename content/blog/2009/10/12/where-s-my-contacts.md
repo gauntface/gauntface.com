@@ -7,7 +7,6 @@ date: "2009-10-12T21:24:06-07:00"
 updatedOn: "2009-10-12T21:24:06-07:00"
 slug: "where-s-my-contacts"
 ---
-![Key art for blog post "Where's My Contacts "](/images/blog/2014/06/30/159273703-dd3410d401-o-bw.jpg)
 
 # Where's My Contacts 
 

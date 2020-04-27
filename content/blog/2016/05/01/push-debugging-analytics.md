@@ -7,7 +7,6 @@ date: "2016-05-01T09:59:51-07:00"
 updatedOn: "2016-05-01T09:59:51-07:00"
 slug: "push-debugging-analytics"
 ---
-![Key art for blog post "Push Debugging & Analytics"](/images/blog/2016/2016-05-01/push-analytics-bg-darker.jpg)
 
 # Push Debugging & Analytics
 

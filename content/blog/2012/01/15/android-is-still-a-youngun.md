@@ -7,7 +7,6 @@ date: "2012-01-15T19:33:57-08:00"
 updatedOn: "2012-01-15T19:33:57-08:00"
 slug: "android-is-still-a-youngun"
 ---
-![Key art for blog post "Android is Still a Young'un "](/images/blog/2014/06/15/7017272625-b1fd7b8e8b-o.jpg)
 
 # Android is Still a Young'un 
 

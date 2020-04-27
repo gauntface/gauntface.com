@@ -10,7 +10,6 @@ date: "2010-12-06T23:15:33-08:00"
 updatedOn: "2010-12-06T23:15:33-08:00"
 slug: "the-power-of-free-time"
 ---
-![Key art for blog post "The Power of Free Time "](/images/blog/2014/06/16/4961717384-e96fa7fb72-o.jpg)
 
 # The Power of Free Time 
 

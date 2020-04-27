@@ -7,7 +7,6 @@ date: "2010-12-28T16:52:19-08:00"
 updatedOn: "2010-12-28T16:52:19-08:00"
 slug: "how-to-multiple-proximity-alerts-in-android"
 ---
-![Key art for blog post "How-To: Multiple Proximity Alerts in Android "](/images/blog/2014/06/16/10012162166-6e611105c5-o.jpg)
 
 # How-To: Multiple Proximity Alerts in Android 
 

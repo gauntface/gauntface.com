@@ -7,7 +7,6 @@ date: "2015-10-11T20:57:32-07:00"
 updatedOn: "2015-10-11T20:57:32-07:00"
 slug: "raspberry-pi-network"
 ---
-![Key art for blog post "Raspberry Pi Network"](/images/blog/2015/2015-10-11/berries-4.jpg)
 
 # Raspberry Pi Network
 

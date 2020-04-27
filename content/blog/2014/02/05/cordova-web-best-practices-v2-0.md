@@ -10,7 +10,6 @@ date: "2014-02-05T21:55:42-08:00"
 updatedOn: "2014-02-05T21:55:42-08:00"
 slug: "cordova-web-best-practices-v2-0"
 ---
-![Key art for blog post "Cordova + Web Best Practices v2.0 "](/images/blog/2014/05/24/yeoman-cordova-copy.jpg)
 
 # Cordova + Web Best Practices v2.0
 

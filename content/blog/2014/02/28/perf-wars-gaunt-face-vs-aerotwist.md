@@ -7,7 +7,6 @@ date: "2014-02-28T17:32:22-08:00"
 updatedOn: "2014-02-28T17:32:22-08:00"
 slug: "perf-wars-gaunt-face-vs-aerotwist"
 ---
-![Key art for blog post "Perf Wars: Gaunt Face vs Aerotwist "](/images/blog/2014/05/24/lego-war.jpg)
 
 # Perf Wars: Gaunt Face vs Aerotwist
 

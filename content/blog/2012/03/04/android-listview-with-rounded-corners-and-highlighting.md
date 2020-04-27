@@ -7,7 +7,6 @@ date: "2012-03-04T22:21:27-08:00"
 updatedOn: "2012-03-04T22:21:27-08:00"
 slug: "android-listview-with-rounded-corners-and-highlighting"
 ---
-![Key art for blog post "Android ListView with Rounded Corners and Highlighting "](/images/blog/2014/06/15/4847848101-b680e3fc2e-o.jpg)
 
 # Android ListView with Rounded Corners and Highlighting 
 

@@ -7,7 +7,6 @@ date: "2011-11-30T20:02:31-08:00"
 updatedOn: "2011-11-30T20:02:31-08:00"
 slug: "lastminute-com-nokia-qt-me"
 ---
-![Key art for blog post "LastMinute.com + Nokia + Qt & Me "](/images/blog/2014/06/15/4188753919-323bded0fa-o.jpg)
 
 # LastMinute.com + Nokia + Qt & Me 
 

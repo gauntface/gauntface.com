@@ -10,7 +10,6 @@ date: "2013-02-24T20:21:00-08:00"
 updatedOn: "2013-02-24T20:21:00-08:00"
 slug: "adding-custom-applications-to-the-open-with-tab-on-debian"
 ---
-![Key art for blog post "Adding Custom Applications to the “Open With” Tab on Debian "](/images/blog/2014/05/24/debian.jpg)
 
 # Adding Custom Applications to the “Open With” Tab on Debian
 

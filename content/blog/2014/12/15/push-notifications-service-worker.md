@@ -10,7 +10,6 @@ date: "2014-12-15T09:27:42-08:00"
 updatedOn: "2014-12-15T09:27:42-08:00"
 slug: "push-notifications-service-worker"
 ---
-![Key art for blog post "Push Notifications & Service Worker "](/images/blog/2015/2015-09-17/push.jpg)
 
 # Push Notifications & Service Worker 
 

@@ -7,7 +7,6 @@ date: "2009-08-04T21:47:32-07:00"
 updatedOn: "2009-08-04T21:47:32-07:00"
 slug: "wordpress-woop-woop"
 ---
-![Key art for blog post "Wordpress Woop Woop "](/images/blog/2014/06/30/2186228674-34104ccbbf-o.jpg)
 
 # Wordpress Woop Woop 
 

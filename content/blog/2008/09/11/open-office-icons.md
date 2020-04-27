@@ -7,7 +7,6 @@ date: "2008-09-11T13:21:32-07:00"
 updatedOn: "2008-09-11T13:21:32-07:00"
 slug: "open-office-icons"
 ---
-![Key art for blog post "Open Office Icons "](/images/blog/2014/06/30/4359637361-9c4351e047-o.jpg)
 
 # Open Office Icons 
 

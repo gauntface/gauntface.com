@@ -7,7 +7,6 @@ date: "2011-02-05T14:53:28-08:00"
 updatedOn: "2011-02-05T14:53:28-08:00"
 slug: "nokia-nokia-nokia"
 ---
-![Key art for blog post "Nokia Nokia Nokia "](/images/blog/2014/06/16/6082117463-f01f7b1273-o.jpg)
 
 # Nokia Nokia Nokia 
 

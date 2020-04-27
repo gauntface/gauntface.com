@@ -7,7 +7,6 @@ date: "2008-09-05T21:08:45-07:00"
 updatedOn: "2008-09-05T21:08:45-07:00"
 slug: "new-blog-new-theme"
 ---
-![Key art for blog post "New Blog, New Theme . . . "](/images/blog/2014/06/30/5064186248-c1a2a34f9f-o.jpg)
 
 # New Blog, New Theme . . . 
 

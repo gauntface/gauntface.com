@@ -10,7 +10,6 @@ date: "2012-03-25T22:00:21-07:00"
 updatedOn: "2012-03-25T22:00:21-07:00"
 slug: "thoughts-on-mobile-projection-mobile-eye"
 ---
-![Key art for blog post "Thoughts on Mobile Projection + Mobile Eye "](/images/blog/2014/06/15/386508456-9861e6653b-o.jpg)
 
 # Thoughts on Mobile Projection + Mobile Eye 
 

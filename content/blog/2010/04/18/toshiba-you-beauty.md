@@ -7,7 +7,6 @@ date: "2010-04-18T22:01:43-07:00"
 updatedOn: "2010-04-18T22:01:43-07:00"
 slug: "toshiba-you-beauty"
 ---
-![Key art for blog post "Toshiba You Beauty "](/images/blog/2014/06/22/91f1ckh6nnl-sl1500.jpg)
 
 # Toshiba You Beauty 
 

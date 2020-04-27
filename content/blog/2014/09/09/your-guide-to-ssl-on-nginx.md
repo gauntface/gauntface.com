@@ -7,7 +7,6 @@ date: "2014-09-09T18:41:00-07:00"
 updatedOn: "2014-09-09T18:41:00-07:00"
 slug: "your-guide-to-ssl-on-nginx"
 ---
-![Key art for blog post "Your Guide to SSL on Nginx "](/images/blog/2014/09/09/10248675643-d5ab02a636-o.jpg)
 
 # Your Guide to SSL on Nginx
 

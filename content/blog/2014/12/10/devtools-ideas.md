@@ -7,7 +7,6 @@ date: "2014-12-10T11:51:11-08:00"
 updatedOn: "2014-12-10T11:51:11-08:00"
 slug: "devtools-ideas"
 ---
-![Key art for blog post "DevTools Ideas "](/images/blog/2014/12/10/bulb-idea.png)
 
 # DevTools Ideas 
 

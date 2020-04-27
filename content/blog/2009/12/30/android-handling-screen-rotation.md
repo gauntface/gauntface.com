@@ -7,7 +7,6 @@ date: "2009-12-30T18:31:47-08:00"
 updatedOn: "2009-12-30T18:31:47-08:00"
 slug: "android-handling-screen-rotation"
 ---
-![Key art for blog post "Android - Handling Screen Rotation "](/images/blog/2014/06/30/14140812009-90a9e718fc-o.jpg)
 
 # Android - Handling Screen Rotation
 

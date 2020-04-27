@@ -7,7 +7,6 @@ date: "2012-01-31T23:21:32-08:00"
 updatedOn: "2012-01-31T23:21:32-08:00"
 slug: "facebook-sync-2-0"
 ---
-![Key art for blog post "Facebook Sync 2.0 "](/images/blog/2014/06/15/8468995025-25e89894f5-o.jpg)
 
 # Facebook Sync 2.0 
 

@@ -7,7 +7,6 @@ date: "2015-03-24T20:22:43-07:00"
 updatedOn: "2015-03-24T20:22:43-07:00"
 slug: "arachnidlabs-minishift-and-ubuntu-pi"
 ---
-![Key art for blog post "Arachnidlabs Minishift and Ubuntu / Pi "](/images/blog/2015/2015-09-17/arachnidlabs-main.png)
 
 # Arachnidlabs Minishift and Ubuntu / Pi
 

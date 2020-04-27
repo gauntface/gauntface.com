@@ -7,7 +7,6 @@ date: "2009-08-11T20:16:06-07:00"
 updatedOn: "2009-08-11T20:16:06-07:00"
 slug: "ubuntu-jaunty-on-macbook-4-1"
 ---
-![Key art for blog post "Ubuntu Jaunty on MacBook 4.1 "](/images/blog/2014/06/30/3366621990-669b12c37d-o.jpg)
 
 # Ubuntu Jaunty on MacBook 4.1
 

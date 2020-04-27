@@ -7,7 +7,6 @@ date: "2015-02-11T11:11:07-08:00"
 updatedOn: "2015-02-11T11:11:07-08:00"
 slug: "fetch-is-the-new-xhr"
 ---
-![Key art for blog post "Fetch is the new XHR "](/images/blog/2015/2015-09-17/fetch.jpg)
 
 # Fetch is the new XHR
 

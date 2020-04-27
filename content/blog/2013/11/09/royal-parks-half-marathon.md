@@ -7,7 +7,6 @@ date: "2013-11-09T17:12:32-08:00"
 updatedOn: "2013-11-09T17:12:32-08:00"
 slug: "royal-parks-half-marathon"
 ---
-![Key art for blog post "Royal Parks Half Marathon "](/images/blog/2014/05/24/royal-parks-half.jpg)
 
 # Royal Parks Half Marathon 
 

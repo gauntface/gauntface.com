@@ -10,7 +10,6 @@ date: "2010-03-08T14:53:39-08:00"
 updatedOn: "2010-03-08T14:53:39-08:00"
 slug: "android-apps-how-to-get-your-problems-fixed"
 ---
-![Key art for blog post "Android Apps - How to Get Your Problems Fixed "](/images/blog/2014/06/23/5774597743-c57c6e4f9e-o.jpg)
 
 # Android Apps - How to Get Your Problems Fixed 
 

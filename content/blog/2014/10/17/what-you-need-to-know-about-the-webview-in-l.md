@@ -7,7 +7,6 @@ date: "2014-10-17T19:25:26-07:00"
 updatedOn: "2014-10-17T19:25:26-07:00"
 slug: "what-you-need-to-know-about-the-webview-in-l"
 ---
-![Key art for blog post "What You Need to Know About the WebView in L "](/images/blog/2014/10/17/lollipop-2200.png)
 
 # What You Need to Know About the WebView in L
 

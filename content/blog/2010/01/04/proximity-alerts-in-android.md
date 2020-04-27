@@ -7,7 +7,6 @@ date: "2010-01-04T23:24:07-08:00"
 updatedOn: "2010-01-04T23:24:07-08:00"
 slug: "proximity-alerts-in-android"
 ---
-![Key art for blog post "Proximity Alerts in Android "](/images/blog/2014/06/29/11194772464-80fe47026b-o.jpg)
 
 # Proximity Alerts in Android
 

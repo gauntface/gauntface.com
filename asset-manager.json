@@ -1,0 +1,31 @@
+{
+  "html-dir": "public/",
+  "assets": {
+    "binary-dir": "public/",
+    "json-dir": "themes/gauntface/data/hopin/"
+  },
+  "gen-assets": {
+    "output-dir": "public/generated/",
+    "max-width": 800,
+    "max-density": 3
+  },
+  "img-to-picture": [
+    {
+      "id": "l-blog",
+      "max-width": 800,
+      "source-sizes": [
+        "(min-width: 800px) 800px",
+        "100vw"
+      ]
+    },
+    {
+      "id": "c-blog-item__img",
+      "max-width": 200,
+      "source-sizes": [
+        "(min-width: 800px) 200px",
+        "20vw"
+      ]
+    }
+  ],
+  "ratio-wrapper": ["l-blog"]
+}

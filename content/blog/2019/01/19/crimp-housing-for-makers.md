@@ -8,7 +8,6 @@ date: "2019-01-19T18:00:00-07:00"
 updatedOn: "2019-01-19T18:00:00-07:00"
 slug: "crimp-housing-for-makers"
 ---
-![Key art for blog post "Crimp Housing for Makers"](/images/blog/2019/2019-01-19/electronics-mess.jpg)
 
 The thought of soldering a circuit board when I'm still playing
 and learning how it works seems like a waste, but I've found

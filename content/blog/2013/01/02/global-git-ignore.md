@@ -10,7 +10,6 @@ date: "2013-01-02T14:02:54-08:00"
 updatedOn: "2013-01-02T14:02:54-08:00"
 slug: "global-git-ignore"
 ---
-![Key art for blog post "Global Git Ignore "](/images/blog/2014/06/15/4817906071-ebe598d664-o.jpg)
 
 # Global Git Ignore
 

@@ -7,11 +7,8 @@ date: "2011-01-18T23:22:48-08:00"
 updatedOn: "2011-01-18T23:22:48-08:00"
 slug: "android-ui-reference"
 ---
-![Key art for blog post "Android UI Reference "](/images/blog/2014/07/11/2265291597-d17bf9c3b2-o.png)
 
 # Android UI Reference 
-
-# Android UI Reference
 
 One evening after work, [@gazsp](https://twitter.com/gazsp) asked me to do a presentation on Android UI and after kind of chatting with him about what sorta things he wanted to know, I stuck some stuff done in a presentation and largely based it on the approach I took for the Admob app I'd been working (Beta coming soon :P). 
 

@@ -7,7 +7,6 @@ date: "2010-03-20T22:52:58-07:00"
 updatedOn: "2010-03-20T22:52:58-07:00"
 slug: "android-chrome-os-it-s-just-clicked"
 ---
-![Key art for blog post "Android, Chrome OS, It's Just Clicked "](/images/blog/2014/06/23/5704610428-7062131607-o.jpg)
 
 # Android, Chrome OS, It's Just Clicked 
 

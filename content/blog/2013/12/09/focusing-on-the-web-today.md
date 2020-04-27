@@ -10,7 +10,6 @@ date: "2013-12-09T14:50:28-08:00"
 updatedOn: "2013-12-09T14:50:28-08:00"
 slug: "focusing-on-the-web-today"
 ---
-![Key art for blog post "'Focusing' on the Web Today "](/images/blog/2014/05/24/627226315-92cea10701-o.jpg)
 
 # 'Focusing' on the Web Today 
 

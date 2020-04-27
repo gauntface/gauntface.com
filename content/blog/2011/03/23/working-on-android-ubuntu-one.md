@@ -7,7 +7,6 @@ date: "2011-03-23T21:40:19-07:00"
 updatedOn: "2011-03-23T21:40:19-07:00"
 slug: "working-on-android-ubuntu-one"
 ---
-![Key art for blog post "Working on Android Ubuntu One "](/images/blog/2014/06/16/4429941637-a487835188-o.jpg)
 
 # Working on Android Ubuntu One 
 
