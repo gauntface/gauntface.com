@@ -14,8 +14,13 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.68.3'
-      
-      - name: Get go-html-asset-manager
+
+      - name: Setup Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '^1.13.1'
+
+      - name: Install go-html-asset-manager
         run: go get -u github.com/gauntface/go-html-asset-manager/cmds/htmlassets/
 
       - uses: actions/checkout@v2
