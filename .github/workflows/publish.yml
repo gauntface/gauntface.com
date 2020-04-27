@@ -15,6 +15,9 @@ jobs:
         with:
           hugo-version: '0.68.3'
       
+      - name: Get go-html-asset-manager
+        run: go get -u github.com/gauntface/go-html-asset-manager/cmds/htmlassets/
+
       - uses: actions/checkout@v2
         with:
           ref: master
