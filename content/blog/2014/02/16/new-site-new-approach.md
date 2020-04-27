@@ -10,7 +10,6 @@ date: "2014-02-16T22:35:57-08:00"
 updatedOn: "2014-02-16T22:35:57-08:00"
 slug: "new-site-new-approach"
 ---
-![Key art for blog post "New Site, New Approach "](/images/blog/2014/05/24/main-headmast.jpg)
 
 # New Site, New Approach
 

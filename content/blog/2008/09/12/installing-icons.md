@@ -7,7 +7,6 @@ date: "2008-09-12T18:36:27-07:00"
 updatedOn: "2008-09-12T18:36:27-07:00"
 slug: "installing-icons"
 ---
-![Key art for blog post "Installing Icons "](/images/blog/2014/06/30/justicons600.jpg)
 
 # Installing Icons
 

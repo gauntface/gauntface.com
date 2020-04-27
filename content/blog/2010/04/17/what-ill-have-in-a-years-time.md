@@ -7,7 +7,6 @@ date: "2010-04-17T23:14:49-07:00"
 updatedOn: "2010-04-17T23:14:49-07:00"
 slug: "what-ill-have-in-a-years-time"
 ---
-![Key art for blog post "Future Bag of Goodies "](/images/blog/2014/06/22/4385319438-798641ed3f-o.jpg)
 
 # Future Bag of Goodies 
 

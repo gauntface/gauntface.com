@@ -7,7 +7,6 @@ date: "2010-04-22T22:12:06-07:00"
 updatedOn: "2010-04-22T22:12:06-07:00"
 slug: "why-is-open-source-software-documentation-bad"
 ---
-![Key art for blog post "Why is Open Source Software Documentation Bad? "](/images/blog/2014/06/22/8574509123-3846af95a8-o.jpg)
 
 # Why is Open Source Software Documentation Bad? 
 

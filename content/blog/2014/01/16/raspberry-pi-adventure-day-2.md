@@ -7,7 +7,6 @@ date: "2014-01-16T21:09:19-08:00"
 updatedOn: "2014-01-16T21:09:19-08:00"
 slug: "raspberry-pi-adventure-day-2"
 ---
-![Key art for blog post "Raspberry Pi Adventure - Day 2 "](/images/blog/2014/05/24/img-20140113-232715.jpg)
 
 # Raspberry Pi Adventure - Day 2
 

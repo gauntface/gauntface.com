@@ -7,7 +7,6 @@ date: "2015-12-02T15:23:40-08:00"
 updatedOn: "2015-12-02T15:23:40-08:00"
 slug: "start-up-scripts-for-raspbian"
 ---
-![Key art for blog post "Start Up Scripts for Raspbian"](/images/blog/2015/2015-12-02/pi-crates.jpg)
 
 # Start Up Scripts for Raspbian
 

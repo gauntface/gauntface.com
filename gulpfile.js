@@ -5,9 +5,10 @@ const htmlmin = require('gulp-htmlmin');
 const fs = require('fs-extra');
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
+const browserSync = require('browser-sync').create();
+const ham = require('@gauntface/html-asset-manager');
 
 const clean = require('@hopin/wbt-clean');
-const html = require('@hopin/wbt-html-assets');
 
 const basetheme = require('@hopin/hugo-base-theme');
 const gftheme = require('@gauntface/hugo-theme');
@@ -77,15 +78,13 @@ gulp.task('minify-html', () => {
     .pipe(gulp.dest(path.join(__dirname, 'public')));
 })
 
-gulp.task('html-assets', gulp.series(
-  html.gulpProcessFiles({
-    htmlPath: path.join(__dirname, 'public'),
-    jsonAssetsPath: path.join(__dirname, 'themes', 'gauntface', 'data', 'hopin'),
-    genPath: path.join(__dirname, 'public', 'generated'),
-    // debug: 'static-site-hosting-on-aws.html',
+gulp.task('html-assets', () => {
+  return ham.manageAssets({
+    config: path.join(__dirname, 'asset-manager.json'),
+    debug: 'static-site-hosting-on-aws',
     output: true,
-  }),
-));
+  });
+});
 
 gulp.task('html', gulp.series(
   'html-assets',
@@ -182,6 +181,53 @@ gulp.task('watch',
       'watch-base-theme',
       'watch-gf-theme',
       'hugo-server',
+    ),
+  ),
+);
+
+gulp.task('watch-gf-theme-prod', () => {
+  const opts = {
+    ignoreInitial: true,
+  };
+  return gulp.watch(
+    [path.join(__dirname, 'node_modules', '@gauntface/hugo-theme', '**', '*')],
+    opts,
+    gulp.series('themes', 'build'),
+  );
+});
+
+gulp.task('watch-any', () => {
+  const opts = {
+    delay: 500,
+    ignoreInitial: true,
+  };
+  return gulp.watch(
+    [
+      path.posix.join(__dirname, 'archetypes', '**', '*'),
+      path.posix.join(__dirname, 'content', '**', '*'),
+      path.posix.join(__dirname, 'static', '**', '*'),
+      path.posix.join(__dirname, 'vertification', '**', '*'),
+    ],
+    opts,
+    gulp.series('build', async () => browserSync.reload()),
+  );
+});
+
+gulp.task('browser-sync', function() {
+  browserSync.init({
+      server: {
+          baseDir: "./public/",
+      }
+  });
+});
+
+gulp.task('watch-prod',
+  gulp.series(
+    'build',
+    gulp.parallel(
+      'browser-sync',
+      'watch-gf-theme-prod',
+      'watch-any',
     ),
   ),
 );

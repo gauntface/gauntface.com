@@ -7,7 +7,6 @@ date: "2011-02-13T13:51:58-08:00"
 updatedOn: "2011-02-13T13:51:58-08:00"
 slug: "setting-up-github-for-android-projects"
 ---
-![Key art for blog post "Setting Up GitHub for Android Projects "](/images/blog/2014/06/16/heisencat.jpg)
 
 # Setting Up GitHub for Android Projects 
 

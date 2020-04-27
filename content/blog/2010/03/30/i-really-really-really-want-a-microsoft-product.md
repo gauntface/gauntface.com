@@ -7,7 +7,6 @@ date: "2010-03-30T22:37:43-07:00"
 updatedOn: "2010-03-30T22:37:43-07:00"
 slug: "i-really-really-really-want-a-microsoft-product"
 ---
-![Key art for blog post "I Really want a . . . .  Microsoft Product"](/images/blog/2014/06/23/2883322248-39ee413933-o.jpg)
 
 # I Really want a . . . .  Microsoft Product
 

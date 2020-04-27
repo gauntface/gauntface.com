@@ -7,7 +7,6 @@ date: "2012-03-18T01:29:45-07:00"
 updatedOn: "2012-03-18T01:29:45-07:00"
 slug: "mobilebrighton-15th-march-2012"
 ---
-![Key art for blog post "#MobileBrighton - 15th March 2012 "](/images/blog/2014/07/11/9675318481-e6105f1461-o.jpg)
 
 # #MobileBrighton - 15th March 2012 
 

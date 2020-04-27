@@ -7,7 +7,6 @@ date: "2009-08-16T16:43:20-07:00"
 updatedOn: "2009-08-16T16:43:20-07:00"
 slug: "where-to-do-android-part-1"
 ---
-![Key art for blog post "Where-To-Do : Android (Part 1) "](/images/blog/2014/06/30/1043379069-45dc19005c-o.jpg)
 
 # Where-To-Do : Android (Part 1) 
 

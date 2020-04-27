@@ -7,7 +7,6 @@ date: "2014-03-13T21:11:29-07:00"
 updatedOn: "2014-03-13T21:11:29-07:00"
 slug: "pagespeed-quirks-google-plus-sign-in"
 ---
-![Key art for blog post "PageSpeed Quirks & Google Plus Sign In "](/images/blog/2014/05/24/gplus.jpg)
 
 # PageSpeed Quirks & Google Plus Sign In
 

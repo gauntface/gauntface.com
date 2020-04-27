@@ -7,7 +7,6 @@ date: "2008-09-11T13:25:53-07:00"
 updatedOn: "2008-09-11T13:25:53-07:00"
 slug: "programming-mimetype-icons"
 ---
-![Key art for blog post "Programming Mimetype Icons "](/images/blog/2014/06/30/5079201550-0e57a6c7a2-o.jpg)
 
 # Programming Mimetype Icons 
 

@@ -7,7 +7,6 @@ date: "2010-04-14T13:54:34-07:00"
 updatedOn: "2010-04-14T13:54:34-07:00"
 slug: "using-android-headset-buttons-earphone-buttons"
 ---
-![Key art for blog post "Using Android Headset Buttons (Earphone Buttons) "](/images/blog/2014/06/22/6147907607-4945de2ea3-o.jpg)
 
 # Using Android Headset Buttons (Earphone Buttons)
 

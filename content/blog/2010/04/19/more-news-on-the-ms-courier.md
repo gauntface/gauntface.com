@@ -7,7 +7,6 @@ date: "2010-04-19T11:36:33-07:00"
 updatedOn: "2010-04-19T11:36:33-07:00"
 slug: "more-news-on-the-ms-courier"
 ---
-![Key art for blog post "More News on the  MS Courier"](/images/blog/2014/06/22/8583948813-9f0276767d-o.jpg)
 
 # More News on the  MS Courier
 

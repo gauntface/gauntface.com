@@ -10,7 +10,6 @@ date: "2012-12-04T13:34:11-08:00"
 updatedOn: "2012-12-04T13:34:11-08:00"
 slug: "to-zoom-or-to-scale"
 ---
-![Key art for blog post "To Zoom or to Scale "](/images/blog/2014/06/15/5882785-dbfe28f983-o.jpg)
 
 # To Zoom or to Scale
 

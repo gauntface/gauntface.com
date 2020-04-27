@@ -7,7 +7,6 @@ date: "2009-12-09T22:28:05-08:00"
 updatedOn: "2009-12-09T22:28:05-08:00"
 slug: "android-losing-it-s-edge"
 ---
-![Key art for blog post "Android Losing It's Edge? "](/images/blog/2014/06/30/8538679708-906ab6a815-o.jpg)
 
 # Android Losing It's Edge? 
 

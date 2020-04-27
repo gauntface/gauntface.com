@@ -7,7 +7,6 @@ date: "2010-09-26T16:36:12-07:00"
 updatedOn: "2010-09-26T16:36:12-07:00"
 slug: "how-to-get-gtx460-graphics-card-working-on-ubuntu-10-04"
 ---
-![Key art for blog post "How-To: Get GTX460 Graphics Card Working on Ubuntu (10.04) "](/images/blog/2014/06/22/6478631303-fb0634d361-o.jpg)
 
 # How-To: Get GTX460 Graphics Card Working on Ubuntu (10.04)
 

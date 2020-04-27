@@ -7,7 +7,6 @@ date: "2008-09-26T21:28:16-07:00"
 updatedOn: "2008-09-26T21:28:16-07:00"
 slug: "ibm-university-team-challenge-2008"
 ---
-![Key art for blog post "IBM University Team Challenge 2008 "](/images/blog/2014/06/30/5494014657-375af27308-o.jpg)
 
 # IBM University Team Challenge 2008 
 

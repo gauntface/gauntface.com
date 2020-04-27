@@ -7,7 +7,6 @@ date: "2015-01-16T14:38:40-08:00"
 updatedOn: "2015-01-16T14:38:40-08:00"
 slug: "what-the-virtual-viewport"
 ---
-![Key art for blog post "What the Virtual Viewport? "](/images/blog/2015/2015-09-17/whatthevirtual.jpg)
 
 # What the Virtual Viewport? 
 

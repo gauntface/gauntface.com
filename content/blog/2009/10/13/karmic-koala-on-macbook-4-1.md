@@ -7,7 +7,6 @@ date: "2009-10-13T22:49:16-07:00"
 updatedOn: "2009-10-13T22:49:16-07:00"
 slug: "karmic-koala-on-macbook-4-1"
 ---
-![Key art for blog post "Karmic Koala on MacBook 4.1 "](/images/blog/2014/06/30/ubuntu-karmic-koala.jpg)
 
 # Karmic Koala on MacBook 4.1 
 

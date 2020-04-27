@@ -8,7 +8,6 @@ date: "2019-02-02T10:00:00-07:00"
 updatedOn: "2019-02-02T10:00:00-07:00"
 slug: "kbwiki-tutorial-notes"
 ---
-!["Key art image for KBWiki Tutorial Notes blog post"](/images/blog/2019/2019-02-02/bw-circuit.jpg)
 
 These are my notes from running through the 
 [kbwiki tutorial / guide](https://kbwiki.ai03.me/books/pcb-design) for

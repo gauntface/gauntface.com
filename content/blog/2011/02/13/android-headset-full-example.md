@@ -7,7 +7,6 @@ date: "2011-02-13T12:24:53-08:00"
 updatedOn: "2011-02-13T12:24:53-08:00"
 slug: "android-headset-full-example"
 ---
-![Key art for blog post "Android Headset - Full Example "](/images/blog/2014/06/16/9610022099-e5a890aa85-o.jpg)
 
 # Android Headset - Full Example 
 

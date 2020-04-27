@@ -7,7 +7,6 @@ date: "2012-05-14T21:01:18-07:00"
 updatedOn: "2012-05-14T21:01:18-07:00"
 slug: "i-m-joining-google"
 ---
-![Key art for blog post "I'm Joining Google "](/images/blog/2014/06/15/img-8375.jpg)
 
 # I'm Joining Google 
 

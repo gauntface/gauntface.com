@@ -7,7 +7,6 @@ date: "2015-10-30T16:35:23-07:00"
 updatedOn: "2015-10-30T16:35:23-07:00"
 slug: "node-unit-testing"
 ---
-![Key art for blog post "Node Unit Testing"](/images/blog/2015/2015-10-30/testing.jpg)
 
 # Node Unit Testing
 

@@ -7,7 +7,6 @@ date: "2010-01-04T23:38:55-08:00"
 updatedOn: "2010-01-04T23:38:55-08:00"
 slug: "mapview-with-widgets-android"
 ---
-![Key art for blog post "MapView with Widgets Android "](/images/blog/2014/06/29/3047558085-7bc57aa707-o.jpg)
 
 # MapView with Widgets Android
 

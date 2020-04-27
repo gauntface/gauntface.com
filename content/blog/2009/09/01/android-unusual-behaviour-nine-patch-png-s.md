@@ -7,7 +7,6 @@ date: "2009-09-01T21:49:49-07:00"
 updatedOn: "2009-09-01T21:49:49-07:00"
 slug: "android-unusual-behaviour-nine-patch-png-s"
 ---
-![Key art for blog post "Android Unusual Behaviour - Nine Patch PNG's "](/images/blog/2014/06/30/277281172-9c150e712c-o.jpg)
 
 # Android Unusual Behaviour - Nine Patch PNG's 
 

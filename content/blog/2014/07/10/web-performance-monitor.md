@@ -10,7 +10,6 @@ date: "2014-07-10T21:11:13-07:00"
 updatedOn: "2014-07-10T21:11:13-07:00"
 slug: "web-performance-monitor"
 ---
-![Key art for blog post "Web Performance Monitor "](/images/blog/2014/07/10/3707813723-398457e8e1-o.jpg)
 
 # Web Performance Monitor 
 

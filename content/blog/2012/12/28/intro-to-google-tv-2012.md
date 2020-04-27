@@ -7,7 +7,6 @@ date: "2012-12-28T14:50:39-08:00"
 updatedOn: "2012-12-28T14:50:39-08:00"
 slug: "intro-to-google-tv-2012"
 ---
-![Key art for blog post "Intro to Google TV 2012 "](/images/blog/2014/07/11/img-20121122-155801.jpg)
 
 # Intro to Google TV 2012 
 

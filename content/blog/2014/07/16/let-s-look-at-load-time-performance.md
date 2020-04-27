@@ -7,7 +7,6 @@ date: "2014-07-16T18:54:23-07:00"
 updatedOn: "2014-07-16T18:54:23-07:00"
 slug: "let-s-look-at-load-time-performance"
 ---
-![Key art for blog post "Let's Look at Load Time Performance "](/images/blog/2014/07/16/2122071509-4aa065df3c-o.jpg)
 
 # Let's Look at Load Time Performance 
 

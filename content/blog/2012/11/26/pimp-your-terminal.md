@@ -7,7 +7,6 @@ date: "2012-11-26T16:35:29-08:00"
 updatedOn: "2012-11-26T16:35:29-08:00"
 slug: "pimp-your-terminal"
 ---
-![Key art for blog post "Pimp Your Terminal "](/images/blog/2014/06/15/188697388-69e96534cb-o.jpg)
 
 # Pimp Your Terminal 
 

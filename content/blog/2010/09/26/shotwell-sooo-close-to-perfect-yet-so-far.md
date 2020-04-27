@@ -10,7 +10,6 @@ date: "2010-09-26T20:05:20-07:00"
 updatedOn: "2010-09-26T20:05:20-07:00"
 slug: "shotwell-sooo-close-to-perfect-yet-so-far"
 ---
-![Key art for blog post "Shotwell, sooo Close to Perfect, Yet so Far "](/images/blog/2014/06/16/shotwell.jpg)
 
 # Shotwell, sooo Close to Perfect, Yet so Far 
 

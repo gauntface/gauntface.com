@@ -7,7 +7,6 @@ date: "2013-12-03T12:45:57-08:00"
 updatedOn: "2013-12-03T12:45:57-08:00"
 slug: "spatial-navigation-opera"
 ---
-![Key art for blog post "Spatial Navigation & Opera "](/images/blog/2014/05/24/opera-logo.jpg)
 
 # Spatial Navigation & Opera 
 

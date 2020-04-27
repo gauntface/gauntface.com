@@ -7,7 +7,6 @@ date: "2008-09-10T14:13:45-07:00"
 updatedOn: "2008-09-10T14:13:45-07:00"
 slug: "hard-drive-icon-version-1-download"
 ---
-![Key art for blog post "Hard Drive Icon Version 1 - Download "](/images/blog/2014/06/30/4360376218-2e14de0fa6-o.jpg)
 
 # Hard Drive Icon Version 1 - Download 
 

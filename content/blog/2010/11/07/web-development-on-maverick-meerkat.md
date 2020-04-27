@@ -7,7 +7,6 @@ date: "2010-11-07T19:13:42-08:00"
 updatedOn: "2010-11-07T19:13:42-08:00"
 slug: "web-development-on-maverick-meerkat"
 ---
-![Key art for blog post "Web Development on Maverick Meerkat "](/images/blog/2014/06/16/4595771286-33fe96a4db-o.jpg)
 
 # Web Development on Maverick Meerkat
 

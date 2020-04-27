@@ -7,7 +7,6 @@ date: "2013-06-03T19:44:45-07:00"
 updatedOn: "2013-06-03T19:44:45-07:00"
 slug: "gaunt-face-redesign"
 ---
-![Key art for blog post "Gaunt Face Redesign "](/images/blog/2014/05/24/gauntface-redesign.jpg)
 
 # Gaunt Face Redesign 
 

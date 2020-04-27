@@ -7,7 +7,6 @@ date: "2012-02-09T21:56:45-08:00"
 updatedOn: "2012-02-09T21:56:45-08:00"
 slug: "agile-are-you-or-aren-t-you"
 ---
-![Key art for blog post "Agile - Are You or Aren't You? "](/images/blog/2014/06/15/4964634757-0de2f661e8-o.jpg)
 
 # Agile - Are You or Aren't You? 
 

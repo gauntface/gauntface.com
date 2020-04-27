@@ -7,7 +7,6 @@ date: "2011-12-29T16:50:35-08:00"
 updatedOn: "2011-12-29T16:50:35-08:00"
 slug: "adb-right-on-the-command-line"
 ---
-![Key art for blog post "ADB Right on the Command Line "](/images/blog/2014/06/15/5695056315-25a835a3be-o.jpg)
 
 # ADB Right on the Command Line 
 

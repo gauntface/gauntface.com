@@ -7,7 +7,6 @@ date: "2015-01-06T18:26:23-08:00"
 updatedOn: "2015-01-06T18:26:23-08:00"
 slug: "trying-to-do-a-good-job"
 ---
-![Key art for blog post "Trying to do a Good Job "](/images/blog/2015/2015-09-17/trying.jpg)
 
 # Trying to do a Good Job
 

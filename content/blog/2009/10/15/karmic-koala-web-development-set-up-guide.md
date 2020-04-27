@@ -7,7 +7,6 @@ date: "2009-10-15T20:18:30-07:00"
 updatedOn: "2009-10-15T20:18:30-07:00"
 slug: "karmic-koala-web-development-set-up-guide"
 ---
-![Key art for blog post "Karmic Koala Web Development Set-Up Guide "](/images/blog/2014/06/30/3836656228-08d7f9b837-o.jpg)
 
 # Karmic Koala Web Development Set-Up Guide
 

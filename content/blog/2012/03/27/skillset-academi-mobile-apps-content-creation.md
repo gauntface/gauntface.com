@@ -7,7 +7,6 @@ date: "2012-03-27T11:57:56-07:00"
 updatedOn: "2012-03-27T11:57:56-07:00"
 slug: "skillset-academi-mobile-apps-content-creation"
 ---
-![Key art for blog post "Skillset Academi+ - Mobile Apps & Content Creation "](/images/blog/2014/07/11/4062887277-618c01f4d3-o.jpg)
 
 # Skillset Academi+ - Mobile Apps & Content Creation 
 

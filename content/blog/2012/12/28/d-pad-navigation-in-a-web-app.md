@@ -12,7 +12,6 @@ date: "2012-12-28T11:31:04-08:00"
 updatedOn: "2012-12-28T11:31:04-08:00"
 slug: "d-pad-navigation-in-a-web-app"
 ---
-![Key art for blog post "D-Pad Navigation in a Web App "](/images/blog/2014/06/15/8386216143-d1f90d1204-o.jpg)
 
 # D-Pad Navigation in a Web App
 

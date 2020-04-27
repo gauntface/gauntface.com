@@ -10,7 +10,6 @@ date: "2014-01-10T14:37:45-08:00"
 updatedOn: "2014-01-10T14:37:45-08:00"
 slug: "translucent-theme-in-android"
 ---
-![Key art for blog post "Translucent Theme in Android "](/images/blog/2014/05/24/kitkat.jpg)
 
 # Translucent Theme in Android
 

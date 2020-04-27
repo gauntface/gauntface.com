@@ -7,7 +7,6 @@ date: "2011-04-18T21:37:09-07:00"
 updatedOn: "2011-04-18T21:37:09-07:00"
 slug: "thoughts-motodev-app-summit"
 ---
-![Key art for blog post "Thoughts MotoDev App Summit "](/images/blog/2014/06/16/11259367736-e5063372f6-o.jpg)
 
 # Thoughts MotoDev App Summit 
 

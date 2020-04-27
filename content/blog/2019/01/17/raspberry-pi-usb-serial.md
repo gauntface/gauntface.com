@@ -9,7 +9,6 @@ date: "2019-01-17T19:14:00-07:00"
 updatedOn: "2019-01-17T19:14:00-07:00"
 slug: "raspberry-pi-over-serial-usb"
 ---
-![Key art for blog post "Raspberry Pi Over Serial USB"](/images/blog/2019/2019-01-17/raspberry-pi-snes.jpg)
 
 Running commands on the Raspberry Pi over serial USB makes 
 development a lot easier when starting out with a 

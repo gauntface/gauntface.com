@@ -7,7 +7,6 @@ date: "2009-01-16T23:47:52-08:00"
 updatedOn: "2009-01-16T23:47:52-08:00"
 slug: "my-personal-avatar"
 ---
-![Key art for blog post "My Personal Avatar "](/images/blog/2014/06/30/3658366566-7ef6084c75-o.jpg)
 
 # My Personal Avatar 
 

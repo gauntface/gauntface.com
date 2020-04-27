@@ -7,7 +7,6 @@ date: "2012-08-15T14:54:38-07:00"
 updatedOn: "2012-08-15T14:54:38-07:00"
 slug: "google-tv-in-app-billing"
 ---
-![Key art for blog post "Google TV + In App Billing "](/images/blog/2014/06/15/3302646512-caf444ea65-o.jpg)
 
 # Google TV + In App Billing
 

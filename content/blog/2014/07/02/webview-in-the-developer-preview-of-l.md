@@ -7,7 +7,6 @@ date: "2014-07-02T21:04:32-07:00"
 updatedOn: "2014-07-02T21:04:32-07:00"
 slug: "webview-in-the-developer-preview-of-l"
 ---
-![Key art for blog post "WebView in the Developer Preview of L "](/images/blog/2014/07/02/pupreandroid-outline.jpg)
 
 # WebView in the Developer Preview of L
 

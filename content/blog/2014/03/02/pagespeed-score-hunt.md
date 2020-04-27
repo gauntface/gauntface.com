@@ -10,7 +10,6 @@ date: "2014-03-02T21:49:40-08:00"
 updatedOn: "2014-03-02T21:49:40-08:00"
 slug: "pagespeed-score-hunt"
 ---
-![Key art for blog post "Pagespeed Score Hunt "](/images/blog/2014/05/24/internet-stability.jpg)
 
 # Pagespeed Score Hunt
 

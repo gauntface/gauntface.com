@@ -7,7 +7,6 @@ date: "2013-03-02T19:35:36-08:00"
 updatedOn: "2013-03-02T19:35:36-08:00"
 slug: "codeigniter-damn-that-pesky-index-php"
 ---
-![Key art for blog post "CodeIgniter - Damn that pesky index.php "](/images/blog/2014/05/24/codeigniter.jpg)
 
 # CodeIgniter - Damn that pesky index.php
 

@@ -7,7 +7,6 @@ date: "2010-04-12T22:18:33-07:00"
 updatedOn: "2010-04-12T22:18:33-07:00"
 slug: "another-look-at-the-courier"
 ---
-![Key art for blog post "Another Look At The Courier "](/images/blog/2014/06/23/17wj5q452y89yjpg.jpg)
 
 # Another Look At The Courier 
 

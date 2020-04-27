@@ -7,7 +7,6 @@ date: "2010-02-10T21:56:00-08:00"
 updatedOn: "2010-02-10T21:56:00-08:00"
 slug: "method-behind-the-madness-android-contacts"
 ---
-![Key art for blog post "Method behind the madness -  Android Contacts"](/images/blog/2014/06/29/7021093981-ba90d18061-o.jpg)
 
 # Method behind the madness -  Android Contacts
 

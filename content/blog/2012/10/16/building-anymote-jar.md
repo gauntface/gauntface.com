@@ -7,7 +7,6 @@ date: "2012-10-16T15:28:58-07:00"
 updatedOn: "2012-10-16T15:28:58-07:00"
 slug: "building-anymote-jar"
 ---
-![Key art for blog post "Building Anymote jar "](/images/blog/2014/06/15/google-tv-remote-app-icon.jpg)
 
 # Building Anymote jar
 

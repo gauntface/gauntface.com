@@ -7,7 +7,6 @@ date: "2015-06-09T16:10:49-07:00"
 updatedOn: "2015-06-09T16:10:49-07:00"
 slug: "gulp-and-sass"
 ---
-![Key art for blog post "Gulp & Sass "](/images/blog/2015/2015-09-17/gulpandsass.jpg)
 
 # Gulp & Sass
 

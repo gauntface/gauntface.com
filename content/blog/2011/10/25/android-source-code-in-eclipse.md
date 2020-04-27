@@ -7,7 +7,6 @@ date: "2011-10-25T09:23:04-07:00"
 updatedOn: "2011-10-25T09:23:04-07:00"
 slug: "android-source-code-in-eclipse"
 ---
-![Key art for blog post "Android Source Code in Eclipse "](/images/blog/2014/06/15/20120804-134511.jpg)
 
 # Android Source Code in Eclipse 
 

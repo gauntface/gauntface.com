@@ -7,7 +7,6 @@ date: "2009-12-30T16:27:46-08:00"
 updatedOn: "2009-12-30T16:27:46-08:00"
 slug: "google-maps-on-android-checklist"
 ---
-![Key art for blog post "Google Maps on Android Checklist "](/images/blog/2014/06/30/2692346829-69b14eae45-o.jpg)
 
 # Google Maps on Android Checklist
 

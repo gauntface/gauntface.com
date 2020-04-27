@@ -7,7 +7,6 @@ date: "2010-07-07T18:58:04-07:00"
 updatedOn: "2010-07-07T18:58:04-07:00"
 slug: "lucid-lynx-web-development"
 ---
-![Key art for blog post "Lucid Lynx Web Development "](/images/blog/2014/06/22/4628277592-ddd81f9a4b-o.jpg)
 
 # Lucid Lynx Web Development 
 

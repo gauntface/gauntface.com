@@ -7,7 +7,6 @@ date: "2009-12-28T16:19:32-08:00"
 updatedOn: "2009-12-28T16:19:32-08:00"
 slug: "handling-facebook-date-times"
 ---
-![Key art for blog post "Handling Facebook Date/Times "](/images/blog/2014/06/30/1717899661-5e8fb0f10a-o.jpg)
 
 # Handling Facebook Date/Times
 

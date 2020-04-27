@@ -7,7 +7,6 @@ date: "2013-03-18T15:44:49-07:00"
 updatedOn: "2013-03-18T15:44:49-07:00"
 slug: "aspect-ratio-for-videoview"
 ---
-![Key art for blog post "Android Aspect Ratio for VideoView "](/images/blog/2014/05/24/cinema.jpg)
 
 # Android Aspect Ratio for VideoView 
 

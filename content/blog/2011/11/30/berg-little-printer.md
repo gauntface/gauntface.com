@@ -10,7 +10,6 @@ date: "2011-11-30T22:18:12-08:00"
 updatedOn: "2011-11-30T22:18:12-08:00"
 slug: "berg-little-printer"
 ---
-![Key art for blog post "Berg: Little Printer "](/images/blog/2014/07/11/8647059978-7e0c0339ef-o.jpg)
 
 # Berg: Little Printer 
 

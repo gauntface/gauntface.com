@@ -7,7 +7,6 @@ date: "2014-07-04T18:10:36-07:00"
 updatedOn: "2014-07-04T18:10:36-07:00"
 slug: "installing-ssl-certs"
 ---
-![Key art for blog post "Installing SSL Certs... "](/images/blog/2014/07/04/nsa-smiley-face-fb.jpg)
 
 # Installing SSL Certs...
 

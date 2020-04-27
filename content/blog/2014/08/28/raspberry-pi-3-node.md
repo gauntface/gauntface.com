@@ -7,7 +7,6 @@ date: "2014-08-28T23:15:05-07:00"
 updatedOn: "2014-08-28T23:15:05-07:00"
 slug: "raspberry-pi-3-node"
 ---
-![Key art for blog post "Raspberry Pi <3 Node "](/images/blog/2014/08/28/7223008454-955fbf0274-k.jpg)
 
 # Raspberry Pi <3 Node
 
