@@ -1,5 +1,6 @@
 {
   "html-dir": "public/",
+  "base-url": "https://www.gauntface.com",
   "assets": {
     "binary-dir": "public/",
     "json-dir": "themes/gauntface/data/hopin/"
