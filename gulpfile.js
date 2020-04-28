@@ -81,7 +81,7 @@ gulp.task('minify-html', () => {
 gulp.task('html-assets', () => {
   return ham.manageAssets({
     config: path.join(__dirname, 'asset-manager.json'),
-    debug: 'static-site-hosting-on-aws',
+    // debug: 'static-site-hosting-on-aws',
     output: true,
   });
 });
