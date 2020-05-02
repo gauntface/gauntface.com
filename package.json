@@ -6,9 +6,9 @@
     "test": "echo 'No tests in project'"
   },
   "devDependencies": {
-    "@gauntface/html-asset-manager": "1.0.2",
+    "@gauntface/html-asset-manager": "^1.0.3",
     "@gauntface/hugo-theme": "0.0.477",
-    "@hopin/hugo-base-theme": "0.0.300",
+    "@hopin/hugo-base-theme": "0.0.303",
     "@hopin/wbt-clean": "0.0.106",
     "browser-sync": "2.26.7",
     "fs-extra": "9.0.0",

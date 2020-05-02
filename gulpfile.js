@@ -13,7 +13,7 @@ const clean = require('@hopin/wbt-clean');
 const basetheme = require('@hopin/hugo-base-theme');
 const gftheme = require('@gauntface/hugo-theme');
 
-const desiredHugoVersion = 'v0.68.3';
+const desiredHugoVersion = 'v0.69.2';
 
 /**
  * Themes
@@ -86,6 +86,13 @@ gulp.task('html-assets', () => {
   });
 });
 
+gulp.task('genimgs', () => {
+  return ham.generateImages({
+    config: path.join(__dirname, 'asset-manager.json'),
+    output: true,
+  });
+})
+
 gulp.task('html', gulp.series(
   'html-assets',
   'minify-html',
@@ -117,6 +124,7 @@ gulp.task('build-raw', gulp.series(
 
 gulp.task('build', gulp.series(
   'build-raw',
+  'genimgs',
   'html',
   'verification',
 ))
