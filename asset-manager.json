@@ -1,11 +1,13 @@
 {
   "html-dir": "public/",
   "assets": {
-    "binary-dir": "public/",
+    "static-dir": "public/",
+    "generated-dir": "public/generated/",
     "json-dir": "themes/gauntface/data/hopin/"
   },
   "gen-assets": {
-    "output-dir": "public/generated/",
+    "static-dir": "static/",
+    "output-dir": "static/generated/",
     "max-width": 800,
     "max-density": 3
   },
