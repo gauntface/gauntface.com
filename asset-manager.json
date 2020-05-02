@@ -1,5 +1,6 @@
 {
   "html-dir": "public/",
+  "base-url": "https://www.gauntface.com",
   "assets": {
     "static-dir": "public/",
     "generated-dir": "public/generated/",
