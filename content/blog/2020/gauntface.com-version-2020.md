@@ -1,8 +1,8 @@
 ---
 title: "New version of gauntface.com"
-excerpt: "An updated version of gauntface.com means a new blog post. This will include Hugo, AWS, GitHub actions and a Go program."
+excerpt: "An updated version of gauntface.com means a new blog post. This will include Hugo, AWS, GitHub actions, and a Go program."
 mainImage: "/images/blog/2020/2020-05-01/begin-cup.jpg"
-mainImageAlt: "Clouds over a flourescent blue sea"
+mainImageAlt: Coffee cup with "begin" written on it.
 date: "2020-05-01T12:00:00-07:00"
 updatedOn: "2020-05-01T12:00:00-07:00"
 ---
@@ -14,12 +14,12 @@ get tired of the look of it or the stack is just not working for me.
 
 ## Old stack
 
-The previous version of my site was using a custom built static site generator and I bailed on
-it because I was starting to want features that were common in all other static site generators
-and I couldn't justify the work.
+The previous version of my site was using a custom-built static site generator
+and I bailed on it because I was starting to want features that were common in
+all other static site generators and I couldn't justify the work.
 
 The reason I had built the generator was because I had this idea of templates being able to define the CSS and JS they needed and as part of the template generation the CSS and JS would be added as necessary. I
-was largely happy with the end result but there was enough rough edges that it was a "death by a thousand papercuts" kind of feeling.
+was largely happy with the result but there were enough rough edges that it was a "death by a thousand papercuts" kind of feeling.
 
 The other details of the tech I used:
 
@@ -47,7 +47,7 @@ a widely used static site generator, which resulted in:
 That's three new (✨) things and a bunch of tools I've stuck with (👌).
 
 I stuck with markdown, Gulp, Typescript and PostCSS because they all work for me and I've had
-enough of an issue with any of them to really opt for anything else that's I've seen and / or tried.
+enough of an issue with any of them to opt for anything else that's I've seen and/or tried.
 
 Now, why the changes?
 
@@ -74,14 +74,14 @@ server can update individual pages in < 200ms.
 
 [Theming in Hugo](https://gohugo.io/hugo-modules/theme-components/) has been fun to work with 
 because you can apply more than one theme, which I'm using to have a "base" theme and a site 
-specific theme. The base theme includes common partials, layouts etc used by multiple sites
-and the site specific theme adds partials and layouts for this site, falling back to the base
+specific theme. The base theme includes common partials, layouts, etc used by multiple sites
+and the site-specific theme adds partials and layouts for this site, falling back to the base
 theme where appropriate.
 
 ### Custom script: go-html-asset-manager
 
-`go-html-asset-manager` is a Go program I created to help optimise my site without
-needing to change the content and / or tying myself to Hugo for site generation.
+`go-html-asset-manager` is a Go program I created to help optimize my site without
+needing to change the content and/or tying myself to Hugo for site generation.
 
 Some of the operations it performs:
 
@@ -119,7 +119,7 @@ The template looks a little like this:
 
 This will add `<script src="<file>">` and `<link rel="stylesheet" href="<file>">` to
 the `head` of the rendered page. This is great for local development, just adding a CSS 
-or JS file ends up being loaded in every page. It is the worst thing to do for performance,
+or JS file ends up being loaded on every page. It is the worst thing to do for performance,
 illustrated in the video below where I throttle the network connection.
 
 **TODO ADD VIDEO OF DEV LOADING PERF**
@@ -128,29 +128,27 @@ In production build of my site no styles or scripts are added to the pages, it i
 left up to `go-html-asset-manager` to add the assets and it does in the following
 way.
 
-1. For each page a set of "keys" are generated consistig of the HTML tags, classnames 
-    and attribute keys in the file.
+1. For each page, a set of "keys" are generated consisting of the HTML tags, class names 
+    , and attribute keys in the file.
 1. Any files found in the site with one of the following formats is added to the page:
-    1. `<key>.<css | js>`: These files are read from the file system and the contents
-        is inlined in the page, wrapped in `<style>` or `<script>` tags.
-    1. `<key>-sync.<css | js>`: This files are added to the head of body of the page
+    1. `<key>.<css | js>`: These files are read from the file system and the contents are inlined in the page, wrapped in `<style>` or `<script>` tags.
+    1. `<key>-sync.<css | js>`: These files are added to the head or body of the page
         and block the page while they are loaded.
-    1. `<key>-async.<css | js>`: These files are added to the body of the page
-        and loaded asynchronously. For Javascript files this relies on `async defer`
-        attributes. CSS is loaded asynchrnously by Javascript.
+    1. `<key>-async.<css | js>`: These files are added to the body of the page and loaded asynchronously. For Javascript files, this relies on `async defer`
+        attributes. CSS is loaded asynchronously by Javascript.
     1. `<key>-preload.<css | js>`: Will add a `link` tag with `rel="preload"`.
 
-This naming convention for files has worked out really well. I stick to a 
+This naming convention for files has worked out well. I stick to a 
 [BEMIT](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/)
 naming convention for classes and just looking at my files I can tell what is going
 to happen to a page.
 
-The end result is a lot more performant as well:
+Pages have good performance from what I can tell with tools like page speed and dev tools:
 
 **TODO ADD VIDEO OF PROD LOADING PERF**
 
 The **good part** of `go-html-asset-manager` is that it enables the content and themes to be kept
-simple while resulting in an efficient site , plus this tool is agnostic to the site generator used
+simple while resulting in an efficient site, plus this tool is agnostic to the site generator used
 to generate the output.
 
 The **bad part** of `go-html-asset-manager` is that some of the mutations can cause differences
@@ -159,8 +157,8 @@ can be different from the development builds which show the iframe added to the 
 
 ## What next
 
-Overall I've been really happy with the end result and it's made it really easy to improve the
+Overall I've been really happy with this setup and it's made it easy to improve the
 performance of my site in a consistent way.
 
 I don't have too much planned for the current set up outside of improving the development of
-styleguides for my themes which are still a little iffy to develop and work with.
+style guides for my themes which are still a little iffy to develop and work with.
