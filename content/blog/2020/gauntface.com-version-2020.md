@@ -80,48 +80,82 @@ theme where appropriate.
 
 ### Custom script: go-html-asset-manager
 
-`go-html-asset-manager` is a Go program I created to help optimise my site in an automated way.
+`go-html-asset-manager` is a Go program I created to help optimise my site without
+needing to change the content and / or tying myself to Hugo for site generation.
 
 Some of the operations it performs:
 
 - Generates multiple sizes and types of images
-- Convert `img` tags to `picture` elemens using generated images
-- Wraps iframes and images in divs to maintain aspect ratio
-- Replace YouTube iframes with a still and load the iframe asynchronously
-- Inject CSS & JS that apply to the page
+- Replaces `img` tags to `picture` elements
+- Wraps iframes in `div`s to maintain aspect ratio
+- Replaces YouTube iframes with a still frame and load the iframe asynchronously
+    - H/T to [@addyosmani](https://twitter.com/addyosmani) for showing my 
+        [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed)
+- Adds CSS & JS
 
 A lot of these operations are simple translations. The injection of the CSS & JS is probably the
-most quirky part of this implementation.
+most quirky part of my site.
 
-The CSS and JS files follow the naming convention: 
-`<html tag | class name | attribute key>(-<inline | sync | async>)?.<js | css>`.
+During a dev build of my site the `go-html-asset-manager` script isn't used, instead 
+one of my themes adds **all* of the CS and JS files.
 
-This makes it easy to tie HTML to the appropriate CSS and JS files. For an example, the HTML 
-`<pre class="language-yaml"><code>example</code></pre>` can have the CSS and JS files:
+The template looks a little like this:
 
+```go
+{{- define "base-load-dev-assets-dir" -}}
+  {{- range (readDir $.dir) -}}
+    // Add file to the rendered template if it's a CSS or JS file
+  {{- end -}}
+{{- end -}}
+
+{{ if (not (eq hugo.Environment "production")) }}
+  {{ range (slice "/themes" "/static") }}
+    {{ if (fileExists .) }}
+      {{ template "base-load-dev-assets-dir" (dict "dir" .) }}
+    {{ end }}    
+  {{ end }}
+{{ end }}  
 ```
-/css/pre.css
-/css/pre-async.css
-/css/pre-async.js
-/css/language-yaml-async.css
-/css/code.css
-/css/code-async.css
-```
 
-For development builds, all CSS and JS files are added to the page and loaded synchronously. Using
-functions like [readDir](https://gohugo.io/functions/readdir/#readout) a theme can crawl the
-local file system and load them in the page. This is great for local development since I
-just need to create a file and it's available to use in a page.
+This will add `<script src="<file>">` and `<link rel="stylesheet" href="<file>">` to
+the `head` of the rendered page. This is great for local development, just adding a CSS 
+or JS file ends up being loaded in every page. It is the worst thing to do for performance,
+illustrated in the video below where I throttle the network connection.
 
-For production builds, the theme doesn't include any styles or scripts and `go-html-asset-manager`
-parses each HTML page and injects the styles and scripts either inlining the file or adding the
-asset to load as a syncrhonous, asynchronous or preload file.
+**TODO ADD VIDEO OF DEV LOADING PERF**
 
-The **good parts** of `go-html-asset-manager` is that it enables the content and themes to be kept
-simple while resulting in an efficient site and this tool is agnostic to the site generator.
+In production build of my site no styles or scripts are added to the pages, it is
+left up to `go-html-asset-manager` to add the assets and it does in the following
+way.
 
-The **bad parts** of `go-html-asset-manager` is that some of the mutations can cause differences
-in the final appearance.
+1. For each page a set of "keys" are generated consistig of the HTML tags, classnames 
+    and attribute keys in the file.
+1. Any files found in the site with one of the following formats is added to the page:
+    1. `<key>.<css | js>`: These files are read from the file system and the contents
+        is inlined in the page, wrapped in `<style>` or `<script>` tags.
+    1. `<key>-sync.<css | js>`: This files are added to the head of body of the page
+        and block the page while they are loaded.
+    1. `<key>-async.<css | js>`: These files are added to the body of the page
+        and loaded asynchronously. For Javascript files this relies on `async defer`
+        attributes. CSS is loaded asynchrnously by Javascript.
+    1. `<key>-preload.<css | js>`: Will add a `link` tag with `rel="preload"`.
+
+This naming convention for files has worked out really well. I stick to a 
+[BEMIT](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/)
+naming convention for classes and just looking at my files I can tell what is going
+to happen to a page.
+
+The end result is a lot more performant as well:
+
+**TODO ADD VIDEO OF PROD LOADING PERF**
+
+The **good part** of `go-html-asset-manager` is that it enables the content and themes to be kept
+simple while resulting in an efficient site , plus this tool is agnostic to the site generator used
+to generate the output.
+
+The **bad part** of `go-html-asset-manager` is that some of the mutations can cause differences
+in the final appearance. For example, wrapping iframes to ensure a 4:3 or 16:9 aspect ratio
+can be different from the development builds which show the iframe added to the markdown file.
 
 ## What next
 
