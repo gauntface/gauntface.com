@@ -1,6 +1,6 @@
 ---
 title: "New version of gauntface.com"
-excerpt: "An updated version of gauntface.com means a new blog post. This will include Hugo, AWS, GitHub actions, and a Go program."
+excerpt: "An overview of the stack used for the latest version of gauntface.com, which includes Hugo, AWS, GitHub actions, and a Go program."
 mainImage: "/images/blog/2020/2020-05-01/begin-cup.jpg"
 mainImageAlt: Coffee cup with "begin" written on it.
 date: "2020-05-01T12:00:00-07:00"
@@ -10,16 +10,15 @@ updatedOn: "2020-05-01T12:00:00-07:00"
 # New version of gauntface.com
 
 There is a general cadence for me to change my site once every year or two, either because I
-get tired of the look of it or the stack is just not working for me.
+get tired of the look of it, or the stack is just not working for me.
 
 ## Old stack
 
-The previous version of my site was using a custom-built static site generator
-and I bailed on it because I was starting to want features that were common in
-all other static site generators and I couldn't justify the work.
+The previous version of my site was using a custom-built static site generator, and I bailed on
+it because I was starting to want features that were common in all other static site generators
+and I couldn't justify the work.
 
-The reason I had built the generator was because I had this idea of templates being able to define the CSS and JS they needed and as part of the template generation the CSS and JS would be added as necessary. I
-was largely happy with the result but there were enough rough edges that it was a "death by a thousand papercuts" kind of feeling.
+The reason I had built the generator was because I had this idea of templates being able to define the CSS and JS they needed, and as part of the template generation, the CSS and JS would be added based on the templates used. The templating library I created worked well enough, but there were enough rough edges of the static site generator that it was a "death by a thousand papercuts" kind of feeling.
 
 The other details of the tech I used:
 
@@ -46,14 +45,13 @@ a widely used static site generator, which resulted in:
 
 That's three new (✨) things and a bunch of tools I've stuck with (👌).
 
-I stuck with markdown, Gulp, Typescript and PostCSS because they all work for me and I've had
-enough of an issue with any of them to opt for anything else that's I've seen and/or tried.
+I stuck with markdown, Gulp, Typescript, and PostCSS because they all work for me without any issues.
 
 Now, why the changes?
 
 ### AWS for hosting
 
-The move to AWS was driven by a desire to learn AWS. Netlify has a fantastic feature set and 
+A desire to learn AWS drove the move from Netlify. Netlify has a fantastic feature set and 
 I'd still recommend it to folks if they haven't tried it. (I may go back once I get a feel for
 the average cost of AWS).
 
@@ -66,22 +64,21 @@ so I didn't lose the auto-deploy feature that Netlify provided.
 
 ### Hugo for site generation
 
-After working in golang for the past few years I wanted to try [Hugo](https://gohugo.io/), I'd
-heard nothing but good things about it, so why not right?
+After working in golang for the past few years, I wanted to try [Hugo](https://gohugo.io/); I'd heard nothing but good things about it, so why not.
 
 The performance of Hugo is fantastic. My site builds in < 3s containing ~150 posts and the dev 
 server can update individual pages in < 200ms.
 
 [Theming in Hugo](https://gohugo.io/hugo-modules/theme-components/) has been fun to work with 
 because you can apply more than one theme, which I'm using to have a "base" theme and a site 
-specific theme. The base theme includes common partials, layouts, etc used by multiple sites
+specific theme. The base theme includes common partials, layouts, etc. used by multiple sites
 and the site-specific theme adds partials and layouts for this site, falling back to the base
 theme where appropriate.
 
 ### Custom script: go-html-asset-manager
 
 `go-html-asset-manager` is a Go program I created to help optimize my site without
-needing to change the content and/or tying myself to Hugo for site generation.
+needing to change the content or tying myself to Hugo for site generation.
 
 Some of the operations it performs:
 
@@ -118,22 +115,23 @@ The template looks a little like this:
 ```
 
 This will add `<script src="<file>">` and `<link rel="stylesheet" href="<file>">` to
-the `head` of the rendered page. This is great for local development, just adding a CSS 
+the `head` of the rendered page. The approach is great for local development, just adding a CSS 
 or JS file ends up being loaded on every page. It is the worst thing to do for performance,
-illustrated in the video below where I throttle the network connection.
+illustrated in the video below, where I throttle the network connection.
 
-**TODO ADD VIDEO OF DEV LOADING PERF**
+<iframe src="https://player.vimeo.com/video/414996851" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+~19s for DOM content loaded and ~33s for the page to fully load.
 
 In production build of my site no styles or scripts are added to the pages, it is
 left up to `go-html-asset-manager` to add the assets and it does in the following
 way.
 
-1. For each page, a set of "keys" are generated consisting of the HTML tags, class names 
-    , and attribute keys in the file.
-1. Any files found in the site with one of the following formats is added to the page:
-    1. `<key>.<css | js>`: These files are read from the file system and the contents are inlined in the page, wrapped in `<style>` or `<script>` tags.
-    1. `<key>-sync.<css | js>`: These files are added to the head or body of the page
-        and block the page while they are loaded.
+1. For each HTML file,  the script generates a set of "keys" consisting of HTML tags, class names 
+    , and attribute keys.
+1.  It searches for CSS and JS files and categorizes them based on the file names format:
+    1. `<key>.<css | js>`: Files that match a key without a suffix are inlined in the page, wrapped in `<style>` or `<script>` tag.
+    1. `<key>-sync.<css | js>`: Blocking assets have the `-sync` suffix added as `<script>` or `<link>` tags.
     1. `<key>-async.<css | js>`: These files are added to the body of the page and loaded asynchronously. For Javascript files, this relies on `async defer`
         attributes. CSS is loaded asynchronously by Javascript.
     1. `<key>-preload.<css | js>`: Will add a `link` tag with `rel="preload"`.
@@ -143,22 +141,23 @@ This naming convention for files has worked out well. I stick to a
 naming convention for classes and just looking at my files I can tell what is going
 to happen to a page.
 
-Pages have good performance from what I can tell with tools like page speed and dev tools:
+Pages have excellent performance when run through page speed and dev tools:
 
-**TODO ADD VIDEO OF PROD LOADING PERF**
+<iframe src="https://player.vimeo.com/video/414998702" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-The **good part** of `go-html-asset-manager` is that it enables the content and themes to be kept
-simple while resulting in an efficient site, plus this tool is agnostic to the site generator used
-to generate the output.
+~2s for DOM content loaded and ~7s for the page to fully load.
+
+The **good part** of `go-html-asset-manager` is that the content and themes remain
+simple, and the final site is performant, plus this tool is agnostic to the site generator used to generate the initial HTML.
 
 The **bad part** of `go-html-asset-manager` is that some of the mutations can cause differences
 in the final appearance. For example, wrapping iframes to ensure a 4:3 or 16:9 aspect ratio
-can be different from the development builds which show the iframe added to the markdown file.
+can be different from the development builds, which show the iframe added to the markdown file.
 
 ## What next
 
-Overall I've been really happy with this setup and it's made it easy to improve the
+Overall I've been pleased with this setup, and it's made it easy to improve the
 performance of my site in a consistent way.
 
 I don't have too much planned for the current set up outside of improving the development of
-style guides for my themes which are still a little iffy to develop and work with.
+style guides for my themes, which are still a little iffy to develop.
