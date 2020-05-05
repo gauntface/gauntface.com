@@ -81,6 +81,7 @@ gulp.task('minify-html', () => {
 gulp.task('html-assets', () => {
   return ham.manageAssets({
     config: path.join(__dirname, 'asset-manager.json'),
+    vimeo: process.env['VIMEO_TOKEN'],
     debug: 'static-site-hosting-on-aws',
     output: true,
   });
