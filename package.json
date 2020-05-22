@@ -8,7 +8,7 @@
   "devDependencies": {
     "@gauntface/html-asset-manager": "1.0.4",
     "@gauntface/hugo-theme": "0.0.480",
-    "@hopin/hugo-base-theme": "0.0.314",
+    "@hopin/hugo-base-theme": "0.0.316",
     "@hopin/wbt-clean": "0.0.122",
     "browser-sync": "2.26.7",
     "fs-extra": "9.0.0",
