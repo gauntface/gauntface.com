@@ -149,3 +149,13 @@ sudo make install
 
 ## Add printer to cups
 
+## Links
+
+Below are some other links I hit while digging around that might be helpful:
+
+- [BadgeHub a tool to generate a print labels](https://github.com/codeforsanjose/BadgeHub)
+- [Setting up a CUPS network printer on Windows 10](https://zedt.eu/tech/windows/installing-an-ipp-printer-in-windows-10/)
+- [CUPS command line printing options](https://www.cups.org/doc/options.html)
+    - NOTE: For this I used `lp` because it provided the common flags referenced on
+      all the posts and code samples I came across.
+- [Useful post highlighting differences between `lp` and `lpr`](https://www.raspberry-pi-geek.com/Archive/2016/20/Print-with-shell-commands-courtesy-of-CUPS)
