@@ -38,3 +38,5 @@ jobs:
 
       - name: Run publish script
         run: ./publish.sh
+        with:
+          VIMEO_TOKEN: ${{ secrets.VIMEO_TOKEN }}

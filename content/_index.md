@@ -1,7 +1,7 @@
 # Hello.
 
 Please excuse the dust, I'm in the middle of changing my site, again, but
-if you are looking for the website owned by Matt Gaunt you are in the right
+if you are looking for the website owned by [Matt Gaunt](/about/) you are in the right
 place.
 
 Hopefully the lockdown in California will help me fix it up quickly.

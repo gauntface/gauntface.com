@@ -29,3 +29,5 @@ jobs:
     
     - name: Build
       run: npm run build
+      with:
+          VIMEO_TOKEN: ${{ secrets.VIMEO_TOKEN }}
