@@ -28,3 +28,5 @@ jobs:
     # Build it
     - name: Build
       run: npm run build
+      env:
+        VIMEO_TOKEN: ${{ secrets.VIMEO_TOKEN }}
