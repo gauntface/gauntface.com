@@ -3,7 +3,6 @@ name: Publish
 # Run every Sunday @ 03:00 UTC => 20:00 PST
 on:
   workflow_dispatch:
-  push:
   schedule:
     - cron:  '0 3 * * 0'
 
