@@ -8,8 +8,6 @@ jobs:
     steps:
     # Get the code
     - uses: actions/checkout@v2
-      with:
-        ref: master
 
     # Install dependencies
     - name: Install Go
