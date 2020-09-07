@@ -37,7 +37,5 @@ jobs:
         aws-region: us-west-1
 
     - name: Publish to AWS
-      uses: gauntface/deploy-static-site-to-aws-action@master
-      with:
-        directory-to-publish: './public/'
-        bucket-name: 'www.gauntface.com'
+      run: npx --package @gauntface/cli gauntface aws s3 deploy-static-site --directory="./public/" --bucket_name="www.gauntface.com"
+      shell: bash
