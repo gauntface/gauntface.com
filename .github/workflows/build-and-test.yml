@@ -6,6 +6,10 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
     steps:
+    # Get the code
+    - uses: actions/checkout@v2
+      with:
+        ref: master
 
     # Install dependencies
     - name: Install Go
@@ -23,9 +27,6 @@ jobs:
     - name: Install NPM Deps
       run: npm install
 
-    # Get code and build it
-    - uses: actions/checkout@v2
-      with:
-        ref: master
+    # Build it
     - name: Build
       run: npm run build
