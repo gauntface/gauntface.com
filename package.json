@@ -11,7 +11,7 @@
     "@hopin/hugo-base-theme": "0.0.343",
     "@hopin/wbt-clean": "0.0.126",
     "browser-sync": "2.26.13",
-    "fs-extra": "9.0.1",
+    "fs-extra": "9.1.0",
     "gulp": "4.0.2",
     "gulp-htmlmin": "5.0.1"
   }
