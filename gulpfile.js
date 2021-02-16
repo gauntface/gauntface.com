@@ -13,7 +13,7 @@ const clean = require('@hopin/wbt-clean');
 const basetheme = require('@hopin/hugo-base-theme');
 const gftheme = require('@gauntface/hugo-theme');
 
-const desiredHugoVersion = 'v0.74.3';
+const desiredHugoVersion = 'v0.79.0';
 
 /**
  * Themes
