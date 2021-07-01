@@ -10,7 +10,7 @@
     "@gauntface/hugo-theme": "0.0.526",
     "@hopin/hugo-base-theme": "0.0.353",
     "@hopin/wbt-clean": "0.0.126",
-    "browser-sync": "2.27.3",
+    "browser-sync": "2.27.4",
     "fs-extra": "10.0.0",
     "gulp": "4.0.2",
     "gulp-htmlmin": "5.0.1"
